@@ -44,7 +44,10 @@ final class BrowserReader: NSObject, WKNavigationDelegate {
         // Pages often fill in after loading, and "checking you're human" screens move on by
         // themselves after a few seconds, so look a few times and keep the fullest result.
         var best: (json: String, words: Int)?
-        for _ in 0..<5 {
+        // Subscription sites can take a while to confirm a login ("checking your access"), so
+        // give them longer before settling for the preview.
+        let tries = url.isPaywalledSite ? 12 : 5
+        for _ in 0..<tries {
             try? await Task.sleep(nanoseconds: 1_500_000_000)
             let pageURL = view.url ?? url
             guard let json = try? await view.evaluateJavaScript(Self.captureScript(script, url: pageURL.absoluteString), in: nil, contentWorld: .defaultClient) as? String,

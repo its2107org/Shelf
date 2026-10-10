@@ -134,6 +134,18 @@ final class Library: ObservableObject {
                     article.sharedText = item.sharedText
                 }
                 context.insert(article)
+            } else if let url, let existing = article(for: url), existing.id != item.id {
+                // Shared again: bring it to the top, and if it never came through in full, try again
+                // (Ian may have logged in since).
+                existing.createdAt = item.createdAt
+                existing.readAt = nil
+                if existing.origin == .recommended { existing.origin = .saved }
+                if let extracted = item.extracted, extracted.isComplete(for: url), extracted.wordCount > existing.wordCount {
+                    existing.apply(extracted)
+                } else if existing.status != .ready || existing.isPartial {
+                    existing.attempts = 0
+                    existing.status = .pending
+                }
             }
             Inbox.remove(item.id)
         }
