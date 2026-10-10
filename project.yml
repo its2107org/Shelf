@@ -1,0 +1,149 @@
+name: Shelf
+options:
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    # Replaced with the real Apple Team ID when building for TestFlight.
+    DEVELOPMENT_TEAM: SHELFDEV00
+    SHELF_BUNDLE_ID: com.$(DEVELOPMENT_TEAM).shelf
+    SHELF_APP_GROUP: group.com.$(DEVELOPMENT_TEAM).shelf
+    SHELF_FEED_URL: https://raw.githubusercontent.com/its2107org/Shelf/main/feed/recommendations.json
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    CODE_SIGN_STYLE: Manual
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+
+targets:
+  Shelf:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+      - path: Shared/Core
+      - path: Shared/Extraction
+      - path: Shared/Resources
+        buildPhase: resources
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Shelf
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ITSAppUsesNonExemptEncryption: false
+        LSApplicationCategoryType: public.app-category.news
+        ShelfAppGroup: $(SHELF_APP_GROUP)
+        ShelfFeedURL: $(SHELF_FEED_URL)
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UIBackgroundModes:
+          - fetch
+          - audio
+        BGTaskSchedulerPermittedIdentifiers:
+          - $(PRODUCT_BUNDLE_IDENTIFIER).refresh
+        CFBundleURLTypes:
+          - CFBundleURLName: $(PRODUCT_BUNDLE_IDENTIFIER)
+            CFBundleURLSchemes:
+              - shelf
+        NSUserActivityTypes:
+          - com.apple.corespotlightitem
+    entitlements:
+      path: App/Shelf.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - $(SHELF_APP_GROUP)
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(SHELF_BUNDLE_ID)
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS: YES
+    dependencies:
+      - target: ShelfShare
+        embed: true
+        codeSign: true
+      - target: ShelfWidget
+        embed: true
+        codeSign: true
+
+  ShelfShare:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: ShareExtension
+        excludes: ["*.js"]
+      - path: ShareExtension/SafariCapture.js
+        buildPhase: resources
+      - path: Shared/Core
+      - path: Shared/Extraction
+      - path: Shared/Resources
+        buildPhase: resources
+    info:
+      path: ShareExtension/Info.plist
+      properties:
+        CFBundleDisplayName: Shelf
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ShelfAppGroup: $(SHELF_APP_GROUP)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.share-services
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ShareViewController
+          NSExtensionAttributes:
+            NSExtensionJavaScriptPreprocessingFile: SafariCapture
+            NSExtensionActivationRule:
+              NSExtensionActivationSupportsWebURLWithMaxCount: 1
+              NSExtensionActivationSupportsWebPageWithMaxCount: 1
+              NSExtensionActivationSupportsText: true
+    entitlements:
+      path: ShareExtension/ShelfShare.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - $(SHELF_APP_GROUP)
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(SHELF_BUNDLE_ID).ShareExtension
+        APPLICATION_EXTENSION_API_ONLY: YES
+
+  ShelfWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Widget
+      - path: Shared/Core
+    info:
+      path: Widget/Info.plist
+      properties:
+        CFBundleDisplayName: Shelf
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ShelfAppGroup: $(SHELF_APP_GROUP)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: Widget/ShelfWidget.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - $(SHELF_APP_GROUP)
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(SHELF_BUNDLE_ID).Widget
+        APPLICATION_EXTENSION_API_ONLY: YES
+
+schemes:
+  Shelf:
+    build:
+      targets:
+        Shelf: all
+    run:
+      config: Debug
+    archive:
+      config: Release

@@ -1,0 +1,210 @@
+import SwiftUI
+import SwiftData
+
+struct SavedView: View {
+    enum Filter: String, CaseIterable, Identifiable {
+        case unread = "Unread"
+        case read = "Read"
+        case favourites = "Favourites"
+        var id: String { rawValue }
+    }
+
+    @EnvironmentObject private var router: Router
+    @EnvironmentObject private var library: Library
+    @Query(filter: #Predicate<Article> { $0.originRaw == 0 }, sort: \Article.createdAt, order: .reverse)
+    private var articles: [Article]
+
+    @State private var filter: Filter = .unread
+    @State private var search = ""
+    @State private var showSettings = false
+
+    private var shown: [Article] {
+        let base: [Article]
+        switch filter {
+        case .unread: base = articles.filter { !$0.isRead }
+        case .read: base = articles.filter { $0.isRead }.sorted { ($0.readAt ?? .distantPast) > ($1.readAt ?? .distantPast) }
+        case .favourites: base = articles.filter { $0.isFavorite }
+        }
+        let query = search.trimmingCharacters(in: .whitespaces)
+        guard !query.isEmpty else { return base }
+        return base.filter {
+            $0.title.localizedCaseInsensitiveContains(query) || $0.sourceName.localizedCaseInsensitiveContains(query)
+        }
+    }
+
+    private var unreadCount: Int { articles.filter { !$0.isRead }.count }
+
+    var body: some View {
+        NavigationStack(path: $router.savedPath) {
+            List {
+                Section {
+                    Picker("Show", selection: $filter) {
+                        ForEach(Filter.allCases) { Text($0.rawValue).tag($0) }
+                    }
+                    .pickerStyle(.segmented)
+                    .listRowInsets(EdgeInsets(top: 4, leading: 20, bottom: 8, trailing: 20))
+                    .listRowSeparator(.hidden)
+                }
+
+                ForEach(shown) { article in
+                    NavigationLink(value: article.id) {
+                        ArticleRow(article: article)
+                    }
+                    .listRowInsets(EdgeInsets(top: 12, leading: 20, bottom: 12, trailing: 16))
+                    .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                        Button(role: .destructive) {
+                            withAnimation { library.delete(article) }
+                        } label: { Label("Delete", systemImage: "trash") }
+                    }
+                    .swipeActions(edge: .leading, allowsFullSwipe: true) {
+                        Button {
+                            withAnimation { library.setRead(article, !article.isRead) }
+                        } label: {
+                            article.isRead
+                                ? Label("Unread", systemImage: "circle")
+                                : Label("Read", systemImage: "checkmark.circle")
+                        }
+                        .tint(.blue)
+                        Button {
+                            library.toggleFavorite(article)
+                        } label: {
+                            Label(article.isFavorite ? "Unfavourite" : "Favourite", systemImage: article.isFavorite ? "star.slash" : "star")
+                        }
+                        .tint(.orange)
+                    }
+                    .contextMenu {
+                        if let url = article.url {
+                            ShareLink(item: url)
+                            Link(destination: url) { Label("Open Original", systemImage: "safari") }
+                        }
+                        Button { library.toggleFavorite(article) } label: {
+                            Label(article.isFavorite ? "Unfavourite" : "Favourite", systemImage: "star")
+                        }
+                        Button(role: .destructive) { library.delete(article) } label: { Label("Delete", systemImage: "trash") }
+                    }
+                }
+            }
+            .listStyle(.plain)
+            .overlay {
+                if shown.isEmpty {
+                    emptyState
+                }
+            }
+            .navigationTitle("Shelf")
+            .searchable(text: $search, prompt: "Search")
+            .refreshable { await library.sync() }
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button { showSettings = true } label: { Image(systemName: "gearshape") }
+                        .accessibilityLabel("Settings")
+                }
+                ToolbarItem(placement: .topBarTrailing) {
+                    PasteButton(payloadType: URL.self) { urls in
+                        guard let url = urls.first else { return }
+                        Task { @MainActor in
+                            let article = library.save(url: url)
+                            await library.prepare(article)
+                        }
+                    }
+                    .labelStyle(.iconOnly)
+                    .buttonBorderShape(.circle)
+                    .tint(.blue)
+                }
+            }
+            .navigationDestination(for: UUID.self) { id in
+                ReaderContainer(id: id)
+            }
+            .sheet(isPresented: $showSettings) { SettingsView() }
+        }
+    }
+
+    @ViewBuilder private var emptyState: some View {
+        if !search.isEmpty {
+            ContentUnavailableView.search(text: search)
+        } else {
+            switch filter {
+            case .unread:
+                ContentUnavailableView {
+                    Label(articles.isEmpty ? "Nothing saved yet" : "All caught up", systemImage: articles.isEmpty ? "books.vertical" : "checkmark.circle")
+                } description: {
+                    Text(articles.isEmpty
+                         ? "In any app, tap the Share button, then Shelf. It'll appear here, ready to read."
+                         : "You've read everything you saved.")
+                }
+            case .read:
+                ContentUnavailableView("Nothing read yet", systemImage: "book", description: Text("Articles you finish will appear here."))
+            case .favourites:
+                ContentUnavailableView("No favourites", systemImage: "star", description: Text("Swipe right on an article to make it a favourite."))
+            }
+        }
+    }
+}
+
+struct ArticleRow: View {
+    let article: Article
+    var showReason = false
+
+    var body: some View {
+        HStack(alignment: .top, spacing: 14) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text(article.sourceName)
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(1)
+                Text(article.title)
+                    .font(.headline)
+                    .foregroundStyle(article.isRead && !showReason ? .secondary : .primary)
+                    .lineLimit(3)
+                if showReason, let reason = article.recommendationReason {
+                    Text(reason)
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                        .lineLimit(2)
+                }
+                HStack(spacing: 6) {
+                    if article.status == .pending && !showReason {
+                        ProgressView().controlSize(.mini)
+                    }
+                    Text(showReason ? (article.minutes.map { "\($0) min read" } ?? "Article") : article.metaLine)
+                    if article.isFavorite {
+                        Image(systemName: "star.fill").foregroundStyle(.orange).imageScale(.small)
+                    }
+                    if article.progress > 0.02 && !article.isRead {
+                        ProgressView(value: article.progress)
+                            .frame(width: 36)
+                            .tint(.blue)
+                    }
+                }
+                .font(.footnote)
+                .foregroundStyle(.secondary)
+            }
+            Spacer(minLength: 0)
+            Thumbnail(article: article)
+        }
+        .contentShape(Rectangle())
+    }
+}
+
+struct Thumbnail: View {
+    let article: Article
+
+    var body: some View {
+        CachedImage(url: article.leadImage.flatMap(URL.init(string:)), maxPixel: 240) {
+            ZStack {
+                RoundedRectangle(cornerRadius: 12, style: .continuous).fill(tint.gradient)
+                Text(String(article.sourceName.prefix(1)).uppercased())
+                    .font(.title2.weight(.bold))
+                    .foregroundStyle(.white)
+            }
+        }
+        .aspectRatio(contentMode: .fill)
+        .frame(width: 68, height: 68)
+        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+    }
+
+    private var tint: Color {
+        let palette: [Color] = [.blue, .indigo, .teal, .gray, .cyan, .mint]
+        let sum = article.sourceName.unicodeScalars.reduce(0) { $0 + Int($1.value) }
+        return palette[sum % palette.count]
+    }
+}
