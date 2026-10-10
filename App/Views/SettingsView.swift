@@ -53,8 +53,10 @@ struct SettingsView: View {
                         }
                     }
                     .onDelete { offsets in
-                        for index in offsets { SubscribedSites.remove(sites[index]) }
+                        let hosts = offsets.map { sites[$0] }
+                        hosts.forEach(SubscribedSites.remove)
                         sites = SubscribedSites.all
+                        Task { await SignInWebView.signOut(of: hosts) }
                     }
                     Button {
                         newSite = ""
@@ -108,7 +110,10 @@ struct SettingsView: View {
                 Button("Sign in") {
                     let cleaned = newSite.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
                     let address = cleaned.hasPrefix("http") ? cleaned : "https://\(cleaned)"
-                    if let url = URL(string: address), url.host != nil { signingIn = SignInTarget(url: url) }
+                    // Needs a real site name like "thetimes.com", not just "com".
+                    if let url = URL(string: address), url.shelfHostName.split(separator: ".").count >= 2 {
+                        signingIn = SignInTarget(url: url)
+                    }
                 }
             } message: {
                 Text("Type the website's address. You'll sign in to it on the next screen.")
@@ -173,6 +178,23 @@ struct SignInWebView: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: WKWebView, context: Context) {}
+
+    /// Forgets the logins for sites Ian removed, everywhere Shelf kept them.
+    @MainActor
+    static func signOut(of hosts: [String]) async {
+        let matches = { (cookie: HTTPCookie) -> Bool in
+            let domain = cookie.domain.trimmingCharacters(in: CharacterSet(charactersIn: "."))
+            return hosts.contains { domain == $0 || domain.hasSuffix("." + $0) || $0.hasSuffix("." + domain) }
+        }
+        let store = WKWebsiteDataStore.default().httpCookieStore
+        for cookie in await store.allCookies() where matches(cookie) {
+            await store.deleteCookie(cookie)
+        }
+        for cookie in HTTPCookieStorage.shared.cookies ?? [] where matches(cookie) {
+            HTTPCookieStorage.shared.deleteCookie(cookie)
+        }
+        await shareCookies()
+    }
 
     /// Copies sign-in cookies to the shared store the app and Share button fetch with.
     @MainActor

@@ -69,7 +69,7 @@ final class ShareViewController: UIViewController {
                 group.cancelAll()
                 return first
             }
-            if let extracted {
+            if let extracted, extracted.wordCount > (item.extracted?.wordCount ?? 0) {
                 item.extracted = extracted
                 if let title = extracted.title, !title.isEmpty {
                     item.title = title

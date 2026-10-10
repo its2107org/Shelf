@@ -10,15 +10,16 @@ struct PageReaderView: View {
     @EnvironmentObject private var library: Library
     @Environment(\.dismiss) private var dismiss
     @State private var captured = false
+    @StateObject private var capture = CaptureModel()
 
     var body: some View {
         NavigationStack {
             Group {
                 if let url = article.url {
-                    PageCaptureWebView(url: url) { extracted in
+                    PageCaptureWebView(url: url, model: capture) { extracted, pageURL in
                         guard !captured else { return }
                         captured = true
-                        Task { await library.applyCaptured(extracted, to: article, from: url) }
+                        Task { await library.applyCaptured(extracted, to: article, from: pageURL) }
                         UINotificationFeedbackGenerator().notificationOccurred(.success)
                         Task {
                             try? await Task.sleep(nanoseconds: 700_000_000)
@@ -31,14 +32,12 @@ struct PageReaderView: View {
                     ContentUnavailableView("No link to open", systemImage: "link")
                 }
             }
+            .onDisappear { Task { await SignInWebView.shareCookies() } }
             .navigationTitle(article.sourceName)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Close") {
-                        Task { await SignInWebView.shareCookies() }
-                        dismiss()
-                    }
+                    Button("Close") { dismiss() }
                 }
                 if let url = article.url {
                     ToolbarItem(placement: .primaryAction) {
@@ -55,6 +54,13 @@ struct PageReaderView: View {
                     } else {
                         ProgressView().controlSize(.small)
                         Text("Shelf grabs the text once the article shows. If the site asks, log in here once.")
+                        if capture.latest != nil {
+                            Spacer(minLength: 4)
+                            Button("Use this page") { capture.useLatest() }
+                                .font(.footnote.weight(.semibold))
+                                .buttonStyle(.bordered)
+                                .controlSize(.small)
+                        }
                     }
                 }
                 .font(.footnote)
@@ -70,13 +76,27 @@ struct PageReaderView: View {
     }
 }
 
+/// What the page has shown so far, so Ian can take it by hand if Shelf isn't sure it's complete.
+@MainActor
+final class CaptureModel: ObservableObject {
+    @Published var latest: ExtractedArticle?
+    var latestURL: URL?
+    var deliver: ((ExtractedArticle, URL) -> Void)?
+
+    func useLatest() {
+        guard let latest, let latestURL else { return }
+        deliver?(latest, latestURL)
+    }
+}
+
 /// The visible browser. After each page load, and every couple of seconds after (pages often fill
 /// in late, or after a login), it checks whether the whole article is on screen yet.
 struct PageCaptureWebView: UIViewRepresentable {
     let url: URL
-    let onArticle: (ExtractedArticle) -> Void
+    let model: CaptureModel
+    let onArticle: (ExtractedArticle, URL) -> Void
 
-    func makeCoordinator() -> Coordinator { Coordinator(url: url, onArticle: onArticle) }
+    func makeCoordinator() -> Coordinator { Coordinator(url: url, model: model, onArticle: onArticle) }
 
     func makeUIView(context: Context) -> WKWebView {
         let config = WKWebViewConfiguration()
@@ -85,6 +105,7 @@ struct PageCaptureWebView: UIViewRepresentable {
         let view = WKWebView(frame: .zero, configuration: config)
         view.allowsBackForwardNavigationGestures = true
         view.navigationDelegate = context.coordinator
+        view.uiDelegate = context.coordinator
         context.coordinator.webView = view
         view.load(URLRequest(url: url))
         context.coordinator.startChecking()
@@ -98,41 +119,63 @@ struct PageCaptureWebView: UIViewRepresentable {
     }
 
     @MainActor
-    final class Coordinator: NSObject, WKNavigationDelegate {
+    final class Coordinator: NSObject, WKNavigationDelegate, WKUIDelegate {
         let url: URL
-        let onArticle: (ExtractedArticle) -> Void
+        let model: CaptureModel
+        let onArticle: (ExtractedArticle, URL) -> Void
         weak var webView: WKWebView?
-        private var timer: Timer?
+        private var loop: Task<Void, Never>?
         private var done = false
         private var checking = false
 
-        init(url: URL, onArticle: @escaping (ExtractedArticle) -> Void) {
+        init(url: URL, model: CaptureModel, onArticle: @escaping (ExtractedArticle, URL) -> Void) {
             self.url = url
+            self.model = model
             self.onArticle = onArticle
+            super.init()
+            model.deliver = { [weak self] article, pageURL in self?.deliver(article, from: pageURL) }
         }
 
         func startChecking() {
-            timer = Timer.scheduledTimer(withTimeInterval: 2, repeats: true) { [weak self] _ in
-                Task { @MainActor in await self?.check() }
+            loop = Task { [weak self] in
+                while !Task.isCancelled {
+                    try? await Task.sleep(nanoseconds: 2_000_000_000)
+                    await self?.check()
+                }
             }
         }
 
         func stop() {
-            timer?.invalidate()
-            timer = nil
+            loop?.cancel()
+            loop = nil
+        }
+
+        private func deliver(_ article: ExtractedArticle, from pageURL: URL) {
+            guard !done else { return }
+            done = true
+            stop()
+            onArticle(article, pageURL)
         }
 
         func check() async {
             guard !done, !checking, let webView, !webView.isLoading else { return }
             checking = true
             defer { checking = false }
-            let script = BrowserReader.captureScript(Extractor.shared.pageScripts, url: webView.url?.absoluteString ?? url.absoluteString)
-            guard let json = try? await webView.evaluateJavaScript(script) as? String,
+            // Judge by where the page actually is (an Apple News link ends up at the publisher).
+            let pageURL = webView.url ?? url
+            let script = BrowserReader.captureScript(Extractor.shared.pageScripts, url: pageURL.absoluteString)
+            guard let json = try? await webView.evaluateJavaScript(script, in: nil, contentWorld: .defaultClient) as? String,
                   let article = try? JSONDecoder().decode(ExtractedArticle.self, from: Data(json.utf8)),
-                  article.isComplete(for: url) else { return }
-            done = true
-            stop()
-            onArticle(article)
+                  article.hasReadableText else { return }
+            if model.latest == nil || article.wordCount >= (model.latest?.wordCount ?? 0) {
+                model.latest = article
+                model.latestURL = pageURL
+            }
+            // On subscription sites a short piece can't be told apart from a teaser, so for those
+            // Ian taps "Use this" himself.
+            if article.isComplete(for: pageURL) {
+                deliver(article, from: pageURL)
+            }
         }
 
         nonisolated func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
@@ -150,6 +193,14 @@ struct PageCaptureWebView: UIViewRepresentable {
                 ["http", "https", "about", "blob", "data"].contains(navigationAction.request.url?.scheme ?? "")
             }
             decisionHandler(allow ? .allow : .cancel)
+        }
+
+        /// Links and "Sign in with Google/Apple" buttons that want a new window open in this one.
+        nonisolated func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
+            MainActor.assumeIsolated {
+                if navigationAction.targetFrame == nil { _ = webView.load(navigationAction.request) }
+            }
+            return nil
         }
     }
 }

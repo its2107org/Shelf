@@ -36,7 +36,21 @@ struct ExtractedArticle: Codable {
 
     /// True when there is enough text to be worth reading inside the app.
     var hasReadableText: Bool {
-        blocks.filter { $0.t != .image }.count >= 2 || wordCount >= 60
+        guard !isBotCheck else { return false }
+        return (blocks.filter { $0.t != .image }.count >= 2 && wordCount >= 30) || wordCount >= 60
+    }
+
+    /// A "checking you're human" page some sites show before the article, not the article itself.
+    var isBotCheck: Bool {
+        let lowered = (title ?? "").lowercased()
+        let titles = ["just a moment", "attention required", "access denied", "are you a robot", "are you a human",
+                      "security check", "verifying you are human", "please verify", "bot verification", "captcha"]
+        if titles.contains(where: { lowered.contains($0) }) { return true }
+        guard wordCount < 80 else { return false }
+        let text = blocks.compactMap(\.text).joined(separator: " ").lowercased()
+        let phrases = ["verify you are human", "enable javascript and cookies", "checking your browser",
+                       "unusual activity", "press & hold", "press and hold", "not a robot"]
+        return phrases.contains(where: { text.contains($0) })
     }
 
     /// Whether this looks like the whole article rather than a subscriber teaser. Only sites with

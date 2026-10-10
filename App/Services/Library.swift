@@ -16,6 +16,7 @@ final class Library: ObservableObject {
 
     @Published private(set) var isWorking = false
     private var processing = false
+    private var inFlight = Set<UUID>()
 
     private init() {
         let schema = Schema([Article.self])
@@ -131,26 +132,39 @@ final class Library: ObservableObject {
             sortBy: [SortDescriptor(\.createdAt, order: .reverse)]
         )
         let waiting = (try? context.fetch(descriptor)) ?? []
-        for article in waiting {
+        for article in waiting where article.modelContext != nil && (article.status == .pending || article.status == .failed) {
             await prepare(article)
         }
     }
 
     func prepare(_ article: Article) async {
-        guard let url = article.url else { return }
+        guard let url = article.url, inFlight.insert(article.id).inserted else { return }
+        defer { inFlight.remove(article.id) }
         article.attempts += 1
         do {
             let extracted = try await Extractor.shared.fetchAndExtract(url)
+            guard article.modelContext != nil else { return }
+            // Picked up in full from the page meanwhile: keep that.
+            if article.status == .ready && !article.isPartial { return }
+            // Already holding more text (say, from Safari) than this fetch got: keep it.
+            if article.blockCount > 0 && extracted.wordCount < article.wordCount {
+                article.status = .ready
+                try? context.save()
+                refreshOutside()
+                return
+            }
             article.apply(extracted)
             if article.status == .linkOnly, let text = article.sharedText, !text.isEmpty {
                 article.blocksData = try? JSONEncoder().encode([Block(t: .paragraph, text: text)])
                 article.blockCount = 1
             }
             ImageCache.shared.prefetch(([extracted.leadImage] + extracted.blocks.map(\.src)).compactMap { $0 }.prefix(12).compactMap(URL.init(string:)))
-        } catch ExtractorError.notReadable {
+        } catch ExtractorError.notReadable where article.blockCount == 0 && !url.isPaywalledSite {
             article.status = .linkOnly
         } catch {
-            article.status = .failed
+            guard article.modelContext != nil, !(article.status == .ready && !article.isPartial) else { return }
+            // Keep a teaser readable rather than hiding it behind an error.
+            article.status = article.blockCount > 0 ? .ready : .failed
         }
         try? context.save()
         refreshOutside()
@@ -171,7 +185,7 @@ final class Library: ObservableObject {
 
     func retry(_ article: Article) async {
         article.attempts = 0
-        article.status = .pending
+        if article.blockCount == 0 { article.status = .pending }
         await prepare(article)
     }
 

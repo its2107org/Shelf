@@ -83,6 +83,8 @@ final class Extractor: NSObject {
            fuller.wordCount > article.wordCount {
             article = fuller
         }
+        // A "checking you're human" screen: the article is there, Shelf just couldn't get past it.
+        if article.isBotCheck { throw ExtractorError.badResponse }
         guard article.hasReadableText else { throw ExtractorError.notReadable }
         article.partial = !article.isComplete(for: url)
         return article
@@ -94,11 +96,14 @@ final class Extractor: NSObject {
         let html = String(decoding: data, as: UTF8.self)
         let patterns = [#"redirectToUrlAfterTimeout\("(https?://[^"]+)""#, #"<a[^>]+href="(https?://(?!apple\.news)[^"]+)""#]
         for pattern in patterns {
-            guard let regex = try? NSRegularExpression(pattern: pattern),
-                  let match = regex.firstMatch(in: html, range: NSRange(html.startIndex..., in: html)),
-                  let range = Range(match.range(at: 1), in: html) else { continue }
-            let link = html[range].replacingOccurrences(of: "&amp;", with: "&")
-            if let original = URL(string: link), original.host?.contains("apple.com") == false { return original }
+            guard let regex = try? NSRegularExpression(pattern: pattern) else { continue }
+            for match in regex.matches(in: html, range: NSRange(html.startIndex..., in: html)) {
+                guard let range = Range(match.range(at: 1), in: html) else { continue }
+                let link = html[range].replacingOccurrences(of: "&amp;", with: "&")
+                guard let original = URL(string: link) else { continue }
+                let host = original.shelfHostName
+                if !host.isEmpty, host != "apple.news", host != "apple.com", !host.hasSuffix(".apple.com") { return original }
+            }
         }
         return nil
     }

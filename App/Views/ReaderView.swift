@@ -35,6 +35,8 @@ struct ReaderView: View {
             switch article.status {
             case .ready:
                 content
+            case .pending where article.blockCount > 0:
+                content
             case .pending:
                 waiting
             case .failed, .linkOnly:
@@ -67,8 +69,14 @@ struct ReaderView: View {
 
     /// When Shelf couldn't get the text by itself, show the real page straight away so it can
     /// pick the text up there (one tap for Ian instead of two).
+    /// Shelf couldn't get the text by itself, but the page itself may show it.
+    private var needsPage: Bool {
+        guard let url = article.url, !url.isPost else { return false }
+        return article.status == .failed || (article.status == .linkOnly && url.isPaywalledSite)
+    }
+
     private func openPageIfNeeded() {
-        guard !offeredPage, article.status == .failed, let url = article.url, !url.isPost else { return }
+        guard !offeredPage, needsPage else { return }
         offeredPage = true
         showPage = true
     }
@@ -236,7 +244,7 @@ struct ReaderView: View {
                     .foregroundStyle(.secondary)
                     .padding(.top, 8)
                 HStack {
-                    if article.status == .failed, let url = article.url, !url.isPost {
+                    if needsPage {
                         Button { showPage = true } label: {
                             Label("Read it here", systemImage: "doc.text")
                         }

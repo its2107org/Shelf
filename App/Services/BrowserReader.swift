@@ -18,6 +18,7 @@ final class BrowserReader: NSObject, WKNavigationDelegate {
 
     private var webView: WKWebView?
     private var continuation: CheckedContinuation<Bool, Never>?
+    private var cleanup: WKNavigation?
     private var generation = 0
     private var busy = false
     private var waiters: [CheckedContinuation<Void, Never>] = []
@@ -38,12 +39,22 @@ final class BrowserReader: NSObject, WKNavigationDelegate {
                 self.finish(false)
             }
         }
-        defer { view.stopLoading(); view.loadHTMLString("", baseURL: nil) }
+        defer { view.stopLoading(); cleanup = view.loadHTMLString("", baseURL: nil) }
         guard loaded else { return nil }
-        // Give the page a moment to fill in text that arrives after loading.
-        try? await Task.sleep(nanoseconds: 1_200_000_000)
-        let result = try? await view.evaluateJavaScript(Self.captureScript(script, url: view.url?.absoluteString ?? url.absoluteString))
-        return result as? String
+        // Pages often fill in after loading, and "checking you're human" screens move on by
+        // themselves after a few seconds, so look a few times and keep the fullest result.
+        var best: (json: String, words: Int)?
+        for _ in 0..<5 {
+            try? await Task.sleep(nanoseconds: 1_500_000_000)
+            let pageURL = view.url ?? url
+            guard let json = try? await view.evaluateJavaScript(Self.captureScript(script, url: pageURL.absoluteString), in: nil, contentWorld: .defaultClient) as? String,
+                  let article = try? JSONDecoder().decode(ExtractedArticle.self, from: Data(json.utf8)) else { continue }
+            if article.hasReadableText, article.wordCount > (best?.words ?? -1) {
+                best = (json, article.wordCount)
+            }
+            if article.isComplete(for: pageURL) { break }
+        }
+        return best?.json
     }
 
     private func makeView() -> WKWebView {
@@ -74,16 +85,31 @@ final class BrowserReader: NSObject, WKNavigationDelegate {
         continuation.resume(returning: ok)
     }
 
+    /// A page replacing itself (redirects, sign-in hops) cancels the earlier load; that's not a failure.
+    nonisolated static func ignorable(_ error: Error) -> Bool {
+        let error = error as NSError
+        return (error.domain == NSURLErrorDomain && error.code == NSURLErrorCancelled) || (error.domain == WKErrorDomain && error.code == 102)
+    }
+
     nonisolated func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        MainActor.assumeIsolated { finish(true) }
+        MainActor.assumeIsolated {
+            guard navigation !== cleanup else { return }
+            finish(true)
+        }
     }
 
     nonisolated func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
-        MainActor.assumeIsolated { finish(false) }
+        MainActor.assumeIsolated {
+            guard navigation !== cleanup, !Self.ignorable(error) else { return }
+            finish(false)
+        }
     }
 
     nonisolated func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
-        MainActor.assumeIsolated { finish(false) }
+        MainActor.assumeIsolated {
+            guard navigation !== cleanup, !Self.ignorable(error) else { return }
+            finish(false)
+        }
     }
 
     nonisolated func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
