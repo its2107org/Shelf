@@ -26,7 +26,7 @@ struct ForYouView: View {
                             .listRowInsets(EdgeInsets(top: 12, leading: 20, bottom: 12, trailing: 16))
                             .swipeActions(edge: .leading, allowsFullSwipe: true) {
                                 Button {
-                                    if let url = article.url { withAnimation { library.save(url: url) } }
+                                    if let url = article.url { withAnimation { _ = library.save(url: url) } }
                                 } label: { Label("Save", systemImage: "plus") }
                                 .tint(.blue)
                             }

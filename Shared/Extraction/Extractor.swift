@@ -33,6 +33,9 @@ final class Extractor: NSObject {
     private var busy = false
     private var waiters: [CheckedContinuation<Void, Never>] = []
 
+    /// Set by the app (not the Share card) to read stubborn pages in a full hidden browser.
+    static var browser: ((URL, String) async -> String?)?
+
     /// Optional view to host the hidden web view in (keeps WebKit from pausing it).
     weak var hostView: UIView?
 
@@ -59,13 +62,26 @@ final class Extractor: NSObject {
         }
         let (data, response) = try await session.data(from: url)
         guard let http = response as? HTTPURLResponse, (200..<400).contains(http.statusCode) else {
-            throw ExtractorError.badResponse
+            // Some sites (the New York Times, for one) turn away anything that isn't a real browser.
+            return try await viaBrowser(url, otherwise: ExtractorError.badResponse)
         }
         if let mime = http.mimeType, !mime.contains("html") && !mime.contains("xml") {
             throw ExtractorError.notReadable
         }
         let html = Self.decode(data, encodingName: http.textEncodingName)
-        return try await extract(html: html, url: http.url ?? url)
+        let article = try await extract(html: html, url: http.url ?? url)
+        if article.hasReadableText { return article }
+        // The text may only appear once the page's own scripts run, or once signed in.
+        return (try? await viaBrowser(url, otherwise: ExtractorError.notReadable)) ?? article
+    }
+
+    /// Opens the page in a real, hidden browser (signed in to Ian's subscribed sites) and reads it
+    /// once loaded. Slower, so only used when the quick way doesn't work. Not used in the Share card.
+    private func viaBrowser(_ url: URL, otherwise error: Error) async throws -> ExtractedArticle {
+        guard let browser = Extractor.browser, let json = await browser(url, scripts) else { throw error }
+        let article = try JSONDecoder().decode(ExtractedArticle.self, from: Data(json.utf8))
+        guard article.hasReadableText else { throw ExtractorError.notReadable }
+        return article
     }
 
     /// Extracts an already-downloaded page (for example, one captured from Safari).
@@ -199,6 +215,8 @@ extension Extractor: WKNavigationDelegate {
 
     nonisolated func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         // Only the page itself; no frames, pop-ups or redirects to elsewhere.
-        decisionHandler(navigationAction.targetFrame?.isMainFrame == true && navigationAction.navigationType == .other ? .allow : .cancel)
+        let allow = MainActor.assumeIsolated { navigationAction.targetFrame?.isMainFrame == true && navigationAction.navigationType == .other }
+        decisionHandler(allow ? .allow : .cancel)
     }
 }
+

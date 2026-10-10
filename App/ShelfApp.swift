@@ -9,9 +9,10 @@ struct ShelfApp: App {
     @StateObject private var router = Router.shared
     @StateObject private var library = Library.shared
 
-    private static let refreshTaskID = (Bundle.main.bundleIdentifier ?? "shelf") + ".refresh"
+    nonisolated private static let refreshTaskID = (Bundle.main.bundleIdentifier ?? "shelf") + ".refresh"
 
     init() {
+        Extractor.browser = { url, script in await BrowserReader.shared.read(url, script: script) }
         Demo.seedIfRequested()
         SelfTest.runIfRequested()
     }
@@ -52,7 +53,7 @@ struct ShelfApp: App {
         }
     }
 
-    static func scheduleRefresh() {
+    nonisolated static func scheduleRefresh() {
         let request = BGAppRefreshTaskRequest(identifier: refreshTaskID)
         request.earliestBeginDate = Date(timeIntervalSinceNow: 2 * 3600)
         try? BGTaskScheduler.shared.submit(request)

@@ -77,6 +77,7 @@ enum SelfTest {
         let link = rest[open.upperBound..<close.lowerBound]
             .replacingOccurrences(of: "<![CDATA[", with: "")
             .replacingOccurrences(of: "]]>", with: "")
+            .replacingOccurrences(of: "&amp;", with: "&")
             .trimmingCharacters(in: .whitespacesAndNewlines)
         return URL(string: link)
     }

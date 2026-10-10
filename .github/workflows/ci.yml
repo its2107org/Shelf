@@ -35,6 +35,7 @@ jobs:
           rm -rf /tmp/shots && cp -R shots /tmp/shots
           git checkout --orphan screenshots-tmp
           git rm -rf --quiet . || true
+          git clean -fdxq
           cp -R /tmp/shots/* .
           git add -A
           git commit -m "Screenshots for ${GITHUB_SHA::7}" --quiet
