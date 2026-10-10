@@ -29,6 +29,8 @@ final class Extractor: NSObject {
     private var ruleList: WKContentRuleList?
     private var webView: WKWebView?
     private var loadContinuation: CheckedContinuation<Void, Error>?
+    /// The page load being waited for; events from any earlier load are ignored.
+    private var currentNavigation: WKNavigation?
     private var loadGeneration = 0
     private var busy = false
     private var waiters: [CheckedContinuation<Void, Never>] = []
@@ -64,7 +66,15 @@ final class Extractor: NSObject {
         if url.shelfHostName == "apple.news", let original = await originalOfAppleNewsLink(url) {
             return try await fetchAndExtract(original)
         }
-        let (data, response) = try await session.data(from: url)
+        let data: Data, response: URLResponse
+        do {
+            (data, response) = try await session.data(from: url)
+        } catch let error as URLError where error.code == .timedOut || error.code == .networkConnectionLost || error.code == .secureConnectionFailed {
+            // Slow or picky server: a real browser sometimes gets through where the quick way stalls.
+            var article = try await viaBrowser(url, otherwise: error)
+            article.partial = !article.isComplete(for: url)
+            return article
+        }
         guard let http = response as? HTTPURLResponse, (200..<400).contains(http.statusCode) else {
             // Some sites (the New York Times, for one) turn away anything that isn't a real browser.
             var article = try await viaBrowser(url, otherwise: ExtractorError.badResponse)
@@ -158,22 +168,45 @@ final class Extractor: NSObject {
         await acquire()
         defer { release() }
 
+        do {
+            return try await load(html: html, baseURL: baseURL, expression: expression)
+        } catch ExtractorError.timedOut {
+            // A page that got stuck: start again with a fresh, empty viewer so nothing from it
+            // can leak into the next article.
+            discardWebView()
+            return try await load(html: html, baseURL: baseURL, expression: expression)
+        }
+    }
+
+    private func load(html: String, baseURL: URL, expression: String) async throws -> String {
         let webView = try await makeWebViewIfNeeded()
         loadGeneration += 1
         let generation = loadGeneration
-        try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
-            self.loadContinuation = continuation
-            webView.loadHTMLString(html, baseURL: baseURL)
-            Task { @MainActor [weak self] in
-                try? await Task.sleep(nanoseconds: 10_000_000_000)
-                guard let self, self.loadGeneration == generation, self.loadContinuation != nil else { return }
-                webView.stopLoading()
-                self.finishLoad(ExtractorError.timedOut)
+        do {
+            try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
+                self.loadContinuation = continuation
+                self.currentNavigation = webView.loadHTMLString(html, baseURL: baseURL)
+                Task { @MainActor [weak self] in
+                    try? await Task.sleep(nanoseconds: 10_000_000_000)
+                    guard let self, self.loadGeneration == generation, self.loadContinuation != nil else { return }
+                    self.finishLoad(ExtractorError.timedOut)
+                }
             }
+        } catch {
+            discardWebView()
+            throw error
         }
         let result = try await webView.evaluateJavaScript(scripts + "\n;\n" + expression)
         guard let json = result as? String else { throw ExtractorError.notReadable }
         return json
+    }
+
+    private func discardWebView() {
+        webView?.stopLoading()
+        webView?.navigationDelegate = nil
+        webView?.removeFromSuperview()
+        webView = nil
+        currentNavigation = nil
     }
 
     private func makeWebViewIfNeeded() async throws -> WKWebView {
@@ -238,15 +271,24 @@ final class Extractor: NSObject {
 
 extension Extractor: WKNavigationDelegate {
     nonisolated func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        MainActor.assumeIsolated { finishLoad(nil) }
+        MainActor.assumeIsolated {
+            guard webView === self.webView, currentNavigation == nil || navigation === currentNavigation else { return }
+            finishLoad(nil)
+        }
     }
 
     nonisolated func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
-        MainActor.assumeIsolated { finishLoad(error) }
+        MainActor.assumeIsolated {
+            guard webView === self.webView, currentNavigation == nil || navigation === currentNavigation else { return }
+            finishLoad(error)
+        }
     }
 
     nonisolated func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
-        MainActor.assumeIsolated { finishLoad(error) }
+        MainActor.assumeIsolated {
+            guard webView === self.webView, currentNavigation == nil || navigation === currentNavigation else { return }
+            finishLoad(error)
+        }
     }
 
     nonisolated func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
