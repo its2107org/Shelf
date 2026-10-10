@@ -53,7 +53,7 @@ final class ShareViewController: UIViewController {
         bumpWidget(title: item.title ?? "Saved", source: shared.url?.shelfHostName ?? "Note", id: item.id)
 
         // Safari already gave us the article as shown on screen (with any subscriber login).
-        if let article = shared.article, article.hasReadableText {
+        if let article = shared.article, let url = shared.url, article.isComplete(for: url) {
             if let title = article.title, !title.isEmpty { model.title = title }
         } else if let url = shared.url {
             let started = Date()

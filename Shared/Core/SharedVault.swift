@@ -30,7 +30,7 @@ enum SharedVault {
             var query = baseQuery(service: service, account: account, useGroup: useGroup)
             SecItemDelete(query as CFDictionary)
             query[kSecValueData as String] = data
-            query[kSecAttrAccessible as String] = kSecAttrAccessibleAfterFirstUnlock
+            query[kSecAttrAccessible as String] = kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
             let status = SecItemAdd(query as CFDictionary, nil)
             if status == errSecSuccess { return true }
             if status != errSecMissingEntitlement { return false }

@@ -11,7 +11,17 @@ enum SelfTest {
         "https://www.theguardian.com/uk/rss",
         "https://www.theverge.com/rss/index.xml",
         "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-        "https://feeds.npr.org/1001/rss.xml"
+        "https://feeds.npr.org/1001/rss.xml",
+        // Big subscription sites: with no login, these should come back as a teaser marked partial.
+        "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+        "https://www.ft.com/rss/home",
+        "https://www.economist.com/finance-and-economics/rss.xml",
+        "https://feeds.bloomberg.com/markets/news.rss",
+        "https://www.theatlantic.com/feed/all/",
+        "https://feeds.washingtonpost.com/rss/world",
+        "https://www.telegraph.co.uk/rss.xml",
+        "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "https://feeds.businessinsider.com/custom/all"
     ]
     private static let fixed = [
         "https://x.com/jack/status/20",
@@ -28,6 +38,7 @@ enum SelfTest {
         var words: Int?
         var paragraphs: Int?
         var images: Int?
+        var partial: Bool?
         var firstText: String?
         var error: String?
     }
@@ -54,6 +65,7 @@ enum SelfTest {
                         words: article.wordCount,
                         paragraphs: article.blocks.filter { $0.t == .paragraph }.count,
                         images: article.blocks.filter { $0.t == .image }.count,
+                        partial: article.partial,
                         firstText: article.blocks.first(where: { $0.t == .paragraph })?.text.map { String($0.prefix(160)) }
                     ))
                 } catch {

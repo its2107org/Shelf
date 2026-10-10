@@ -8,6 +8,30 @@ struct SettingsView: View {
     @State private var newSite = ""
     @State private var signingIn: SignInTarget?
 
+    /// Big news sites, so signing in is one tap instead of typing an address.
+    struct PopularSite: Hashable {
+        let name: String
+        let address: String
+    }
+
+    static let popular: [PopularSite] = [
+        PopularSite(name: "The New York Times", address: "https://www.nytimes.com"),
+        PopularSite(name: "Financial Times", address: "https://www.ft.com"),
+        PopularSite(name: "The Wall Street Journal", address: "https://www.wsj.com"),
+        PopularSite(name: "The Economist", address: "https://www.economist.com"),
+        PopularSite(name: "Bloomberg", address: "https://www.bloomberg.com"),
+        PopularSite(name: "The Atlantic", address: "https://www.theatlantic.com"),
+        PopularSite(name: "The New Yorker", address: "https://www.newyorker.com"),
+        PopularSite(name: "The Washington Post", address: "https://www.washingtonpost.com"),
+        PopularSite(name: "The Times", address: "https://www.thetimes.com"),
+        PopularSite(name: "The Telegraph", address: "https://www.telegraph.co.uk"),
+        PopularSite(name: "The Information", address: "https://www.theinformation.com"),
+        PopularSite(name: "Business Insider", address: "https://www.businessinsider.com"),
+        PopularSite(name: "Barron's", address: "https://www.barrons.com"),
+        PopularSite(name: "Wired", address: "https://www.wired.com"),
+        PopularSite(name: "Harvard Business Review", address: "https://hbr.org")
+    ]
+
     struct SignInTarget: Identifiable {
         let url: URL
         var id: String { url.absoluteString }
@@ -22,7 +46,7 @@ struct SettingsView: View {
                             if let url = URL(string: "https://\(host)") { signingIn = SignInTarget(url: url) }
                         } label: {
                             HStack {
-                                Text(host).foregroundStyle(.primary)
+                                Text(Self.popular.first { URL(string: $0.address)?.shelfHostName == host }?.name ?? host).foregroundStyle(.primary)
                                 Spacer()
                                 Text("Signed in").font(.footnote).foregroundStyle(.secondary)
                             }
@@ -42,6 +66,27 @@ struct SettingsView: View {
                     Text("Sites I subscribe to")
                 } footer: {
                     Text("Sign in once to a site you pay for, and Shelf will save its full articles, even when you share from that site's own app. Articles shared from Safari already come through in full.")
+                }
+
+                let notYet = Self.popular.filter { site in !sites.contains(URL(string: site.address)?.shelfHostName ?? "") }
+                if !notYet.isEmpty {
+                    Section {
+                        ForEach(notYet, id: \.address) { site in
+                            Button {
+                                if let url = URL(string: site.address) { signingIn = SignInTarget(url: url) }
+                            } label: {
+                                HStack {
+                                    Text(site.name).foregroundStyle(.primary)
+                                    Spacer()
+                                    Text("Log in").font(.subheadline).foregroundStyle(.blue)
+                                }
+                            }
+                        }
+                    } header: {
+                        Text("Popular news sites")
+                    } footer: {
+                        Text("Tap one you subscribe to and log in. Shelf keeps you logged in on this iPhone only, and never sees or stores your password.")
+                    }
                 }
 
                 Section("About") {
@@ -104,7 +149,7 @@ struct SignInView: View {
                     }
                 }
                 .safeAreaInset(edge: .top) {
-                    Text("Sign in as you normally would, then tap Done.")
+                    Text("Tap the site's Log in or Sign in button, log in as usual, then tap Done.")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                         .frame(maxWidth: .infinity)

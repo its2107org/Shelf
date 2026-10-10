@@ -8,6 +8,14 @@ import WebKit
 final class BrowserReader: NSObject, WKNavigationDelegate {
     static let shared = BrowserReader()
 
+    /// Makes the hidden browser introduce itself exactly like Safari, which some sites insist on.
+    static let safariName = "Version/26.0 Mobile/15E148 Safari/604.1"
+
+    /// Script that pulls the article out of the page that's open, in its own private scope.
+    static func captureScript(_ scripts: String, url: String) -> String {
+        "(function(){\n" + scripts + "\n;\nreturn shelfExtract(document, " + Extractor.jsString(url) + ");\n})()"
+    }
+
     private var webView: WKWebView?
     private var continuation: CheckedContinuation<Bool, Never>?
     private var generation = 0
@@ -34,8 +42,7 @@ final class BrowserReader: NSObject, WKNavigationDelegate {
         guard loaded else { return nil }
         // Give the page a moment to fill in text that arrives after loading.
         try? await Task.sleep(nanoseconds: 1_200_000_000)
-        let expression = "shelfExtract(document, \(Extractor.jsString(view.url?.absoluteString ?? url.absoluteString)))"
-        let result = try? await view.evaluateJavaScript("(function(){\n" + script + "\n;\nreturn " + expression + ";\n})()")
+        let result = try? await view.evaluateJavaScript(Self.captureScript(script, url: view.url?.absoluteString ?? url.absoluteString))
         return result as? String
     }
 
@@ -45,6 +52,7 @@ final class BrowserReader: NSObject, WKNavigationDelegate {
         config.websiteDataStore = .default()
         config.mediaTypesRequiringUserActionForPlayback = .all
         config.allowsInlineMediaPlayback = false
+        config.applicationNameForUserAgent = BrowserReader.safariName
         let view = WKWebView(frame: CGRect(x: 0, y: 0, width: 390, height: 844), configuration: config)
         view.navigationDelegate = self
         view.isUserInteractionEnabled = false

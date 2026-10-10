@@ -16,7 +16,7 @@ struct SavedView: View {
 
     @State private var filter: Filter = .unread
     @State private var search = ""
-    @State private var showSettings = false
+    @State private var showSettings = ProcessInfo.processInfo.arguments.contains("-ShelfDemoSettings")
 
     private var shown: [Article] {
         let base: [Article]
@@ -75,7 +75,7 @@ struct SavedView: View {
                     .contextMenu {
                         if let url = article.url {
                             ShareLink(item: url)
-                            Link(destination: url) { Label("Open Original", systemImage: "safari") }
+                            Button { OriginalOpener.open(url) } label: { Label("Open in App", systemImage: "arrow.up.forward.app") }
                         }
                         Button { library.toggleFavorite(article) } label: {
                             Label(article.isFavorite ? "Unfavourite" : "Favourite", systemImage: "star")

@@ -37,6 +37,8 @@ final class Article {
     var recommendationReason: String?
     var recommendedAt: Date?
     var sharedText: String?
+    /// Only the start of a subscriber-only article came through.
+    var isPartial: Bool = false
 
     init(id: UUID = UUID(), url: URL?, title: String? = nil, origin: Origin = .saved, createdAt: Date = .now) {
         self.id = id
@@ -108,6 +110,7 @@ final class Article {
         blocksData = try? JSONEncoder().encode(extracted.blocks)
         blockCount = extracted.blocks.count
         wordCount = extracted.wordCount
+        isPartial = extracted.partial ?? false
         status = extracted.hasReadableText ? .ready : .linkOnly
     }
 

@@ -95,8 +95,13 @@ final class Library: ObservableObject {
             let url = item.url.flatMap(URL.init(string:))
             if article(id: item.id) == nil, url.map({ article(for: $0) == nil }) ?? true {
                 let article = Article(id: item.id, url: url, title: item.title, createdAt: item.createdAt)
-                if let extracted = item.extracted {
+                if let extracted = item.extracted, extracted.hasReadableText, url.map({ extracted.isComplete(for: $0) }) ?? true {
                     article.apply(extracted)
+                } else if let extracted = item.extracted, extracted.hasReadableText {
+                    // Only a teaser came through the Share button; show it, but keep trying for the rest.
+                    article.apply(extracted)
+                    article.isPartial = true
+                    article.status = .pending
                 } else if url == nil, let text = item.sharedText {
                     // Plain text shared on its own becomes a note.
                     let paragraphs = text.components(separatedBy: "\n\n").map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }.filter { !$0.isEmpty }
@@ -149,6 +154,19 @@ final class Library: ObservableObject {
         }
         try? context.save()
         refreshOutside()
+    }
+
+    /// Stores the article text picked up from the page Ian opened inside Shelf, and remembers the
+    /// site's login so future articles from it come through in full by themselves.
+    func applyCaptured(_ extracted: ExtractedArticle, to article: Article, from url: URL) async {
+        article.apply(extracted)
+        article.isPartial = false
+        article.status = .ready
+        try? context.save()
+        refreshOutside()
+        ImageCache.shared.prefetch(([extracted.leadImage] + extracted.blocks.map(\.src)).compactMap { $0 }.prefix(12).compactMap(URL.init(string:)))
+        if url.isPaywalledSite { SubscribedSites.add(url.shelfHostName) }
+        await SignInWebView.shareCookies()
     }
 
     func retry(_ article: Article) async {

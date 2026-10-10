@@ -41,6 +41,7 @@ enum Demo {
             article.recommendationReason = pick.2
             article.recommendedAt = .now
             article.apply(ExtractedArticle(title: pick.0, byline: nil, siteName: pick.1, excerpt: nil, leadImage: nil, blocks: Array(repeating: Block(t: .paragraph, text: paragraph), count: 4)))
+            article.wordCount = (offset == 0 ? 8 : 25) * 230
             context.insert(article)
         }
         try? context.save()
@@ -53,6 +54,7 @@ enum Demo {
         if args.contains("-ShelfDemoReader") {
             let descriptor = FetchDescriptor<Article>(sortBy: [SortDescriptor(\.createdAt, order: .reverse)])
             if let first = try? context.fetch(descriptor).first(where: { $0.origin == .saved }) {
+                if args.contains("-ShelfDemoPartial") { first.isPartial = true }
                 Router.shared.savedPath = [first.id]
             }
         }

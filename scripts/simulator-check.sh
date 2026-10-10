@@ -26,7 +26,7 @@ mkdir -p shots
 
 # 1. Live extraction check on real pages.
 xcrun simctl launch --terminate-running-process "$UDID" "$BID" -ShelfSelfTest
-for i in $(seq 1 60); do
+for i in $(seq 1 360); do
   DATA=$(xcrun simctl get_app_container "$UDID" "$BID" data)
   [ -f "$DATA/Documents/selftest.json" ] && break
   sleep 2
@@ -52,4 +52,7 @@ for mode in light dark; do
   shoot "reader-$mode" -ShelfDemoReader
   shoot "foryou-$mode" -ShelfDemoForYou
 done
+xcrun simctl ui "$UDID" appearance light
+shoot "partial-light" -ShelfDemoReader -ShelfDemoPartial
+shoot "settings-light" -ShelfDemoSettings
 ls -la shots

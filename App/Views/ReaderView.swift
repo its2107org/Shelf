@@ -19,13 +19,14 @@ struct ReaderView: View {
     @Bindable var article: Article
     @EnvironmentObject private var library: Library
     @StateObject private var speaker = Speaker.shared
-    @Environment(\.openURL) private var openURL
 
     @AppStorage("readerTextSize") private var textSize: Double = 19
     @AppStorage("readerTheme") private var themeRaw: String = ReaderTheme.automatic.rawValue
     @State private var showAppearance = false
     @State private var furthest = 0
     @State private var restored = false
+    @State private var showPage = false
+    @State private var offeredPage = false
 
     private var theme: ReaderTheme { ReaderTheme(rawValue: themeRaw) ?? .automatic }
 
@@ -55,8 +56,21 @@ struct ReaderView: View {
             if article.status == .pending {
                 await library.prepare(article)
             }
+            openPageIfNeeded()
+        }
+        .onChange(of: article.statusRaw) { _, _ in openPageIfNeeded() }
+        .sheet(isPresented: $showPage) {
+            PageReaderView(article: article)
         }
         .onDisappear { saveProgress() }
+    }
+
+    /// When Shelf couldn't get the text by itself, show the real page straight away so it can
+    /// pick the text up there (one tap for Ian instead of two).
+    private func openPageIfNeeded() {
+        guard !offeredPage, article.status == .failed, let url = article.url, !url.isPost else { return }
+        offeredPage = true
+        showPage = true
     }
 
     // MARK: Reading
@@ -68,6 +82,9 @@ struct ReaderView: View {
                 LazyVStack(alignment: .leading, spacing: textSize * 0.9) {
                     header
                         .id(-1)
+                    if article.isPartial {
+                        partialBanner
+                    }
                     ForEach(Array(blocks.enumerated()), id: \.offset) { index, block in
                         BlockView(block: block, textSize: textSize, theme: theme)
                             .id(index)
@@ -130,14 +147,35 @@ struct ReaderView: View {
         .padding(.bottom, 4)
     }
 
+    private var partialBanner: some View {
+        Button { showPage = true } label: {
+            HStack(spacing: 10) {
+                Image(systemName: "lock.open")
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Only the start came through")
+                        .font(.subheadline.weight(.semibold))
+                    Text("Tap to load the full article with your subscription")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+                Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(.tertiary)
+            }
+            .padding(14)
+            .background(Color.blue.opacity(0.1), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        }
+        .buttonStyle(.plain)
+        .foregroundStyle(theme.text ?? Color.primary)
+    }
+
     private var footer: some View {
         VStack(spacing: 14) {
             Divider().padding(.vertical, 8)
             if let url = article.url {
                 Button {
-                    openURL(url)
+                    OriginalOpener.open(url)
                 } label: {
-                    Label(url.isPost ? "Open in X" : "Open original", systemImage: url.isPost ? "arrow.up.right" : "safari")
+                    Label(url.isPost ? "Open in X" : "Open in app", systemImage: "arrow.up.forward.app")
                         .font(.subheadline.weight(.medium))
                 }
                 .buttonStyle(.bordered)
@@ -192,24 +230,25 @@ struct ReaderView: View {
                         .lineSpacing(textSize * 0.45)
                 }
                 Text(article.status == .failed
-                     ? "Shelf couldn't get the text of this page. It may need you to sign in: add the site under Settings, then Sites I subscribe to."
+                     ? "Shelf couldn't get the text by itself. Tap Read it here to load the page in Shelf; if the site asks you to log in, do it once and Shelf will remember."
                      : "There's no article text on this page, so it opens in its own app or Safari.")
                     .font(.footnote)
                     .foregroundStyle(.secondary)
                     .padding(.top, 8)
                 HStack {
-                    if let url = article.url {
-                        Button { openURL(url) } label: {
-                            Label(url.isPost ? "Open in X" : "Open original", systemImage: "safari")
+                    if article.status == .failed, let url = article.url, !url.isPost {
+                        Button { showPage = true } label: {
+                            Label("Read it here", systemImage: "doc.text")
                         }
                         .buttonStyle(.borderedProminent)
                         .tint(.blue)
                     }
-                    if article.status == .failed {
-                        Button {
-                            Task { await library.retry(article) }
-                        } label: { Label("Try again", systemImage: "arrow.clockwise") }
+                    if let url = article.url {
+                        Button { OriginalOpener.open(url) } label: {
+                            Label(url.isPost ? "Open in X" : "Open in app", systemImage: "arrow.up.forward.app")
+                        }
                         .buttonStyle(.bordered)
+                        .tint(.blue)
                     }
                 }
             }
@@ -232,7 +271,10 @@ struct ReaderView: View {
             Menu {
                 if let url = article.url {
                     ShareLink(item: url)
-                    Button { openURL(url) } label: { Label("Open Original", systemImage: "safari") }
+                    Button { OriginalOpener.open(url) } label: { Label("Open in App", systemImage: "arrow.up.forward.app") }
+                    if !url.isPost {
+                        Button { showPage = true } label: { Label("Load Full Page in Shelf", systemImage: "doc.text") }
+                    }
                 }
                 Button { library.toggleFavorite(article) } label: {
                     Label(article.isFavorite ? "Unfavourite" : "Favourite", systemImage: article.isFavorite ? "star.fill" : "star")

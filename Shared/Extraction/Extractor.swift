@@ -60,19 +60,47 @@ final class Extractor: NSObject {
         if url.isPost {
             return try await extractPost(url)
         }
+        // Apple News shares its own short links; read the publisher's original page instead.
+        if url.shelfHostName == "apple.news", let original = await originalOfAppleNewsLink(url) {
+            return try await fetchAndExtract(original)
+        }
         let (data, response) = try await session.data(from: url)
         guard let http = response as? HTTPURLResponse, (200..<400).contains(http.statusCode) else {
             // Some sites (the New York Times, for one) turn away anything that isn't a real browser.
-            return try await viaBrowser(url, otherwise: ExtractorError.badResponse)
+            var article = try await viaBrowser(url, otherwise: ExtractorError.badResponse)
+            article.partial = !article.isComplete(for: url)
+            return article
         }
         if let mime = http.mimeType, !mime.contains("html") && !mime.contains("xml") {
             throw ExtractorError.notReadable
         }
         let html = Self.decode(data, encodingName: http.textEncodingName)
-        let article = try await extract(html: html, url: http.url ?? url)
-        if article.hasReadableText { return article }
-        // The text may only appear once the page's own scripts run, or once signed in.
-        return (try? await viaBrowser(url, otherwise: ExtractorError.notReadable)) ?? article
+        var article = try await extract(html: html, url: http.url ?? url)
+        if article.isComplete(for: url) { return article }
+        // Only a teaser (or nothing) came through. The full text may need the page's own scripts,
+        // or Ian's sign-in, so try the full hidden browser, and keep whichever got more.
+        if let fuller = try? await viaBrowser(url, otherwise: ExtractorError.notReadable),
+           fuller.wordCount > article.wordCount {
+            article = fuller
+        }
+        guard article.hasReadableText else { throw ExtractorError.notReadable }
+        article.partial = !article.isComplete(for: url)
+        return article
+    }
+
+    /// Apple News links lead to a small page that forwards to the publisher's own article.
+    private func originalOfAppleNewsLink(_ url: URL) async -> URL? {
+        guard let (data, _) = try? await session.data(from: url) else { return nil }
+        let html = String(decoding: data, as: UTF8.self)
+        let patterns = [#"redirectToUrlAfterTimeout\("(https?://[^"]+)""#, #"<a[^>]+href="(https?://(?!apple\.news)[^"]+)""#]
+        for pattern in patterns {
+            guard let regex = try? NSRegularExpression(pattern: pattern),
+                  let match = regex.firstMatch(in: html, range: NSRange(html.startIndex..., in: html)),
+                  let range = Range(match.range(at: 1), in: html) else { continue }
+            let link = html[range].replacingOccurrences(of: "&amp;", with: "&")
+            if let original = URL(string: link), original.host?.contains("apple.com") == false { return original }
+        }
+        return nil
     }
 
     /// Opens the page in a real, hidden browser (signed in to Ian's subscribed sites) and reads it
@@ -80,9 +108,12 @@ final class Extractor: NSObject {
     private func viaBrowser(_ url: URL, otherwise error: Error) async throws -> ExtractedArticle {
         guard let browser = Extractor.browser, let json = await browser(url, scripts) else { throw error }
         let article = try JSONDecoder().decode(ExtractedArticle.self, from: Data(json.utf8))
-        guard article.hasReadableText else { throw ExtractorError.notReadable }
+        guard article.hasReadableText else { throw error }
         return article
     }
+
+    /// The extraction scripts, for pages Ian opens inside Shelf.
+    var pageScripts: String { scripts }
 
     /// Extracts an already-downloaded page (for example, one captured from Safari).
     func extract(html: String, url: URL) async throws -> ExtractedArticle {
