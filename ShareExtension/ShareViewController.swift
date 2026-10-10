@@ -44,23 +44,22 @@ final class ShareViewController: UIViewController {
             title: shared.title ?? shared.url?.shelfHostName,
             sharedText: shared.text,
             createdAt: .now,
-            pageHTML: nil,
-            extracted: nil
+            extracted: shared.article
         )
         model.title = item.title ?? "Saved"
 
         // Save straight away so nothing is lost, even if the text takes a moment.
-        try? Inbox.write(item)
+        Inbox.write(item)
         bumpWidget(title: item.title ?? "Saved", source: shared.url?.shelfHostName ?? "Note", id: item.id)
 
-        if let url = shared.url {
+        // Safari already gave us the article as shown on screen (with any subscriber login).
+        if let article = shared.article, article.hasReadableText {
+            if let title = article.title, !title.isEmpty { model.title = title }
+        } else if let url = shared.url {
             let started = Date()
             let extracted: ExtractedArticle? = await withTaskGroup(of: ExtractedArticle?.self) { group in
                 group.addTask { @MainActor in
-                    if let html = shared.pageHTML {
-                        return try? await Extractor.shared.extract(html: html, url: url)
-                    }
-                    return try? await Extractor.shared.fetchAndExtract(url)
+                    try? await Extractor.shared.fetchAndExtract(url)
                 }
                 group.addTask {
                     try? await Task.sleep(nanoseconds: 3_500_000_000)
@@ -76,11 +75,9 @@ final class ShareViewController: UIViewController {
                     item.title = title
                     model.title = title
                 }
-            } else {
-                // Not ready in time: keep the page Safari gave us so the app can finish it (with Ian's logins).
-                item.pageHTML = shared.pageHTML
             }
-            try? Inbox.write(item)
+            // If it wasn't ready in time, the app finishes it next time it opens.
+            Inbox.write(item)
             bumpWidget(title: item.title ?? "Saved", source: shared.url?.shelfHostName ?? "Note", id: item.id, adding: false)
             // Keep the card on screen long enough to read.
             let elapsed = Date().timeIntervalSince(started)
@@ -116,7 +113,7 @@ struct SharedContent {
     var url: URL?
     var title: String?
     var text: String?
-    var pageHTML: String?
+    var article: ExtractedArticle?
 
     @MainActor
     static func read(from context: NSExtensionContext?) async -> SharedContent {
@@ -132,7 +129,9 @@ struct SharedContent {
                    let page = dict[NSExtensionJavaScriptPreprocessingResultsKey] as? [String: Any] {
                     if let u = page["url"] as? String { result.url = URL(string: u) }
                     if let t = page["title"] as? String, !t.isEmpty { result.title = t }
-                    if let h = page["html"] as? String, !h.isEmpty { result.pageHTML = h }
+                    if let json = page["article"] as? String {
+                        result.article = try? JSONDecoder().decode(ExtractedArticle.self, from: Data(json.utf8))
+                    }
                 }
                 if result.url == nil, provider.hasItemConformingToTypeIdentifier(UTType.url.identifier),
                    let url = try? await provider.loadItem(forTypeIdentifier: UTType.url.identifier) as? URL,

@@ -10,7 +10,7 @@ settings:
     # Replaced with the real Apple Team ID when building for TestFlight.
     DEVELOPMENT_TEAM: SHELFDEV00
     SHELF_BUNDLE_ID: com.$(DEVELOPMENT_TEAM).shelf
-    SHELF_APP_GROUP: group.com.$(DEVELOPMENT_TEAM).shelf
+    SHELF_KEYCHAIN_GROUP: $(AppIdentifierPrefix)com.$(DEVELOPMENT_TEAM).shelf.shared
     SHELF_FEED_URL: https://raw.githubusercontent.com/its2107org/Shelf/main/feed/recommendations.json
     MARKETING_VERSION: "1.0"
     CURRENT_PROJECT_VERSION: "1"
@@ -37,7 +37,7 @@ targets:
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         ITSAppUsesNonExemptEncryption: false
         LSApplicationCategoryType: public.app-category.news
-        ShelfAppGroup: $(SHELF_APP_GROUP)
+        ShelfKeychainGroup: $(SHELF_KEYCHAIN_GROUP)
         ShelfFeedURL: $(SHELF_FEED_URL)
         UILaunchScreen:
           UIColorName: LaunchBackground
@@ -59,8 +59,8 @@ targets:
     entitlements:
       path: App/Shelf.entitlements
       properties:
-        com.apple.security.application-groups:
-          - $(SHELF_APP_GROUP)
+        keychain-access-groups:
+          - $(SHELF_KEYCHAIN_GROUP)
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: $(SHELF_BUNDLE_ID)
@@ -93,7 +93,7 @@ targets:
         CFBundleDisplayName: Shelf
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
-        ShelfAppGroup: $(SHELF_APP_GROUP)
+        ShelfKeychainGroup: $(SHELF_KEYCHAIN_GROUP)
         NSExtension:
           NSExtensionPointIdentifier: com.apple.share-services
           NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ShareViewController
@@ -106,8 +106,8 @@ targets:
     entitlements:
       path: ShareExtension/ShelfShare.entitlements
       properties:
-        com.apple.security.application-groups:
-          - $(SHELF_APP_GROUP)
+        keychain-access-groups:
+          - $(SHELF_KEYCHAIN_GROUP)
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: $(SHELF_BUNDLE_ID).ShareExtension
@@ -125,14 +125,14 @@ targets:
         CFBundleDisplayName: Shelf
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
-        ShelfAppGroup: $(SHELF_APP_GROUP)
+        ShelfKeychainGroup: $(SHELF_KEYCHAIN_GROUP)
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
     entitlements:
       path: Widget/ShelfWidget.entitlements
       properties:
-        com.apple.security.application-groups:
-          - $(SHELF_APP_GROUP)
+        keychain-access-groups:
+          - $(SHELF_KEYCHAIN_GROUP)
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: $(SHELF_BUNDLE_ID).Widget

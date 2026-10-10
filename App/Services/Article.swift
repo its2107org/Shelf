@@ -36,7 +36,6 @@ final class Article {
     var attempts: Int
     var recommendationReason: String?
     var recommendedAt: Date?
-    @Attribute(.externalStorage) var pageHTML: Data?
     var sharedText: String?
 
     init(id: UUID = UUID(), url: URL?, title: String? = nil, origin: Origin = .saved, createdAt: Date = .now) {
@@ -110,7 +109,6 @@ final class Article {
         blockCount = extracted.blocks.count
         wordCount = extracted.wordCount
         status = extracted.hasReadableText ? .ready : .linkOnly
-        pageHTML = nil
     }
 
     /// Plain text for reading aloud.

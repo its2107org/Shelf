@@ -38,7 +38,8 @@ final class Extractor: NSObject {
 
     private lazy var session: URLSession = {
         let config = URLSessionConfiguration.default
-        config.httpCookieStorage = AppGroup.cookieStorage
+        SubscribedSites.loadCookies(into: HTTPCookieStorage.shared)
+        config.httpCookieStorage = HTTPCookieStorage.shared
         config.httpShouldSetCookies = true
         config.timeoutIntervalForRequest = 15
         config.httpAdditionalHeaders = [

@@ -10,7 +10,6 @@ GITHUB_REPOSITORY_OWNER = ENV["GITHUB_REPOSITORY_OWNER"]
 ENV["FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT"] = "120"
 
 BUNDLE_ID = "com.#{TEAMID}.shelf"
-APP_GROUP = "group.com.#{TEAMID}.shelf"
 PROJECT = "#{GITHUB_WORKSPACE}/Shelf.xcodeproj"
 IDENTIFIERS = {
   "Shelf" => BUNDLE_ID,
@@ -37,15 +36,10 @@ platform :ios do
 
     names = { BUNDLE_ID => "Shelf", "#{BUNDLE_ID}.ShareExtension" => "Shelf Share", "#{BUNDLE_ID}.Widget" => "Shelf Widget" }
     names.each do |identifier, name|
-      bundle_id = Spaceship::ConnectAPI::BundleId.find(identifier) ||
-                  Spaceship::ConnectAPI::BundleId.create(name: name, identifier: identifier, platform: "IOS")
-      existing = bundle_id.get_capabilities.map(&:capability_type)
-      unless existing.include?(Spaceship::ConnectAPI::BundleIdCapability::Type::APP_GROUPS)
-        bundle_id.create_capability(Spaceship::ConnectAPI::BundleIdCapability::Type::APP_GROUPS)
-      end
+      Spaceship::ConnectAPI::BundleId.find(identifier) ||
+        Spaceship::ConnectAPI::BundleId.create(name: name, identifier: identifier, platform: "IOS")
       UI.success("Identifier ready: #{identifier}")
     end
-    UI.important("App Group to create and tick for all three identifiers: #{APP_GROUP}")
   end
 
   desc "Create or refresh signing certificates and profiles"

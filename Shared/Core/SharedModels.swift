@@ -45,8 +45,6 @@ struct InboxItem: Codable, Identifiable {
     var title: String?
     var sharedText: String?
     var createdAt: Date
-    /// The page as Safari showed it (keeps subscriber logins). Only kept when the extension could not finish in time.
-    var pageHTML: String?
     var extracted: ExtractedArticle?
 }
 

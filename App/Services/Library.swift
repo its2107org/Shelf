@@ -103,7 +103,6 @@ final class Library: ObservableObject {
                     article.apply(ExtractedArticle(title: item.title ?? String(text.prefix(80)), byline: nil, siteName: "Note", excerpt: nil, leadImage: nil, blocks: paragraphs.map { Block(t: .paragraph, text: $0) }))
                     article.status = .ready
                 } else {
-                    article.pageHTML = item.pageHTML.map { Data($0.utf8) }
                     article.sharedText = item.sharedText
                 }
                 context.insert(article)
@@ -136,12 +135,7 @@ final class Library: ObservableObject {
         guard let url = article.url else { return }
         article.attempts += 1
         do {
-            let extracted: ExtractedArticle
-            if let html = article.pageHTML.map({ String(decoding: $0, as: UTF8.self) }) {
-                extracted = try await Extractor.shared.extract(html: html, url: url)
-            } else {
-                extracted = try await Extractor.shared.fetchAndExtract(url)
-            }
+            let extracted = try await Extractor.shared.fetchAndExtract(url)
             article.apply(extracted)
             if article.status == .linkOnly, let text = article.sharedText, !text.isEmpty {
                 article.blocksData = try? JSONEncoder().encode([Block(t: .paragraph, text: text)])

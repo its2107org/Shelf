@@ -95,8 +95,8 @@ struct SignInView: View {
                     ToolbarItem(placement: .confirmationAction) {
                         Button("Done") {
                             Task { @MainActor in
-                                await SignInWebView.shareCookies()
                                 onDone()
+                                await SignInWebView.shareCookies()
                                 dismiss()
                             }
                         }
@@ -133,9 +133,9 @@ struct SignInWebView: UIViewRepresentable {
     @MainActor
     static func shareCookies() async {
         let cookies = await WKWebsiteDataStore.default().httpCookieStore.allCookies()
-        let storage = AppGroup.cookieStorage
         for cookie in cookies {
-            storage.setCookie(cookie)
+            HTTPCookieStorage.shared.setCookie(cookie)
         }
+        SubscribedSites.storeCookies(cookies)
     }
 }
