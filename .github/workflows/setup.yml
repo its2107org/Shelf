@@ -5,7 +5,7 @@ on:
       step:
         description: "What to do"
         type: choice
-        options: [check, identifiers, certificates]
+        options: [check, identifiers, certificates, testers]
         default: check
 
 jobs:
@@ -36,5 +36,6 @@ jobs:
           case "${{ inputs.step }}" in
             identifiers) bundle exec fastlane identifiers ;;
             certificates) bundle exec fastlane certs ;;
+            testers) bundle exec fastlane testers ;;
             *) bundle exec fastlane check_setup ;;
           esac

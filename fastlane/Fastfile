@@ -117,4 +117,57 @@ platform :ios do
     match(type: "appstore", readonly: true, git_basic_authorization: match_auth, app_identifier: [])
     UI.success("Secrets work and the certificate store is reachable")
   end
+
+  desc "Make sure Ian is set up as a TestFlight tester (safe to repeat)"
+  lane :testers do
+    api_key
+    app = Spaceship::ConnectAPI::App.find(BUNDLE_ID)
+    UI.user_error!("No App Store Connect app for #{BUNDLE_ID}") unless app
+
+    group = app.get_beta_groups.find { |g| g.name == "Me" }
+    unless group
+      # Sent by hand: fastlane's own helper adds a public-link setting Apple now rejects for internal groups.
+      Spaceship::ConnectAPI.client.test_flight_request_client.post("v1/betaGroups", {
+        data: {
+          type: "betaGroups",
+          attributes: { name: "Me", isInternalGroup: true, hasAccessToAllBuilds: true },
+          relationships: { app: { data: { type: "apps", id: app.id } } }
+        }
+      })
+      group = app.get_beta_groups.find { |g| g.name == "Me" }
+      UI.user_error!("Group 'Me' was not created") unless group
+      UI.success("Created internal TestFlight group 'Me' with automatic distribution")
+    end
+
+    users = Spaceship::ConnectAPI::User.all
+    UI.message("Found #{users.count} App Store Connect user(s)")
+    users.each do |user|
+      email = user.email.to_s.empty? ? user.username.to_s : user.email.to_s
+      next if email.empty?
+      begin
+        Spaceship::ConnectAPI.post_beta_tester_assignment(
+          beta_group_ids: [group.id],
+          attributes: { email: email, firstName: user.first_name, lastName: user.last_name }
+        )
+        UI.success("Added a team member to the 'Me' TestFlight group")
+      rescue => e
+        UI.important("Tester not added (may already be in the group): #{e.message}")
+      end
+    end
+
+    testers = Spaceship::ConnectAPI::BetaTester.all(filter: { betaGroups: group.id })
+    UI.user_error!("No testers in the 'Me' group") if testers.empty?
+    UI.success("'Me' group has #{testers.count} tester(s)")
+
+    # Give the newest build to the group too, in case it arrived before the group existed.
+    build = Spaceship::ConnectAPI::Build.all(app_id: app.id, sort: "-uploadedDate", limit: 1).first
+    if build
+      begin
+        build.add_beta_groups(beta_groups: [group])
+        UI.success("Newest build shared with the group")
+      rescue => e
+        UI.important("Could not share newest build yet (#{e.message}); automatic distribution will cover it")
+      end
+    end
+  end
 end
