@@ -31,6 +31,59 @@ struct SavedView: View {
         }
     }
 
+    /// Unread and Favourites are grouped into topic sections; Read stays in reading order.
+    private var sectioned: Bool { filter != .read && search.trimmingCharacters(in: .whitespaces).isEmpty && shown.count >= 4 }
+
+    private struct TopicSection: Identifiable {
+        let topic: Topic
+        let items: [Article]
+        var id: Topic { topic }
+    }
+
+    private var sections: [TopicSection] {
+        let groups = Dictionary(grouping: shown) { Topic.of($0) }
+        return Topic.allCases.compactMap { topic in groups[topic].map { TopicSection(topic: topic, items: $0) } }
+    }
+
+    @ViewBuilder
+    private func row(_ article: Article) -> some View {
+        NavigationLink(value: article.id) {
+            ArticleRow(article: article)
+        }
+        .listRowInsets(EdgeInsets(top: 12, leading: 20, bottom: 12, trailing: 16))
+        .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+            Button(role: .destructive) {
+                withAnimation { library.delete(article) }
+            } label: { Label("Delete", systemImage: "trash") }
+        }
+        .swipeActions(edge: .leading, allowsFullSwipe: true) {
+            Button {
+                withAnimation { library.setRead(article, !article.isRead) }
+            } label: {
+                article.isRead
+                    ? Label("Unread", systemImage: "circle")
+                    : Label("Read", systemImage: "checkmark.circle")
+            }
+            .tint(.blue)
+            Button {
+                library.toggleFavorite(article)
+            } label: {
+                Label(article.isFavorite ? "Unfavourite" : "Favourite", systemImage: article.isFavorite ? "star.slash" : "star")
+            }
+            .tint(.orange)
+        }
+        .contextMenu {
+            if let url = article.url {
+                ShareLink(item: url)
+                Button { OriginalOpener.open(url) } label: { Label("Open in App", systemImage: "arrow.up.forward.app") }
+            }
+            Button { library.toggleFavorite(article) } label: {
+                Label(article.isFavorite ? "Unfavourite" : "Favourite", systemImage: "star")
+            }
+            Button(role: .destructive) { library.delete(article) } label: { Label("Delete", systemImage: "trash") }
+        }
+    }
+
     private var unreadCount: Int { articles.filter { !$0.isRead }.count }
 
     var body: some View {
@@ -45,42 +98,16 @@ struct SavedView: View {
                     .listRowSeparator(.hidden)
                 }
 
-                ForEach(shown) { article in
-                    NavigationLink(value: article.id) {
-                        ArticleRow(article: article)
-                    }
-                    .listRowInsets(EdgeInsets(top: 12, leading: 20, bottom: 12, trailing: 16))
-                    .swipeActions(edge: .trailing, allowsFullSwipe: true) {
-                        Button(role: .destructive) {
-                            withAnimation { library.delete(article) }
-                        } label: { Label("Delete", systemImage: "trash") }
-                    }
-                    .swipeActions(edge: .leading, allowsFullSwipe: true) {
-                        Button {
-                            withAnimation { library.setRead(article, !article.isRead) }
-                        } label: {
-                            article.isRead
-                                ? Label("Unread", systemImage: "circle")
-                                : Label("Read", systemImage: "checkmark.circle")
+                if sectioned {
+                    ForEach(sections) { section in
+                        Section {
+                            ForEach(section.items) { article in row(article) }
+                        } header: {
+                            Text(section.topic.rawValue)
                         }
-                        .tint(.blue)
-                        Button {
-                            library.toggleFavorite(article)
-                        } label: {
-                            Label(article.isFavorite ? "Unfavourite" : "Favourite", systemImage: article.isFavorite ? "star.slash" : "star")
-                        }
-                        .tint(.orange)
                     }
-                    .contextMenu {
-                        if let url = article.url {
-                            ShareLink(item: url)
-                            Button { OriginalOpener.open(url) } label: { Label("Open in App", systemImage: "arrow.up.forward.app") }
-                        }
-                        Button { library.toggleFavorite(article) } label: {
-                            Label(article.isFavorite ? "Unfavourite" : "Favourite", systemImage: "star")
-                        }
-                        Button(role: .destructive) { library.delete(article) } label: { Label("Delete", systemImage: "trash") }
-                    }
+                } else {
+                    ForEach(shown) { article in row(article) }
                 }
             }
             .listStyle(.plain)
