@@ -1,4 +1,67 @@
 {
-  "generatedAt": "2026-10-10T07:00:00Z",
-  "items": []
+  "generatedAt": "2026-10-10T21:41:24Z",
+  "items": [
+    {
+      "url": "https://www.axios.com/2026/10/08/chipotle-starbucks-stock-brian-niccol",
+      "title": "Chipotle shares jump on report of Starbucks takeover interest",
+      "source": "Axios",
+      "summary": "Chipotle shares rose about 7% after the FT reported Starbucks has discussed a possible takeover with advisers in recent months. Analysts called a deal a low-probability outcome, and Starbucks declined to comment.",
+      "why": "A possible mega-deal for a CAVA-style fast-casual leader would reset multiples for scaled restaurant chains.",
+      "minutes": 3,
+      "image": "https://images.axios.com/13lv7GroaUmcpji5Lv8pKBpeJOk=/0x171:4000x2421/1366x768/2026/10/08/1791472240585.jpeg"
+    },
+    {
+      "url": "https://www.fooddive.com/news/constellation-brands-buys-spikedade-75-million/832374/",
+      "title": "Modelo maker buys boozy sports drink SpikedAde for $75M",
+      "source": "Food Dive",
+      "summary": "Constellation Brands agreed to buy vodka-based sports drink SpikedAde for $75 million, with up to $278 million more tied to performance over five years. It is Constellation's second ready-to-drink acquisition after Austin Cocktails in 2022.",
+      "why": "A clean read on what strategics will pay, and how much they defer, for a challenger drinks brand.",
+      "minutes": 3,
+      "image": "https://imgproxy.divecdn.com/73JWK66qRp0Sy7QeZMiWrkGcLmXEtEpzXhDK9BM7CW4/g:nowe:0:232/c:699:395/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TcGlrZWRBZGVfQmF0Y2hfMTIyNV9TcGlrZWRBZGVfTWluaV9CYXRjaF9LQV9Hcm91cF9zaG90XzJfVjAzLmpwZw==.webp"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/08/openai-50-billion-arr-anthropic-revenue-accounting",
+      "title": "OpenAI annualized revenue $20 billion less than previously reported",
+      "source": "Axios",
+      "summary": "OpenAI's annualized revenue is about $50 billion, not the $70 billion reported in September. The gap comes from how OpenAI and Anthropic account for sales through cloud partners, with Anthropic booking the full customer payment as revenue.",
+      "why": "Shows how soft AI lab revenue numbers are, which matters when valuing anything in the AI ecosystem.",
+      "minutes": 3,
+      "image": "https://images.axios.com/XuaHUGCJ65Ave9-T7T5I9G5ZL4g=/0x0:1920x1080/1366x768/2026/10/08/1791489981433.jpg"
+    },
+    {
+      "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
+      "title": "Apple and LG, The House For Everyone Else, Agent Standards and Amazon",
+      "source": "Stratechery",
+      "summary": "Ben Thompson argues Apple is taking a more effective approach to the home by working closely with partners, then asks what Amazon should do about AI agents. Paywalled.",
+      "why": "Sharp strategic thinking on how AI agents could reshape consumer commerce and retail platforms.",
+      "minutes": 8
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/true-food-kitchen-files-chapter-11-bankruptcy/832161/",
+      "title": "True Food Kitchen files for Chapter 11 bankruptcy",
+      "source": "Restaurant Dive",
+      "summary": "The wellness-focused chain filed for Chapter 11 on October 4, closed 12 restaurants, and keeps 34 open. It plans a court-supervised sale to a long-term partner, backed by $20 million in debtor-in-possession financing.",
+      "why": "A cautionary tale for multi-unit wellness concepts, and a possible distressed entry point.",
+      "minutes": 3,
+      "image": "https://imgproxy.divecdn.com/nJuyZOzlfd0p1FL1u9LIv7udX4bvlkxpSWPdcVARDXo/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9UcnVlRm9vZEtpdGNoZW5fQmlsdG1vcmVGYXNoaW9uUGFyay5qcGc=.webp"
+    },
+    {
+      "url": "https://colossus.com/article/mark-zuckerberg-profile/",
+      "title": "Mark: a profile of Mark Zuckerberg",
+      "source": "Colossus",
+      "summary": "Jeremy Stern's long profile of Mark Zuckerberg frames Meta as a nonterritorial empire and examines his paranoia, his drive to build, and his failed and renewed bets on mobile, VR and AI. It also revisits his public image, from Cambridge Analytica to his family life.",
+      "why": "A deep read on how the founder behind a major AI spender thinks about power and capital.",
+      "minutes": 66,
+      "image": "https://colossus.com/wp-content/uploads/2026/09/Mark-Preview-Card.jpg"
+    },
+    {
+      "url": "https://colossus.com/article/david-velez-nubank/",
+      "title": "Coming to America: David Vélez and Nubank",
+      "source": "Colossus",
+      "summary": "Gabi Marques profiles Nubank founder David Velez, from his Colombian childhood and early days at Sequoia to building one of Latin America's largest financial institutions. It covers Nubank's current push into the United States.",
+      "why": "A founder-and-investor story with lessons on scaling a challenger consumer brand across markets.",
+      "minutes": 32,
+      "image": "https://colossus.com/wp-content/uploads/2026/09/Velez-preview-card.png"
+    }
+  ]
 }
