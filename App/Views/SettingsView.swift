@@ -7,6 +7,10 @@ struct SettingsView: View {
     @State private var addingSite = false
     @State private var newSite = ""
     @State private var signingIn: SignInTarget?
+    @StateObject private var feedback = Feedback.shared
+    @State private var connectingFeedback = false
+    @State private var feedbackKey = ""
+    @State private var feedbackFailed = false
 
     /// Big news sites, so signing in is one tap instead of typing an address.
     struct PopularSite: Hashable {
@@ -91,6 +95,24 @@ struct SettingsView: View {
                     }
                 }
 
+                Section {
+                    if feedback.isConnected {
+                        LabeledContent("Learning from you", value: "On")
+                        Button("Turn off", role: .destructive) { feedback.disconnect() }
+                    } else {
+                        Button {
+                            feedbackKey = ""
+                            connectingFeedback = true
+                        } label: {
+                            Label("Connect your GitHub key", systemImage: "sparkles")
+                        }
+                    }
+                } header: {
+                    Text("Smarter For You picks")
+                } footer: {
+                    Text("Lets the daily picks learn from your thumbs and what you save. Only titles, links and site names are shared, into your private GitHub project. Never article text or logins.")
+                }
+
                 Section("About") {
                     LabeledContent("Version", value: Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0")
                     LabeledContent("Build", value: Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "1")
@@ -117,6 +139,20 @@ struct SettingsView: View {
                 }
             } message: {
                 Text("Type the website's address. You'll sign in to it on the next screen.")
+            }
+            .alert("Connect your GitHub key", isPresented: $connectingFeedback) {
+                SecureField("Paste the key here", text: $feedbackKey)
+                Button("Cancel", role: .cancel) {}
+                Button("Connect") {
+                    Task { feedbackFailed = !(await feedback.connect(key: feedbackKey)) }
+                }
+            } message: {
+                Text("Paste the key you made on GitHub for shelf-feedback.")
+            }
+            .alert("That key didn't work", isPresented: $feedbackFailed) {
+                Button("OK", role: .cancel) {}
+            } message: {
+                Text("Check it was made for the shelf-feedback project with Contents set to Read and write, then try again.")
             }
             .sheet(item: $signingIn) { target in
                 SignInView(startURL: target.url) {

@@ -58,7 +58,25 @@ final class Recommendations: ObservableObject {
     /// "Not for me": hides a pick for good.
     func dismiss(_ article: Article) {
         if let url = article.urlString { dismissed.insert(url) }
+        Feedback.shared.record(.dislike, article)
         Library.shared.delete(article)
+    }
+
+    /// Thumbs up or down on a pick (tapping the same thumb again clears it). Thumbs down hides it.
+    func rate(_ article: Article, liked: Bool) {
+        let value = liked ? 1 : -1
+        if article.rating == value {
+            article.rating = 0
+            Feedback.shared.clearRating(article)
+        } else if liked {
+            article.rating = 1
+            Feedback.shared.record(.like, article)
+        } else {
+            article.rating = -1
+            dismiss(article)
+            return
+        }
+        try? Library.shared.context.save()
     }
 
     private func apply(_ feed: Feed) {

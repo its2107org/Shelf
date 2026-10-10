@@ -173,6 +173,10 @@ struct ArticleRow: View {
                             .frame(width: 36)
                             .tint(.blue)
                     }
+                    if showReason {
+                        Spacer(minLength: 8)
+                        ThumbButtons(article: article)
+                    }
                 }
                 .font(.footnote)
                 .foregroundStyle(.secondary)
@@ -181,6 +185,35 @@ struct ArticleRow: View {
             Thumbnail(article: article)
         }
         .contentShape(Rectangle())
+    }
+}
+
+/// 👍 / 👎 on a For You pick. Thumbs down hides it; both teach the daily picks.
+struct ThumbButtons: View {
+    let article: Article
+
+    var body: some View {
+        HStack(spacing: 18) {
+            Button {
+                withAnimation { Recommendations.shared.rate(article, liked: true) }
+            } label: {
+                Image(systemName: article.rating == 1 ? "hand.thumbsup.fill" : "hand.thumbsup")
+                    .foregroundStyle(article.rating == 1 ? Color.blue : Color.secondary)
+            }
+            .accessibilityLabel(article.rating == 1 ? "Liked" : "Like")
+            Button {
+                let id = article.id
+                // Leave the article first if it's open, since thumbs down removes it.
+                Router.shared.forYouPath.removeAll { $0 == id }
+                withAnimation { Recommendations.shared.rate(article, liked: false) }
+            } label: {
+                Image(systemName: "hand.thumbsdown").foregroundStyle(.secondary)
+            }
+            .accessibilityLabel("Not for me")
+        }
+        .buttonStyle(.borderless)
+        .font(.subheadline)
+        .sensoryFeedback(.selection, trigger: article.rating)
     }
 }
 

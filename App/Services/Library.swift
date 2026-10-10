@@ -37,6 +37,7 @@ final class Library: ObservableObject {
             if origin == .saved && existing.origin == .recommended {
                 existing.origin = .saved
                 existing.createdAt = .now
+                Feedback.shared.record(.save, existing)
             }
             try? context.save()
             refreshOutside()
@@ -46,6 +47,7 @@ final class Library: ObservableObject {
         context.insert(article)
         try? context.save()
         refreshOutside()
+        if origin == .saved { Feedback.shared.record(.save, article) }
         return article
     }
 
@@ -134,6 +136,7 @@ final class Library: ObservableObject {
                     article.sharedText = item.sharedText
                 }
                 context.insert(article)
+                if url != nil { Feedback.shared.record(.save, article) }
             } else if let url, let existing = article(for: url), existing.id != item.id {
                 // Shared again: bring it to the top, and if it never came through in full, try again
                 // (Ian may have logged in since).

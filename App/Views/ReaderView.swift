@@ -189,6 +189,13 @@ struct ReaderView: View {
                 .buttonStyle(.bordered)
                 .tint(.blue)
             }
+            if article.origin == .recommended {
+                HStack(spacing: 10) {
+                    Text("Good pick?").font(.subheadline).foregroundStyle(.secondary)
+                    ThumbButtons(article: article)
+                }
+                .padding(.top, 4)
+            }
             if article.origin == .recommended, let url = article.url {
                 Button {
                     library.save(url: url)

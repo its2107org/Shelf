@@ -38,6 +38,7 @@ struct ShelfApp: App {
                     await library.sync()
                     await Recommendations.shared.refresh()
                     await library.processPending()
+                    await Feedback.shared.send()
                 }
             case .background:
                 Self.scheduleRefresh()

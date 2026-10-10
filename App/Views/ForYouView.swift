@@ -32,7 +32,7 @@ struct ForYouView: View {
                             }
                             .swipeActions(edge: .trailing, allowsFullSwipe: true) {
                                 Button(role: .destructive) {
-                                    withAnimation { recommendations.dismiss(article) }
+                                    withAnimation { recommendations.rate(article, liked: false) }
                                 } label: { Label("Not for me", systemImage: "hand.thumbsdown") }
                             }
                         }
