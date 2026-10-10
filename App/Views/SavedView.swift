@@ -16,7 +16,6 @@ struct SavedView: View {
 
     @State private var filter: Filter = .unread
     @State private var search = ""
-    @State private var showSettings = ProcessInfo.processInfo.arguments.contains("-ShelfDemoSettings")
 
     private var shown: [Article] {
         let base: [Article]
@@ -95,7 +94,7 @@ struct SavedView: View {
             .refreshable { await library.sync() }
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    Button { showSettings = true } label: { Image(systemName: "gearshape") }
+                    Button { router.showSettings = true } label: { Image(systemName: "gearshape") }
                         .accessibilityLabel("Settings")
                 }
                 ToolbarItem(placement: .topBarTrailing) {
@@ -114,7 +113,7 @@ struct SavedView: View {
             .navigationDestination(for: UUID.self) { id in
                 ReaderContainer(id: id)
             }
-            .sheet(isPresented: $showSettings) { SettingsView() }
+            .sheet(isPresented: $router.showSettings) { SettingsView() }
         }
     }
 

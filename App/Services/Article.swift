@@ -102,6 +102,8 @@ final class Article {
     }
 
     func apply(_ extracted: ExtractedArticle) {
+        let teaser = extracted.isPaywallTeaser
+        let extracted = extracted.withoutClutter()
         if let t = extracted.title, !t.isEmpty { title = t }
         if let s = extracted.siteName, !s.isEmpty { siteName = s }
         byline = extracted.byline
@@ -110,7 +112,7 @@ final class Article {
         blocksData = try? JSONEncoder().encode(extracted.blocks)
         blockCount = extracted.blocks.count
         wordCount = extracted.wordCount
-        isPartial = extracted.partial ?? false
+        isPartial = (extracted.partial ?? false) || teaser
         status = extracted.hasReadableText ? .ready : .linkOnly
     }
 

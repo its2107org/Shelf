@@ -85,8 +85,30 @@ final class Library: ObservableObject {
 
     /// Imports anything saved from the Share button, then prepares any article still waiting.
     func sync() async {
+        recheckSaved()
         importInbox()
         await processPending()
+    }
+
+    /// Tidies articles saved by older versions: strips page clutter and spots subscriber previews
+    /// that were saved as if complete, so they offer to load the full article.
+    func recheckSaved() {
+        let key = "recheckedSavedV1"
+        guard !UserDefaults.standard.bool(forKey: key) else { return }
+        let readyRaw = Article.Status.ready.rawValue
+        let descriptor = FetchDescriptor<Article>(predicate: #Predicate { $0.statusRaw == readyRaw })
+        for article in (try? context.fetch(descriptor)) ?? [] {
+            let blocks = article.blocks
+            let probe = ExtractedArticle(title: nil, byline: nil, siteName: nil, excerpt: nil, leadImage: nil, blocks: blocks)
+            if probe.isPaywallTeaser { article.isPartial = true }
+            let cleaned = blocks.filter { !ExtractedArticle.isClutter($0) }
+            if cleaned.count != blocks.count {
+                article.blocksData = try? JSONEncoder().encode(cleaned)
+                article.blockCount = cleaned.count
+            }
+        }
+        try? context.save()
+        UserDefaults.standard.set(true, forKey: key)
     }
 
     func importInbox() {

@@ -11,6 +11,7 @@ final class Router: ObservableObject {
     @Published var tab: Tab = .saved
     @Published var savedPath: [UUID] = []
     @Published var forYouPath: [UUID] = []
+    @Published var showSettings = ProcessInfo.processInfo.arguments.contains("-ShelfDemoSettings")
 
     func open(_ id: UUID) {
         guard let article = Library.shared.article(id: id) else { return }
@@ -40,6 +41,10 @@ final class Router: ObservableObject {
             if let id = UUID(uuidString: url.lastPathComponent) { open(id) }
         case "next":
             openNextUnread()
+        case "settings":
+            // shelf://settings opens the logins screen (handy as a link in messages).
+            tab = .saved
+            showSettings = true
         default:
             break
         }
