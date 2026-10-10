@@ -41,3 +41,44 @@ enum Topic: String, CaseIterable, Identifiable {
         return .other
     }
 }
+
+/// Ian's own sections, on top of the automatic ones.
+@MainActor
+enum MyTopics {
+    private static let key = "myTopics"
+
+    static var all: [String] {
+        get { UserDefaults.standard.stringArray(forKey: key) ?? [] }
+        set { UserDefaults.standard.set(newValue, forKey: key) }
+    }
+
+    /// Every section name, his own first.
+    static var everything: [String] { all + Topic.allCases.map(\.rawValue).filter { !all.contains($0) } }
+
+    static func name(for article: Article) -> String {
+        if let custom = article.customTopic, !custom.isEmpty { return custom }
+        return Topic.of(article).rawValue
+    }
+
+    static func add(_ name: String) -> String? {
+        let name = name.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !name.isEmpty else { return nil }
+        if !everything.contains(where: { $0.caseInsensitiveCompare(name) == .orderedSame }) { all.append(name) }
+        return everything.first { $0.caseInsensitiveCompare(name) == .orderedSame }
+    }
+
+    static func rename(_ old: String, to new: String, in articles: [Article]) {
+        let new = new.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !new.isEmpty, old != new else { return }
+        if let index = all.firstIndex(of: old) { all[index] = new } else { all.append(new) }
+        // Renaming an automatic section turns it into one of his, keeping the same articles.
+        for article in articles where name(for: article) == old { article.customTopic = new }
+        try? Library.shared.context.save()
+    }
+
+    static func remove(_ topic: String, in articles: [Article]) {
+        all.removeAll { $0 == topic }
+        for article in articles where article.customTopic == topic { article.customTopic = nil }
+        try? Library.shared.context.save()
+    }
+}

@@ -16,6 +16,11 @@ struct SavedView: View {
 
     @State private var filter: Filter = .unread
     @State private var search = ""
+    @State private var myTopics = MyTopics.all
+    @State private var movingArticle: Article?
+    @State private var newTopicName = ""
+    @State private var renamingTopic: String?
+    @State private var renameText = ""
 
     private var shown: [Article] {
         let base: [Article]
@@ -35,14 +40,24 @@ struct SavedView: View {
     private var sectioned: Bool { filter != .read && search.trimmingCharacters(in: .whitespaces).isEmpty && shown.count >= 4 }
 
     private struct TopicSection: Identifiable {
-        let topic: Topic
+        let name: String
         let items: [Article]
-        var id: Topic { topic }
+        var id: String { name }
     }
 
     private var sections: [TopicSection] {
-        let groups = Dictionary(grouping: shown) { Topic.of($0) }
-        return Topic.allCases.compactMap { topic in groups[topic].map { TopicSection(topic: topic, items: $0) } }
+        _ = myTopics // redraw when his topics change
+        let groups = Dictionary(grouping: shown) { MyTopics.name(for: $0) }
+        let order = MyTopics.everything + groups.keys.filter { !MyTopics.everything.contains($0) }.sorted()
+        return order.compactMap { name in groups[name].map { TopicSection(name: name, items: $0) } }
+    }
+
+    private func move(_ article: Article, to topic: String?) {
+        withAnimation {
+            // Choosing the section Shelf would pick anyway just clears his override.
+            article.customTopic = (topic == Topic.of(article).rawValue) ? nil : topic
+            try? library.context.save()
+        }
     }
 
     @ViewBuilder
@@ -77,6 +92,22 @@ struct SavedView: View {
                 ShareLink(item: url)
                 Button { OriginalOpener.open(url) } label: { Label("Open in App", systemImage: "arrow.up.forward.app") }
             }
+            Menu {
+                ForEach(MyTopics.everything, id: \.self) { topic in
+                    Button {
+                        move(article, to: topic)
+                    } label: {
+                        if MyTopics.name(for: article) == topic { Label(topic, systemImage: "checkmark") } else { Text(topic) }
+                    }
+                }
+                Divider()
+                Button { newTopicName = ""; movingArticle = article } label: { Label("New Section…", systemImage: "plus") }
+                if article.customTopic != nil {
+                    Button { move(article, to: nil) } label: { Label("Sort Automatically", systemImage: "sparkles") }
+                }
+            } label: {
+                Label("Move to Section", systemImage: "folder")
+            }
             Button { library.toggleFavorite(article) } label: {
                 Label(article.isFavorite ? "Unfavourite" : "Favourite", systemImage: "star")
             }
@@ -103,7 +134,23 @@ struct SavedView: View {
                         Section {
                             ForEach(section.items) { article in row(article) }
                         } header: {
-                            Text(section.topic.rawValue)
+                            HStack {
+                                Text(section.name)
+                                Spacer()
+                                Menu {
+                                    Button { renameText = section.name; renamingTopic = section.name } label: {
+                                        Label("Rename", systemImage: "pencil")
+                                    }
+                                    if myTopics.contains(section.name) {
+                                        Button(role: .destructive) {
+                                            withAnimation { MyTopics.remove(section.name, in: articles); myTopics = MyTopics.all }
+                                        } label: { Label("Remove Section", systemImage: "trash") }
+                                    }
+                                } label: {
+                                    Image(systemName: "ellipsis").padding(.horizontal, 6).padding(.vertical, 4)
+                                }
+                                .accessibilityLabel("Section options")
+                            }
                         }
                     }
                 } else {
@@ -111,6 +158,29 @@ struct SavedView: View {
                 }
             }
             .listStyle(.plain)
+            .alert("New section", isPresented: Binding(get: { movingArticle != nil }, set: { if !$0 { movingArticle = nil } })) {
+                TextField("For example, Pet brands", text: $newTopicName)
+                Button("Cancel", role: .cancel) { movingArticle = nil }
+                Button("Create") {
+                    if let article = movingArticle, let name = MyTopics.add(newTopicName) {
+                        myTopics = MyTopics.all
+                        move(article, to: name)
+                    }
+                    movingArticle = nil
+                }
+            } message: {
+                Text("The article moves into it, and you can move others there too.")
+            }
+            .alert("Rename section", isPresented: Binding(get: { renamingTopic != nil }, set: { if !$0 { renamingTopic = nil } })) {
+                TextField("Name", text: $renameText)
+                Button("Cancel", role: .cancel) { renamingTopic = nil }
+                Button("Rename") {
+                    if let old = renamingTopic {
+                        withAnimation { MyTopics.rename(old, to: renameText, in: articles); myTopics = MyTopics.all }
+                    }
+                    renamingTopic = nil
+                }
+            }
             .overlay {
                 if shown.isEmpty {
                     emptyState

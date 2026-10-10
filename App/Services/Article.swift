@@ -41,6 +41,8 @@ final class Article {
     var isPartial: Bool = false
     /// Ian's thumb on a For You pick: 1 liked, -1 not for him, 0 not rated.
     var rating: Int = 0
+    /// A section Ian chose himself; when empty, Shelf sorts the article automatically.
+    var customTopic: String?
 
     init(id: UUID = UUID(), url: URL?, title: String? = nil, origin: Origin = .saved, createdAt: Date = .now) {
         self.id = id
