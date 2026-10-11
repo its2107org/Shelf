@@ -5,8 +5,9 @@ import json, sys, urllib.request, email.utils, datetime, xml.etree.ElementTree a
 FEEDS = {
     "New York Times": [f"https://rss.nytimes.com/services/xml/rss/nyt/{n}.xml" for n in
         ["HomePage", "Business", "Technology", "Economy", "DealBook", "YourMoney", "Magazine", "PersonalTech", "Upshot", "SundayReview", "FoodandWine"]],
-    "Wall Street Journal": [f"https://feeds.a.dj.com/rss/{n}.xml" for n in
-        ["RSSWSJD", "RSSMarketsMain", "WSJcomUSBusiness", "RSSWorldNews", "RSSLifestyle", "RSSOpinion"]],
+    "Wall Street Journal": [f"https://feeds.content.dowjones.io/public/rss/{n}" for n in
+        ["RSSWSJD", "RSSMarketsMain", "WSJcomUSBusiness", "RSSWorldNews", "RSSLifestyle", "RSSOpinion", "socialeconomyfeed", "RSSPersonalFinance", "socialpoliticsfeed"]]
+        + [f"https://feeds.a.dj.com/rss/{n}.xml" for n in ["RSSWSJD", "RSSMarketsMain", "WSJcomUSBusiness"]],
     "Bloomberg": [f"https://feeds.bloomberg.com/{n}/news.rss" for n in
         ["markets", "technology", "business", "economics", "wealth", "pursuits"]],
     "Axios": ["https://api.axios.com/feed/"],
@@ -40,6 +41,9 @@ def main():
                 print(f"skip {url}: {e}", file=sys.stderr)
                 continue
             media = "{http://search.yahoo.com/mrss/}"
+            dates = [parse_date(i.findtext("pubDate")) for i in root.iter("item")]
+            dates = [d for d in dates if d]
+            print(f"{url}: {len(dates)} items, newest {max(dates) if dates else None}", file=sys.stderr)
             for item in root.iter("item"):
                 link = (item.findtext("link") or "").strip().split("?")[0]
                 title = (item.findtext("title") or "").strip()
