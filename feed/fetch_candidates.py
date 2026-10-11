@@ -4,7 +4,7 @@ import json, sys, urllib.request, email.utils, datetime, xml.etree.ElementTree a
 
 FEEDS = {
     "New York Times": [f"https://rss.nytimes.com/services/xml/rss/nyt/{n}.xml" for n in
-        ["HomePage", "Business", "Technology", "Economy", "DealBook", "YourMoney", "Magazine", "PersonalTech", "Upshot", "SundayReview", "FoodandWine"]],
+        ["HomePage", "Business", "Technology", "Economy", "DealBook", "YourMoney", "Magazine", "PersonalTech", "Upshot", "SundayReview", "FoodandWine", "World", "US", "Climate", "RealEstate", "Science", "Health", "Media", "Opinion", "Travel", "Books"]],
     "Wall Street Journal": [f"https://feeds.content.dowjones.io/public/rss/{n}" for n in
         ["RSSWSJD", "RSSMarketsMain", "WSJcomUSBusiness", "RSSWorldNews", "RSSLifestyle", "RSSOpinion", "socialeconomyfeed", "RSSPersonalFinance", "socialpoliticsfeed"]]
         + [f"https://feeds.a.dj.com/rss/{n}.xml" for n in ["RSSWSJD", "RSSMarketsMain", "WSJcomUSBusiness"]],
