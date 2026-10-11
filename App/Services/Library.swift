@@ -90,6 +90,7 @@ final class Library: ObservableObject {
         recheckSaved()
         importInbox()
         await processPending()
+        await Feedback.shared.send()
     }
 
     /// Tidies articles saved by older versions: strips page clutter and spots subscriber previews

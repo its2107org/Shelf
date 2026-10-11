@@ -2,7 +2,7 @@ import Foundation
 
 /// What Ian likes: his thumbs on For You picks and the things he saves. Kept on the phone, and,
 /// once he connects his private GitHub project, sent there so the daily picker can learn from it.
-/// Only titles, links and site names ever leave the phone: never article text or logins.
+/// Only titles, links and site names (including the names of sites he subscribes to) ever leave the phone: never article text or logins.
 @MainActor
 final class Feedback: ObservableObject {
     static let shared = Feedback()
@@ -87,7 +87,10 @@ final class Feedback: ObservableObject {
 
     /// Writes the whole list to the private project (it's small), replacing the old copy.
     func send() async {
-        guard dirty || lastSent == nil, !sending,
+        // His subscribed sites go too (names only), so picks can favour what he can read in full.
+        let sites = SubscribedSites.all
+        let sitesChanged = sites != (UserDefaults.standard.stringArray(forKey: "feedbackSites") ?? [])
+        guard dirty || sitesChanged || lastSent == nil, !sending,
               let keyData = SharedVault.read(service: Self.vault, account: "key") else { return }
         let key = String(decoding: keyData, as: UTF8.self)
         sending = true
@@ -101,7 +104,7 @@ final class Feedback: ObservableObject {
             sha = existing["sha"] as? String
         }
 
-        let payload: [String: Any] = ["updatedAt": ISO8601DateFormatter().string(from: .now), "events": events.map { $0.dictionary }]
+        let payload: [String: Any] = ["updatedAt": ISO8601DateFormatter().string(from: .now), "events": events.map { $0.dictionary }, "subscribedSites": sites]
         guard let body = try? JSONSerialization.data(withJSONObject: payload, options: [.prettyPrinted, .sortedKeys]),
               var request = Self.request(Self.path, key: key) else { return }
         var put: [String: Any] = ["message": "Shelf feedback", "content": body.base64EncodedString()]
@@ -114,6 +117,7 @@ final class Feedback: ObservableObject {
             dirty = false
             lastSent = .now
             UserDefaults.standard.set(lastSent, forKey: "feedbackSent")
+            UserDefaults.standard.set(sites, forKey: "feedbackSites")
         } else if status == 401 {
             // The key was removed or ran out on GitHub's side.
             disconnect()
