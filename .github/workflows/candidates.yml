@@ -1,0 +1,30 @@
+name: Collect headlines for For You
+on:
+  workflow_dispatch:
+  schedule:
+    # Shortly before each For You run (9am, 12pm, 6pm, 9pm New York; UTC, covers EDT and EST).
+    - cron: "35 12,13,15,16,21,22 * * *"
+    - cron: "35 0,1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Fetch headlines
+        run: python3 feed/fetch_candidates.py
+      - name: Publish to the candidates branch
+        run: |
+          git config user.name "shelf-bot"
+          git config user.email "shelf-bot@users.noreply.github.com"
+          cp feed/candidates.json /tmp/candidates.json
+          git fetch origin candidates || true
+          git checkout --orphan candidates-new
+          git rm -rfq .
+          cp /tmp/candidates.json candidates.json
+          git add candidates.json
+          git commit -qm "Headlines $(date -u +%FT%TZ)"
+          git push -f origin candidates-new:candidates
