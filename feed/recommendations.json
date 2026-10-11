@@ -1,6 +1,418 @@
 {
-  "generatedAt": "2026-10-11T13:02:17Z",
+  "generatedAt": "2026-10-11T16:02:26Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/finance/investing/beth-hammack-cleveland-fed-inflation-7751c731",
+      "title": "When Companies Stop Driving a Hard Bargain, This Fed Official Starts Worrying",
+      "source": "Wall Street Journal",
+      "summary": "Fed official Beth Hammack says businesses' pricing power and a sturdy economy show interest rates aren't yet high enough to tame inflation.",
+      "why": "A hawkish Fed voice matters for rate expectations, valuations and consumer pricing power.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T16:02:26Z",
+      "image": "https://images.wsj.net/im-54877320"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/09/ai-stocks-economy-bonds",
+      "title": "The rising risk of the AI-versus-everything-else economy",
+      "source": "Axios",
+      "summary": "AI-related deals made up more than half of net investment-grade bond issuance through August, and tech is about 40% of the S&P 500 by market cap, above the dot-com peak. Adding Meta and Amazon puts the AI-linked share near 50%.",
+      "why": "Hard numbers on how concentrated markets and credit have become in AI.",
+      "minutes": 4,
+      "image": "https://images.axios.com/a7zWENvFk9y3JejvqnEmqdl5kPo=/0x0:1920x1080/1366x768/2026/10/08/1791481415853.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.beautyindependent.com/oral-care-heats-up-cocofloss-maker-cocolab-lands-new-ceo-vmg-investment/",
+      "title": "Oral Care Heats Up, Cocofloss Maker Cocolab Lands New CEO And VMG Investment",
+      "source": "Beauty Independent",
+      "summary": "Cocolab, maker of Cocofloss, raised a Series A led by VMG Partners and hired ex-L'Oreal and Google executive Gayle Tait as CEO. The brand is now in all Target stores with nearly 200% three-year revenue growth, in an oral care market projected at $58.2B in 2026.",
+      "why": "A PE-backed challenger brand scaling into mass retail, which is the pattern you look for.",
+      "minutes": 5,
+      "image": "https://www.beautyindependent.com/wp-content/uploads/2026/10/20251112_COCOLAB_FOUNDERS2548.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/08/treasury-yields-mortgages-puke",
+      "title": "'Mortgage puke' could be a factor in rate rise",
+      "source": "Axios",
+      "summary": "Falling mortgage-bond values in a roughly $13 trillion market may be amplifying the rise in Treasury yields. Selling by mortgage holders hedging rate risk can push yields higher.",
+      "why": "Explains a mechanical driver behind higher rates and mortgage costs hitting housing and consumers.",
+      "minutes": 3,
+      "image": "https://images.axios.com/Xnme-6OUV2PxrJdmwCR4NDRS-R0=/0x0:1920x1080/1366x768/2026/10/07/1791407575848.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/the-compute-gold-rush-a0d23b8f",
+      "title": "The Compute Gold Rush",
+      "source": "Wall Street Journal",
+      "summary": "A weekend tech roundup led by the race for AI computing power. It also touches on personal AI agents going off script and Anthropic's reputation.",
+      "why": "Compute scarcity is the central AI business story and drives capital flows across tech.",
+      "minutes": 8,
+      "addedAt": "2026-10-11T16:02:26Z",
+      "image": "https://images.wsj.net/im-67929481"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/08/ai-dynamic-pricing-customer-data",
+      "title": "The AI pricing trap",
+      "source": "Axios",
+      "summary": "McDonald's and Walmart are defending themselves against claims that AI pricing tools raise prices, including a proposed class action over McDonald's franchisee pricing recommendations. A Bentley-Gallup poll finds 80% of Americans think businesses raised prices more than needed, and only 27% trust business to use AI responsibly.",
+      "why": "Direct consumer-sector risk: AI pricing is becoming a trust and legal problem for retailers and restaurants.",
+      "minutes": 4,
+      "image": "https://images.axios.com/ENH5myI1R8uQMqX4OOPbza-fM7Y=/1366x768/smart/2022/01/11/223228-1641940348752.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.beautyindependent.com/momentous-rides-big-mo-100m-sales-national-retail-target/",
+      "title": "Momentous Rides Big Mo And $100M In Sales Into National Retail",
+      "source": "Beauty Independent",
+      "summary": "Performance supplement brand Momentous passed $100M in 2025 sales and is putting 12 products into about 2,000 Target stores. Retail is still only about 10% of its sales.",
+      "why": "Shows how a DTC wellness brand with real scale is going omnichannel.",
+      "minutes": 5,
+      "image": "https://www.beautyindependent.com/wp-content/uploads/2026/10/Momentous-Creatine-scaled.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/09/decacorns-record-venture-capital",
+      "title": "Minting decacorns at a record pace",
+      "source": "Axios",
+      "summary": "42 companies have reached $10B+ valuations globally this year with three months left, beating the 2021 record of 34. Average time to decacorn status fell from 9.4 years in 2020 to 5.5 in 2025.",
+      "why": "A clean read on how frothy late-stage private valuations are.",
+      "minutes": 3,
+      "image": "https://images.axios.com/GqfE431L3l4BZdImOJmhvdViQAY=/1366x768/smart/2023/01/20/002257-1674174177313.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.wsj.com/politics/elections/will-voters-punish-politicians-for-data-centers-ask-ohio-and-michigan-1923848b",
+      "title": "Will Voters Punish Politicians for Data Centers? Ask Ohio and Michigan",
+      "source": "Wall Street Journal",
+      "summary": "Local anger over energy bills and lost farmland is reaching top-of-the-ticket battleground races in Ohio and Michigan.",
+      "why": "Local backlash could slow the AI data-center buildout that many investments depend on.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T16:02:26Z",
+      "image": "https://images.wsj.net/im-31503713"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "source": "TechCrunch",
+      "summary": "AWS CEO Matt Garman says Amazon has dropped NDAs with government agencies on data center projects and has put more than $1 billion into host communities over three years. He says over 100 moratoriums are under consideration, and New York has enacted a one-year permit moratorium.",
+      "why": "Local opposition is a real constraint on AI capex and build timelines.",
+      "minutes": 5,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.beautyindependent.com/stride-consumer-partners-closes-550m-second-fund-next-consumer-deals/",
+      "title": "Stride Consumer Partners Closes $550M Second Fund For Its Next Consumer Deals",
+      "source": "Beauty Independent",
+      "summary": "Stride, which manages about $1.3B and backs Odele and Crown Affair, closed Fund II at a $550M hard cap, 30% above its $420M debut fund. It typically writes $10M to $150M checks.",
+      "why": "Fresh dry powder from a consumer-focused growth investor, with check sizes close to your deal range.",
+      "minutes": 4,
+      "image": "https://www.beautyindependent.com/wp-content/uploads/2026/05/Crown-Affair-products-2000.jpg-1024x512.png",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://restofworld.org/2026/ai-data-center-memory-chip-shortage-cheap-smartphones-digital-divide/",
+      "title": "The AI boom is making the world's cheapest smartphones disappear",
+      "source": "Rest of World",
+      "summary": "AI data centers are absorbing memory chips, lifting existing phone prices about 15% globally and new models about 25%. Sub-$100 phone shipments fell almost 60% year over year in Q2.",
+      "why": "A concrete downstream consumer cost of the AI buildout.",
+      "minutes": 8,
+      "image": "https://restofworld.org/wp-content/uploads/2026/10/smartphone-price-ai-2-1600x900.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.wsj.com/politics/newsom-backs-measure-that-could-invalidate-billionaire-tax-2357a6b3",
+      "title": "Newsom Backs Measure That Could Invalidate Billionaire Tax",
+      "source": "Wall Street Journal",
+      "summary": "Newsom opposes the proposed levy on the ultrawealthy that goes to voters on Nov. 3 and now backs a competing measure to prohibit wealth taxes.",
+      "why": "A California billionaire tax would affect founders, VCs and where wealth and capital sit.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T16:02:26Z",
+      "image": "https://images.wsj.net/im-31344582"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
+      "title": "America's data center fight is a preview of what's to come for the rest of the world",
+      "source": "CNBC",
+      "summary": "Opposition to AI data centers that began in the US is now spreading across Europe, Asia and Africa. The piece looks at power, land and water objections that could slow the global buildout.",
+      "why": "Shows the data center constraint spreading beyond the US.",
+      "minutes": 6,
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/big-food-mergers-castoffs-private-equity-conagra-campbells/825603/",
+      "title": "Unloved brands offloaded by Big Food are a tasty snack for startups, PE firms",
+      "source": "Food Dive",
+      "summary": "Campbell's, Conagra and Hormel are selling underperforming brands to startups and PE firms. Brynwood paid $600M for Chef Boyardee in 2025 and grew Funfetti sales more than 50% after buying it in a $375M deal in 2018.",
+      "why": "A good read on the carve-out playbook and the prices being paid.",
+      "minutes": 7,
+      "image": "https://imgproxy.divecdn.com/6MHWPbxAImjMM8vlyUgkpYOi48Cgd7bcgC-hqo7f6Ys/g:nowe:0:187/c:3198:1807/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMzgzMC1mb3Rvci0yMDI2MDkyMTEwMjUzXzIuanBn.webp",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://restofworld.org/2026/insta360-us-dji-sanctions-drones-cameras/",
+      "title": "As U.S. blocks DJI, Insta360 races to win American creators",
+      "source": "Rest of World",
+      "summary": "Insta360 gets 30-40% of revenue from the US as the FCC blocks new DJI products, but its first-half net profit fell 94% amid a price war and memory costs. Its Antigravity drone brand, which has FCC approval, could help it weather restrictions.",
+      "why": "A consumer-hardware market share shift driven by regulation and component costs.",
+      "minutes": 8,
+      "image": "https://restofworld.org/wp-content/uploads/2026/10/INSTA360-13-1500x900.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/cybersecurity/video-cameras-webcams-hacked-war-b00b8a24",
+      "title": "Video Cameras Are Everywhere—and Now They Are Being Hacked for War",
+      "source": "Wall Street Journal",
+      "summary": "Highly vulnerable connected cameras have become tools for combatants to track, surveil and attack the enemy.",
+      "why": "It points to a growing cybersecurity risk and spending theme in connected devices.",
+      "minutes": 8,
+      "addedAt": "2026-10-11T16:02:26Z",
+      "image": "https://images.wsj.net/im-63293717"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/08/quantumscape-batteries-data-centers",
+      "title": "QuantumScape makes its move on data centers",
+      "source": "Axios",
+      "summary": "QuantumScape launched the QS PowerBlock, its first data center product, saying its cells stay stable well above 300°C versus about 180°C for runaway in conventional lithium-ion. The CEO says the safer battery could cut months off permitting and expects large training data centers to adopt it first.",
+      "why": "A battery maker pivoting into the AI power trade, with customer talks under way.",
+      "minutes": 3,
+      "image": "https://images.axios.com/EUsWkaJ1tL06gwdEyZprOX8sFDQ=/0x0:1920x1080/1366x768/2026/10/08/1791453443788.png",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/sleepytime-tea-owner-hain-celestial-selling-international-business-organic-natural/830263/",
+      "title": "Sleepytime Tea owner Hain Celestial to sell international business for $323M",
+      "source": "Food Dive",
+      "summary": "Hain Celestial will sell its international unit to PE firm Aurelius for about $323M, with net proceeds of $305M to $310M, closing by Dec. 31. The unit generated $151M of Q4 sales, nearly 60% of the company total.",
+      "why": "Another PE carve-out of a better-for-you portfolio, with hard numbers.",
+      "minutes": 4,
+      "image": "https://imgproxy.divecdn.com/Oq9wrsuUhGEafoFVBdrDzYhnNDILoIWK2gg9VLhJ4Z0/g:nowe:843:245/c:1172:662/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMTYxNy5qcGc=.webp",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://restofworld.org/2026/google-meta-red-sea-subsea-cables-houthi-yemen/",
+      "title": "Conflict in the Red Sea is forcing cloud giants to find a new route for the internet",
+      "source": "Rest of World",
+      "summary": "Google, Meta and Microsoft are paying premium prices for land routes as fighting near the Bab al-Mandab strait, which carries over 90% of Europe-Asia data capacity, threatens subsea cables. Google reportedly paid two to three times the roughly $7 million expected for fiber across Turkey.",
+      "why": "Geopolitical risk is now showing up in AI and cloud infrastructure costs.",
+      "minutes": 9,
+      "image": "https://restofworld.org/wp-content/uploads/2026/10/GettyImages-2294750914-1600x900.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.wsj.com/world/europe/the-nordic-formula-for-prospering-in-a-dangerous-fragmented-world-cb0de1d7",
+      "title": "The Nordic Formula for Prospering in a Dangerous, Fragmented World",
+      "source": "Wall Street Journal",
+      "summary": "Sweden and Denmark are pouring money into defense, tightening ties with each other and Europe, and moving beyond the U.S. The piece says it is paying off.",
+      "why": "A look at how small, open economies are positioning as global trade fragments.",
+      "minutes": 10,
+      "addedAt": "2026-10-11T16:02:26Z",
+      "image": "https://images.wsj.net/im-15921990"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/08/anthropic-critical-infrastructure-cybersecurity",
+      "title": "Exclusive: Anthropic's new plan to protect critical infrastructure",
+      "source": "Axios",
+      "summary": "Anthropic has unveiled a plan to help defend critical infrastructure from cyber threats. It comes as the White House pushes AI companies to report and fix security incidents.",
+      "why": "Where AI-lab security policy and government contracts are heading.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T16:02:26Z",
+      "image": "https://images.axios.com/EWUgYvedP8PL5JZmdWQow2OV9as=/0x0:1920x1080/1366x768/2026/08/11/1786471300071.jpeg"
+    },
+    {
+      "url": "https://www.fooddive.com/news/sazerac-buys-berentzen-german-spirits/830988/",
+      "title": "Sazerac to buy German spirits producer Berentzen",
+      "source": "Food Dive",
+      "summary": "Fireball owner Sazerac agreed to buy Germany's Berentzen Group at 5.55 euros per share, a 68% premium to the three-month weighted average price. The deal needs shareholder approval and is expected to close around year-end, with a Frankfurt delisting.",
+      "why": "A take-private of a listed spirits company, with the premium spelled out.",
+      "minutes": 3,
+      "image": "https://imgproxy.divecdn.com/BsyvS572M0HWkuaYehDQtKhp6sQgYlbwDd_9NWPL8RE/g:nowe:0:450/c:1465:827/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9QdXNjaGtpbl9GbGF2b3VyX1ZvZGthLmpwZw==.webp",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://restofworld.org/2026/samsung-sk-hynix-ai-memory-chip-war-nvidia-openai/",
+      "title": "South Korea's AI chip giants are fighting for a bigger role in America's AI boom",
+      "source": "Rest of World",
+      "summary": "Samsung and SK Hynix control 83% of the global memory chip market, and Samsung has more than doubled its share in a year. SK Hynix is building a $4B packaging plant in Indiana.",
+      "why": "Memory is the bottleneck behind AI capex and consumer electronics prices.",
+      "minutes": 9,
+      "image": "https://restofworld.org/wp-content/uploads/2026/09/SK-Hynix-Samsung-2-1600x900.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+      "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+      "source": "New York Times",
+      "summary": "The Philadelphia Police Department said the agents had also sent in a false homicide tip. The incidents led the White House to call for better disclosure.",
+      "why": "Agent mishaps are prompting regulatory attention that could shape the AI business.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T16:02:26Z",
+      "image": "https://static01.nyt.com/images/2026/10/09/multimedia/09biz-anthropic-zptw/09biz-anthropic-zptw-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "source": "TechCrunch",
+      "summary": "Three fired OpenAI safety researchers say in an open letter that they did not mishandle sensitive information, and warn the firings chill open culture. OpenAI says an investigation found a pattern of misconduct and denies retaliation.",
+      "why": "Governance risk inside the most heavily funded AI company.",
+      "minutes": 5,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?w=563",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.beautyindependent.com/mcconnell-labs-acquires-attain-cosmetics-rebrands-modern-chemistry-labs-private-equity-sale/",
+      "title": "McConnell Labs Acquires Attain Cosmetics, Rebrands As Modern Chemistry Labs Following Private Equity Sale",
+      "source": "Beauty Independent",
+      "summary": "After its sale to Impact Equity Partners, McConnell Labs bought Attain Cosmetics and rebranded as Modern Chemistry Labs; terms were not disclosed. Baird counted 28 beauty supply-side deals in H1 2026, up 87% year over year.",
+      "why": "A PE-backed roll-up in beauty manufacturing, with deal-count data.",
+      "minutes": 4,
+      "image": "https://www.beautyindependent.com/wp-content/uploads/2026/10/Modern-Chemistry-Labs-scaled.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/11/fishing-farm-feed-salmon",
+      "title": "5-year probe by a journalistic nonprofit: 'Dirty secret behind the farmed fish you eat'",
+      "source": "Axios",
+      "summary": "A five-year investigation by 70+ reporters at The Outlaw Ocean Project, led by Ian Urbina, ties seafood supply chains to forced labor and harmful chemicals. It finds farmed fish are often fed huge volumes of wild-caught fish.",
+      "why": "Supply-chain exposure for grocers, restaurants and food brands buying seafood.",
+      "minutes": 5,
+      "image": "https://images.axios.com/wdQpqNha5TbrLNRao6NA5LzyQGs=/0x115:1893x1180/1366x768/2026/10/11/1791721887758.jpg",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/11/opinion/economy-supply-shocks-groceries-gas.html",
+      "title": "Supply Shocks Are Here to Stay. Is the Fed Ready to Face That Fact?",
+      "source": "New York Times",
+      "summary": "Argues that supply shocks have become endemic to the global economy and asks whether the Fed is prepared for that.",
+      "why": "Persistent supply shocks bear on inflation, rates and consumer-facing margins.",
+      "minutes": 8,
+      "addedAt": "2026-10-11T16:02:26Z",
+      "image": "https://static01.nyt.com/images/2026/10/11/multimedia/11kingsbury-orszag-transcript-ckqb/11kingsbury-orszag-transcript-ckqb-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "source": "TechCrunch",
+      "summary": "Apple disclosed a deal to hire the Huxe team and license its personalized podcast technology. It is another acqui-hire style AI deal.",
+      "why": "A small but telling Apple AI deal in consumer media.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2024/01/apple-podcasts-1.jpg?w=616",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/tgi-fridays-new-york-development-franchising-agreement/831745/",
+      "title": "TGI Fridays signs first US franchise in over a decade",
+      "source": "Restaurant Dive",
+      "summary": "TGI Fridays signed its first new US franchise development deal in over a decade, for five new New York restaurants within three years. The chain has shrunk from 329 US locations in 2020 to 71 and targets 1,000 locations and $2B in revenue by 2030.",
+      "why": "A franchising reset story with clear unit-count numbers.",
+      "minutes": 4,
+      "image": "https://imgproxy.divecdn.com/YcE-rpQA0hAR0MhDqmtoNIrMFfqnf61xdm8EA9xT2Z0/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMjIzMjA4NTUyLmpwZw==.webp",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/opinion/ai-companies-liability-laws.html",
+      "title": "A.I. Companies Say They Aren't Responsible for Their Unpredictable Products. Don't Believe Them.",
+      "source": "New York Times",
+      "summary": "An opinion piece arguing that AI giants must operate under existing laws and be held responsible for their products.",
+      "why": "AI liability rules would affect the economics and risk of AI companies.",
+      "minutes": 8,
+      "addedAt": "2026-10-11T16:02:26Z",
+      "image": "https://static01.nyt.com/images/2026/10/10/opinion/10AI-editorial-image/10AI-editorial-image-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/grocery-consumption-shifts-demand-smaller-packages-nielseniq-report/832409/",
+      "title": "Grocery consumption shifts require smaller packages, NielsenIQ finds",
+      "source": "Grocery Dive",
+      "summary": "NielsenIQ says only 32% of in-person grocery purchases are stock-up trips, and 21% of US households had a GLP-1 user as of May. Smaller packs are growing faster than multiserve packs in soft drinks, cereal and salty snacks.",
+      "why": "Hard data on pack-size and GLP-1 shifts that affect CPG brand theses.",
+      "minutes": 4,
+      "image": "https://imgproxy.divecdn.com/V6uPYLOkRL5jJDG7v-wizizw-GQGbt5KeFQdBu6m_f8/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2dyb2NlcnlfY2FydC5qcGc=.webp",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.nytimes.com/video/opinion/100000011191544/wealth-is-clouding-the-ai-safety-debate.html",
+      "title": "Wealth Is Clouding the A.I. Safety Debate",
+      "source": "New York Times",
+      "summary": "A former OpenAI safety employee on The Ezra Klein Show discusses a conflict of interest at the core of the current AI safety discourse.",
+      "why": "Shows how financial incentives are shaping AI policy debates.",
+      "minutes": 8,
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.petfoodprocessing.net/articles/20974-petlens-releases-inaugural-reports-finds-pet-parents-spending-more-selectively",
+      "title": "petLENS releases inaugural reports, finds pet parents spending more selectively",
+      "source": "Pet Food Processing",
+      "summary": "The World Pet Association and BSM Partners launched petLENS, a monthly survey of at least 4,000 pet owners. Non-essential pet spending fell below baseline in August and trust in pet food slipped below its year-to-date average.",
+      "why": "Early read on pet category demand from a new tracker.",
+      "minutes": 3,
+      "image": "https://www.petfoodprocessing.net/ext/resources/Articles/2026/10%20Oct/100926_petLENS-inaugural-reports_Lead.jpg?height=635&t=1791547292&width=1200",
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/world/africa/erik-prince-congo-mercenary-kennedy-vectus-contract.html",
+      "title": "Inside Erik Prince's Mercenary Deal in Congo",
+      "source": "New York Times",
+      "summary": "The injury of a former Green Beret and the death of an elite soldier have highlighted the Blackwater founder's growing role in one of Africa's conflicts.",
+      "why": "A deal-driven investigation into private security contracting in a resource-rich region.",
+      "minutes": 12,
+      "addedAt": "2026-10-11T16:02:26Z",
+      "image": "https://static01.nyt.com/images/2026/10/09/multimedia/00int-congo-erik-congo-1-pgfk/00int-congo-erik-congo-1-pgfk-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/consumers-are-tapped-and-wall-street-fears-that-s-a-rally-killer",
+      "title": "Consumers Are Tapped and Wall Street Fears That's a Rally Killer",
+      "source": "Bloomberg",
+      "summary": "Americans have kept spending their paychecks despite rising prices, buying pickup trucks with diesel near record highs and steak dinners. Wall Street worries that spending can't last.",
+      "why": "Consumer strength underpins both the market rally and consumer-company results.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/videos/2026-10-11/is-ai-crowding-everyone-else-out-of-the-bond-market-video",
+      "title": "Is AI Crowding Everyone Else Out of the Bond Market?",
+      "source": "Bloomberg",
+      "summary": "Hyperscalers, data centers and chip companies are borrowing hundreds of billions of dollars to finance the AI buildout.",
+      "why": "AI debt issuance affects credit markets, funding costs and the sustainability of the buildout.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/tech-earnings-loom-large-for-hedge-funds-packed-into-dispersion-trade",
+      "title": "Tech Earnings Loom Large for Hedge Funds Packed Into Dispersion Trade",
+      "source": "Bloomberg",
+      "summary": "Equity option traders are watching for the market to break out of its inertia as tech earnings collide with a Federal Reserve meeting.",
+      "why": "Previews a catalyst-heavy week for markets.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/monte-paschi-to-hold-monday-board-meeting-on-m-a-situation",
+      "title": "Monte Paschi to Hold Monday Board Meeting on M&A Situation",
+      "source": "Bloomberg",
+      "summary": "Banca Monte dei Paschi di Siena has called an extraordinary board meeting for Monday to review the M&A situation following an Intesa Sanpaolo move.",
+      "why": "A live European bank M&A situation with a decision due Monday.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/videos/2026-10-11/why-ford-and-jpmorgan-are-betting-on-michigan-video",
+      "title": "Exclusive: Dimon, Farley, Gov. Whitmer on Rebuilding American Manufacturing",
+      "source": "Bloomberg",
+      "summary": "Ford, JPMorgan and the state of Michigan are teaming up to connect manufacturers and startups with capital, customers and government support.",
+      "why": "Shows where industrial capital and venture-style financing may flow.",
+      "minutes": 8,
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/prediction-markets-nfl-boom-tests-sports-betting-rules",
+      "title": "Prediction Markets' NFL Boom Tests Sports Betting Rules",
+      "source": "Bloomberg",
+      "summary": "Prediction markets built their business on everything from Fed decisions to pop culture, and this football season is testing sports betting rules.",
+      "why": "A fast-growing consumer fintech and gaming category facing regulatory friction.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T16:02:26Z"
+    },
     {
       "url": "https://www.wsj.com/economy/housing/homhome-prices-sellers-mortgage-ratese-sellers-are-starting-to-blink-on-prices-thats-bad-for-builders-9512512f",
       "title": "Home Sellers Are Starting to Blink on Prices. That’s Bad for Builders.",
