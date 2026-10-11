@@ -1,6 +1,348 @@
 {
-  "generatedAt": "2026-10-11T03:07:07Z",
+  "generatedAt": "2026-10-11T13:02:17Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/economy/housing/homhome-prices-sellers-mortgage-ratese-sellers-are-starting-to-blink-on-prices-thats-bad-for-builders-9512512f",
+      "title": "Home Sellers Are Starting to Blink on Prices. That’s Bad for Builders.",
+      "source": "Wall Street Journal",
+      "summary": "Competition for buyers is heating up, which will force builders like Lennar and KB Home to offer bigger incentives.",
+      "why": "Builder margin pressure is a read on housing and consumer spending.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://images.wsj.net/im-27505234"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/11/business/san-francisco-housing-conversions.html",
+      "title": "San Francisco Is Still Pushing to Turn Offices Into Homes",
+      "source": "New York Times",
+      "summary": "San Francisco has yet to complete a single office-to-housing conversion despite hopes of reviving its empty downtown.",
+      "why": "A read on office distress and conversion economics.",
+      "minutes": 5,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://static01.nyt.com/images/2026/10/04/multimedia/04BIZ-SQFT-SANFRANCISCO-1-fhwk/04BIZ-SQFT-SANFRANCISCO-1-fhwk-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack",
+      "title": "Scoop: AI companies plot \"the day after\"",
+      "source": "Axios",
+      "summary": "Anthropic, OpenAI and others are privately planning for a political backlash after a major AI-driven attack, red-teaming worst cases and briefing lawmakers.",
+      "why": "A preview of how AI rules could change overnight.",
+      "minutes": 3,
+      "image": "https://images.axios.com/MZSM9WY5XMz-gIs0a8Jt0iicgjw=/0x0:1920x1080/1366x768/2026/10/08/1791483950907.jpeg",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/7brew-court-approved-sale-saladandgo-units-123M/831644/",
+      "title": "7 Brew's $123M bid for at least 60 Salad and Go units is approved",
+      "source": "Restaurant Dive",
+      "summary": "7 Brew won court approval for a $123M bid on at least 60 former Salad and Go drive-thru sites, beating Dutch Bros' $105M offer.",
+      "why": "Hard pricing on a site land-grab between two fast-growing drive-thru chains.",
+      "minutes": 3,
+      "image": "https://imgproxy.divecdn.com/1f6uNWbhLTqMQ_sIA160Px57MtqzlJsG59PH_6Wd-Fk/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TdG9yZV9Gcm9udF93aXRoX3BhbG1fdHJlZXMuanBn.webp",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/ai-issuers-are-upending-longstanding-safety-valve-credit-weekly",
+      "title": "AI Debt Issuance Defies Rising Yields as SpaceX, Broadcom Plan Major Deals",
+      "source": "Bloomberg",
+      "summary": "Tech companies keep ramping up bond sales despite pricier financing, with SpaceX and Broadcom planning major deals.",
+      "why": "AI spending is increasingly funded with debt.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/09/spacex-elon-musk-spectrum",
+      "title": "SpaceX spectrum deal unsettles investors in AT&T, Verizon, T-Mobile",
+      "source": "Axios",
+      "summary": "SpaceX agreed to buy a large block of nationwide airwaves, and AT&T, Verizon and T-Mobile shares fell 9-13% the next trading day.",
+      "why": "One deal wiped about a tenth off the big three carriers' value.",
+      "minutes": 4,
+      "image": "https://images.axios.com/JLgevVXBT-rcddnB896i-4hyvO8=/0x0:1920x1080/1366x768/2026/10/09/1791580620786.jpg",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/investing/economists-bond-yields-forecast-aaa2ff5c",
+      "title": "Why Economists Think Higher Bond Yields Are Here to Stay",
+      "source": "Wall Street Journal",
+      "summary": "The WSJ's quarterly survey finds forecasters expect inflation, Fed rate rises and debt to keep borrowing costs higher for longer.",
+      "why": "Higher-for-longer rates change valuations and deal financing.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://images.wsj.net/im-94253602"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/business/media/trump-justice-department-tv-networks.html",
+      "title": "Justice Dept. Is Investigating TV Networks Over Trump Pool Coverage",
+      "source": "New York Times",
+      "summary": "Major TV networks were told the department is examining whether they broke antitrust law when they suspended pool coverage.",
+      "why": "Antitrust pressure on big media companies.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://static01.nyt.com/images/2026/10/10/multimedia/10biz-media-investigation-gpjh/10biz-media-investigation-gpjh-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B in 10 months",
+      "source": "TechCrunch",
+      "summary": "Arena raised $200M at a $3.1B valuation, up from $1.7B in January, as annualised revenue went from $30M to about $100M.",
+      "why": "Fast revenue growth for a company that sits between AI labs and their customers.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/ARENA_3Founders.jpg?resize=1200,801",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/olipop-ceo-christian-patino-webb-interview-1-billion-sales-better-for-you-soda/831539/",
+      "title": "How Olipop's new CEO plans to reach $1B in sales",
+      "source": "Food Dive",
+      "summary": "Olipop, valued at $1.85B, is targeting $1B in sales; better-for-you options are still only about 5% of soda sales.",
+      "why": "Strategy and numbers from the leading challenger soda as Coca-Cola and Pepsi pile in.",
+      "minutes": 6,
+      "image": "https://imgproxy.divecdn.com/g56bn-honjY2q_oayP9qyTBtPLMuzHhOmOnhm3ms3ms/g:nowe:0:862/c:2500:1412/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9PTElQT1BfU1NfMTJvel9Db3JlNV9DQU5IRVJPXzF4MS5qcGc=.webp",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/once-hot-ai-trade-leaves-korean-stocks-struggling-for-buyers",
+      "title": "Once-Hot AI Trade Leaves Korean Stocks Struggling for Buyers",
+      "source": "Bloomberg",
+      "summary": "South Korea was a poster child of the AI trade, but its $4.3 trillion stock market is now struggling by almost every measure.",
+      "why": "A sign the AI trade is cooling in a major market.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/09/delta-air-jet-fuel-6-billion",
+      "title": "Delta expects fuel bill to rise $6 billion this year",
+      "source": "Axios",
+      "summary": "Delta's fuel bill is up about 60% as the Iran war disrupts oil shipments, and it cut its full-year profit outlook by nearly a quarter.",
+      "why": "How the energy shock is hitting a consumer-facing bellwether.",
+      "minutes": 3,
+      "image": "https://images.axios.com/Gwxt5T3fA9rlcSUp8g0EnKTaqNc=/0x700:5383x3728/1366x768/2026/10/09/1791572230280.jpeg",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/at-robinhoods-mecca-for-risk-loving-traders-everyone-has-a-tale-of-getting-rich-f960d8c2",
+      "title": "At Robinhood’s Mecca for Risk-Loving Traders, Everyone Has a Tale of Getting Rich",
+      "source": "Wall Street Journal",
+      "summary": "With stocks at records, the WSJ visits a hub of risk-loving everyday traders who are part of the reason why.",
+      "why": "Retail traders are a big force behind market highs.",
+      "minutes": 9,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://images.wsj.net/im-38549856"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/magazine/how-to-buy-and-eat-seafood-responsibly.html",
+      "title": "How to Buy and Eat Seafood Ethically",
+      "source": "New York Times",
+      "summary": "A Times investigation into farmed fish found human-rights abuses and health concerns, with guidance for buyers.",
+      "why": "Supply-chain risk for food and restaurant businesses.",
+      "minutes": 10,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://static01.nyt.com/images/2026/10/10/magazine/10mag-fishmeal-takeaways/10mag-fishmeal-takeaways-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+      "title": "China's Manus raises over $500M in first funding round since split with Meta",
+      "source": "TechCrunch",
+      "summary": "Manus raised over $500M led by Boyu Capital and IDG, its first round since Chinese authorities forced Meta to drop a $2B acquisition.",
+      "why": "How geopolitics is reshaping AI deals.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2278374931.jpg?w=1024",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/Ferrero-Nutella-innovation-snacking-Hershey-Mars/832071/",
+      "title": "Nutella maker Ferrero building a sweets 'powerhouse' in the US",
+      "source": "Food Dive",
+      "summary": "Ferrero's US sales grew from $300M in 2017 to over $11B, largely through acquisitions, with a goal of $20B within a decade.",
+      "why": "How a strategic buyer scaled through deals, and who bids on the next candy brand.",
+      "minutes": 5,
+      "image": "https://imgproxy.divecdn.com/cpPc76MmdVoOzjdGu2_38EodcjdEg1jlGZ4sSvRpLFw/g:nowe:48:60/c:1786:1009/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9EMjAtMjYzMVBIMzBYX01vdmllUG9zdGVyX01hcnZlbC5qcGc=.webp",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports",
+      "title": "Nvidia Explores Deal Options With Reflection AI",
+      "source": "Bloomberg",
+      "summary": "Nvidia is reportedly in talks to raise its investment in Reflection AI or supply it with computing power.",
+      "why": "How Nvidia ties AI start-ups to its ecosystem.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/08/interest-rate-hikes-fed-waller",
+      "title": "The Fed's going to take its time with rate hikes",
+      "source": "Axios",
+      "summary": "The Fed likely has two more hikes ahead, in December and early 2027, and officials say they needn't come at back-to-back meetings.",
+      "why": "The rate path that matters for valuations and consumer borrowing.",
+      "minutes": 4,
+      "image": "https://images.axios.com/JmMchBRZ0T8Gba2Sl30LO8N1IsA=/0x162:4000x2412/1366x768/2026/10/08/1791470665137.jpg",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/ai-has-a-god-problem-stretching-from-the-vatican-to-the-baptist-pulpit-f417b2fd",
+      "title": "AI Has a God Problem Stretching From the Vatican to the Baptist Pulpit",
+      "source": "Wall Street Journal",
+      "summary": "Religious leaders are weighing in on AI, creating a new political risk for the technology's makers.",
+      "why": "A new source of regulatory and reputational risk for AI companies.",
+      "minutes": 5,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://images.wsj.net/im-80369362"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/11/world/asia/china-essay-higgins-surveillance.html",
+      "title": "A Reporter Returns to China to Find it Richer, but Also Highly Paranoid.",
+      "source": "New York Times",
+      "summary": "A correspondent returning after decades finds bullet trains and dazzling skylines alongside a pervasive surveillance state.",
+      "why": "Context on China as a market and place to do business.",
+      "minutes": 10,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://static01.nyt.com/images/2026/10/05/multimedia/00int-china-higgins-01-jqkp/00int-china-higgins-01-jqkp-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "title": "Google brings agentic AI to Gemini, starting with businesses",
+      "source": "TechCrunch",
+      "summary": "Google launched a Gemini agent that completes tasks rather than just answering, starting with business customers, and says Gemini has over 1B monthly users.",
+      "why": "Google's push into AI agents, with adoption numbers.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/image_3.max-2100x2100_0CYZWqn.jpg?resize=1200,591",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/keurig-dr-pepper-liquid-espress-concentrate-cpg-cold-brew/832502/",
+      "title": "Keurig Dr Pepper bets on iced coffee with espresso concentrate",
+      "source": "Food Dive",
+      "summary": "KDP is pushing into cold coffee, a $3.79B market, after its Peet's deal lifted quarterly sales 75.6% to $7.31B.",
+      "why": "Where big beverage players see growth ahead of the coffee spin-off.",
+      "minutes": 4,
+      "image": "https://imgproxy.divecdn.com/UoOq48Z9SCTlYhshobfimxVMdQ-goZ6nZQa61uwNvR4/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8xOTIweDY4MC5qcGVn.webp",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-10/last-minute-lawsuit-upends-cable-one-s-480-million-mega-broadband-deal",
+      "title": "Last-Minute Lawsuit Upends Cable One’s $480 Million Mega Broadband Deal",
+      "source": "Bloomberg",
+      "summary": "A lawsuit has upended Cable One's $480 million Mega Broadband deal after months spent lining up financing.",
+      "why": "A live example of deal and financing risk.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/09/income-biden-pandemic-inflation",
+      "title": "The surprising post-pandemic drop in income inequality",
+      "source": "Axios",
+      "summary": "From 2021 to 2024 the median family's real income rose 7% while the top 10%'s fell 14%, but wealth gains went overwhelmingly to the top.",
+      "why": "The income-versus-wealth split behind today's consumer.",
+      "minutes": 5,
+      "image": "https://images.axios.com/6zPyIvEPA76UMsYHBXksPVhLVu4=/0x0:1600x900/1366x768/2026/10/09/1791561145076.png",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.wsj.com/us-news/americas-gig-workers-turn-to-an-old-school-union-6003e38d",
+      "title": "America’s Gig Workers Turn to an Old-School Union",
+      "source": "Wall Street Journal",
+      "summary": "Tens of thousands of Uber and Lyft drivers in California are joining forces amid the nation's highest gas prices.",
+      "why": "Driver organising could raise costs for gig platforms.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://images.wsj.net/im-46092058"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-arabia-options-houthis.html",
+      "title": "Saudi Arabia Has Few Options as Houthis Aim at Heart of Its Ambitions",
+      "source": "New York Times",
+      "summary": "Three deadly Houthi attacks on an airport in the Saudi capital show how lopsided the conflict is for the kingdom.",
+      "why": "Risk to Saudi Arabia's investment push and to energy markets.",
+      "minutes": 5,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://static01.nyt.com/images/2026/10/11/multimedia/11int-saudi-assess-bvtm/11int-saudi-assess-bvtm-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://www.retaildive.com/news/levis-q3-wholesale-tariff-refunds-deliver/832468/",
+      "title": "Wholesale, tariff refunds deliver for Levi's in rough Q3",
+      "source": "Retail Dive",
+      "summary": "Levi's revenue rose 4% to $1.6B and gross margin jumped, but most of the gain came from about $80M of tariff refunds and net income fell nearly 23%.",
+      "why": "A clean example of earnings flattered by one-offs.",
+      "minutes": 4,
+      "image": "https://imgproxy.divecdn.com/SnlJAaxEDHBG3xTdYqQQbAiTbYrCwMy_-SN_5KTwIQk/g:nowe:0:397/c:3923:2216/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUctMTUzMC5qcGc=.webp",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/us-cpi-to-show-overall-inflation-boosted-by-higher-gasoline-prices",
+      "title": "US CPI to Show Overall Inflation Boosted by Higher Gasoline Prices",
+      "source": "Bloomberg",
+      "summary": "Higher petrol prices probably lifted headline US inflation in September even as underlying pressures eased.",
+      "why": "This week's inflation figure drives rate expectations.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/colorado-marijuana-enforcement-division-sima-sciences-midnight-drops",
+      "title": "Regulators Knew This Marijuana Product Was Harming People. It Stayed on Shelves for More Than a Year.",
+      "source": "ProPublica",
+      "summary": "Colorado's marijuana regulator took about seven months on average to warn the public after complaints, and a sleep aid linked to liver damage stayed on sale for over a year.",
+      "why": "Product-safety and regulation risk in a fast-growing consumer category.",
+      "minutes": 17,
+      "image": "https://www.propublica.org/wp-content/uploads/2026/08/social04xx26-dg-news-Chatting-6-1-1_maxHeight_3000_maxWidth_3000.jpg?resize=2000,1050",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/autos/americas-ev-downturn-hides-a-silver-lining-charging-is-quietly-getting-better-8e44ef4d",
+      "title": "America’s EV Downturn Hides a Silver Lining: Charging Is Quietly Getting Better",
+      "source": "Wall Street Journal",
+      "summary": "Public EV chargers keep going in at a steady clip even as the industry struggles to turn a profit.",
+      "why": "Charging economics matter for the EV and energy sectors.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://images.wsj.net/im-79178797"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/publix-sales-growth-grocery-traditional-supermarkets/831920/",
+      "title": "Has Publix lost its magic?",
+      "source": "Grocery Dive",
+      "summary": "Publix comparable sales fell 0.5% and net sales rose just 1%, raising the question of whether traditional supermarkets are losing share to Costco and others.",
+      "why": "Pressure on a best-in-class multi-unit operator, and who is taking share.",
+      "minutes": 5,
+      "image": "https://imgproxy.divecdn.com/RF51GI6JLt7f9E1f_drOEZ1sYxFcoeK9Z-gXvnWOUEU/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9wdWJsaXgtY2hhcmxvdHRlLW5vcnRoLWNhcm9saW5hLmpwZw==.webp",
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/jefferies-says-it-found-fraud-in-900-million-of-radiant-deals",
+      "title": "Jefferies Says Found Fraud in $900 Million of Radiant Deals",
+      "source": "Bloomberg",
+      "summary": "A Jefferies-run fund told a court it has evidence of alleged fraud by iron ore traders Radiant World and Sapphire Minmetals.",
+      "why": "Fraud risk in trade finance, a corner of private credit.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/the-u-s-armys-desert-tech-test-shows-long-road-to-ai-warfare-2fc2ba1e",
+      "title": "The U.S. Army’s Desert Tech Test Shows Long Road to AI Warfare",
+      "source": "Wall Street Journal",
+      "summary": "A desert trial exposed equipment limits and institutional hurdles in the Army's push to modernise with AI.",
+      "why": "The real-world limits of AI adoption in defence tech.",
+      "minutes": 8,
+      "addedAt": "2026-10-11T13:02:17Z",
+      "image": "https://images.wsj.net/im-69150847"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/sweetgreen-wraps-driving-sales-genz-engagement-traffic/831517/",
+      "title": "How Sweetgreen's Gen Z focus is paying off",
+      "source": "Restaurant Dive",
+      "summary": "Sweetgreen's Gen Z marketing and new menu drops are driving traffic and sales.",
+      "why": "A fast-casual comparison for CAVA: what's working in the category.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
+    {
+      "url": "https://www.modernretail.co/marketing/shapermint-is-on-track-to-hit-10m-in-tiktok-shop-sales-by-targeting-women-ages-35-65/",
+      "title": "Shapermint is on track to hit $10M in TikTok Shop sales by targeting women ages 35-65",
+      "source": "Modern Retail",
+      "summary": "The online shapewear brand expects $10M in TikTok Shop sales by targeting older women rather than Gen Z.",
+      "why": "A challenger brand finding real revenue in a new channel.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T13:02:17Z"
+    },
     {
       "url": "https://www.wsj.com/business/retail/how-a-western-consumer-giant-is-thriving-on-chinas-social-media-shoppers-386dccc3",
       "title": "How a Western Consumer Giant Is Thriving on China's Social-Media Shoppers",
