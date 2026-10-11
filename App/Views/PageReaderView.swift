@@ -195,12 +195,17 @@ struct PageCaptureWebView: UIViewRepresentable {
             decisionHandler(allow ? .allow : .cancel)
         }
 
-        /// Links and "Sign in with Google/Apple" buttons that want a new window open in this one.
+        private let popups = WebPopups()
+
+        /// "Sign in with Apple/Google" open as real pop-ups; other new-window links open in this view.
         nonisolated func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
             MainActor.assumeIsolated {
-                if navigationAction.targetFrame == nil { _ = webView.load(navigationAction.request) }
+                popups.webView(webView, createWebViewWith: configuration, for: navigationAction, windowFeatures: windowFeatures)
             }
-            return nil
+        }
+
+        nonisolated func webViewDidClose(_ webView: WKWebView) {
+            MainActor.assumeIsolated { popups.webViewDidClose(webView) }
         }
     }
 }

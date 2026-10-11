@@ -204,11 +204,15 @@ struct SignInView: View {
 struct SignInWebView: UIViewRepresentable {
     let url: URL
 
+    func makeCoordinator() -> WebPopups { WebPopups() }
+
     func makeUIView(context: Context) -> WKWebView {
         let config = WKWebViewConfiguration()
         config.websiteDataStore = .default()
+        config.applicationNameForUserAgent = BrowserReader.safariName
         let view = WKWebView(frame: .zero, configuration: config)
         view.allowsBackForwardNavigationGestures = true
+        view.uiDelegate = context.coordinator
         view.load(URLRequest(url: url))
         return view
     }
