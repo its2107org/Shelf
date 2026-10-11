@@ -1,6 +1,370 @@
 {
-  "generatedAt": "2026-10-11T16:02:26Z",
+  "generatedAt": "2026-10-11T22:02:16Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad",
+      "title": "Amazon in Talks to Buy AI Startup Decart for Around $7 Billion",
+      "source": "Wall Street Journal",
+      "summary": "Amazon is negotiating to acquire San Francisco's Decart for about $7 billion. Decart's software makes it easier for developers to switch between different AI chips.",
+      "why": "A big AI deal with a price tag, showing hyperscalers buying into the chip layer.",
+      "minutes": 5,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://images.wsj.net/im-92736782"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/08/ai-women-jobs-data-centers",
+      "title": "Women don't like AI. They have reasons",
+      "source": "Axios",
+      "summary": "A Morgan Stanley survey of 2,000 consumers found women's net AI sentiment at -1% versus +30% for men, a gap that has widened since April. Women are also likelier to oppose a nearby data center (44% vs 36%) and win only a quarter or less of new high-paying AI jobs.",
+      "why": "A hard consumer-adoption data point: half your customers are far cooler on AI.",
+      "minutes": 4,
+      "image": "https://images.axios.com/8JUVqBld6i2TgePgs50ta-VE62o=/0x0:1920x1080/1366x768/2026/10/07/1791394426349.jpeg",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.semafor.com/article/10/08/2026/coca-cola-looks-to-sell-costa-coffee",
+      "title": "Coca-Cola looks to sell Costa Coffee",
+      "source": "Semafor",
+      "summary": "Coca-Cola is again exploring a sale of Costa, which it bought from Whitbread in 2018 for $5.1B. Costa has 2,700 UK and Ireland outlets, and an earlier sale attempt fizzled this year after a lukewarm response from private-equity bidders.",
+      "why": "A multi-unit coffee chain carve-out, with a $5.1B purchase price to measure against.",
+      "minutes": 2,
+      "image": "https://img.semafor.com/d98c1f62761c4d6557bae1c75f1b575a278ae910-6000x3968.jpg?rect=0,409,6000,3150&w=1200&h=630&q=75&auto=format",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/11/warner-bros-netflix-paramount-acquisition-timeline-wbd/",
+      "title": "What to know about the landmark Warner Bros. Discovery sale",
+      "source": "TechCrunch",
+      "summary": "Paramount's $111 billion acquisition of Warner Bros. Discovery became official Oct 6 at $31 a share after Netflix declined to match. The combined company would have almost $70 billion in annual revenue; the piece lays out the DOJ approval, state AG suit and settlement timeline.",
+      "why": "The year's biggest media deal, with a clear timeline and valuation.",
+      "minutes": 5,
+      "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-1574594892.jpg?resize=1200,800",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.wsj.com/opinion/how-the-ai-boom-ends-0d9d47e7",
+      "title": "How the AI Boom Ends",
+      "source": "Wall Street Journal",
+      "summary": "An opinion piece arguing demand for AI won't let up, but prices will start plunging by factors of 10.",
+      "why": "What falling AI prices could mean for returns on the AI trade.",
+      "minutes": 5,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://opinion-images.wsj.net/im-45041719"
+    },
+    {
+      "url": "https://news.crunchbase.com/ma/ai-startup-acquisitions-legal-healthcare-openai/",
+      "title": "Crunchbase Data Shows AI's Most Active Startups Are Becoming Serial Acquirers",
+      "source": "Crunchbase News",
+      "summary": "Venture-backed AI companies made 195 acquisitions of AI startups through Sept. 29, 14% more than all of 2025, while the number of buyers grew only 2%. OpenAI leads with 20 AI-related deals over three years, 10 of them this year.",
+      "why": "Shows who is consolidating the AI startup market and the exit paths that creates.",
+      "minutes": 5,
+      "image": "https://news.crunchbase.com/wp-content/uploads/mergers_and_acquisitions.jpg",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/elf-brands-fragrance-athleta-ceo-lululemon-crocs-bark/832592/",
+      "title": "The Weekly Closeout: E.l.f. Brands pushes into fragrance and is Athleta's C-suite shakeup an opportunity?",
+      "source": "Retail Dive",
+      "summary": "E.l.f. Brands launched E.l.f. Pop, its first fragrance and body care line, priced at $12 to $13. The roundup also covers Athleta CEO Maggie Gauger leaving for Lululemon and a Bark-Crocs partnership.",
+      "why": "A challenger beauty brand moves into a new category at a value price point.",
+      "minutes": 5,
+      "image": "https://imgproxy.divecdn.com/rOcQMB3UYfJ5vwPuoo2ZuKEzSlghsUQiVnrDVBBwxNY/g:nowe:0:529/c:7360:4158/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8yMl9hcHJpbF9yZXRhaWwtMzYuanBn.webp",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/08/waymo-locks-in-5b-loan-from-blackstone-pimco-to-fuel-robotaxi-expansion/",
+      "title": "Waymo locks in $5B loan from Blackstone, PIMCO to fuel robotaxi expansion",
+      "source": "TechCrunch",
+      "summary": "Waymo closed its first debt financing, a $5 billion loan from PIMCO, Blackstone, Sixth Street and others, after an earlier $16 billion equity raise at a $126 billion valuation. It now operates in 15 markets.",
+      "why": "Shows how the capital stack for AI-era infrastructure is shifting to private credit.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/waymo-ojai.jpg?resize=1200,675",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/airlines/air-travel-emerges-as-dangerous-front-line-in-global-conflicts-20e972c5",
+      "title": "Air Travel Emerges as Dangerous Front Line in Global Conflicts",
+      "source": "Wall Street Journal",
+      "summary": "Missile launches have led airlines to abandon a critical flight path through Saudi airspace that connected two of the world's biggest economic engines.",
+      "why": "Rerouted flights mean higher airline costs and a hit to trade and travel.",
+      "minutes": 6,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://images.wsj.net/im-18643319"
+    },
+    {
+      "url": "https://news.crunchbase.com/venture/q3-2026-europe-strong-quarter-ai-uk-germany-france/",
+      "title": "Europe Posted Its Strongest Quarter In Q3 In 4 Years, As Its Venture Ecosystem Expands Beyond The UK",
+      "source": "Crunchbase News",
+      "summary": "Europe raised $25B in Q3 2026, up 77% year over year, with AI at 75% ($18.8B). The UK led at $7.5B, ahead of Germany ($5B) and France ($4.8B).",
+      "why": "Shows where European growth capital is going and that it is mostly AI.",
+      "minutes": 4,
+      "image": "https://news.crunchbase.com/wp-content/uploads/Frontier-AI-labs-Europe.jpg",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.glossy.co/fashion/fashion-briefing-how-3-fashion-brands-crossed-100-million-in-revenue-without-outside-investment/",
+      "title": "How 3 fashion brands crossed $100 million in revenue without outside investment",
+      "source": "Glossy",
+      "summary": "Aviator Nation, SwissWatchExpo and EZContacts each passed $100M in revenue without outside investors. Founders credit tight cash management and profitability over venture-style hypergrowth.",
+      "why": "Bootstrapped $100M brands are the kind of profitable targets growth equity looks for.",
+      "minutes": 7,
+      "image": "https://www.glossy.co/wp-content/uploads/sites/4/2026/10/Screenshot-2026-10-07-at-5.40.51-PM.png?w=2318",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/amazon-prime-big-deal-days-online-spend-nears-ten-billion/832604/",
+      "title": "Online spend during Amazon's Prime Big Deal Days neared $10B in the US",
+      "source": "Retail Dive",
+      "summary": "Adobe data shows the two-day event drove $9.86 billion in US online sales, up from $9.09 billion last year, with mobile at 52%. Buy now, pay later made up 6% of orders and half of shoppers compared prices with rivals.",
+      "why": "A hard read on the US consumer heading into the holidays.",
+      "minutes": 4,
+      "image": "https://imgproxy.divecdn.com/vMyY-RyHLby3nd98Q9Tubm5GHfws65-mVYx0_sSlzuw/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xOTQ4ODA5MjUwLmpwZw==.webp",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/chatgpt-gpt5-sycophancy-delusions-9b3506bf",
+      "title": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions",
+      "source": "Wall Street Journal",
+      "summary": "Mental-health experts offered advice on how ChatGPT could ask better questions and tell crises apart from other conditions.",
+      "why": "Safety and liability around consumer chatbots is a growing risk for AI businesses.",
+      "minutes": 6,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://images.wsj.net/im-77039918"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+      "title": "Cal AI's 19-year-old founder just raised $10M for his new AI startup",
+      "source": "TechCrunch",
+      "summary": "Zach Yadegari, whose Cal AI was acquired by MyFitnessPal in March, launched Persona, a personal AI agent startup, raising $10M led by Vine Ventures. It plans a $179 wearable due in December, and its shopping recommendations include sponsored results.",
+      "why": "A consumer AI hardware bet that already plans to monetize shopping recommendations.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/Zach-Yaegari.jpg?resize=1200,800",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.glossy.co/beauty/wellness/wellness-briefing-fiber-brand-belliwellis-walmart-playbook-includes-celeb-cameos-giveaways-and-fashion-partnerships/",
+      "title": "Fiber brand BelliWelli's Walmart playbook includes celeb cameos, giveaways and fashion partnerships",
+      "source": "Glossy",
+      "summary": "BelliWelli launched an endcap program in 3,200 Walmart stores on Oct. 2 and says it runs more like a media company. The CEO says the brand keeps influencer activation spending under $20,000.",
+      "why": "A look at how a better-for-you challenger brand scales in mass retail on a small budget.",
+      "minutes": 8,
+      "image": "https://www.glossy.co/wp-content/uploads/sites/4/2026/10/Glossy-1.jpg",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/cal-maine-egg-prices-supply/832496/",
+      "title": "Cal-Maine says egg supply is rebalancing",
+      "source": "Food Dive",
+      "summary": "Cal-Maine's CEO says the layer flock has shrunk about 4 million birds from prior estimates and breeder-egg hatch is down 12% year to date, but warns this doesn't prove the market has turned. Conventional shell egg sales fell 59.5% year over year to $201.7 million.",
+      "why": "A useful read on egg pricing and a volatile food commodity.",
+      "minutes": 3,
+      "image": "https://imgproxy.divecdn.com/EsgOvQRNqxp8kIoo2ZW0-JPIS_bvwRW1iRJHnqlWtCc/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDE1MDM1NjM5X3ZXSG03dUkuanBn.webp",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.wsj.com/opinion/will-the-ftc-protect-you-from-discounts-ca88d7f8",
+      "title": "Will the FTC Protect You From Discounts?",
+      "source": "Wall Street Journal",
+      "summary": "An opinion piece on the FTC rushing to regulate personalised pricing.",
+      "why": "Personalised pricing rules could change how retailers and brands run promotions.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://opinion-images.wsj.net/im-43330825"
+    },
+    {
+      "url": "https://news.crunchbase.com/venture/ai-startup-investors-raising-bar-ipo-farid-leo/",
+      "title": "There Was Never An Easy AI Era, And Investors Are Raising The Bar",
+      "source": "Crunchbase News",
+      "summary": "A guest essay by Leo AI's CEO argues many early AI products lost customers for lack of real value and the market is now correcting. As AI IPOs bring scrutiny, he expects investors to favor customer expansion, sustainable margins and proprietary data over fast revenue growth alone.",
+      "why": "A founder's view of what AI investors will start demanding, though it is an opinion piece.",
+      "minutes": 4,
+      "image": "https://news.crunchbase.com/wp-content/uploads/Generic-ai-funding.jpg",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.beautyindependent.com/hello-sunday-decided-leave-sephora-us-two-years-after-launching/",
+      "title": "Why Hello Sunday Decided To Leave Sephora US Two Years After Launching",
+      "source": "Beauty Independent",
+      "summary": "British sunscreen brand Hello Sunday pulled out of Sephora US after burning through the roughly $2.4M it raised for expansion. It is refocusing on the UK, which is about 80% of sales.",
+      "why": "A useful reality check on the cost of US expansion for a challenger brand.",
+      "minutes": 8,
+      "image": "https://www.beautyindependent.com/wp-content/uploads/2026/10/Hello-Sunday-scaled.jpg",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.wsj.com/world/trump-declares-a-russia-ukraine-energy-ceasefire-but-moscow-hasnt-confirmed-f57414e9",
+      "title": "Trump Pushes Russia-Ukraine Energy Ceasefire as Export Deal Draws Criticism",
+      "source": "Wall Street Journal",
+      "summary": "Senators from both parties are challenging Trump's move to let Russia ship diesel to the U.S., citing a 2022 law.",
+      "why": "Diesel and energy policy feed straight into fuel costs and inflation.",
+      "minutes": 5,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://images.wsj.net/im-86393380"
+    },
+    {
+      "url": "https://www.nrn.com/fast-casual/zaxbys-presses-the-gas-on-non-traditional-locations",
+      "title": "Zaxbys presses the gas on non-traditional locations",
+      "source": "Nation's Restaurant News",
+      "summary": "Zaxbys agreed to open five locations with Areas USA in Florida Turnpike service plazas, its largest non-traditional deal so far. The chain recently passed 1,000 units and is also pursuing airports, campuses and military sites.",
+      "why": "A 1,000-unit chain finding its next leg of unit growth.",
+      "minutes": 2,
+      "image": "https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltcb1fce63aa39efd7/6ac920f901de6b2963d65012/zaxbys.jpg?disable=upscale&width=1200&height=630&fit=crop",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.wsj.com/health/wellness/blood-pressure-monitoring-rings-watches-98949dde",
+      "title": "Can Wearables Really Track Blood Pressure Without the Cuff?",
+      "source": "Wall Street Journal",
+      "summary": "Health trackers can now alert you to shifts you can't feel, though doctors warn the data might cause anxiety or false reassurance.",
+      "why": "A test of where consumer health wearables really are.",
+      "minutes": 6,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://images.wsj.net/im-36412683"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/chicken-salad-chick-northeast-expansion-plans/831945/",
+      "title": "Chicken Salad Chick targets Northeast for growth",
+      "source": "Restaurant Dive",
+      "summary": "Chicken Salad Chick has 345 units across 26 states and a pipeline of more than 300. It grew from 224 units at the start of 2023 to 326 at the end of 2025.",
+      "why": "A fast-growing franchise concept with a clear unit-growth runway.",
+      "minutes": 2,
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/08/business/economy/wto-global-trade-resilient.html",
+      "title": "A.I. Fueled More Resilient Global Growth, W.T.O. Says",
+      "source": "New York Times",
+      "summary": "The World Trade Organization said the drag on global trade from the war in the Middle East was more than offset by spending on goods related to A.I.",
+      "why": "Shows how much of global growth now rides on the AI buildout.",
+      "minutes": 5,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://static01.nyt.com/images/2026/10/08/multimedia/08dc-wto-qhtp/08dc-wto-qhtp-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://www.fooddive.com/news/ghirardelli-chocolate-packaged-cookies-snacking/832262/",
+      "title": "Ghirardelli brings 174-year-old chocolate brand to packaged cookies",
+      "source": "Food Dive",
+      "summary": "Ghirardelli's packaged cookies debut at Kroger on Oct. 11, reach Walmart on Oct. 24 and more retailers in January. They will compete with premium brands like Mondelez's Tate's in a cookie market expected to approach $19B in 2026.",
+      "why": "A heritage brand takes a swing at a premium snacking category worth about $19B.",
+      "minutes": 2,
+      "image": "https://imgproxy.divecdn.com/NWQDyO-NunapjTlCWIo__HFv5fDscXHStx_uR9XlUew/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HSElSQVJERUxMSV9DUklTUFlDT09LSUVTLmpwZw==.webp",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/business/medicare-private-health-care-costs.html",
+      "title": "Private Medicare Plans Are Raising Costs and Forcing Millions to Find New Insurance",
+      "source": "New York Times",
+      "summary": "As Medicare Advantage enrollment begins, older Americans face fewer options because insurers are pulling coverage in many areas.",
+      "why": "A big shift in health insurers' economics that hits older consumers' wallets.",
+      "minutes": 6,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://static01.nyt.com/images/2026/10/09/multimedia/09biz-medicare-crunch-zmlq/09biz-medicare-crunch-zmlq-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://www.retaildive.com/news/glp1-users-apparel-retailers-rethink-everything-returns-davids-bridal/831835/",
+      "title": "How GLP-1 users are forcing retailers to rethink everything",
+      "source": "Retail Dive",
+      "summary": "GLP-1 users are changing apparel demand: David's Bridal saw dress sizes shrink and rush alterations double, and 65% of GLP-1 users buy multiple sizes to return what does not fit. Retailers are adjusting with fit guarantees.",
+      "why": "GLP-1 effects on consumer demand matter for WeightWatchers-type theses.",
+      "minutes": 9,
+      "image": "https://imgproxy.divecdn.com/01c2pheIRCUAwV431gss3qKUhCyCB1j2GPHgZ6nBdO8/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzk3NTc0Nzg5LmpwZw==.webp",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/08/technology/ai-chatbots-urgent-care.html",
+      "title": "Clinical Trial Indicates A.I. Chatbots Could Aid Urgent Care",
+      "source": "New York Times",
+      "summary": "Nearly 100 patients discussed their symptoms with a Google bot called AMIE before seeing physicians.",
+      "why": "Early real-world evidence for AI in healthcare, one of its biggest markets.",
+      "minutes": 5,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://static01.nyt.com/images/2026/09/09/multimedia/08SCI-MEDICAL-CHATBOT/00SCI-OPENAI-DATA-flbh-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://www.retaildive.com/news/nike-turnaround-visibility-very-low-layoffs-sales-declines-q1-earnings/832015/",
+      "title": "Nike extends turnaround timeline amid more layoffs, sales declines",
+      "source": "Retail Dive",
+      "summary": "Nike's Q1 revenue fell 4% to $11.2B, with Converse down 28% and Greater China down 22%. It announced a restructuring with job cuts next year and guided to high-single-digit revenue declines for the fiscal year.",
+      "why": "A big incumbent losing share is the opening challenger brands target.",
+      "minutes": 4,
+      "image": "https://imgproxy.divecdn.com/mKbpmpZa-XNaSw8jMVuBRGVncOSks93o4fa3MqBTnac/g:nowe:0:88/c:1920:1084/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9qb3JkYW4tYnJhbmQtd29ybGQtb2YtZmxpZ2h0LXBoaWxhZGVscGhpYS10aHVtYm5haWwuanBn.webp",
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/books/new-directions-nobel-anne-carson.html",
+      "title": "Anne Carson's Publisher Has Won the Nobel Prize Twice in Two Years",
+      "source": "New York Times",
+      "summary": "Fourteen authors from the small press New Directions have won the Nobel Prize in Literature, including this year and last. How does it pack such a punch?",
+      "why": "A small independent business that punches far above its weight.",
+      "minutes": 6,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://static01.nyt.com/images/2026/10/09/multimedia/09TBR-NDP-gzpq/09TBR-NDP-gzpq-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/science/will-we-ever-understand-dementia.html",
+      "title": "Will We Ever Understand Dementia?",
+      "source": "New York Times",
+      "summary": "Since Dr. Alzheimer's day, researchers have hoped for an explanation and a cure for severe senility. The search has never been more urgent.",
+      "why": "A standout long read on one of medicine's biggest unsolved problems.",
+      "minutes": 12,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://static01.nyt.com/images/2026/10/05/multimedia/00sci-unknowns-dementia-02-kfvt/00sci-unknowns-dementia-02-kfvt-mediumSquareAt3X-v2.jpg"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-11/cfos-tighten-the-purse-strings-on-ai-wk-wrby-mtch-pics",
+      "title": "CFOs Tighten the Purse Strings on AI",
+      "source": "Bloomberg",
+      "summary": "CFOs are increasingly worried about the cost of AI tokens. Also: Warby Parker's CEO on smart glasses.",
+      "why": "Real-world AI cost pressure plus a consumer brand's take on smart glasses.",
+      "minutes": 6,
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/bond-selloff-may-mean-fewer-rate-hikes-from-global-central-banks",
+      "title": "Bond Selloff May Mean Fewer Rate Hikes From Global Central Banks",
+      "source": "Bloomberg",
+      "summary": "Bond markets are pushing up borrowing costs themselves, which may reduce how much central banks need to raise rates.",
+      "why": "The rate path matters for deal pricing and valuations.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/features/2026-10-11/france-bond-crisis-revives-ghost-of-europe-s-sovereign-debt-crisis",
+      "title": "France Bond Crisis Revives Ghost of Europe's Sovereign Debt Crisis",
+      "source": "Bloomberg",
+      "summary": "With the government unable to fix its finances, what happens before April's election could roil the whole euro zone.",
+      "why": "A euro-zone credit shock would hit European markets and companies.",
+      "minutes": 12,
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/uber-retreats-in-africa-as-cost-comes-before-comfort-and-safety",
+      "title": "Uber Retreats in Africa as Cost Comes Before Comfort and Safety",
+      "source": "Bloomberg",
+      "summary": "Uber is pulling back in Africa, where riders put price ahead of comfort and safety.",
+      "why": "A consumer-platform reality check on unit economics in emerging markets.",
+      "minutes": 7,
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/11/youth-sports-sunday-morning-church-attendance",
+      "title": "As Youth Sports Booms, Churches Compete for American Families' Sundays",
+      "source": "Axios",
+      "summary": "America's youth sports boom is rewriting Sunday mornings and pulling families away from church.",
+      "why": "Youth sports is a growing consumer category that private equity is circling.",
+      "minutes": 3,
+      "addedAt": "2026-10-11T22:02:16Z",
+      "image": "https://images.axios.com/Ngp56sS5y6QKZJ3YoUgnqHtWxcE=/0x0:1920x1080/1366x768/2026/08/28/1787932523284.jpeg"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/musk-says-terrafab-plant-will-make-chips-better-than-anyone",
+      "title": "Musk Says Terrafab Plant Will 'Make Chips Better Than Anyone'",
+      "source": "Bloomberg",
+      "summary": "Elon Musk said his companies would probably figure out how to make chips better than anyone, given their experience with custom chips.",
+      "why": "Another angle on the AI chip supply race.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T22:02:16Z"
+    },
     {
       "url": "https://www.wsj.com/finance/investing/beth-hammack-cleveland-fed-inflation-7751c731",
       "title": "When Companies Stop Driving a Hard Bargain, This Fed Official Starts Worrying",
