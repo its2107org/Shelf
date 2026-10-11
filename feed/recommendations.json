@@ -1,6 +1,212 @@
 {
-  "generatedAt": "2026-10-11T02:55:29Z",
+  "generatedAt": "2026-10-11T03:07:07Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/business/retail/how-a-western-consumer-giant-is-thriving-on-chinas-social-media-shoppers-386dccc3",
+      "title": "How a Western Consumer Giant Is Thriving on China's Social-Media Shoppers",
+      "source": "Wall Street Journal",
+      "summary": "A change in Reckitt's sales tactics has produced 12 straight quarters of double-digit sales growth in China, driven by social-media shoppers.",
+      "why": "A rare case of a Western consumer goods company winning in China through social commerce.",
+      "minutes": 8,
+      "image": "https://images.wsj.net/im-06281002",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/business/dealbook/ai-verification-tax-rework.html",
+      "title": "What's Dragging Down A.I. Efficiency? The 'Verification Tax.'",
+      "source": "New York Times",
+      "summary": "As AI automates office tasks, it is creating a new kind of human work: checking and reworking its output.",
+      "why": "Whether AI productivity gains actually reach company margins.",
+      "minutes": 5,
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/07/national-compute-grid-ai-capacity",
+      "title": "AI coalition launches effort to pool computing power, reduce supply crunch",
+      "source": "Axios",
+      "summary": "AI firms, cloud operators and investors are launching a shared network to pool AI compute, with about 760 MW connected or planned and a 2 GW target by 2030.",
+      "why": "A capacity angle on the compute crunch, with hard numbers.",
+      "minutes": 4,
+      "image": "https://images.axios.com/QZ5u7X_rAIW-JltGHxb5DD4KR9s=/0x0:8000x4500/1366x768/2026/01/09/1767983530813.jpeg",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/retail/7-eleven-inc-ceo-using-japan-playbook-for-north-america-growth-7eff93c9",
+      "title": "7-Eleven Inc. CEO Using Japan Playbook for North America Growth",
+      "source": "Wall Street Journal",
+      "summary": "7-Eleven now expects its North American listing by fiscal 2027 at the earliest, as its CEO applies the Japan playbook to growth.",
+      "why": "A huge multi-unit chain with a delayed IPO on the horizon.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-52073380",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/technology/inside-mark-zuckerbergs-decision-to-pull-the-trigger-on-metas-ai-agent.html",
+      "title": "Inside Mark Zuckerberg's Decision to Pull the Trigger on Meta's A.I. Agent",
+      "source": "New York Times",
+      "summary": "Meta held back its Muse AI agent app for months over safety concerns, then competition forced the launch.",
+      "why": "Competition is overriding caution in the race to ship AI agents.",
+      "minutes": 8,
+      "image": "https://static01.nyt.com/images/2026/10/07/multimedia/META-MUSE-1-bwvl/META-MUSE-1-bwvl-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/06/fed-ai-daly-inflation-chips",
+      "title": "Federal Reserve watches AI, tariffs, energy for inflation risk",
+      "source": "Axios",
+      "summary": "The San Francisco Fed's Mary Daly warned AI-driven chip demand could keep inflation elevated for longer.",
+      "why": "AI spending is now a factor in rates and consumer demand.",
+      "minutes": 4,
+      "image": "https://images.axios.com/39ymwX2ZYDLopXZrmViFXFxzM2s=/0x0:1920x1080/1366x768/2025/10/06/1759771287827.jpeg",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.wsj.com/articles/walmart-wants-robots-to-run-its-warehouses-reality-keeps-getting-in-the-way-d75dee8b",
+      "title": "Walmart Wants Robots to Run Its Warehouses. Reality Keeps Getting in the Way.",
+      "source": "Wall Street Journal",
+      "summary": "Walmart is running into practical problems automating its warehouses with robots.",
+      "why": "The real-world limits of automation savings at the biggest US retailer.",
+      "minutes": 6,
+      "image": "https://images.wsj.net/im-50853314",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/business/stock-bonds-tech-energy.html",
+      "title": "The Winning Stock Funds This Time Weren't Tech. They Were Energy.",
+      "source": "New York Times",
+      "summary": "Fund returns for the quarter were poor nearly everywhere, with energy stocks the standout winners.",
+      "why": "A quick read on the quarter's market leadership shifting away from tech.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/11/business/11bizsun-strategies-illo-sub2/11bizsun-strategies-illo-sub2-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/introducing-personal-agent-protocol",
+      "title": "Introducing Personal Agent Protocol",
+      "source": "Sierra",
+      "summary": "Meta and Sierra, with partners including Shopify and Stripe, are developing an open standard for how consumer AI agents deal with businesses.",
+      "why": "Plumbing for AI shopping agents, directly relevant to how consumer brands get bought.",
+      "minutes": 5,
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/ai-computing-power-demand-a63da9b9",
+      "title": "The Desperate Hunt for AI Computing Power Is Upending Silicon Valley",
+      "source": "Wall Street Journal",
+      "summary": "Bitter rivals are forming alliances and executives are personally stepping in as companies scramble for AI computing power.",
+      "why": "Compute scarcity is reshaping AI partnerships and economics.",
+      "minutes": 8,
+      "image": "https://images.wsj.net/im-67929481",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/08/business/mortgage-rates-housing-prices.html",
+      "title": "Highest Mortgage Rates in 3 Years Chills the Housing Market",
+      "source": "New York Times",
+      "summary": "The average 30-year fixed mortgage rate rose to 7.4 percent, squeezing would-be home buyers.",
+      "why": "Rising rates weigh on housing and consumer spending.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/08/multimedia/08biz-mortgage-rates1-ftjw/08biz-mortgage-rates1-ftjw-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.modernretail.co/marketing/why-chatgpt-ads-wont-likely-impact-holiday-sales-in-a-major-way-this-year/",
+      "title": "Why ChatGPT ads won't likely impact holiday sales in a major way this year",
+      "source": "Modern Retail",
+      "summary": "Brands are wary of ChatGPT ads this holiday season, with cost per click estimated at about six times Google's.",
+      "why": "Early hard data on whether AI chat ads work for consumer brands.",
+      "minutes": 5,
+      "image": "https://www.modernretail.co/wp-content/uploads/sites/5/2026/04/openai-ads-manager-digiday.webp",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/investing/nvidias-subtle-change-to-how-it-counts-cash-flow-has-big-implications-for-buybacks-8fb1fc0e",
+      "title": "Nvidia's Subtle Change to How It Counts Cash Flow Has Big Implications for Buybacks",
+      "source": "Wall Street Journal",
+      "summary": "Nvidia quietly signalled a new way of weighing buybacks against investing in its AI ecosystem.",
+      "why": "How the biggest AI winner will split its cash.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-60372325",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/business/china-european-union-trade.html",
+      "title": "China and Europe Step Back From Trade War With Limits on Chinese Car Exports",
+      "source": "New York Times",
+      "summary": "The EU said the deal could roughly halve shipments of Chinese hybrid vehicles over the next four years.",
+      "why": "A material trade shift for autos and supply chains.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/09/multimedia/09Biz-China-EU-tzgq/09Biz-China-EU-tzgq-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.modernretail.co/marketing/how-amazon-fall-prime-day-went-for-sellers/",
+      "title": "How Amazon Fall Prime Day went for sellers",
+      "source": "Modern Retail",
+      "summary": "US online sales hit $9.86B over the October Prime Big Deal Days, up 8.5% year over year per Adobe, with some brands beating goals.",
+      "why": "A read on holiday demand and Amazon's health as a channel for brands.",
+      "minutes": 4,
+      "image": "https://www.modernretail.co/wp-content/uploads/sites/5/2025/07/Primeday-1-e1775152706859.jpg",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/stocks/scrapped-ipo-of-nvidia-backed-company-points-to-limits-of-ai-boom-a8d57067",
+      "title": "Scrapped IPO of Nvidia-Backed Company Points to Limits of AI Boom",
+      "source": "Wall Street Journal",
+      "summary": "Australian cloud firm Firmus Grid sought a $30 billion valuation with only two working data centres, then scrapped its IPO.",
+      "why": "Where public investors are pushing back on AI infrastructure valuations.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-38308239",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/business/elon-musk-delta-starlink-wifi.html",
+      "title": "Airlines Are Upgrading Wi-Fi. Not All Are Using Elon Musk's Service.",
+      "source": "New York Times",
+      "summary": "Musk has attacked Delta's chief for not choosing Starlink as airlines upgrade in-flight Wi-Fi.",
+      "why": "A big consumer-service contract fight.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/09/multimedia/09biz-airplane-wifi-jbqv/09biz-airplane-wifi-jbqv-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/mcdonalds-faces-pushback-next-initiatives/832430/",
+      "title": "McDonald's navigates pushback over Next initiatives",
+      "source": "Restaurant Dive",
+      "summary": "Franchisees are balking at roughly $800,000 per store for remodels, and a lawsuit alleges McDonald's AI-backed pricing tool breaks antitrust law.",
+      "why": "Franchisee economics and AI pricing risk at the biggest chain, with real numbers.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/the-sleepy-insurance-product-that-came-to-power-private-credits-ascent-e9586fa3",
+      "title": "The Sleepy Insurance Product That Came to Power Private Credit's Ascent",
+      "source": "Wall Street Journal",
+      "summary": "Indexed annuities, which promise no market losses, have become a major funding source for private credit.",
+      "why": "The insurance money behind private credit, which matters for buyout financing.",
+      "minutes": 10,
+      "image": "https://images.wsj.net/im-30823776",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/nyregion/target-parking-lot-ice.html",
+      "title": "Target Says It's Not Working With ICE Amid Uproar Over Parking Lot Use",
+      "source": "New York Times",
+      "summary": "Target came under attack over immigration officers using its parking lot and says it is not working with ICE.",
+      "why": "A brand-risk moment for a major US retailer.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/09/multimedia/09newyork-shooting-ice-target-hkcb/09newyork-shooting-ice-target-hkcb-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/papa-murphys-cobranding-pinkberry-mtygroup/832527/",
+      "title": "Papa Murphy's to open co-branded Pinkberry restaurants",
+      "source": "Restaurant Dive",
+      "summary": "Papa Murphy's will co-brand with sister brand Pinkberry as its unit count keeps shrinking.",
+      "why": "A franchisor trying co-branding to stop unit decline.",
+      "minutes": 3,
+      "addedAt": "2026-10-11T03:07:07Z"
+    },
     {
       "url": "https://x.com/satyanadella/status/2108931348857827686",
       "title": "Models as insider risks in the superintelligence era",
