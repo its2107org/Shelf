@@ -1,6 +1,200 @@
 {
-  "generatedAt": "2026-10-10T21:41:24Z",
+  "generatedAt": "2026-10-11T02:55:29Z",
   "items": [
+    {
+      "url": "https://x.com/satyanadella/status/2108931348857827686",
+      "title": "Models as insider risks in the superintelligence era",
+      "source": "X · Satya Nadella",
+      "summary": "Nadella argues companies should treat frontier AI models like powerful insiders: controls and tamper-proof logs kept outside the model, a mix of models, containment, and an authorised 'emergency brake' to halt a model mid-task.",
+      "why": "The Microsoft CEO's piece from today on a live question for anyone deploying AI agents inside companies.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2023/11/satya-nadella-2_web.png?w=1000",
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-09/treasuries-slide-on-inflation-worry-as-energy-costs-stay-high",
+      "title": "Treasuries Fall as Inflation Concerns Grow With Elevated Energy Prices",
+      "source": "Bloomberg",
+      "summary": "Treasuries sold off again as high energy prices revived inflation worries, extending a bond rout that has pushed long-term yields to multi-decade highs.",
+      "why": "The bond selloff is the main macro story for valuations and deal financing.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-09/openai-expects-70-billion-in-annualized-revenue-by-end-of-2026",
+      "title": "OpenAI Expects $70 Billion in Annualized Revenue by End of 2026",
+      "source": "Bloomberg",
+      "summary": "OpenAI projects about $70 billion of annualised revenue by year-end, after this week's reports that today's figure is nearer $50 billion.",
+      "why": "Revenue run-rate is the key test of whether AI spending and valuations hold up.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/anthropic-shares-new-ai-misbehavior-some-on-government-sites",
+      "title": "Anthropic Discloses Unintended AI Actions, Prompts White House Warning",
+      "source": "Bloomberg",
+      "summary": "Anthropic disclosed new cases of its AI taking unintended actions, some on government websites, drawing a White House warning.",
+      "why": "Regulatory risk for the AI trade, just as Anthropic heads to IPO.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+      "source": "CNBC",
+      "summary": "AI infrastructure stocks fell after the report that OpenAI's annualised revenue is far below earlier estimates.",
+      "why": "The market fallout from the OpenAI revenue story you liked.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "source": "TechCrunch",
+      "summary": "TypeSafe AI raised $870M at a $7.5B valuation led by Andreessen Horowitz, weeks after launching its Jev model, and claims a third of the Fortune 500 already use it.",
+      "why": "A fresh mega-round with real numbers, and a bet against the chatbot-style approach.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/typesafe-ai.jpg?resize=1174,1200",
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+      "title": "a16z's Olivia Moore on the state of consumer AI",
+      "source": "TechCrunch",
+      "summary": "Only 2.2% of US households pay for AI, Moore says, and consumer AI will need ads as well as subscriptions; some AI apps went majority-enterprise within 18 months.",
+      "why": "A consumer investor's view of how AI makes money, with concrete numbers.",
+      "minutes": 6,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Olivia-Moore-Headshot-2026.jpg?w=896",
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/uber-eats-acquires-ezcater-2-billion/832219/",
+      "title": "Uber Eats to buy ezCater for $2.3B",
+      "source": "Restaurant Dive",
+      "summary": "Uber Eats agreed to acquire corporate catering platform ezCater for about $2.3 billion, pushing into the B2B catering market.",
+      "why": "Large restaurant-adjacent M&A with a hard price tag.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/hormel-expands-deeper-protein-purchase-chicken-brakebush-brothers/831750/",
+      "title": "Hormel expands deeper into protein with $1B purchase of chicken processor",
+      "source": "Food Dive",
+      "summary": "Hormel is paying $1 billion for chicken processor Brakebush Brothers, doubling down on protein.",
+      "why": "Big food deal with a $1B price and clear portfolio logic.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/anta-sports-closes-deal-largest-puma-shareholder/832362/",
+      "title": "Anta Sports officially becomes largest Puma shareholder",
+      "source": "Retail Dive",
+      "summary": "Anta Sports closed its deal to become Puma's largest shareholder, a major shift in global sportswear ownership.",
+      "why": "Strategic stake in a struggling global brand, with read-through to sportswear valuations.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/mattel-investor-pushes-potential-sale/832228/",
+      "title": "Another Mattel investor pushes for potential sale",
+      "source": "Retail Dive",
+      "summary": "A second Mattel shareholder is urging the toymaker to explore a sale, adding to activist pressure.",
+      "why": "A possible sale of a big consumer brand portfolio.",
+      "minutes": 3,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/conagra-shrinks-portfolio-invest-more-popcorn-meat-sticks/831814/",
+      "title": "Conagra slims down portfolio while investing more in popcorn, meat sticks",
+      "source": "Food Dive",
+      "summary": "Conagra is pruning its portfolio and leaning into growth categories like popcorn and meat sticks.",
+      "why": "Shows which snack categories incumbents back, and which brands may be sold.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/PepsiCo-snacking-north-america-inflation-beverages/832484/",
+      "title": "PepsiCo plans cost cuts as North American struggles persist",
+      "source": "Food Dive",
+      "summary": "PepsiCo is planning cost cuts as its North American snack and beverage business keeps struggling.",
+      "why": "Big-CPG weakness opens room for challenger brands.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+      "title": "Coca-Cola steps into better-for-you soda market with prebiotics",
+      "source": "Food Dive",
+      "summary": "Coca-Cola is launching a prebiotic soda, entering the category Poppi and Olipop built.",
+      "why": "Incumbent response to challenger drinks, relevant to Olipop-style valuations.",
+      "minutes": 3,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/permira-s-ruder-says-ai-mega-ipos-crowding-out-some-private-equity-exits",
+      "title": "Permira's Ruder Says AI Mega-IPOs Crowding Out Some Private Equity Exits",
+      "source": "Bloomberg",
+      "summary": "Permira's chief says giant AI IPOs are soaking up investor demand and crowding out some private equity exits.",
+      "why": "Direct read-through for exit timing and the IPO window.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://news.crunchbase.com/venture/q3-2026-north-america-startup-funding-falls-ai-exits-data/",
+      "title": "North America's Startup Funding Falls In Q3 As AI Giants Eye The Public Markets",
+      "source": "Crunchbase News",
+      "summary": "North American startup funding fell in Q3 as large AI companies look toward public markets.",
+      "why": "Hard quarterly numbers on the venture cycle and exits.",
+      "minutes": 5,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://news.crunchbase.com/venture/q3-2026-active-investors-kept-deal-pace-a16z-insight-sequoia/",
+      "title": "Active Investors Kept Up The Deal Pace In Q3, Even As Funding Fell",
+      "source": "Crunchbase News",
+      "summary": "Ranks the most active venture investors in Q3, including a16z, Insight and Sequoia.",
+      "why": "Shows which funds are still deploying.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-cloud-axiom-typesafe/",
+      "title": "The Week's 10 Biggest Funding Rounds: AI And Energy Top A Busy Lineup",
+      "source": "Crunchbase News",
+      "summary": "Crunchbase's weekly roundup of the ten largest venture rounds, led by AI and energy.",
+      "why": "Fast read on where the biggest checks went this week.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/07/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-founders-elsewhere/",
+      "title": "While VCs crowd into San Francisco, Endeavor Catalyst raises $320M for founders 'elsewhere'",
+      "source": "TechCrunch",
+      "summary": "Endeavor Catalyst raised a $320M fund to back founders outside the San Francisco AI hub.",
+      "why": "Fund news with a contrarian geographic angle.",
+      "minutes": 4,
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/george-kollitides-pentagon-contracts-alvarez-marsal",
+      "title": "The Pentagon Gave $350 Million in Contracts to a Firm Closely Tied to a Senior Defense Department Official",
+      "source": "ProPublica",
+      "summary": "A former private equity executive now at the Pentagon helped steer nearly $350 million in consulting contracts, including a $281 million no-bid deal, to Alvarez & Marsal affiliates.",
+      "why": "A private-equity-to-government conflict story with hard dollar figures.",
+      "minutes": 14,
+      "image": "https://www.propublica.org/wp-content/uploads/2026/10/AP804675089806-SOCIAL_maxHeight_3000_maxWidth_3000_e469c0.jpg?w=1200",
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/draftkings-sports-gambling-problem-vip-fanduel",
+      "title": "I Deliberately Bet Like a Problem Gambler. DraftKings Made Me a VIP.",
+      "source": "ProPublica",
+      "summary": "A reporter bet like a compulsive gambler on DraftKings for 10 weeks, lost about $10,700 and was invited into the VIP programme.",
+      "why": "An inside look at the sports-betting business model and the regulatory risk behind it.",
+      "minutes": 40,
+      "image": "https://www.propublica.org/wp-content/uploads/2026/09/Propublica_Sportsbetting_story1_SN_260917_Layered-social_preview_maxWidth_3000_maxHeight_3000_ppi_72_embedColorProfile_true_quality_95.jpg?resize=2000,1050",
+      "addedAt": "2026-10-11T02:55:29Z"
+    },
     {
       "url": "https://www.axios.com/2026/10/08/chipotle-starbucks-stock-brian-niccol",
       "title": "Chipotle shares jump on report of Starbucks takeover interest",
@@ -8,7 +202,8 @@
       "summary": "Chipotle shares rose about 7% after the FT reported Starbucks has discussed a possible takeover with advisers in recent months. Analysts called a deal a low-probability outcome, and Starbucks declined to comment.",
       "why": "A possible mega-deal for a CAVA-style fast-casual leader would reset multiples for scaled restaurant chains.",
       "minutes": 3,
-      "image": "https://images.axios.com/13lv7GroaUmcpji5Lv8pKBpeJOk=/0x171:4000x2421/1366x768/2026/10/08/1791472240585.jpeg"
+      "image": "https://images.axios.com/13lv7GroaUmcpji5Lv8pKBpeJOk=/0x171:4000x2421/1366x768/2026/10/08/1791472240585.jpeg",
+      "addedAt": "2026-10-10T21:41:24Z"
     },
     {
       "url": "https://www.fooddive.com/news/constellation-brands-buys-spikedade-75-million/832374/",
@@ -17,7 +212,8 @@
       "summary": "Constellation Brands agreed to buy vodka-based sports drink SpikedAde for $75 million, with up to $278 million more tied to performance over five years. It is Constellation's second ready-to-drink acquisition after Austin Cocktails in 2022.",
       "why": "A clean read on what strategics will pay, and how much they defer, for a challenger drinks brand.",
       "minutes": 3,
-      "image": "https://imgproxy.divecdn.com/73JWK66qRp0Sy7QeZMiWrkGcLmXEtEpzXhDK9BM7CW4/g:nowe:0:232/c:699:395/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TcGlrZWRBZGVfQmF0Y2hfMTIyNV9TcGlrZWRBZGVfTWluaV9CYXRjaF9LQV9Hcm91cF9zaG90XzJfVjAzLmpwZw==.webp"
+      "image": "https://imgproxy.divecdn.com/73JWK66qRp0Sy7QeZMiWrkGcLmXEtEpzXhDK9BM7CW4/g:nowe:0:232/c:699:395/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TcGlrZWRBZGVfQmF0Y2hfMTIyNV9TcGlrZWRBZGVfTWluaV9CYXRjaF9LQV9Hcm91cF9zaG90XzJfVjAzLmpwZw==.webp",
+      "addedAt": "2026-10-10T21:41:24Z"
     },
     {
       "url": "https://www.axios.com/2026/10/08/openai-50-billion-arr-anthropic-revenue-accounting",
@@ -26,7 +222,8 @@
       "summary": "OpenAI's annualized revenue is about $50 billion, not the $70 billion reported in September. The gap comes from how OpenAI and Anthropic account for sales through cloud partners, with Anthropic booking the full customer payment as revenue.",
       "why": "Shows how soft AI lab revenue numbers are, which matters when valuing anything in the AI ecosystem.",
       "minutes": 3,
-      "image": "https://images.axios.com/XuaHUGCJ65Ave9-T7T5I9G5ZL4g=/0x0:1920x1080/1366x768/2026/10/08/1791489981433.jpg"
+      "image": "https://images.axios.com/XuaHUGCJ65Ave9-T7T5I9G5ZL4g=/0x0:1920x1080/1366x768/2026/10/08/1791489981433.jpg",
+      "addedAt": "2026-10-10T21:41:24Z"
     },
     {
       "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
@@ -34,7 +231,8 @@
       "source": "Stratechery",
       "summary": "Ben Thompson argues Apple is taking a more effective approach to the home by working closely with partners, then asks what Amazon should do about AI agents. Paywalled.",
       "why": "Sharp strategic thinking on how AI agents could reshape consumer commerce and retail platforms.",
-      "minutes": 8
+      "minutes": 8,
+      "addedAt": "2026-10-10T21:41:24Z"
     },
     {
       "url": "https://www.restaurantdive.com/news/true-food-kitchen-files-chapter-11-bankruptcy/832161/",
@@ -43,7 +241,8 @@
       "summary": "The wellness-focused chain filed for Chapter 11 on October 4, closed 12 restaurants, and keeps 34 open. It plans a court-supervised sale to a long-term partner, backed by $20 million in debtor-in-possession financing.",
       "why": "A cautionary tale for multi-unit wellness concepts, and a possible distressed entry point.",
       "minutes": 3,
-      "image": "https://imgproxy.divecdn.com/nJuyZOzlfd0p1FL1u9LIv7udX4bvlkxpSWPdcVARDXo/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9UcnVlRm9vZEtpdGNoZW5fQmlsdG1vcmVGYXNoaW9uUGFyay5qcGc=.webp"
+      "image": "https://imgproxy.divecdn.com/nJuyZOzlfd0p1FL1u9LIv7udX4bvlkxpSWPdcVARDXo/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9UcnVlRm9vZEtpdGNoZW5fQmlsdG1vcmVGYXNoaW9uUGFyay5qcGc=.webp",
+      "addedAt": "2026-10-10T21:41:24Z"
     },
     {
       "url": "https://colossus.com/article/mark-zuckerberg-profile/",
@@ -52,7 +251,8 @@
       "summary": "Jeremy Stern's long profile of Mark Zuckerberg frames Meta as a nonterritorial empire and examines his paranoia, his drive to build, and his failed and renewed bets on mobile, VR and AI. It also revisits his public image, from Cambridge Analytica to his family life.",
       "why": "A deep read on how the founder behind a major AI spender thinks about power and capital.",
       "minutes": 66,
-      "image": "https://colossus.com/wp-content/uploads/2026/09/Mark-Preview-Card.jpg"
+      "image": "https://colossus.com/wp-content/uploads/2026/09/Mark-Preview-Card.jpg",
+      "addedAt": "2026-10-10T21:41:24Z"
     },
     {
       "url": "https://colossus.com/article/david-velez-nubank/",
@@ -61,7 +261,8 @@
       "summary": "Gabi Marques profiles Nubank founder David Velez, from his Colombian childhood and early days at Sequoia to building one of Latin America's largest financial institutions. It covers Nubank's current push into the United States.",
       "why": "A founder-and-investor story with lessons on scaling a challenger consumer brand across markets.",
       "minutes": 32,
-      "image": "https://colossus.com/wp-content/uploads/2026/09/Velez-preview-card.png"
+      "image": "https://colossus.com/wp-content/uploads/2026/09/Velez-preview-card.png",
+      "addedAt": "2026-10-10T21:41:24Z"
     }
   ]
 }
