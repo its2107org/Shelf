@@ -1,6 +1,394 @@
 {
-  "generatedAt": "2026-10-11T22:02:16Z",
+  "generatedAt": "2026-10-12T01:01:53Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/articles/the-ai-computing-crunch-is-making-rivals-into-partners-09431721",
+      "title": "The AI Computing Crunch Is Making Rivals Into Partners",
+      "source": "Wall Street Journal",
+      "summary": "A shortage of AI computing power is pushing competing tech companies into partnerships with each other.",
+      "why": "Compute scarcity is reshaping alliances and capital flows across AI.",
+      "minutes": 6,
+      "addedAt": "2026-10-12T01:01:53Z",
+      "image": "https://images.wsj.net/im-57845315"
+    },
+    {
+      "url": "https://news.crunchbase.com/public/oura-pauses-ipo-anthropics-ai-openai/",
+      "title": "Oura Hits Pause On IPO While Anthropic's Prospectus Reveals The Cost Of Its AI Ambitions",
+      "source": "Crunchbase News",
+      "summary": "Oura postponed an IPO that could have raised up to $2.2B, citing market uncertainty. A leaked Anthropic prospectus shows about $4.6B of 2025 revenue, an $8.06B operating loss and $518B of future cloud and infrastructure commitments.",
+      "why": "Real numbers on what frontier-lab economics look like, plus a consumer-brand IPO stalling (Sep 28, long read window).",
+      "minutes": 5,
+      "image": "https://news.crunchbase.com/wp-content/uploads/IPO-race.jpg",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-07/canada-s-westons-to-buy-uk-pharmacy-chain-boots-for-8-9-billion",
+      "title": "Canada's Westons to Buy UK Pharmacy Chain Boots for $8.9 Billion",
+      "source": "Bloomberg",
+      "summary": "Sycamore Partners is selling the Boots pharmacy and beauty chain to part of Canada's Weston family for about $8.9 billion including debt, as it breaks up Walgreens Boots Alliance. Walgreens originally paid roughly $22 billion for Boots, and Sycamore took Walgreens private last year in a $24 billion deal.",
+      "why": "A big multi-unit health and beauty retail carve-out with a price, and a useful mark on what retail chains fetch.",
+      "minutes": 4,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/thredup-ceo-ai-costs/831921/",
+      "title": "ThredUp CEO on AI costs: 'I was both surprised and didn't care'",
+      "source": "Retail Dive",
+      "summary": "ThredUp's CEO talks about how much AI now costs the resale platform and why he is spending it anyway.",
+      "why": "A real-world look at AI economics inside a consumer marketplace.",
+      "minutes": 5,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.wsj.com/us-news/yosemite-kingsbarn-realty-capital-08ea0831",
+      "title": "One Acre of Yosemite Sparks Fight Over National Parks",
+      "summary": "A developer wants to build a short road through park land to reach a planned resort. Opponents say it would set a damaging precedent for national parks.",
+      "why": "A real-estate development and land-use precedent story with money at stake.",
+      "source": "Wall Street Journal",
+      "minutes": 8,
+      "addedAt": "2026-10-12T01:01:53Z",
+      "image": "https://images.wsj.net/im-26418340"
+    },
+    {
+      "url": "https://news.crunchbase.com/layoffs/2026-layoff-numbers-rise-ai-shift-orcl-meta-amzn/",
+      "title": "Tech Layoffs Outpace 2025 As Big Companies Shift Spending To AI",
+      "source": "Crunchbase News",
+      "summary": "US tech layoffs hit at least 94,046 from January to August, up 16.8% on last year, and AI was cited in 33% of layoff events. May was the peak month at 31,513 cuts.",
+      "why": "Hard data on AI's labor and capex trade-off (Sep 24).",
+      "minutes": 5,
+      "image": "https://news.crunchbase.com/wp-content/uploads/Layoff_Erase.jpg",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/h-e-b-foot-traffic-growth-outpaces-grocers-placerai/832564/",
+      "title": "H-E-B's foot traffic growth far outpaces the rest of the industry, research finds",
+      "source": "Grocery Dive",
+      "summary": "Placer.ai data shows H-E-B visits up 6% from January to August versus 0.9% for grocery overall, driven by new stores in Dallas-Fort Worth and unusually loyal shoppers. Its customers are more than twice as likely as typical grocery shoppers to visit over four times a month.",
+      "why": "Hard data on a multi-unit winner taking share from the rest of grocery.",
+      "minutes": 3,
+      "image": "https://imgproxy.divecdn.com/lJQuL-LlWFWaQG0Py7YYcQ3KPnMvst_gc2nkiXmHwNo/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTcwNTY5MTk2LmpwZw==.webp",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/amazon-retail-stores-division-layoffs/832501/",
+      "title": "Amazon retail division hit by job cuts",
+      "source": "Retail Dive",
+      "summary": "Amazon has cut jobs in its retail stores division.",
+      "why": "Shows where the biggest retailer is trimming costs.",
+      "minutes": 3,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.wsj.com/lifestyle/fitness/shoes-cushion-feet-health-8f5d83a8",
+      "title": "Does Extra Shoe Cushioning Increase Stress on Your Feet?",
+      "summary": "Max-cushion shoes are hugely popular, but some doctors worry they could pose long-term risks to feet, ankles, knees or hips.",
+      "why": "A look at a hot footwear trend and a possible health catch, relevant to running and fitness brands.",
+      "source": "Wall Street Journal",
+      "minutes": 5,
+      "addedAt": "2026-10-12T01:01:53Z",
+      "image": "https://images.wsj.net/im-59691339"
+    },
+    {
+      "url": "https://news.crunchbase.com/ma/customer-workflows-moat-ai-era-sagie/",
+      "title": "Why Customer Workflows Are Becoming The Moat In The AI Era",
+      "source": "Crunchbase News",
+      "summary": "Argues AI companies build lasting advantage by embedding in critical customer processes where switching is costly. Suggests investors and acquirers weigh integrations and workflow access over model quality.",
+      "why": "A useful diligence lens for AI startups.",
+      "minutes": 3,
+      "image": "https://news.crunchbase.com/wp-content/uploads/AI_Generating_AI.jpg",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/costco-grocers-biggest-threat-fresh-offerings-ecommerce-value-perception/831994/",
+      "title": "The Friday Checkout: Has Costco become grocery's biggest threat?",
+      "source": "Grocery Dive",
+      "summary": "Costco's US grocery share reached 8.3% at the end of June, up from 7.9% a year earlier and 7.6% in mid-2024, with mid-single-digit growth in fresh comparable sales. A YouGov poll has younger consumers rating Costco above Aldi on value despite the membership fee.",
+      "why": "Share-shift numbers on the strongest membership-driven chain in consumer.",
+      "minutes": 5,
+      "image": "https://imgproxy.divecdn.com/peT8MWCJEgbIlJKt9J4HUFdtyrHsBawV4xITnhPbRuA/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Db3N0Y29fV2hvbGVzYWxlX0NsdWIuanBn.webp",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/cava-hires-dr-squatch-marketer-as-cmo-to-build-on-growth/831824/",
+      "title": "Cava hires Dr. Squatch marketer as CMO to build on growth",
+      "source": "Restaurant Dive",
+      "summary": "Cava has hired a marketing chief from the Dr. Squatch brand to build on its fast growth.",
+      "why": "Signals how a high-growth restaurant chain plans to keep scaling.",
+      "minutes": 4,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.wsj.com/personal-finance/how-to-give-your-kids-money-for-a-house-without-things-getting-weird-47a48714",
+      "title": "How to Give Your Kids Money for a House Without Things Getting Weird",
+      "summary": "A guide to the pitfalls of helping children with a home purchase and how a good plan can avoid them.",
+      "why": "Practical wealth-transfer and housing-affordability planning.",
+      "source": "Wall Street Journal",
+      "minutes": 5,
+      "addedAt": "2026-10-12T01:01:53Z",
+      "image": "https://images.wsj.net/im-95486814"
+    },
+    {
+      "url": "https://restofworld.org/2026/china-rejects-dario-amodei-anthropic-ai-slowdown-trump-xi/",
+      "title": "Dario Amodei wants to slow AI. China isn't taking orders",
+      "source": "Rest of World",
+      "summary": "Chinese officials, state media and engineers have rejected Amodei's call to slow frontier AI, seeing it as a bid to protect the US lead. Beijing is building its own safety framework ahead of a Trump-Xi meeting on AI risk (Sep 23).",
+      "why": "AI policy and geopolitics, and why a slowdown looks unlikely.",
+      "minutes": 5,
+      "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_dario_sketch__final-1600x900.jpg",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/shoppers-worried-affording-holidays-icsc/832615/",
+      "title": "Nearly half of shoppers are worried about affording holiday gifts this year",
+      "source": "Retail Dive",
+      "summary": "ICSC projects holiday retail sales up 4.3% to 4.9% to above $1.7 trillion, yet 49% of about 1,000 surveyed shoppers worry about affording gifts. 78% still expect to spend the same or more, and just over 60% plan to use AI tools, up from 47% a year earlier.",
+      "why": "A clean read on the consumer going into the holidays, with data.",
+      "minutes": 3,
+      "image": "https://imgproxy.divecdn.com/7YQBcWsgk-MxNGXZ0lOg6ktLudXZ3fErZbWUS24UOD4/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9ub3Jkc3Ryb21fbWVuc19ob2xpZGF5X2RhcGhuZWhvd2xhbmQuanBlZw==.webp",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/donald-trump-jr-vulcan-deal-white-house",
+      "title": "The White House Intervened to Get a $620 Million Deal for a Company Tied to Donald Trump Jr.",
+      "source": "ProPublica",
+      "summary": "ProPublica reports that the White House intervened to secure a $620 million deal for Vulcan, a company tied to Donald Trump Jr.",
+      "why": "Investigative piece on a large deal.",
+      "minutes": 10,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.wsj.com/opinion/health-savings-accounts-can-curb-rising-costs-90e537ed",
+      "title": "Expanding Health Savings Accounts to Curb Healthcare Costs",
+      "summary": "The editorial argues Congress should expand health savings accounts so Americans keep more of their money and spend less on healthcare.",
+      "why": "A health-policy lever that affects consumer spending and healthcare economics.",
+      "source": "Wall Street Journal",
+      "minutes": 4,
+      "addedAt": "2026-10-12T01:01:53Z",
+      "image": "https://opinion-images.wsj.net/im-20636816"
+    },
+    {
+      "url": "https://www.semafor.com/article/10/07/2026/us-and-china-take-different-approaches-to-ai-agents",
+      "title": "US and China take different approaches to AI agents",
+      "source": "Semafor",
+      "summary": "US agents such as OpenAI's dots and Meta's Muse start as a core assistant that then works across other companies' sites. Chinese agents such as Tencent's Xiaowei run inside super-apps like WeChat, where they can order from merchants already on the platform.",
+      "why": "Shows how consumer agents and commerce may differ by market.",
+      "minutes": 2,
+      "image": "https://img.semafor.com/de6aad929d60c6d368d1fb49cc67d406da36a50b-5500x3667.jpg?rect=0,390,5500,2888&w=1200&h=630&q=75&auto=format",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/1-800-flowers-sells-personalizationmallcom-things-remembered/831762/",
+      "title": "1-800-Flowers sells Things Remembered and PersonalizationMall.com to PlanetArt",
+      "source": "Retail Dive",
+      "summary": "1-800-Flowers agreed to sell PersonalizationMall.com and Things Remembered to PlanetArt for about $45 million in cash.",
+      "why": "A small consumer carve-out with a price, and another sign of portfolio pruning.",
+      "minutes": 2,
+      "image": "https://imgproxy.divecdn.com/PNWSBbIYU8Dd5xRORUDi13tGJc5CLx6ucUFBCyvQuKA/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9wbWFsbGVsZm9udGhlc2hlbGYuanBn.webp",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.wsj.com/opinion/massachusetts-policies-increase-electric-bills-a2956d61",
+      "title": "Massachusetts Net-Zero Goals and Higher Electric Bills",
+      "summary": "The piece argues the state's aggressive net-zero targets are producing energy instability and higher prices for residents.",
+      "why": "Energy costs are a growing pressure on consumers and on the data-center and AI buildout.",
+      "source": "Wall Street Journal",
+      "minutes": 4,
+      "addedAt": "2026-10-12T01:01:53Z",
+      "image": "https://opinion-images.wsj.net/im-51797005"
+    },
+    {
+      "url": "https://www.semafor.com/article/10/07/2026/the-wests-open-source-ai-race-kicks-into-high-gear",
+      "title": "The West's open-source AI race kicks into high gear",
+      "source": "Semafor",
+      "summary": "Nvidia-backed Reflection AI and France's Mistral released new open-source models to challenge China's lead. Both still trail top Chinese and closed US models on major benchmarks, so the open question is whether buyers will trade capability for lower cost and control.",
+      "why": "Open-source model competition and what it means for pricing.",
+      "minutes": 2,
+      "image": "https://img.semafor.com/8806fe54baa93b3f14c62e76a042c115deba959b-5044x3363.jpg?rect=0,358,5044,2648&w=1200&h=630&q=75&auto=format",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/molson-coors-nonalcoholic-expanded-distrubiton-beyond-beer/831636/",
+      "title": "Molson Coors bets on nonalcoholic drinks with national expansion",
+      "source": "Food Dive",
+      "summary": "Molson Coors will take Coors 0.0, Naked Life and a nonalcoholic Leinenkugel's Summer Shandy nationwide next year. Circana data shows Coors 0.0 is the top nonalcoholic beer innovation by volume.",
+      "why": "Big beverage incumbents are moving into the nonalcoholic space where challenger brands have been growing.",
+      "minutes": 3,
+      "image": "https://imgproxy.divecdn.com/Y9JxngAsGKeH-qhpg7CKd8i5oYDuyfLuOxjHUD2C5Fg/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9OQUhFUk9fUGVyb25pLmpwZw==.webp",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.wsj.com/lifestyle/careers/the-sunday-scaries-are-realand-theyre-getting-worse-1f27c82e",
+      "title": "The Sunday Scaries Are Real and Getting Worse",
+      "summary": "As workloads mount and job security ebbs, people are struggling to tame the pre-Monday dread spiral.",
+      "why": "A read on worker anxiety and the softening job market behind it.",
+      "source": "Wall Street Journal",
+      "minutes": 5,
+      "addedAt": "2026-10-12T01:01:53Z",
+      "image": "https://images.wsj.net/im-75289976"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/",
+      "title": "At 19, Ghost founder raises $11M to build a $3,499 computer for your personal AI",
+      "source": "TechCrunch",
+      "summary": "Ghost came out of stealth with an $11M seed round led by Andreessen Horowitz. Its first product, Core, is a $3,499 computer that runs AI agents locally.",
+      "why": "A new consumer AI hardware bet backed by a16z.",
+      "minutes": 5,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Ghost-team.png?resize=1200,803",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/kfc-go-buckets-value-snacking-afternoon-daypart/832316/",
+      "title": "KFC expands into snacking with Go Buckets",
+      "source": "Restaurant Dive",
+      "summary": "KFC launched $3.49 Go Buckets, a snack cup with 16 to 18 grams of protein, to grow its afternoon daypart as part of a value push.",
+      "why": "Shows how a big chain is chasing a new daypart with a value price.",
+      "minutes": 3,
+      "image": "https://imgproxy.divecdn.com/QxQ4VQw1dnEaAR8zIG_1zdu-1P5apwGmB-wMN-BSHBY/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9LRkMtR28tQnVja2V0cy0yLmpwZw==.webp",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/opinion/children-screens-parents-health.html",
+      "title": "A Child Psychiatrist: Screens Are Not the Problem",
+      "summary": "A child psychiatrist argues that blaming screens lets Congress, insurers and health systems off the hook for children's health care failures.",
+      "why": "Health-system angle on a debate that drives kids' tech and consumer policy.",
+      "source": "New York Times",
+      "minutes": 6,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "title": "These execs think voice AI hasn't reached its ChatGPT moment yet",
+      "source": "TechCrunch",
+      "summary": "Despite billions of investment, PolyAI's CTO and Otter's CMO say voice AI still needs faster reasoning, better speech recognition and clearer disclosure that people are talking to AI.",
+      "why": "A sober read on a hot consumer AI category.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-2.42.28-PM.jpg?resize=1200,624",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.modernretail.co/operations/how-litter-robot-is-doing-tiktok-shop-without-the-deep-discounts/",
+      "title": "How Litter Robot is doing TikTok Shop without the deep discounts",
+      "source": "Modern Retail",
+      "summary": "Whisker, maker of the $699 Litter Robot, joined TikTok Shop within the past year to reach younger buyers, using product demos instead of steep discounts. It expects the sales to lift its own site and Amazon.",
+      "why": "A premium pet brand using a new channel without cutting price.",
+      "minutes": 5,
+      "image": "https://www.modernretail.co/wp-content/uploads/sites/5/2026/10/MR_1440x600_Retouched.jpg",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/science/ketamine-cornell-anesthesia.html",
+      "title": "Why Ketamine Immobilizes Some Users",
+      "summary": "Potent powders can produce a near-catatonic state, especially in people who have not tried the drug before.",
+      "why": "Substantive science on a drug at the center of a growing mental-health and psychedelics industry.",
+      "source": "New York Times",
+      "minutes": 5,
+      "addedAt": "2026-10-12T01:01:53Z",
+      "image": "https://static01.nyt.com/images/2026/10/08/multimedia/08SCI-KETAMINE-cjwm/08SCI-KETAMINE-cjwm-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+      "title": "OpenAI's math solutions aren't meeting the field's standards yet",
+      "source": "TechCrunch",
+      "summary": "OpenAI released hundreds of purported solutions to hard open math problems. Critics say it falls short of its own expert group's guidelines on human understanding, verification and Lean translation.",
+      "why": "A check on how far the lab capability claims go.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Screenshot-2026-09-11-at-1.39.30-PM.png?w=672",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.modernretail.co/operations/why-nest-new-york-is-turning-its-bestselling-holiday-candle-into-fine-fragrance/",
+      "title": "Why Nest New York is turning its bestselling Holiday candle into fine fragrance",
+      "source": "Modern Retail",
+      "summary": "Nest New York is turning its top-selling Holiday candle into a seasonal eau de parfum, as fine fragrance rises from about 40% of its new launches in 2025 to 75% in 2026. The Holiday line sells only four months a year yet drives most of the brand's annual revenue.",
+      "why": "Fragrance is pulling in brands from adjacent categories, with real mix numbers.",
+      "minutes": 4,
+      "image": "https://www.modernretail.co/wp-content/uploads/sites/5/2026/10/image001.png",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/08/opinion/surveillance-autocrats-uganda.html",
+      "title": "Uganda and the Authoritarian Future of Surveillance Tech",
+      "summary": "A crackdown in Uganda shows how new technologies, Chinese influence and America's moral retreat are making the world safer for autocrats.",
+      "why": "Shows how AI-era surveillance technology is being exported and used globally.",
+      "source": "New York Times",
+      "minutes": 8,
+      "addedAt": "2026-10-12T01:01:53Z",
+      "image": "https://static01.nyt.com/images/2026/10/08/opinion/08stack-Marcel/08stack-Marcel-mediumSquareAt3X-v2.jpg"
+    },
+    {
+      "url": "https://www.retaildive.com/news/halloween-holiday-retail-consumer-spending-2026/832125/",
+      "title": "Halloween spending creeps up this year",
+      "source": "Retail Dive",
+      "summary": "Deloitte's survey of 1,500 consumers finds households plan to spend an average of $285 on Halloween and 34% plan to spend more than last year. The NRF projects $13.5 billion in total spending, up from $13.1 billion, and one in five shoppers plan to use buy now, pay later.",
+      "why": "A quick spending data point, including the BNPL angle.",
+      "minutes": 3,
+      "image": "https://imgproxy.divecdn.com/tww8SCXJiCBtSSuJzStqwrWo_VLXbGe1P086bu16PWo/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjEtMTAtMTRfMy4xMC41OF9QTS5wbmc=.webp",
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/opinion/millennial-boomer-young-adult.html",
+      "title": "Boomers Didn't Always Have It So Easy",
+      "summary": "The author argues every generation thinks it drew the short straw, when all have faced the same challenges in different eras.",
+      "why": "A useful check on the generational affordability narrative that shapes consumer demand.",
+      "source": "New York Times",
+      "minutes": 5,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/science/mary-tsingou-menzel-dead.html",
+      "title": "Mary Tsingou Menzel, Overlooked Los Alamos Programmer, Dies",
+      "summary": "Her computer programming at Los Alamos helped set the stage for chaos theory and other fields, but she waited 50 years for proper credit.",
+      "why": "A short history-of-computing story about early simulation work.",
+      "source": "New York Times",
+      "minutes": 4,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/magazine/mirjana-spoljaric-interview.html",
+      "title": "Red Cross Chief Mirjana Spoljaric Warns About a Warring World",
+      "summary": "The head of the International Committee of the Red Cross, who visits both sides of conflicts, shares her worries about the state of the world.",
+      "why": "A big-picture read on global instability from someone who sees it first hand.",
+      "source": "New York Times",
+      "minutes": 10,
+      "addedAt": "2026-10-12T01:01:53Z",
+      "image": "https://static01.nyt.com/images/2026/10/18/magazine/18mag-interview-spoljaric-04/18mag-interview-spoljaric-04-mediumSquareAt3X.jpg"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/a-higher-rate-world-is-in-store-as-central-banks-approach-2027",
+      "title": "A Higher-Rate World Awaits as Central Banks Approach 2027",
+      "summary": "Global central banks are likely to head into 2027 with even tighter monetary-policy settings to keep inflation at bay.",
+      "why": "Higher-for-longer rates affect deal financing and valuations.",
+      "source": "Bloomberg",
+      "minutes": 5,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/features/2026-10-11/midwest-housing-affordability-worsens-with-higher-home-prices-mortgages",
+      "title": "Midwest Housing Affordability Worsens as Prices and Mortgages Rise",
+      "summary": "In a region often thought of as a refuge from the US housing squeeze, prices are rising and would-be buyers are boxed out.",
+      "why": "A consumer-health signal from the heartland housing market.",
+      "source": "Bloomberg",
+      "minutes": 7,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/xpeng-says-it-can-quickly-adapt-car-autopilot-systems-for-europe",
+      "title": "Xpeng Says It Can Quickly Adapt Autopilot Systems for Europe",
+      "summary": "Xpeng says it can adapt its driver-assistance technology to European roads using relatively small amounts of data.",
+      "why": "Shows how AI driving software is scaling across markets for Chinese automakers.",
+      "source": "Bloomberg",
+      "minutes": 4,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-11/apple-smart-home-launch-oct-13-plans-homeview-has-mid-november-release",
+      "title": "Apple Smart Home Launch Set for Oct. 13, HomeView in Mid-November",
+      "summary": "Fresh details on Apple's HomeView, HomePod mini and new Apple TV, including release dates, colors, chips and features.",
+      "why": "Previews a consumer hardware push from a bellwether company.",
+      "source": "Bloomberg",
+      "minutes": 5,
+      "addedAt": "2026-10-12T01:01:53Z"
+    },
     {
       "url": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad",
       "title": "Amazon in Talks to Buy AI Startup Decart for Around $7 Billion",
@@ -1556,36 +1944,6 @@
       "summary": "Ben Thompson argues Apple is taking a more effective approach to the home by working closely with partners, then asks what Amazon should do about AI agents. Paywalled.",
       "why": "Sharp strategic thinking on how AI agents could reshape consumer commerce and retail platforms.",
       "minutes": 8,
-      "addedAt": "2026-10-10T21:41:24Z"
-    },
-    {
-      "url": "https://www.restaurantdive.com/news/true-food-kitchen-files-chapter-11-bankruptcy/832161/",
-      "title": "True Food Kitchen files for Chapter 11 bankruptcy",
-      "source": "Restaurant Dive",
-      "summary": "The wellness-focused chain filed for Chapter 11 on October 4, closed 12 restaurants, and keeps 34 open. It plans a court-supervised sale to a long-term partner, backed by $20 million in debtor-in-possession financing.",
-      "why": "A cautionary tale for multi-unit wellness concepts, and a possible distressed entry point.",
-      "minutes": 3,
-      "image": "https://imgproxy.divecdn.com/nJuyZOzlfd0p1FL1u9LIv7udX4bvlkxpSWPdcVARDXo/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9UcnVlRm9vZEtpdGNoZW5fQmlsdG1vcmVGYXNoaW9uUGFyay5qcGc=.webp",
-      "addedAt": "2026-10-10T21:41:24Z"
-    },
-    {
-      "url": "https://colossus.com/article/mark-zuckerberg-profile/",
-      "title": "Mark: a profile of Mark Zuckerberg",
-      "source": "Colossus",
-      "summary": "Jeremy Stern's long profile of Mark Zuckerberg frames Meta as a nonterritorial empire and examines his paranoia, his drive to build, and his failed and renewed bets on mobile, VR and AI. It also revisits his public image, from Cambridge Analytica to his family life.",
-      "why": "A deep read on how the founder behind a major AI spender thinks about power and capital.",
-      "minutes": 66,
-      "image": "https://colossus.com/wp-content/uploads/2026/09/Mark-Preview-Card.jpg",
-      "addedAt": "2026-10-10T21:41:24Z"
-    },
-    {
-      "url": "https://colossus.com/article/david-velez-nubank/",
-      "title": "Coming to America: David Vélez and Nubank",
-      "source": "Colossus",
-      "summary": "Gabi Marques profiles Nubank founder David Velez, from his Colombian childhood and early days at Sequoia to building one of Latin America's largest financial institutions. It covers Nubank's current push into the United States.",
-      "why": "A founder-and-investor story with lessons on scaling a challenger consumer brand across markets.",
-      "minutes": 32,
-      "image": "https://colossus.com/wp-content/uploads/2026/09/Velez-preview-card.png",
       "addedAt": "2026-10-10T21:41:24Z"
     }
   ]
