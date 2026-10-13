@@ -1,0 +1,31 @@
+name: Evening Edition (test)
+on:
+  push:
+    branches: ["claude/project-thread-979nl5"]
+    paths: ["evening-edition/night.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install trafilatura pypdf playwright lxml
+      - run: python -m playwright install --with-deps chromium
+      - name: Build tonight's edition (Bradbury only)
+        run: python evening-edition/build.py evening-edition/night.json - edition.pdf
+      - name: Encrypt and save (the texts aren't ours to publish in a public repo)
+        run: |
+          openssl cms -encrypt -binary -aes256 -in edition.pdf -outform DER -out evening-edition/edition.pdf.cms evening-edition/sample-cert.pem
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add evening-edition/edition.pdf.cms
+          git commit -m "Evening Edition test build (encrypted)"
+          git push
