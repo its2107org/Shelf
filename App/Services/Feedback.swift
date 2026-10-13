@@ -75,6 +75,7 @@ final class Feedback: ObservableObject {
         isConnected = true
         dirty = true
         await send()
+        queueChanged()
         return true
     }
 
@@ -96,23 +97,8 @@ final class Feedback: ObservableObject {
         sending = true
         defer { sending = false }
 
-        var sha: String?
-        if let request = Self.request(Self.path, key: key),
-           let (data, response) = try? await URLSession.shared.data(for: request),
-           (response as? HTTPURLResponse)?.statusCode == 200,
-           let existing = try? JSONSerialization.jsonObject(with: data) as? [String: Any] {
-            sha = existing["sha"] as? String
-        }
-
         let payload: [String: Any] = ["updatedAt": ISO8601DateFormatter().string(from: .now), "events": events.map { $0.dictionary }, "subscribedSites": sites]
-        guard let body = try? JSONSerialization.data(withJSONObject: payload, options: [.prettyPrinted, .sortedKeys]),
-              var request = Self.request(Self.path, key: key) else { return }
-        var put: [String: Any] = ["message": "Shelf feedback", "content": body.base64EncodedString()]
-        if let sha { put["sha"] = sha }
-        request.httpMethod = "PUT"
-        request.httpBody = try? JSONSerialization.data(withJSONObject: put)
-        guard let (_, response) = try? await URLSession.shared.data(for: request) else { return }
-        let status = (response as? HTTPURLResponse)?.statusCode ?? 0
+        guard let status = await Self.upload(Self.path, payload: payload, message: "Shelf feedback", key: key) else { return }
         if (200..<300).contains(status) {
             dirty = false
             lastSent = .now
@@ -122,6 +108,76 @@ final class Feedback: ObservableObject {
             // The key was removed or ran out on GitHub's side.
             disconnect()
         }
+    }
+
+    // MARK: Reading queue
+
+    /// What Lamplight, the iPad reader, shows at bedtime: Ian's unread saves, and what he's done with.
+    private static let queuePath = "queue.json"
+    private var queueTask: Task<Void, Never>?
+    private var queueDirty = false
+    private var queueSending = false
+    /// The lists last sent this launch, so nothing is rewritten when they haven't changed.
+    private var queueSent: Data?
+
+    /// Something in the library changed: send the reading queue once things settle, so a burst of
+    /// changes makes one write.
+    func queueChanged() {
+        guard !Demo.isOn, !SelfTest.isOn else { return }
+        queueDirty = true
+        queueTask?.cancel()
+        queueTask = Task { [weak self] in
+            try? await Task.sleep(for: .seconds(3))
+            guard !Task.isCancelled, let self else { return }
+            // Once sending starts, a newer change shouldn't cut it off halfway.
+            self.queueTask = nil
+            await self.sendQueue()
+        }
+    }
+
+    private func sendQueue() async {
+        guard queueDirty, !queueSending,
+              let keyData = SharedVault.read(service: Self.vault, account: "key") else { return }
+        let key = String(decoding: keyData, as: UTF8.self)
+        let lists = Library.shared.readingQueue()
+        guard let snapshot = try? JSONSerialization.data(withJSONObject: lists, options: [.sortedKeys]) else { return }
+        queueDirty = false
+        guard snapshot != queueSent else { return }
+        queueSending = true
+        var payload = lists
+        payload["updatedAt"] = ISO8601DateFormatter().string(from: .now)
+        let status = await Self.upload(Self.queuePath, payload: payload, message: "Shelf reading queue", key: key)
+        queueSending = false
+        if let status, (200..<300).contains(status) {
+            queueSent = snapshot
+            // Changed again while this was on its way.
+            if queueDirty { queueChanged() }
+        } else {
+            // Tried again on the next change.
+            queueDirty = true
+            if status == 401 { disconnect() }
+        }
+    }
+
+    /// Replaces one file in the private project with `payload` as JSON. Returns GitHub's answer
+    /// code, or nil when the phone couldn't reach it.
+    private static func upload(_ path: String, payload: [String: Any], message: String, key: String) async -> Int? {
+        var sha: String?
+        if let request = Self.request(path, key: key),
+           let (data, response) = try? await URLSession.shared.data(for: request),
+           (response as? HTTPURLResponse)?.statusCode == 200,
+           let existing = try? JSONSerialization.jsonObject(with: data) as? [String: Any] {
+            sha = existing["sha"] as? String
+        }
+
+        guard let body = try? JSONSerialization.data(withJSONObject: payload, options: [.prettyPrinted, .sortedKeys]),
+              var request = Self.request(path, key: key) else { return nil }
+        var put: [String: Any] = ["message": message, "content": body.base64EncodedString()]
+        if let sha { put["sha"] = sha }
+        request.httpMethod = "PUT"
+        request.httpBody = try? JSONSerialization.data(withJSONObject: put)
+        guard let (_, response) = try? await URLSession.shared.data(for: request) else { return nil }
+        return (response as? HTTPURLResponse)?.statusCode ?? 0
     }
 
     private static func request(_ path: String, key: String) -> URLRequest? {

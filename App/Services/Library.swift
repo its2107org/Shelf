@@ -65,6 +65,7 @@ final class Library: ObservableObject {
     }
 
     func delete(_ article: Article) {
+        noteDone(article)
         CSSearchableIndex.default().deleteSearchableItems(withIdentifiers: [article.id.uuidString])
         context.delete(article)
         try? context.save()
@@ -91,6 +92,7 @@ final class Library: ObservableObject {
         importInbox()
         await processPending()
         await Feedback.shared.send()
+        Feedback.shared.queueChanged()
     }
 
     /// Tidies articles saved by older versions: strips page clutter and spots subscriber previews
@@ -243,6 +245,7 @@ final class Library: ObservableObject {
         SnapshotStore.write(WidgetSnapshot(unreadCount: unread.count, next: next, updatedAt: .now))
         WidgetCenter.shared.reloadAllTimelines()
         index(unread)
+        Feedback.shared.queueChanged()
     }
 
     private func index(_ articles: [Article]) {
@@ -256,6 +259,57 @@ final class Library: ObservableObject {
         CSSearchableIndex.default().indexSearchableItems(Array(items))
     }
 
+    // MARK: Reading queue for Lamplight
+
+    private static let doneKey = "queueDone"
+    private static let doneWindow: TimeInterval = 60 * 24 * 3600
+
+    /// Remembers links Ian finished with whose article is about to go (deleted, turned down, or a
+    /// read pick being tidied away), since nothing is left to look at afterwards.
+    private func noteDone(_ article: Article, at date: Date = .now) {
+        guard let url = article.urlString else { return }
+        let cutoff = Date.now.addingTimeInterval(-Self.doneWindow)
+        var done = (UserDefaults.standard.dictionary(forKey: Self.doneKey) as? [String: Date] ?? [:]).filter { $0.value > cutoff }
+        done[url] = max(done[url] ?? date, date)
+        UserDefaults.standard.set(done, forKey: Self.doneKey)
+    }
+
+    /// Ian's unread saves, newest first, and every link he read, deleted or turned down lately.
+    func readingQueue() -> [String: Any] {
+        let iso = ISO8601DateFormatter()
+        let cutoff = Date.now.addingTimeInterval(-Self.doneWindow)
+        let savedRaw = Article.Origin.saved.rawValue
+        let unreadDescriptor = FetchDescriptor<Article>(
+            predicate: #Predicate { $0.readAt == nil && $0.originRaw == savedRaw },
+            sortBy: [SortDescriptor(\.createdAt, order: .reverse)]
+        )
+        let saved = ((try? context.fetch(unreadDescriptor)) ?? []).filter { $0.urlString != nil }
+        let savedURLs = Set(saved.compactMap(\.urlString))
+
+        var done = (UserDefaults.standard.dictionary(forKey: Self.doneKey) as? [String: Date]) ?? [:]
+        let readDescriptor = FetchDescriptor<Article>(predicate: #Predicate { $0.readAt != nil })
+        for article in (try? context.fetch(readDescriptor)) ?? [] {
+            guard let url = article.urlString, let readAt = article.readAt else { continue }
+            done[url] = max(done[url] ?? readAt, readAt)
+        }
+        // Something saved again since is back on the list, not done.
+        let doneURLs = done
+            .filter { $0.value > cutoff && !savedURLs.contains($0.key) }
+            .sorted { $0.value > $1.value }
+            .map(\.key)
+
+        let items = saved.map { article -> [String: Any] in
+            [
+                "url": article.urlString ?? "",
+                "title": article.title,
+                "site": article.sourceName,
+                "savedAt": iso.string(from: article.createdAt),
+                "minutes": article.minutes.map { $0 as Any } ?? NSNull(),
+            ]
+        }
+        return ["saved": items, "done": doneURLs]
+    }
+
     // MARK: Housekeeping
 
     /// Removes old recommendations Ian never saved.
@@ -264,6 +318,7 @@ final class Library: ObservableObject {
         let cutoff = Date.now.addingTimeInterval(-21 * 24 * 3600)
         let descriptor = FetchDescriptor<Article>(predicate: #Predicate { $0.originRaw == recRaw && $0.createdAt < cutoff })
         for article in (try? context.fetch(descriptor)) ?? [] {
+            if let readAt = article.readAt { noteDone(article, at: readAt) }
             context.delete(article)
         }
         try? context.save()
