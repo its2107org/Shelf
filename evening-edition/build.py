@@ -273,10 +273,10 @@ def main():
 
     order = ["story", "poem", "essay", "paper", "ai"]
     toc = "".join(
-        f"<tr><td class='k'>{KICKERS[k]}</td><td><b>{html.escape(it[k]['title'])}</b><br><i>{html.escape(it[k]['by'])}</i></td>"
+        f"<tr data-go='{k}'><td class='k'>{KICKERS[k]}</td><td><b>{html.escape(it[k]['title'])}</b><br><i>{html.escape(it[k]['by'])}</i></td>"
         f"<td class='m'>{m[k]} min</td></tr>" for k in order)
     if full:
-        toc += ("<tr><td class='k'>Your Shelf</td><td class='sh'>" + "<br>".join(
+        toc += ("<tr data-go='shelf'><td class='k'>Your Shelf</td><td class='sh'>" + "<br>".join(
             f"<b>{html.escape(a['title'])}</b> &middot; <i>{html.escape(a['source'])}</i>" for a, b in full) +
             f"</td><td class='m'>{sum(a.get('minutes', mins(b)) for a, b in full)} min</td></tr>")
     front = (f"<div class='mast'><div class='name'>The Evening Edition</div>"
@@ -323,7 +323,16 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         pg = browser.new_page()
+        starts, rows = {}, []
         for name, doc in sections:
+            key = "paper" if name in ("paper", "paper-intro") else name
+            starts.setdefault(key, len(writer.pages))
+            if name == "front":  # where each contents row sits, to make it tappable
+                pg.emulate_media(media="print")
+                pg.set_viewport_size({"width": round((PAGE_W_MM - 20) * 96 / 25.4), "height": 2000})
+                pg.set_content(doc, wait_until="networkidle")
+                rows = pg.evaluate("""[...document.querySelectorAll('tr[data-go]')].map(r => {
+                    const b = r.getBoundingClientRect(); return [r.dataset.go, b.left, b.top, b.width, b.height]; })""")
             if name == "paper-pdf":
                 for src in PdfReader(io.BytesIO(paper_pdf)).pages:
                     w, h = float(src.mediabox.width), float(src.mediabox.height)
@@ -339,6 +348,21 @@ def main():
             for pp in PdfReader(io.BytesIO(pdf)).pages:
                 writer.add_page(pp)
         browser.close()
+    from pypdf.annotations import Link
+    from pypdf.generic import ArrayObject, Fit, NameObject
+    W, H = PAGE_W_MM * MM, PAGE_H_MM * MM
+    for go, left, top, width, height in rows:
+        if go in starts:
+            x0 = 10 * MM + left * 0.75
+            y_top = H - (11 * MM + top * 0.75)
+            lnk = Link(rect=(x0, y_top - height * 0.75, x0 + width * 0.75, y_top), target_page_index=starts[go], fit=Fit.fit())
+            added = writer.add_annotation(0, lnk)
+            added[NameObject("/Dest")] = ArrayObject([writer.pages[starts[go]].indirect_reference, NameObject("/Fit")])
+    for k in order:
+        if k in starts:
+            writer.add_outline_item(f"{KICKERS[k]}: {it[k]['title']}", starts[k])
+    if "shelf" in starts:
+        writer.add_outline_item("From your Shelf", starts["shelf"])
     writer.add_metadata({"/Title": f"Evening Edition, {datestr}", "/Author": "Claude"})
     with open(out_path, "wb") as f:
         writer.write(f)
