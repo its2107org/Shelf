@@ -1,0 +1,142 @@
+[
+  {
+    "firstText" : "MI5 is devoting more resource to countering state threats than during the Cold War, the head of the intelligence service has said.",
+    "images" : 0,
+    "ms" : 1699,
+    "ok" : true,
+    "paragraphs" : 38,
+    "site" : "BBC News",
+    "title" : "MI5 tackling more state threats than during Cold War, warns intelligence chief",
+    "url" : "https:\/\/www.bbc.co.uk\/news\/articles\/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
+    "words" : 955
+  },
+  {
+    "firstText" : "When Andy Burnham announced his first cabinet in July, few would have had Wes Streeting marked down as a likely defence secretary. Not even Wes. And no one is m",
+    "images" : 2,
+    "ms" : 1450,
+    "ok" : true,
+    "paragraphs" : 12,
+    "site" : "the Guardian",
+    "title" : "Wes Streeting’s unintelligible jargon shows how well he’s bedded in at the MoD | John Crace",
+    "url" : "https:\/\/www.theguardian.com\/politics\/2026\/oct\/13\/wes-streeting-might-be-an-unlikely-defence-secretary-but-hes-still-a-better-bet-than-penny-mordaunt",
+    "words" : 1034
+  },
+  {
+    "error" : "badResponse",
+    "ms" : 57785,
+    "ok" : false,
+    "url" : "https:\/\/www.nytimes.com\/2026\/10\/13\/world\/europe\/russia-putin-trump-diesel-ukraine.html"
+  },
+  {
+    "firstText" : "The Trump administration abruptly cut down more than 400 trees at Washington, D.C.'s historic East Potomac Golf Links last weekend. A federal judge has ordered ",
+    "images" : 1,
+    "ms" : 2287,
+    "ok" : true,
+    "paragraphs" : 32,
+    "site" : "NPR",
+    "title" : "A judge blocks the government's tree-clearing spree at a municipal D.C. golf course",
+    "url" : "https:\/\/www.npr.org\/2026\/10\/13\/nx-s1-6000055\/east-potomac-golf-course-tree-clearing-judge",
+    "words" : 1295
+  },
+  {
+    "firstText" : "Updated Jan. 27, 2025 2:23 pm ET",
+    "images" : 0,
+    "ms" : 43502,
+    "ok" : true,
+    "paragraphs" : 7,
+    "partial" : true,
+    "site" : "The Wall Street Journal",
+    "title" : "Palestinians Stream Back to Northern Gaza on Foot After Hostage-Release Breakthrough",
+    "url" : "https:\/\/www.wsj.com\/articles\/palestinians-flock-back-to-northern-gaza-on-foot-after-hostage-release-breakthrough-3f60e2db",
+    "words" : 143
+  },
+  {
+    "error" : "badResponse",
+    "ms" : 42140,
+    "ok" : false,
+    "url" : "https:\/\/www.ft.com\/content\/6fa735a2-a590-4461-b092-920ba489e7a8?syn-25a6b1a6=1"
+  },
+  {
+    "error" : "badResponse",
+    "ms" : 40532,
+    "ok" : false,
+    "url" : "https:\/\/www.economist.com\/finance-and-economics\/2026\/10\/13\/how-to-lose-money-betting-against-europe"
+  },
+  {
+    "firstText" : "Copper wavered as traders weighed investor angst around overheated spending on metal-intensive AI infrastructure against continued supply risks.",
+    "images" : 0,
+    "ms" : 35889,
+    "ok" : true,
+    "paragraphs" : 8,
+    "partial" : true,
+    "site" : "Bloomberg",
+    "title" : "Copper and Aluminum Drop as AI Selloff Saps Appetite for Risk",
+    "url" : "https:\/\/www.bloomberg.com\/news\/articles\/2026-10-13\/copper-and-aluminum-drop-as-ai-selloff-saps-appetite-for-risk",
+    "words" : 280
+  },
+  {
+    "firstText" : "Democracy Dies in Darkness",
+    "images" : 2,
+    "ms" : 48364,
+    "ok" : true,
+    "paragraphs" : 7,
+    "partial" : true,
+    "site" : "The Washington Post",
+    "title" : "Surgery on Pope Leo’s lung nodule completed ‘successfully,’ Vatican says",
+    "url" : "https:\/\/www.washingtonpost.com\/world\/2026\/10\/13\/pope-leo-enters-hospital-surgery-lung-nodule\/",
+    "words" : 89
+  },
+  {
+    "firstText" : "Black marketeers and the virtual elimination of motorised transport have been blamed for the surge in value of the pack animals",
+    "images" : 4,
+    "ms" : 1565,
+    "ok" : true,
+    "paragraphs" : 36,
+    "site" : "The Telegraph",
+    "title" : "Donkey prices in Gaza skyrocket from $1,000 to $30,000",
+    "url" : "https:\/\/www.telegraph.co.uk\/global-health\/terror-and-security\/donkey-prices-in-gaza-skyrocket-from-1000-to-30000\/",
+    "words" : 955
+  },
+  {
+    "firstText" : "U.S. President Donald Trump stands with Russian President Vladimir Putin, as they meet to negotiate for an end to the war in Ukraine, at Joint Base Elmendorf-Ri",
+    "images" : 0,
+    "ms" : 1796,
+    "ok" : true,
+    "paragraphs" : 20,
+    "site" : "CNBC",
+    "title" : "More Republicans come out against Trump's diesel deal with Putin",
+    "url" : "https:\/\/www.cnbc.com\/2026\/10\/13\/trump-russia-diesel-republicans.html",
+    "words" : 593
+  },
+  {
+    "firstText" : "just setting up my twttr",
+    "images" : 0,
+    "ms" : 836,
+    "ok" : false,
+    "paragraphs" : 1,
+    "site" : "X",
+    "title" : "just setting up my twttr",
+    "url" : "https:\/\/x.com\/jack\/status\/20",
+    "words" : 5
+  },
+  {
+    "firstText" : "July 2023",
+    "images" : 0,
+    "ms" : 993,
+    "ok" : true,
+    "paragraphs" : 263,
+    "title" : "How to Do Great Work",
+    "url" : "https:\/\/paulgraham.com\/greatwork.html",
+    "words" : 11822
+  },
+  {
+    "firstText" : "A bookcase also called a bookshelf, is a piece of furniture with horizontal shelves, often in a cabinet, used to store books or other printed materials. Bookcas",
+    "images" : 16,
+    "ms" : 1118,
+    "ok" : true,
+    "paragraphs" : 30,
+    "title" : "Bookcase - Wikipedia",
+    "url" : "https:\/\/en.wikipedia.org\/wiki\/Bookcase",
+    "words" : 2515
+  }
+]
