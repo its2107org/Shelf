@@ -4,10 +4,10 @@
   "date": "Mon 12 Oct",
   "isoDate": "2026-10-12",
   "theme": "No one is in charge",
-  "themeLine": "Prices, pencils and empires: how big systems run (or fall) without a centre. Then an AI that could spread with no off switch.",
+  "themeLine": "Systems that work without anyone running them.",
   "field": "Economics",
   "paperType": "classic of its field",
-  "learn": "Why prices work like a giant information network that no central planner could ever replace.",
+  "learn": "Prices pass on information that no single planner could ever collect.",
   "items": {
    "paper": {
     "title": "The Use of Knowledge in Society",
@@ -18,7 +18,7 @@
     "title": "AI Models May Be Capable of Self-Replicating Without Access to a Datacenter",
     "by": "Anthropic, 12 Oct 2026",
     "url": "https://www.anthropic.com/research/self-replicating-ai",
-    "note": "Small AI models may soon be able to copy themselves onto cheap gadgets like TV boxes, with no datacenter needed."
+    "note": "Small AI models may soon be able to copy themselves onto cheap devices like TV boxes."
    },
    "story": {
     "title": "How Much Land Does a Man Need?",
@@ -35,13 +35,12 @@
     "title": "I, Pencil",
     "by": "Leonard Read",
     "url": "https://fee.org/resources/i-pencil/",
-    "note": "Hayek's idea told by a pencil: no one person knows how to make one."
+    "note": "No single person knows how to make a pencil."
    }
   }
  },
  "tomorrow": {
   "date": "Tue 13 Oct",
-  "theme": "How do you know?",
-  "themeLine": "Gettier asks when a true belief counts as knowledge. Chekhov's reader, Stevens's thirteen viewpoints and Epictetus test what we can be sure of. Nadella asks whether we can trust our AI at all."
+  "theme": "How do you know?"
  }
 }

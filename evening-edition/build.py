@@ -184,7 +184,7 @@ img.lead {{ width: 100%; max-height: 62mm; object-fit: cover; filter: grayscale(
 .mast {{ text-align: center; border-bottom: 2.4pt double #000; padding-bottom: 2mm; }}
 .mast .name {{ font: 900 33pt/1 'Playfair Display', serif; letter-spacing: -.01em; }}
 .mast .line {{ font: 500 7.4pt 'Inter', sans-serif; letter-spacing: .14em; text-transform: uppercase; border-top: .6pt solid #000; margin-top: 2.5mm; padding-top: 1.6mm; display: flex; justify-content: space-between; }}
-.theme {{ text-align: center; margin: 5mm 0 1mm; }}
+.theme {{ text-align: center; margin: 7mm 0 6mm; }}
 .theme .q {{ font: 900 22pt/1.1 'Playfair Display', serif; }}
 .theme .tl {{ font-style: italic; font-size: 11pt; margin: 2.5mm 6mm 0; text-align: center; }}
 .learn {{ border: 1pt solid #000; padding: 2.5mm 4mm; margin: 4mm 0; font-size: 10.6pt; }}
@@ -213,7 +213,7 @@ def page(body):
 
 
 def piece(kind, item, body, label_right, extra_cls=""):
-    dek = f"<div class='dek'>{html.escape(item['note'])}</div>" if item.get("note") else ""
+    dek = f"<div class='dek'>{html.escape(item['note'])}</div>" if item.get("note") and kind == "From your Shelf" else ""
     return (f"<div class='kicker'><span>{KICKERS.get(kind, kind)}</span><span>{label_right}</span></div>"
             f"<h1 class='title'>{html.escape(item['title'])}</h1><div class='by'>{html.escape(item['by'])}</div>{dek}"
             f"<div class='{extra_cls}'>{body}</div><div class='end'>&#9632;</div>")
@@ -275,8 +275,7 @@ def main():
             f"</td><td class='m'>{sum(a.get('minutes', mins(b)) for a, b in full)} min</td></tr>")
     front = (f"<div class='mast'><div class='name'>The Evening Edition</div>"
              f"<div class='line'><span>{datestr}</span><span>Night {n['night']}</span><span>About {total} min</span></div></div>"
-             f"<div class='theme'><div class='q'>{html.escape(n['theme'])}</div><div class='tl'>{html.escape(n['themeLine'])}</div></div>"
-             f"<div class='learn'><b>Tonight you'll learn</b>{html.escape(n['learn'])}</div>"
+             f"<div class='theme'><div class='q'>{html.escape(n['theme'])}</div></div>"
              f"<div class='toc-h'>In this edition</div><table class='toc'>{toc}</table>")
 
     sections = [("front", page(front))]
@@ -285,11 +284,10 @@ def main():
         sections.append((k, page(piece(k, it[k], bodies[k], f"{m[k]} min read", cls))))
     paper = it["paper"]
     if not paper_pdf:
-        sections.append(("paper", page(piece("paper", {**paper, "note": "Why it matters: " + n["learn"]}, bodies["paper"], f"{n['field']} &middot; {m['paper']} min read", "drop"))))
+        sections.append(("paper", page(piece("paper", paper, bodies["paper"], f"{n['field']} &middot; {m['paper']} min read", "drop"))))
     intro = (f"<div class='kicker'><span>The Paper</span><span>{n['field']} &middot; {paper_pages} pages</span></div>"
              f"<h1 class='title'>{html.escape(paper['title'])}</h1><div class='by'>{html.escape(paper['by'])}</div>"
-             f"<div class='learn'><b>Why it matters</b>{html.escape(n['learn'])}</div>"
-             f"<div class='paper-intro'><p>The original pages follow, exactly as published. Pinch to zoom if the type is small.</p></div>")
+             f"<div class='paper-intro'><p>The original pages follow.</p></div>")
     if paper_pdf:
         sections.append(("paper-intro", page(intro)))
         sections.append(("paper-pdf", None))
