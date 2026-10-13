@@ -4,7 +4,7 @@ using the same simple upload the reMarkable web library uses.
 Usage: RM_CODE=xxxxxxxx python deliver.py link
        python deliver.py put <file.pdf>
 """
-import base64, json, os, sys, urllib.request, uuid
+import base64, json, os, sys, urllib.error, urllib.request, uuid
 
 AUTH = "https://webapp-prod.cloud.remarkable.engineering"
 HOSTS = ["https://internal.cloud.remarkable.com", "https://web.eu.tectonic.remarkable.com"]
@@ -13,8 +13,12 @@ STATE = os.path.join(os.environ.get("RUNNER_TEMP", "/tmp"), "rm.json")
 
 def post(url, body, headers):
     req = urllib.request.Request(url, data=body, headers=headers, method="POST")
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return r.status, r.read()
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return r.status, r.read()
+    except urllib.error.HTTPError as e:
+        print("HTTP", e.code, "from", url.split("?")[0], e.read()[:300])
+        raise
 
 
 def link():
