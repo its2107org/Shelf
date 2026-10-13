@@ -102,13 +102,25 @@ def extract(url, kind=None):
 
 
 def wikisource_urls(title):
+    """Wikisource pages whose title contains this title (opensearch + full search)."""
     q = urllib.parse.quote(title)
-    try:
-        res = json.loads(fetch(f"https://en.wikisource.org/w/api.php?action=opensearch&format=json&limit=5&search={q}"))
-        return res[3]
-    except Exception as e:  # noqa: BLE001
-        print("wikisource search failed", e)
-        return []
+    out = []
+    for api in (f"https://en.wikisource.org/w/api.php?action=opensearch&format=json&limit=5&namespace=0&search={q}",
+                f"https://en.wikisource.org/w/api.php?action=query&list=search&format=json&srlimit=10&srnamespace=0&srsearch={q}"):
+        try:
+            res = json.loads(fetch(api))
+            titles = res[1] if isinstance(res, list) else [r["title"] for r in res["query"]["search"]]
+        except Exception as e:  # noqa: BLE001
+            print("wikisource search failed", e)
+            continue
+        key = re.sub(r"[^a-z]", "", title.lower())[:12]
+        for t in titles:
+            if key in re.sub(r"[^a-z]", "", t.lower()):
+                u = "https://en.wikisource.org/wiki/" + urllib.parse.quote(t.replace(" ", "_"))
+                if u not in out:
+                    out.append(u)
+    print("wikisource candidates", out)
+    return out
 
 
 def extract_any(item, kind=None, min_words=300):
@@ -135,7 +147,7 @@ def extract_any(item, kind=None, min_words=300):
             try:
                 page_html = fetch(u).decode("utf-8", "replace")
                 key = re.sub(r"[^a-z]", "", item["title"].lower())[:12]
-                for href in re.findall(r'href="(/wiki/[^"#:]+(?:%3F)?[^"#]*)"', page_html):
+                for href in re.findall(r'href="(/wiki/[^"#:]+)"', page_html):
                     if key in re.sub(r"[^a-z]", "", urllib.parse.unquote(href).lower()):
                         full = "https://en.wikisource.org" + href
                         if full not in tried and full not in urls:
