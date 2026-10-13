@@ -131,6 +131,17 @@ def extract_any(item, kind=None, min_words=300):
             print("using", u, words(body), "words")
             return body
         print("too little text from", u, words(body))
+        if "wikisource.org" in u:  # disambiguation or contents page: follow links to the actual text
+            try:
+                page_html = fetch(u).decode("utf-8", "replace")
+                key = re.sub(r"[^a-z]", "", item["title"].lower())[:12]
+                for href in re.findall(r'href="(/wiki/[^"#:]+(?:%3F)?[^"#]*)"', page_html):
+                    if key in re.sub(r"[^a-z]", "", urllib.parse.unquote(href).lower()):
+                        full = "https://en.wikisource.org" + href
+                        if full not in tried and full not in urls:
+                            urls.insert(i, full)
+            except Exception as e:  # noqa: BLE001
+                print("could not follow wikisource links", e)
         if i == len(urls) and not any("wikisource" in x for x in urls):
             urls += wikisource_urls(item["title"].rstrip("?"))
     raise SystemExit(f"Could not get the text of {item['title']}")
