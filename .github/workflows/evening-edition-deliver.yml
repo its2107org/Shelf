@@ -1,0 +1,27 @@
+name: Evening Edition (deliver to reMarkable)
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: "One-time reMarkable code"
+        required: true
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Hide the code in logs
+        run: echo "::add-mask::$(jq -r '.inputs.code' "$GITHUB_EVENT_PATH")"
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Link to Ian's reMarkable account
+        run: RM_CODE="$(jq -r '.inputs.code' "$GITHUB_EVENT_PATH")" python evening-edition/deliver.py link
+      - run: pip install trafilatura pypdf playwright lxml
+      - run: python -m playwright install --with-deps chromium
+      - name: Build tonight's edition (Bradbury only)
+        run: python evening-edition/build.py evening-edition/night.json - "Evening Edition - Mon 12 Oct.pdf"
+      - name: Send to the reMarkable
+        run: python evening-edition/deliver.py put "Evening Edition - Mon 12 Oct.pdf"
