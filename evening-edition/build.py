@@ -23,9 +23,20 @@ KICKERS = {"story": "The Story", "poem": "The Poem", "essay": "The Essay", "pape
 
 
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-GB,en"})
-    with urllib.request.urlopen(req, timeout=40) as r:
-        return r.read()
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-GB,en"})
+        with urllib.request.urlopen(req, timeout=40) as r:
+            return r.read()
+    except Exception as e:  # noqa: BLE001 - some sites refuse plain downloads; load them in a real browser
+        print("browser fallback for", url, e)
+        with sync_playwright() as p:
+            b = p.chromium.launch()
+            pg = b.new_page(user_agent=UA)
+            pg.goto(url, wait_until="domcontentloaded", timeout=60000)
+            pg.wait_for_timeout(4000)
+            html_ = pg.content()
+            b.close()
+        return html_.encode()
 
 
 def words(h):
