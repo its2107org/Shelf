@@ -1,4 +1,5 @@
 import Foundation
+import Security
 
 /// What Ian likes: his thumbs on For You picks and the things he saves. Kept on the phone, and,
 /// once he connects his private GitHub project, sent there so the daily picker can learn from it.
@@ -31,7 +32,10 @@ final class Feedback: ObservableObject {
     private init() {
         let stored = UserDefaults.standard.data(forKey: "feedbackEvents")
         events = stored.flatMap { try? JSONDecoder.iso.decode([Event].self, from: $0) } ?? []
-        isConnected = SharedVault.read(service: Feedback.vault, account: "key") != nil
+        let storedKey = SharedVault.read(service: Feedback.vault, account: "key")
+        isConnected = storedKey != nil
+        // Once a launch, so Lamplight gets the key even if it was saved before sharing existed.
+        if let storedKey { Feedback.shareWithLamplight(storedKey) }
         lastSent = UserDefaults.standard.object(forKey: "feedbackSent") as? Date
     }
 
@@ -72,6 +76,7 @@ final class Feedback: ObservableObject {
         guard let (_, response) = try? await URLSession.shared.data(for: request),
               (response as? HTTPURLResponse)?.statusCode == 200 else { return false }
         _ = SharedVault.write(Data(key.utf8), service: Self.vault, account: "key")
+        Self.shareWithLamplight(Data(key.utf8))
         isConnected = true
         dirty = true
         await send()
@@ -81,7 +86,41 @@ final class Feedback: ObservableObject {
 
     func disconnect() {
         SharedVault.delete(service: Self.vault, account: "key")
+        Self.stopSharingWithLamplight()
         isConnected = false
+    }
+
+    // MARK: Sharing with Lamplight
+
+    /// A second copy of the key that iCloud Keychain carries to Ian's iPad, so Lamplight can read
+    /// the reading queue from the same private project. The phone-only copy above stays as it is.
+    private static let syncService = "shelf.feedback.sync"
+
+    private static func syncQuery() -> [String: Any] {
+        var query: [String: Any] = [
+            kSecClass as String: kSecClassGenericPassword,
+            kSecAttrService as String: syncService,
+            kSecAttrAccount as String: "key",
+            kSecAttrSynchronizable as String: true,
+            kSecUseDataProtectionKeychain as String: true
+        ]
+        if let group = SharedVault.accessGroup { query[kSecAttrAccessGroup as String] = group }
+        return query
+    }
+
+    private static func shareWithLamplight(_ key: Data) {
+        let changes: [String: Any] = [
+            kSecValueData as String: key,
+            kSecAttrAccessible as String: kSecAttrAccessibleAfterFirstUnlock
+        ]
+        let status = SecItemUpdate(syncQuery() as CFDictionary, changes as CFDictionary)
+        guard status == errSecItemNotFound else { return }
+        let item = syncQuery().merging(changes) { $1 }
+        SecItemAdd(item as CFDictionary, nil)
+    }
+
+    private static func stopSharingWithLamplight() {
+        SecItemDelete(syncQuery() as CFDictionary)
     }
 
     // MARK: Sending
