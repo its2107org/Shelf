@@ -89,7 +89,9 @@ def extract(url, kind=None):
     if not xml:
         return ""
     body = xml_to_html(xml)
-    paras = [x for x in body.split("\n") if not re.match(r"<p>(Copyright Credit|Source:|Copyright ©)", x)]
+    promo = re.compile(r"click (the|here)|bookstore|subscribe|sign up|newsletter", re.I)
+    paras = [x for x in body.split("\n") if not re.match(r"<p>(Copyright Credit|Source:|Copyright ©)", x)
+             and not (words(x) < 40 and promo.search(x))]
     if kind == "trim-teasers":  # related-post blurbs that some sites append
         for _ in range(4):
             if paras and paras[-1].startswith("<p>") and words(paras[-1]) < 40:
