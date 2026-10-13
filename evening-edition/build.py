@@ -3,7 +3,7 @@ articles, laid out as a small newspaper sized for the reMarkable 2 screen.
 
 Usage: python build.py <night.json> <feed.json> <out.pdf> [--offline]
 """
-import html, io, json, re, sys, urllib.request
+import html, io, json, re, sys, urllib.parse, urllib.request
 from datetime import date
 from pathlib import Path
 
@@ -101,6 +101,41 @@ def extract(url, kind=None):
     return body
 
 
+def wikisource_urls(title):
+    q = urllib.parse.quote(title)
+    try:
+        res = json.loads(fetch(f"https://en.wikisource.org/w/api.php?action=opensearch&format=json&limit=5&search={q}"))
+        return res[3]
+    except Exception as e:  # noqa: BLE001
+        print("wikisource search failed", e)
+        return []
+
+
+def extract_any(item, kind=None, min_words=300):
+    """Try the lineup link, then any altUrls, then Wikisource (for public-domain classics)."""
+    urls = [item["url"]] + item.get("altUrls", [])
+    tried = set()
+    i = 0
+    while i < len(urls):
+        u = urls[i]
+        i += 1
+        if u in tried:
+            continue
+        tried.add(u)
+        try:
+            body = extract(u, kind)
+        except Exception as e:  # noqa: BLE001
+            print("fetch failed", u, e)
+            body = ""
+        if words(body) >= min_words:
+            print("using", u, words(body), "words")
+            return body
+        print("too little text from", u, words(body))
+        if i == len(urls) and not any("wikisource" in x for x in urls):
+            urls += wikisource_urls(item["title"].rstrip("?"))
+    raise SystemExit(f"Could not get the text of {item['title']}")
+
+
 def mins(h):
     return max(1, round(words(h) / 230))
 
@@ -170,16 +205,16 @@ def main():
     datestr = d.strftime("%A %-d %B %Y")
 
     bodies = {}
-    bodies["story"] = extract(it["story"]["url"])
-    bodies["poem"] = extract(it["poem"]["url"])
+    bodies["story"] = extract_any(it["story"])
+    bodies["poem"] = extract_any(it["poem"], min_words=60)
     half = "first half" in it["essay"]["title"].lower()
-    bodies["essay"] = extract(it["essay"]["url"], "essay-first-half" if half else None)
-    bodies["ai"] = extract(it["ai"]["url"])
+    bodies["essay"] = extract_any(it["essay"], "essay-first-half" if half else None)
+    bodies["ai"] = extract_any(it["ai"])
     paper_url = it["paper"].get("readUrl") or it["paper"]["url"]
     paper_pdf = fetch(paper_url)
     if not paper_pdf.startswith(b"%PDF"):
         paper_pdf, paper_pages = None, 0
-        bodies["paper"] = extract(paper_url)
+        bodies["paper"] = extract_any({**it["paper"], "url": paper_url})
     else:
         paper_pages = len(PdfReader(io.BytesIO(paper_pdf)).pages)
     for k, v in bodies.items():
