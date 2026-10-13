@@ -1,13 +1,17 @@
 name: Evening Edition (deliver to reMarkable)
 on:
+  push:
+    branches: ["claude/project-thread-979nl5"]
+    paths: [".github/workflows/evening-edition-deliver.yml"]
   workflow_dispatch:
     inputs:
       code:
         description: "One-time reMarkable code"
-        required: true
+        required: false
 
 jobs:
   deliver:
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
