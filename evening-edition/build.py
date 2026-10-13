@@ -89,6 +89,12 @@ def extract(url, kind=None):
     if not xml:
         return ""
     body = xml_to_html(xml)
+    paras = [x for x in body.split("\n") if not re.match(r"<p>(Copyright Credit|Source:|Copyright ©)", x)]
+    if kind == "trim-teasers":  # related-post blurbs that some sites append
+        for _ in range(4):
+            if paras and paras[-1].startswith("<p>") and words(paras[-1]) < 40:
+                paras.pop()
+    body = "\n".join(paras)
     if kind == "essay-first-half":
         # Enchiridion: numbered sections 1..53; keep 1..26.
         keep = []
@@ -232,7 +238,7 @@ def main():
     bodies["poem"] = extract_any(it["poem"], min_words=60)
     half = "first half" in it["essay"]["title"].lower()
     bodies["essay"] = extract_any(it["essay"], "essay-first-half" if half else None)
-    bodies["ai"] = extract_any(it["ai"])
+    bodies["ai"] = extract_any(it["ai"], "trim-teasers")
     paper_url = it["paper"].get("readUrl") or it["paper"]["url"]
     paper_pdf = fetch(paper_url)
     if not paper_pdf.startswith(b"%PDF"):
