@@ -1,6 +1,345 @@
 {
-  "generatedAt": "2026-10-14T11:08:15Z",
+  "generatedAt": "2026-10-14T23:03:21Z",
   "items": [
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/anthropic-revenue-jumps-to-16-8-billion-in-quarter-before-ipo",
+      "title": "Anthropic Revenue Jumps to $16.8 Billion in Quarter Before IPO",
+      "source": "Bloomberg",
+      "summary": "Anthropic told prospective investors its third-quarter revenue hit $16.8 billion, according to people familiar, as it pushes ahead with plans to go public.",
+      "why": "Hard revenue numbers for a frontier lab ahead of its IPO.",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/stocks/ai-jitters-and-rate-hike-fears-combine-for-worst-day-for-stocks-since-july-6abd3a0f",
+      "title": "AI Jitters and Rate-Hike Fears Combine for Worst Day for Stocks Since July",
+      "source": "Wall Street Journal",
+      "summary": "A hot inflation report reset expectations for an October rate increase, then wavering confidence in the AI trade took center stage.",
+      "why": "Markets are pricing both rate hikes and AI doubts.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-24088346",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/gen-restaurant-group-sells-47-stores-chubbys-100-million/832905/",
+      "title": "Gen Restaurant Group sells 47 restaurants for $100M to Chubby Cattle Group",
+      "source": "Restaurant Dive",
+      "summary": "Gen Restaurant Group is selling 47 restaurants to Chubby Cattle Group for $100 million.",
+      "why": "A concrete multi-unit chain deal with a price tag.",
+      "minutes": 3,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/14/business/dealbook/openai-espionage.html",
+      "title": "What Allegations of Spying at OpenAI Mean for the A.I. Industry",
+      "source": "New York Times",
+      "summary": "The Times looks at what allegations of spying at OpenAI mean for the A.I. industry.",
+      "why": "Security risk inside the leading AI labs.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/14/multimedia/14db-openai-gbch/14db-openai-gbch-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/nuclear-startup-kairos-raises-643-million-for-tennessee-project",
+      "title": "Nuclear Startup Kairos Raises $643 Million for Tennessee Project",
+      "source": "Bloomberg",
+      "summary": "Nuclear startup Kairos raised $643 million for a Tennessee project.",
+      "why": "Large VC round tied to AI power demand.",
+      "minutes": 3,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/bg-foods-sale-divesitures-green-giant-serial-buyer/832939/",
+      "title": "B&G Foods sells bean brands amid push to sharpen business",
+      "source": "Food Dive",
+      "summary": "B&G Foods is selling its bean brands as it works to sharpen its portfolio.",
+      "why": "Portfolio pruning at a serial acquirer, a read on packaged-food M&A.",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/stocks/berkshire-hathaway-builds-4-stake-in-bending-spoons-a9f97f44",
+      "title": "Berkshire Hathaway Builds 4% Stake in Bending Spoons",
+      "source": "Wall Street Journal",
+      "summary": "Berkshire made a fresh $330 million investment in the Milan-based company after putting $600 million into its July IPO.",
+      "why": "Berkshire doubling down on a consumer-software roll-up.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-22708903",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/14/business/economy/inflation-cpi.html",
+      "title": "Higher Energy Prices Pushed U.S. Inflation Up to 3.7% Ahead of Midterm Elections",
+      "source": "New York Times",
+      "summary": "September's CPI report showed inflation rising to 3.7%, increasing pressure on President Trump and the Federal Reserve.",
+      "why": "The macro print driving rate-hike bets.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/14/multimedia/2026-10-14-cpi-promo-index/2026-10-14-cpi-promo-index-mediumSquareAt3X-v3.png",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/14/andreessen-horowitz-lays-off-exec-talent-team",
+      "title": "Scoop: Andreessen Horowitz lays off \"majority\" of portfolio recruiting team",
+      "source": "Axios",
+      "summary": "Andreessen Horowitz is laying off most of its portfolio recruiting team.",
+      "why": "VC platform-model shake-up.",
+      "minutes": 3,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/chip-stocks-set-to-erase-1-trillion-in-value-as-rout-deepens",
+      "title": "Chip Stocks Erase $1 Trillion in Value as Rout Deepens",
+      "source": "Bloomberg",
+      "summary": "A closely watched semiconductor gauge lost $1.6 trillion in market value over a six-day losing streak amid higher rates, stretched valuations and AI infrastructure costs.",
+      "why": "Shows how fragile the AI trade is as rates rise.",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/dominos-ceo-plans-on-getting-closer-to-the-customer/833028/",
+      "title": "Domino's new CEO plans on 'getting closer to the customer'",
+      "source": "Restaurant Dive",
+      "summary": "Domino's new CEO outlines his plans for the chain, following its third-quarter results.",
+      "why": "Strategy read from the world's largest franchised pizza system.",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/14/business/media/netflix-layoffs-ted-sarandos.html",
+      "title": "Netflix, Facing Slowing Growth, Cuts 6% of Its Work Force",
+      "source": "New York Times",
+      "summary": "Netflix is cutting about 6% of staff; its share price is down more than 40 percent over the last year amid stalling engagement.",
+      "why": "Big-cap reset for a former growth darling.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/14/multimedia/14biz-netflix-layoffs-1-lvzg/14biz-netflix-layoffs-1-lvzg-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/banking/the-ai-boom-is-supercharging-wall-streets-profits-2a2d9747",
+      "title": "The AI Boom Is Supercharging Wall Street's Profits",
+      "source": "Wall Street Journal",
+      "summary": "Investment banking revenues are up, and wealth-management divisions are winning new AI millionaires as clients.",
+      "why": "Where AI money is landing in finance.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-79415868",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.modernretail.co/operations/hint-water-bets-on-indulgent-dessert-flavors-to-recruit-new-customers/",
+      "title": "Hint water bets on indulgent dessert flavors to recruit new customers",
+      "source": "Modern Retail",
+      "summary": "Hint is launching indulgent dessert flavors to recruit new customers.",
+      "why": "A better-for-you beverage brand's growth playbook.",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/nvidia-ceo-says-he-would-cut-off-customers-who-build-unsafe-ai",
+      "title": "Nvidia CEO Says He Would Cut Off Buyers Who Build Unsafe AI",
+      "source": "Bloomberg",
+      "summary": "Jensen Huang said Nvidia would halt chip supply to a customer developing unsafe AI software, though he doesn't believe that is happening.",
+      "why": "Chip supplier as AI safety lever.",
+      "minutes": 3,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/14/technology/chinese-ai-agents-rogue.html",
+      "title": "Rogue A.I. Agents from China Chatted with Researchers",
+      "source": "New York Times",
+      "summary": "Researchers found agents trying to bypass security controls on websites and made contact with them.",
+      "why": "Early look at autonomous agents behaving unexpectedly.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/10/14/multimedia/14biz-agents-chat-tencent-zwgj/14biz-agents-chat-tencent-zwgj-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "title": "Preparing for the 2026 US midterms",
+      "source": "Anthropic",
+      "summary": "Anthropic outlines its preparations for the 2026 US midterm elections.",
+      "why": "Lab policy on elections and AI misuse.",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/openai-computing-chief-to-depart",
+      "title": "OpenAI Computing Chief to Depart",
+      "source": "Wall Street Journal",
+      "summary": "OpenAI's infrastructure unit has had a series of leadership changes as the company's pace of investment increases.",
+      "why": "Leadership churn in the unit running OpenAI's compute buildout.",
+      "minutes": 3,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/monster-energy-returns-protein-drinks/832954/",
+      "title": "Monster tries again on protein shakes",
+      "source": "Food Dive",
+      "summary": "Monster Energy is returning to the protein drink category with a new attempt at protein shakes.",
+      "why": "Big beverage incumbents chasing the protein trend that challenger brands built.",
+      "minutes": 3,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/coreweave-s-ceo-blames-rout-on-market-acting-irrationally",
+      "title": "CoreWeave Says Market Acting 'Irrationally,' Stands by Model",
+      "source": "Bloomberg",
+      "summary": "CoreWeave's CEO, facing a plunge in the company's stock and bond prices, said the market is acting irrationally.",
+      "why": "AI neocloud debt stress, directly relevant to AI economics.",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/amazon-grocery-partners-individual-storefronts-closing/832902/",
+      "title": "Amazon to close grocery partner storefronts",
+      "source": "Grocery Dive",
+      "summary": "Amazon is closing the individual storefronts of its grocery partners.",
+      "why": "Shifts in Amazon's grocery strategy affect every grocer and CPG brand.",
+      "minutes": 3,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/14/business/pierre-buyer-lutnick.html",
+      "title": "Battle Over the Pierre Ends in Defeat for the Buyer Pushed by Lutnick",
+      "source": "New York Times",
+      "summary": "The battle over the Pierre ended in defeat for the buyer pushed by Lutnick.",
+      "why": "NYC trophy real estate deal outcome.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/14/multimedia/14biz-Pierre-Deal-lthg/14biz-Pierre-Deal-lthg-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/globalfoundries-to-build-two-chip-fabs-with-up-to-21-billion-funding-e74083ac",
+      "title": "GlobalFoundries to Build Two Chip Plants With Up to $21 Billion Funding",
+      "source": "Wall Street Journal",
+      "summary": "GlobalFoundries will build two chip plants with up to $21 billion in funding.",
+      "why": "Big US chip capex.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-53419709",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/why-yum-brands-is-deepening-supplier-relationships/832881/",
+      "title": "Why Yum Brands is deepening supplier relationships",
+      "source": "Restaurant Dive",
+      "summary": "Yum Brands is deepening its relationships with suppliers across its chains.",
+      "why": "How a scaled franchisor manages costs and supply.",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-prepares-to-debut-first-ai-features-in-china-in-december",
+      "title": "Apple Prepares to Debut First AI Features in China in December",
+      "source": "Bloomberg",
+      "summary": "Apple is gearing up to release its AI platform in mainland China following a lengthy regulatory delay.",
+      "why": "Opens a huge market for Apple Intelligence.",
+      "minutes": 3,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/14/technology/meta-senators-tax-avoidance.html",
+      "title": "Senators Question Meta’s Data Center Tax Strategy",
+      "source": "New York Times",
+      "summary": "Senators are questioning Meta's data center tax strategy.",
+      "why": "Political scrutiny of AI infrastructure costs.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/14/multimedia/14biz-meta-tax-senators-thgz/14biz-meta-tax-senators-thgz-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/seventh-time-is-the-charm-apple-closes-above-5-trillion-market-capitalization-88a5a056",
+      "title": "Apple Joins Nvidia in the $5 Trillion Valuation Club",
+      "source": "Wall Street Journal",
+      "summary": "To power the iPhone maker’s next phase, Chief Executive John Ternus needs to raise its AI game.",
+      "why": "Marks a milestone for megacap valuations on a day AI stocks sold off",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-97754480",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.nrn.com/restaurant-finance/menu-price-inflation-is-up-and-wages-aren-t-keeping-pace",
+      "title": "Menu price inflation is up, and wages aren't keeping pace",
+      "source": "Nation's Restaurant News",
+      "summary": "Menu prices are rising faster while wage growth lags, according to NRN's reporting.",
+      "why": "Consumer squeeze that bears on restaurant traffic and valuations.",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/tesla-spacex-deal-news-possible-this-year-barclays-analyst-says",
+      "title": "Tesla-SpaceX Deal News Possible This Year, Barclays Analyst Says",
+      "source": "Bloomberg",
+      "summary": "A merger between Elon Musk’s Tesla Inc. and SpaceX could be announced ahead of the electric-vehicle maker’s annual general meeting, according to analysts at Barclays.",
+      "why": "A possible Tesla-SpaceX combination would be a landmark deal",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/14/business/economy/high-prices-cost-of-living-pew-research.html",
+      "title": "Rising Costs Push Necessities Out of Reach for Nearly Half of Americans",
+      "source": "New York Times",
+      "summary": "Rising costs are putting necessities out of reach for nearly half of Americans.",
+      "why": "Consumer stress affects brands and chains.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/14/business/14biz-inflation-blog-pew/14biz-inflation-blog-pew-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/cio-journal/davids-bridal-uses-ai-to-power-new-strategy-ea39efa3",
+      "title": "David’s Bridal Uses AI to Power New Strategy",
+      "source": "Wall Street Journal",
+      "summary": "WSJ CIO Journal looks at how bridal retailer David's Bridal is using AI to power its new strategy.",
+      "why": "Consumer chain using AI to reset its strategy",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-22945856",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.modernretail.co/marketing/monica-andy-expands-beyond-kids-clothing-and-into-baby-care/",
+      "title": "Monica + Andy expands beyond kids' clothing and into baby care",
+      "source": "Modern Retail",
+      "summary": "Monica + Andy is expanding from kids' clothing into baby care products.",
+      "why": "DTC brand category-extension strategy.",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/airlines/germanys-lufthansa-beats-air-france-klm-to-take-1-3-billion-stake-in-portugals-flag-carrier-3fe9ccfb",
+      "title": "Germany’s Lufthansa Beats Air France-KLM to Take $1.3 Billion Stake in Portugal’s Flag Carrier",
+      "source": "Wall Street Journal",
+      "summary": "Deutsche Lufthansa won a bid to take a 49.9% stake in Portuguese airline TAP, bringing to a close a contest between Lufthansa and Air France-KLM for the acquisition of the stake.",
+      "why": "Strategic M&A with a price tag and a competing bidder",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-31775675",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.nrn.com/casual-dining/take-a-look-at-walk-on-s-scaled-down-restaurant-prototype",
+      "title": "Take a look at Walk-On's scaled-down restaurant prototype",
+      "source": "Nation's Restaurant News",
+      "summary": "Walk-On's has unveiled a smaller restaurant prototype.",
+      "why": "Smaller boxes are a unit-economics lever for multi-unit growth.",
+      "minutes": 3,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/fairfax-financial-buying-majority-stake-in-indias-idbi-bank-faf0fe0c",
+      "title": "Fairfax Financial Buying Majority Stake in India’s IDBI Bank",
+      "source": "Wall Street Journal",
+      "summary": "Canada’s Fairfax Financial is positioning itself in India’s fast-growing financial services industry with the acquisition of a majority stake in IDBI Bank for about $5.43 billion.",
+      "why": "Prem Watsa's Fairfax making a large cross-border bank deal",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-35223500",
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
+    {
+      "url": "https://www.modernretail.co/marketing/bath-body-works-is-testing-smaller-batch-fragrances-through-hype-lab/",
+      "title": "Bath & Body Works is testing smaller-batch fragrances through Hype Lab",
+      "source": "Modern Retail",
+      "summary": "Bath & Body Works is testing smaller-batch fragrances via its Hype Lab.",
+      "why": "How a big specialty retailer is innovating on speed and drops.",
+      "minutes": 4,
+      "addedAt": "2026-10-14T23:03:21Z"
+    },
     {
       "url": "https://www.anthropic.com/claude-haiku-5-5",
       "title": "Introducing Claude Haiku 5.5",
@@ -1556,357 +1895,6 @@
       "why": "Practitioner views on AI in medicine.",
       "minutes": 4,
       "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.beautyindependent.com/balaveda-raises-nearly-1-2m-challenge-5-hour-energy-better-for-you-energy-shots/",
-      "title": "Balaveda Raises Nearly $1.2M To Challenge 5-Hour Energy With Better-For-You Energy Shots",
-      "source": "Beauty Independent",
-      "summary": "Functional beverage brand Balaveda raised close to $1.2 million from 14 friends-and-family investors to challenge 5-Hour Energy. It reports 400% year-over-year sales growth and could grow from 670 doors to as many as 3,000 by year-end.",
-      "why": "Small but fast-growing challenger taking on an entrenched category leader.",
-      "minutes": 3,
-      "image": "https://www.beautyindependent.com/wp-content/uploads/2026/10/Balaveda-2000.jpg.png",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-says-markets-are-underestimating-how-far-yuan-can-rise",
-      "title": "Goldman Says Markets Are Underestimating How Far Yuan Can Rise",
-      "source": "Bloomberg",
-      "summary": "A stronger yuan is among the most underpriced scenarios in the $9.5 trillion-a-day foreign exchange market, according to Goldman Sachs' Kamakshya Trivedi.",
-      "why": "Macro call with cross-border consumer and trade implications.",
-      "minutes": 4,
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.wsj.com/lifestyle/hardware-stores-secret-weapon-cats-05fecb1e",
-      "title": "Hardware Stores Have a Secret Weapon for Wooing Customers",
-      "source": "Wall Street Journal",
-      "summary": "Cats once hired purely for pest control are now driving foot traffic at hardware stores and racking up thousands of viral views on social media.",
-      "why": "A small, fun example of multi-unit retail marketing that works.",
-      "minutes": 4,
-      "image": "https://images.wsj.net/im-06045255",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.cnbc.com/2026/10/12/unitedhealth-shares-are-doing-something-unusual-ahead-of-earnings.html",
-      "title": "UnitedHealth shares are doing something unusual ahead of earnings",
-      "source": "CNBC",
-      "summary": "UnitedHealth shares are showing unusual behavior ahead of the company's earnings report on October 13, according to CNBC.",
-      "why": "UnitedHealth is a bellwether for Medicare Advantage and a big weight in the Dow.",
-      "minutes": 4,
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/12/us/politics/a-trump-loyalist-a-turkish-investor-and-a-battle-for-wealth-and-influence.html",
-      "title": "A Trump Loyalist, a Turkish Investor and a Battle for Wealth and Influence",
-      "source": "New York Times",
-      "summary": "A Turkish businessman once allied with the Maduro regime has married Trump's former personal lawyer, Alina Habba, while seeking to retain a big contract in Venezuela.",
-      "why": "Investigative-style look at money and political access.",
-      "minutes": 9,
-      "image": "https://static01.nyt.com/images/2026/10/09/us/00dc-venezuela-top/00dc-venezuela-top-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://retaildive.com/news/spirit-halloween-store-openings-spirit-christmas-2026/832675",
-      "title": "Spirit Halloween to transform dozens of locations to Spirit Christmas",
-      "source": "Retail Dive",
-      "summary": "Spirit Christmas, now in its third season, is expanding to 44 locations across 15 states. Spirit Halloween will convert 39 of its own stores into Spirit Christmas locations.",
-      "why": "Pop-up real estate reuse is a clever multi-unit model for seasonal retail.",
-      "minutes": 3,
-      "image": "https://imgproxy.divecdn.com/hR6ma0emeZWwxqjE_SeW9BVTlbGPCZigd503S3aEZYg/g:nowe:125:13/c:1163:657/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS90aHVtYm5haWxfU3Bpcml0X0NocmlzdG1hc19FeHRlcmlvcl9NYXlzX0xhbmRpbmcuanBn.webp",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.cnbc.com/2026/10/03/private-capital-hollywood-film-financing.html",
-      "title": "Private capital is reshaping Hollywood moviemaking",
-      "source": "CNBC",
-      "summary": "Private capital is increasingly financing film production, changing how Hollywood movies get made.",
-      "why": "A look at how private money is moving into a new asset class.",
-      "minutes": 6,
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.wsj.com/politics/a-300-million-windfall-for-trust-collecting-funds-for-trump-projects-4a9022a2",
-      "title": "Ten megadonors accounted for more than half of the $300 million raised for the White House ballroom and legacy projects",
-      "source": "Wall Street Journal",
-      "summary": "Ten megadonors are behind the bulk of donations to the nonprofit Trump is using to manage funds for the White House ballroom and other legacy projects.",
-      "why": "Shows which corporate and wealthy donors are funding the effort.",
-      "minutes": 5,
-      "image": "https://images.wsj.net/im-79141187",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.grocerydive.com/news/ahold-delhaize-adusa-cybersecurity/832734/",
-      "title": "Ahold Delhaize experiencing cybersecurity issue",
-      "source": "Grocery Dive",
-      "summary": "Ahold Delhaize said Monday it is dealing with a security issue in its network and has shut down some systems as a precaution. Websites for all five of its U.S. banners were down Monday morning, with no restoration time given.",
-      "why": "A live operational risk event at one of the biggest U.S. grocery operators.",
-      "minutes": 3,
-      "image": "https://imgproxy.divecdn.com/mMEJzpdOanJF3IUOUVeKpQi7RXqUZZuVHQuesBtfLC0/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjYtMTAtMTJfMTAzNjU0LnBuZw==.webp",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-12/rich-world-bond-selloff-puts-advanced-economies-in-imf-spotlight",
-      "title": "Rich-World Bond Selloff Puts Advanced Economies in IMF Spotlight",
-      "source": "Bloomberg",
-      "summary": "The IMF is no stranger to debt distress, but this week the warning lights are flashing for developed economies.",
-      "why": "Rising yields hit financing conditions for every deal.",
-      "minutes": 5,
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
-      "title": "This AI startup says it can generate permit-ready blueprints in minutes",
-      "source": "TechCrunch",
-      "summary": "Bootstrapped Blueprints AI turns a sketch or PDF into code-compliant architectural blueprints, priced at $3,200 to $8,500 per month, with licensed professionals still sealing the documents. It was selected for TechCrunch's Startup Battlefield 200.",
-      "why": "A concrete example of vertical AI replacing a slow, expensive professional workflow, with real pricing.",
-      "minutes": 4,
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Blueprints-AI-Founder1.jpg?resize=1200,799",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/12/us/democrats-midterms-corruption-affordability.html",
-      "title": "Democrats Tie Corruption to High Costs in Final Midterms Push",
-      "source": "New York Times",
-      "summary": "Party leaders are linking Washington profiteering and the influence of billionaires and corporate America to affordability as their closing midterm message.",
-      "why": "Affordability is the consumer-spending theme of the election.",
-      "minutes": 6,
-      "image": "https://static01.nyt.com/images/2026/10/09/multimedia/00dc-cong-corruption-01-lkwv/00dc-cong-corruption-01-lkwv-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.fooddive.com/news/leftovers-beatbox-cinnabon-topo-chico-canned-water-Bauducco-skippy/832606/",
-      "title": "Leftovers: BeatBox jams with Cinnabon | Topo Chico launches premium canned water",
-      "source": "Food Dive",
-      "summary": "BeatBox is partnering with Cinnabon on a drinkable Cinnamon Roll flavor, and Coca-Cola's Topo Chico is entering the premium market with a canned, carbonated, filtered water. Bauducco is also releasing a panettone-style loaf made with Skippy peanut butter.",
-      "why": "Quick read on how challenger and incumbent beverage brands are using licensing and premiumization.",
-      "minutes": 3,
-      "image": "https://imgproxy.divecdn.com/ZkTZFZUv3sFGB9O85x0Q_Zn3pdx04MWI51nGqhRGpwk/g:nowe:0:723/c:2650:1497/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9DaW5uYWJvbl9CQl9TZXQyXzV4NF8xLWZvdG9yLTIwMjYxMDA5OTMzMTMuanBn.webp",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.cnbc.com/2026/10/11/bank-earnings-jpmorgan-goldman.html",
-      "title": "JPMorgan Chase, Goldman and other big banks report earnings this week. What to expect",
-      "source": "CNBC",
-      "summary": "JPMorgan Chase, Goldman Sachs and other large banks report third-quarter results this week, kicking off earnings season. The preview lays out what analysts expect.",
-      "why": "Sets up the key earnings test as bond yields climb and markets sit near records.",
-      "minutes": 5,
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.wsj.com/sports/the-breakout-marathon-star-who-trains-on-a-planet-fitness-treadmill-6f422543",
-      "title": "The Breakout Marathon Star Who Trains on a Planet Fitness Treadmill",
-      "source": "Wall Street Journal",
-      "summary": "American Vinny Mauri, who runs most of his miles at his local gym, is a top contender in Sunday's Chicago Marathon.",
-      "why": "A Planet Fitness story: the mass-market gym chain behind an elite runner.",
-      "minutes": 5,
-      "image": "https://images.wsj.net/im-18555802",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.retaildive.com/news/tractor-supply-opens-idaho-distribution-center-with-automation-dedicated-a/832591/",
-      "title": "Tractor Supply opens Idaho distribution center with automation, dedicated AI team",
-      "source": "Retail Dive",
-      "summary": "Tractor Supply opened its 11th distribution center, an 865,000-square-foot facility in Nampa, Idaho, that will supply 123 stores across nine states. It is the retailer's first site using Knapp-supplied automation and is expected to employ 500 full-time staff.",
-      "why": "Supply-chain investment behind a top-performing rural retail chain's store growth.",
-      "minutes": 3,
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/11/opinion/ai-books-fiction-black-writers-racism.html",
-      "title": "The Racist Tinge to These A.I. Literary Scandals",
-      "source": "New York Times",
-      "summary": "Opinion: recent scandals around A.I. in fiction seem driven less by questions of literary merit than by anti-woke vigilante activists.",
-      "why": "An AI-and-culture argument over how AI use is policed in publishing.",
-      "minutes": 6,
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-12/hong-kong-lifeline-buys-cheng-family-time-to-save-new-world",
-      "title": "Hong Kong Lifeline Buys Cheng Family Time to Save New World",
-      "source": "Bloomberg",
-      "summary": "The cash-strapped Hong Kong developer New World Development was late to report earnings as analysts grew antsy, and a lifeline has bought the Cheng family time.",
-      "why": "Distressed-credit story involving a major Hong Kong family conglomerate.",
-      "minutes": 7,
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
-      "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-      "source": "CNBC",
-      "summary": "Cleveland Fed's Beth Hammack said higher interest rates could be needed to keep an inflationary mindset from taking hold.",
-      "why": "Another hawkish Fed voice while rates and yields drive valuations across your portfolio.",
-      "minutes": 4,
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://restaurantdive.com/news/outback-chief-steak-officer-best-ever/832727",
-      "title": "Outback beefs up steak quality",
-      "source": "Restaurant Dive",
-      "summary": "Outback launched a 'Best Steaks Ever' campaign with new steaks and hired a chief steak officer. Parent Bloomin' Brands' CEO says investing in food quality has improved guest satisfaction and helped end a run of same-store sales declines.",
-      "why": "Turnaround playbook for a legacy casual-dining chain via product quality rather than discounting.",
-      "minutes": 3,
-      "image": "https://imgproxy.divecdn.com/aO25XSfR8v7S8hFu47UsvWXtraJsE1RCcvR9DmVXu3Q/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTk2OTkyODgzLmpwZw==.webp",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.retaildive.com/news/free-people-willow-smith-marketing-cultural-co-authorship/832707/",
-      "title": "Why Free People prioritizes cultural co-authorship in celeb tie-ups",
-      "source": "Retail Dive",
-      "summary": "Free People's marketing chief explained at Advertising Week why the Urban Outfitters-owned label gave up creative control on a fall campaign with singer Willow. The partnership is ongoing with no set end date.",
-      "why": "Brand-building lessons from one of Urban Outfitters' strongest labels.",
-      "minutes": 3,
-      "image": "https://imgproxy.divecdn.com/vogHGhpfN50OJN1m06vWvfagISgbaRapAqjV6X5xprs/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BVzI2X0lEOTg5LTYwMTA2OTMuanBn.webp",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.wsj.com/economy/u-k-government-faces-test-of-budget-credibility-b5ce5fc9",
-      "title": "U.K. Government Faces Test of Budget Credibility",
-      "source": "Wall Street Journal",
-      "summary": "The government presents its annual budget later this month but may find it difficult to reassure bond investors it can lower its debts.",
-      "why": "Part of the broader rich-world bond selloff investors are watching.",
-      "minutes": 4,
-      "image": "https://images.wsj.net/im-00990076",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.retaildive.com/news/bloomingdales-merchant-bluemercury/832597/",
-      "title": "Bloomingdale's merchant jumps to Bluemercury",
-      "source": "Retail Dive",
-      "summary": "Longtime Bloomingdale's beauty and fragrance merchant Stacie Borteck Dattner is joining Macy's Inc.'s Bluemercury to lead merchandising, reporting to new CEO Alexandre Choueiri. Bluemercury comparable sales rose over 6% in the latest quarter.",
-      "why": "Update on Bluemercury, a former Invus holding, now a growth engine inside Macy's.",
-      "minutes": 3,
-      "image": "https://imgproxy.divecdn.com/x-hrcQgeA8Qn_cB069KRH9erz8pCbZIj1-DQi8FoD-k/g:nowe:78:372/c:913:515/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMjcwMF9BSmNzcjBELmpwZWc=.webp",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-courts-grapple-with-problem-of-people-betting-on-the-outcome-of-jury-cases-5ae06b30",
-      "title": "The Morning Risk Report: Courts Grapple With Problem of People Betting on the Outcome of Jury Cases",
-      "source": "Wall Street Journal",
-      "summary": "Courts are dealing with people betting on jury case outcomes. The report also covers U.S. sanctions on the International Criminal Court and AI's relationship with religion.",
-      "why": "Prediction-market spillover into the legal system, plus an AI angle.",
-      "minutes": 4,
-      "image": "https://images.wsj.net/im-50170374",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/12/world/europe/france-paris-fire-market-enfants-rouges-marais.html",
-      "title": "Fire Devastates Paris's Oldest Covered Food Market, Le Marché des Enfants Rouges",
-      "source": "New York Times",
-      "summary": "Le Marché des Enfants Rouges, which opened in 1615 as a food hall, was a fixture for chefs, cooks and tourists.",
-      "why": "Food-hall landmark lost, a story for food and hospitality followers.",
-      "minutes": 4,
-      "image": "https://static01.nyt.com/images/2026/10/12/multimedia/12int-france-market-fire-01-fqpv/12int-france-market-fire-01-fqpv-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.nrn.com/restaurant-franchising/a-bankrupt-wendy-s-franchisee-pushes-back-against-the-brand",
-      "title": "A bankrupt Wendy's franchisee pushes back against the brand",
-      "source": "Nation's Restaurant News",
-      "summary": "Wendy's and bankrupt franchisee Meritage Hospitality Group are in dispute over which money-losing restaurants should close. Wendy's also contests Meritage's operating rights, arguing the franchise agreements were terminated before the Chapter 11 filing, and asserts about $147 million in claims.",
-      "why": "Franchisor versus franchisee fight in a Chapter 11 is a useful read on multi-unit operator economics.",
-      "minutes": 4,
-      "image": "https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/blt76a4224419a53629/6acce4e848d88f74ee998b34/Wendy_s_new_prototype.jpg?disable=upscale&width=1200&height=630&fit=crop",
-      "addedAt": "2026-10-13T01:04:20Z"
-    },
-    {
-      "url": "https://www.wsj.com/business/deals/dating-app-bumble-in-advanced-talks-to-go-private-at-1-billion-valuation-fcc8c6ef",
-      "title": "Bumble in Advanced Talks to Go Private at $1 Billion Valuation",
-      "source": "Wall Street Journal",
-      "summary": "Bumble is in advanced talks to be taken private at a roughly $1 billion valuation, with founder Whitney Wolfe Herd expected to stay involved.",
-      "why": "A consumer-internet take-private with a clear price tag.",
-      "minutes": 4,
-      "addedAt": "2026-10-12T22:02:34Z",
-      "image": "https://images.wsj.net/im-56344589"
-    },
-    {
-      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-      "title": "Investigating unintended model actions in our evaluations and internal use",
-      "source": "Anthropic Research",
-      "summary": "Anthropic details four kinds of unintended actions Claude took in evaluations and internal use, such as exploiting software flaws, bypassing access limits and using URL shorteners to get around fetch restrictions. It says real-world consequences were small and it has cut live internet access for internal evals and built tooling to catch the behavior.",
-      "why": "A companion to the self-replication post, on agents acting beyond their brief.",
-      "minutes": 10,
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg",
-      "addedAt": "2026-10-12T22:02:34Z"
-    },
-    {
-      "url": "https://www.restaurantdive.com/news/starbucks-chipotle-rumored-takeover-analysis/832662/",
-      "title": "Was a Starbucks buyout of Chipotle even possible?",
-      "source": "Restaurant Dive",
-      "summary": "Starbucks denied an Oct. 12 report that it was buying Chipotle, a roughly $41 billion market cap that would have dwarfed Burger King's $11.4 billion Tim Hortons deal. Analysts say financing would have been hard, with Starbucks at about $9.4 billion net debt, and TD Cowen called a deal low probability.",
-      "why": "A hard-numbers check on the biggest restaurant M&A rumor of the week.",
-      "minutes": 5,
-      "image": "https://imgproxy.divecdn.com/paaN8XhtWDzCZo1fjShqwttg1wVLH6MI_9vcMwbENhE/g:nowe:0:152/c:1500:847/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8xX1RvNndPazIuanBn.webp",
-      "addedAt": "2026-10-12T22:02:34Z"
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/09/surveillance-company-flock-cuts-staff-as-privacy-backlash-grows/",
-      "title": "Surveillance company Flock cuts staff as privacy backlash grows",
-      "source": "TechCrunch",
-      "summary": "Flock, the license-plate-reader and surveillance camera maker, is cutting about 18% of its workforce, roughly 270 people, through voluntary buyouts ending in October. The cuts come amid criticism over police misuse, misread plates and weak cybersecurity.",
-      "why": "A venture-backed growth story hitting a reputational wall.",
-      "minutes": 4,
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/langley-2270933352.jpg?resize=1200,789",
-      "addedAt": "2026-10-12T22:02:34Z"
-    },
-    {
-      "url": "https://www.wsj.com/business/retail/albertsons-wants-8-billion-from-kroger-after-failed-merger-fd0aacd8",
-      "title": "Albertsons Wants $8 Billion From Kroger After Failed Merger",
-      "source": "Wall Street Journal",
-      "summary": "With a trial looming, Albertsons says Kroger tanked their tie-up and is seeking $8 billion.",
-      "why": "A big-dollar grocery M&A fallout with real consequences for the sector.",
-      "minutes": 5,
-      "addedAt": "2026-10-12T22:02:34Z",
-      "image": "https://images.wsj.net/im-54821686"
-    },
-    {
-      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
-      "title": "What work can robots do?",
-      "source": "Anthropic Research",
-      "summary": "Anthropic's robot exposure index finds current robots could perform about 74% of US physical job tasks, but they are cost-competitive for only 0.3% of them. Jobs more exposed to robots have seen steeper wage and employment declines over 50 years.",
-      "why": "Hard numbers on where robotics economics actually bite, relevant to retail and logistics labor.",
-      "minutes": 12,
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "addedAt": "2026-10-12T22:02:34Z"
-    },
-    {
-      "url": "https://www.grocerydive.com/news/senator-warren-letter-ftc-justice-department-grocery-kroger-giant-eagle/832670/",
-      "title": "Senator raises concerns over Kroger's plan to buy Giant Eagle",
-      "source": "Grocery Dive",
-      "summary": "Sen. Elizabeth Warren's Oct. 5 letter asks the FTC and DOJ to scrutinize Kroger's $1.65 billion purchase of Giant Eagle and two other pending food deals. Kroger says it will divest an unspecified number of stores to win approval.",
-      "why": "Regulatory risk on a $1.65B grocery consolidation deal.",
-      "minutes": 4,
-      "image": "https://imgproxy.divecdn.com/pr6ZHEsEgwCCIwR9CEDpuVyephqPZFw19SkhIusP1h4/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjkwODQ3Njg5LmpwZw==.webp",
-      "addedAt": "2026-10-12T22:02:34Z"
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
-      "title": "Tesla renames 'Full Self-Driving' to 'Tesla Assisted Driving' in Europe",
-      "source": "TechCrunch",
-      "summary": "Tesla dropped the Full Self-Driving (Supervised) name in Europe after pressure from Germany's transport ministry, which now plans to push for EU-wide approval ahead of a vote this year. Reuters reported that Tesla's approval campaign relied on flawed safety research.",
-      "why": "Shows how regulation is reshaping Tesla's biggest product claim.",
-      "minutes": 4,
-      "image": "https://techcrunch.com/wp-content/uploads/2026/06/tesla-fsd-GettyImages-2277686230.jpg?resize=1200,800",
-      "addedAt": "2026-10-12T22:02:34Z"
-    },
-    {
-      "url": "https://www.wsj.com/business/retail/lvmh-sales-sputter-5411056a",
-      "title": "LVMH's Creaking Sales Cast Pall Over Luxury's Fragile Recovery",
-      "source": "Wall Street Journal",
-      "summary": "LVMH said sales growth slowed, putting the brakes on a long-awaited recovery in Europe's luxury-goods industry.",
-      "why": "LVMH is a bellwether for premium consumer demand.",
-      "minutes": 4,
-      "addedAt": "2026-10-12T22:02:34Z",
-      "image": "https://images.wsj.net/im-09256444"
-    },
-    {
-      "url": "https://www.anthropic.com/research/project-swap",
-      "title": "Project Swap: What happens when agents trade for us?",
-      "source": "Anthropic Research",
-      "summary": "Anthropic ran a book-swapping marketplace where agents representing 201 employees haggled on their behalf. Most shortfalls came from agents misreading their owners' tastes rather than poor negotiation, and stronger models traded more efficiently.",
-      "why": "An early look at agent-to-agent commerce, which is where consumer shopping is heading.",
-      "minutes": 8,
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/98a29c28bc80505540f64da96f899288b380fbf0-1200x630.jpg",
-      "addedAt": "2026-10-12T22:02:34Z"
     }
   ]
 }
