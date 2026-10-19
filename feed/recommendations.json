@@ -1,6 +1,423 @@
 {
-  "generatedAt": "2026-10-19T11:07:13Z",
+  "generatedAt": "2026-10-19T23:01:42Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/business/deals/tradeweb-to-buy-trumid-for-about-1-97-billion-1fd21bdb",
+      "title": "Tradeweb to Buy Trumid For About $1.97 Billion",
+      "source": "Wall Street Journal",
+      "summary": "Tradeweb buys credit platform Trumid for about $1.97B, moving earlier into the credit lifecycle and into grey markets.",
+      "why": "Fixed-income market-structure deal worth watching.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-64505303",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "title": "Microsoft says AI agents are like insider threats as 'frontier models can't be trusted'",
+      "source": "TechCrunch",
+      "summary": "Microsoft is warning that autonomous AI agents should be treated like insider threats and that frontier models cannot be fully trusted.",
+      "why": "Shows how a top AI vendor is framing agent security risk for enterprise buyers.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?w=668",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/14/stock-market-today-live-updates.html",
+      "title": "Dow rises more than 500 points as investors rotate away from AI trade",
+      "source": "CNBC",
+      "summary": "The Dow gained more than 500 points as investors rotated out of AI names.",
+      "why": "A rotation out of AI into other sectors is a key signal for portfolio positioning.",
+      "minutes": 4,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/tropical-smoothie-cafe-new-york-albany-connecticut/833330/",
+      "title": "Tropical Smoothie Cafe will open 40 stores in the Northeast",
+      "source": "Restaurant Dive",
+      "summary": "The chain is expanding in New York and Connecticut, where it has been underrepresented, through a deal with franchisee Aurify Kingstar.",
+      "why": "Multi-unit franchise roll-up economics in your home market.",
+      "minutes": 3,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/unilever-agrees-to-sell-welly-bandage-business-to-private-equity-firm-cec7868a",
+      "title": "Unilever Agrees to Sell Welly Bandage Business to Private-Equity Firm",
+      "source": "Wall Street Journal",
+      "summary": "Forward Consumer Partners is acquiring Unilever's Welly bandage business and bringing back its founder as an adviser.",
+      "why": "Consumer PE carve-out of a challenger brand, squarely Ian's lane.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-58512156",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+      "source": "TechCrunch",
+      "summary": "Amazon released TorchNeuron, a developer tool aimed at making its chips easier to use with PyTorch and loosening Nvidia's software lock-in.",
+      "why": "Chip competition and Nvidia's software moat matter to AI infrastructure economics.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205217071.jpg?w=563",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/13/stock-market-today-live-updates-.html",
+      "title": "S&P 500 drops 1%, dragged down by hot inflation data and sell-off in AI-related stocks",
+      "source": "CNBC",
+      "summary": "The S&P 500 fell 1% after a hot inflation reading and a sell-off in AI-related stocks.",
+      "why": "Inflation and AI valuations are the two forces driving the market right now.",
+      "minutes": 4,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/",
+      "title": "Texas sues Nestlé's Gerber over alleged heavy metals in baby food",
+      "source": "Food Dive",
+      "summary": "Texas has filed suit against Nestlé's Gerber over alleged heavy metals in its baby food.",
+      "why": "Regulatory and legal risk for a major packaged-food brand.",
+      "minutes": 3,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/silgan-to-combine-with-trivium-packaging-in-3-4-billion-deal-bf732879",
+      "title": "Silgan to Combine With Trivium Packaging in $3.4 Billion Deal",
+      "source": "Wall Street Journal",
+      "summary": "Silgan Holdings agreed to combine with Trivium Packaging in a $3.4B deal, creating a global metal packaging supplier for consumer products.",
+      "why": "Big packaging consolidation touching every CPG brand's supply chain.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-99748542",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+      "source": "TechCrunch",
+      "summary": "Tenstorrent raised new funding at a $6.2B valuation to scale its open AI chip platform.",
+      "why": "A large private round in the AI-chip challenger space.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2023/08/rnuUXh8kprc7HfoRAGgTvZ-1200-80.jpg?w=668",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-01/dealmakers-face-fresh-risks-chasing-5-trillion-plus-m-a-record",
+      "title": "Dealmakers Face Fresh Risks Chasing $5 Trillion-Plus M&A Record",
+      "source": "Bloomberg",
+      "summary": "Dealmakers are pursuing a record year of more than $5 trillion in M&A while facing new risks.",
+      "why": "Direct read on the deal environment for PE and consumer M&A.",
+      "minutes": 6,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/primo-brands-mountain-valley-production-facility-arizona/833359/",
+      "title": "Primo Brands opens first new factory post merger",
+      "source": "Food Dive",
+      "summary": "Primo Brands has opened its first new production facility since its merger, a Mountain Valley plant in Arizona.",
+      "why": "Shows how a big beverage merger is investing for growth.",
+      "minutes": 3,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/h-b-fuller-rejects-ancoras-latest-acquisition-bid-plans-to-consider-selling-noncore-businesses-14a2f298",
+      "title": "H.B. Fuller Rejects Ancora’s Latest Acquisition Bid, Plans to Consider Selling Noncore Businesses",
+      "source": "Wall Street Journal",
+      "summary": "H.B. Fuller rejected Ancora's revised cash offer of $1.2B-$1.4B for its building adhesives business and plans to consider selling noncore units.",
+      "why": "Activist vs. board fight that could produce carve-outs.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-77570269",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+      "source": "TechCrunch",
+      "summary": "Tolan raised $30M for its consumer AI companion app.",
+      "why": "Consumer AI venture funding signal.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/tolan.jpg?w=665",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://news.crunchbase.com/venture/q3-2026-latam-startup-funding-jumps-ai-fintech-mexico/",
+      "title": "LatAm Startup Funding Jumps 26% In Q3 As VCs Begin 'Rediscovering' The Region",
+      "source": "Crunchbase News",
+      "summary": "Latin American startup funding rose 26% in Q3, with AI and fintech and Mexico prominent.",
+      "why": "Venture flows data for a region investors are returning to.",
+      "minutes": 4,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/applebees-cmo-on-differentiating-marketing-in-a-value-obsessed-industry/832951/",
+      "title": "Applebee's CMO on differentiating marketing in a value-obsessed industry",
+      "source": "Restaurant Dive",
+      "summary": "A Q&A with Applebee's chief marketing officer about standing out in a value-focused casual dining market.",
+      "why": "How a big chain competes when value dominates.",
+      "minutes": 5,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.wsj.com/cmo-today/adidas-spent-a-fortune-on-world-cup-marketing-now-comes-the-hard-part-133df4c4",
+      "title": "Adidas Spent a Fortune on World Cup Marketing. Now Comes the Hard Part.",
+      "source": "Wall Street Journal",
+      "summary": "Companies spending big on brand building, like Adidas on the World Cup, face pressure to show the spend paid off.",
+      "why": "Brand-marketing ROI question for consumer investors.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-65426274",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "title": "Hackers hit AI coding tool OpenCode, running up charges on users' AI accounts",
+      "source": "TechCrunch",
+      "summary": "Attackers compromised the AI coding tool OpenCode and ran up charges on users' connected AI accounts.",
+      "why": "A concrete example of security risk in the AI coding tool boom.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/cyberatttack.jpg?w=375",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/west-virginia-school-choice-billionaires-vernon-criss",
+      "title": "He Tried to Set Limits on His State's School Vouchers. Billionaires Helped Bankroll a Campaign to Unseat Him.",
+      "source": "ProPublica",
+      "summary": "Three PACs linked to the Koch family and Jeffrey Yass helped defeat a West Virginia Republican who sought to curb voucher growth.",
+      "why": "Investigative look at how billionaire money shapes policy.",
+      "minutes": 12,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/ahold-delhaize-usa-sites-still-down/832900/",
+      "title": "Ahold Delhize USA banners remain offline",
+      "source": "Grocery Dive",
+      "summary": "Websites and apps for Ahold Delhize's five U.S. chains have been down for several days after a cybersecurity incident.",
+      "why": "Operational risk at a major grocery operator.",
+      "minutes": 3,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/hospitality/how-coke-loosened-pepsis-grip-on-kfcs-soda-fountains-1be33456",
+      "title": "How Coke Loosened Pepsi’s Grip on KFC’s Soda Fountains",
+      "source": "Wall Street Journal",
+      "summary": "Former PepsiCo-owned KFC switched to Coke after a secret showdown with taste tests and strategy discussions.",
+      "why": "Restaurant-chain supplier economics and a big beverage share shift.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-90420698",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+      "title": "Replika's founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "source": "TechCrunch",
+      "summary": "Replika's founder has built the AI assistant she first pitched at TechCrunch Disrupt 12 years ago.",
+      "why": "Founder-story angle on consumer AI assistants.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/wabi-ios-home.png?w=375",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.modernretail.co/marketing/love-actually-reunions-delivered-by-doordash-inside-anthropologies-holiday-sales-pitch/",
+      "title": "'Love Actually' reunions, delivered by DoorDash: Inside Anthropologie's holiday sales pitch",
+      "source": "Modern Retail",
+      "summary": "Anthropologie's holiday campaign spans apparel, home collaborations and a DoorDash partnership aimed at smaller seasonal occasions.",
+      "why": "Marketing playbook of a multi-unit specialty retailer.",
+      "minutes": 5,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.wsj.com/cfo-journal/jamie-dimons-view-on-the-u-s-economy-booming-but-war-and-inflation-pose-risks-a7efa933",
+      "title": "Jamie Dimon’s View on the U.S. Economy: Booming, but War and Inflation Pose Risks",
+      "source": "Wall Street Journal",
+      "summary": "Jamie Dimon sees the U.S. economy as booming, with war and inflation posing risks.",
+      "why": "Read on the economy from the head of the biggest US bank.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-27841800",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://openai.com/index/low-resource-programming-languages/",
+      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "source": "OpenAI",
+      "summary": "OpenAI published research on improving AI coding performance in low-resource programming languages.",
+      "why": "Direct lab research on expanding coding-model capability.",
+      "minutes": 6,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.glossy.co/beauty/victorias-secret-to-leverage-fashion-show-to-promote-beauty-expansion-and-first-ever-skin-care-partnership/",
+      "title": "Victoria's Secret leverages fashion show to promote beauty expansion and first-ever skin-care partnership",
+      "source": "Glossy",
+      "summary": "Glossy interviews the brand's beauty president about its push into beauty ahead of the 2026 show.",
+      "why": "Category extension for a big retail brand, near Bluemercury territory.",
+      "minutes": 5,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.wsj.com/cio-journal/nvidia-backed-startup-doubleai-launches-model-to-pare-cost-of-compute-b780f215",
+      "title": "Nvidia-Backed Startup doubleAI Launches Model to Pare Cost of Compute",
+      "source": "Wall Street Journal",
+      "summary": "Nvidia-backed doubleAI, co-founded by Mobileye CEO Amnon Shashua, launched a model it says cut one early customer's compute costs by 67%.",
+      "why": "AI compute-cost story from a well-backed startup.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-61982828",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://news.crunchbase.com/venture/fde-bubble-enterprise-agentic-ai-gurtu-airrived/",
+      "title": "The FDE Bubble: Silicon Valley's Most Expensive Game Of Pretend",
+      "source": "Crunchbase News",
+      "summary": "An opinion piece arguing that forward-deployed-engineer models at enterprise agentic AI startups are overhyped.",
+      "why": "A skeptical VC-angle take on how AI startups sell to enterprises.",
+      "minutes": 6,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.glossy.co/fashion/discounting-is-a-hard-drug-to-come-off-but-retraining-customers-to-shop-full-price-is-a-must-brand-leaders-say/",
+      "title": "Discounting is 'a hard drug to come off,' but retraining customers to shop full price is a must, brand leaders say",
+      "source": "Glossy",
+      "summary": "Brand executives argue that breaking reliance on markdowns takes deliberate effort to win back full-price buyers.",
+      "why": "Margin quality in consumer brands.",
+      "minutes": 5,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/19/opinion/beef-prices-cattle-farmers.html",
+      "title": "Your Burger Is Going to Get Only More Expensive",
+      "source": "New York Times",
+      "summary": "Beef prices will keep rising because of the cattle production cycle, per this opinion piece.",
+      "why": "Input-cost pressure for burger chains and food brands.",
+      "minutes": 5,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.nrn.com/restaurant-franchising/avolta-flexes-its-muscles-3-years-after-huge-merger",
+      "title": "Avolta flexes its muscles 3 years after huge merger",
+      "source": "Nation's Restaurant News",
+      "summary": "A look at how the travel-retail and food company has grown since its large merger.",
+      "why": "Post-merger scale story in travel retail and food.",
+      "minutes": 5,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/19/technology/saudis-aided-family-openai-engineer.html",
+      "title": "Saudis Aided Family of Engineer Accused of Bugging OpenAI, Prosecutors Say",
+      "source": "New York Times",
+      "summary": "Saudi officials paid for the wife and son of an engineer accused of bugging OpenAI to leave the U.S. and offered to cover his bail, per court filings; he remains in custody.",
+      "why": "Developing OpenAI security and Saudi-influence story.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/19/multimedia/19biz-openai-suspect-jbhc/19biz-openai-suspect-jbhc-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.nrn.com/fast-casual/wingstop-adds-sour-patch-kids-flavored-sauce",
+      "title": "Wingstop adds Sour Patch Kids-flavored sauce",
+      "source": "Nation's Restaurant News",
+      "summary": "The candy-inspired sauce launches first for Club Wingstop members before rolling out nationwide.",
+      "why": "Loyalty-led product drops at a high-growth chain.",
+      "minutes": 2,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/18/business/china-economy-gdp.html",
+      "title": "Strong Exports Stabilize China’s Economic Growth in Official Statistics",
+      "source": "New York Times",
+      "summary": "A prolonged housing crash, weak consumer spending and plunging investment leave China dependent on exports to keep growth going.",
+      "why": "China demand backdrop for global consumer companies.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/19/multimedia/19biz-china-gdp-01-hjlc/19biz-china-gdp-01-hjlc-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/eric-schmidt-s-1-anthropic-stake-set-to-pay-massive-windfall",
+      "title": "Eric Schmidt’s 1% Anthropic Stake Set to Pay Massive Windfall",
+      "source": "Bloomberg",
+      "summary": "Eric Schmidt owns around 1% of Anthropic through an early investment, per people familiar, setting up a major windfall.",
+      "why": "Sizes the paper gains from early Anthropic backing.",
+      "minutes": 3,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/19/dining/copenhagen-denmark-bread-bmo.html",
+      "title": "It’s Sliced Cheese on Bread. And It’s Rocking Copenhagen’s World.",
+      "source": "New York Times",
+      "summary": "Copenhagen is obsessed with a stripped-down sliced cheese on bread snack, and top bakeries are trying to perfect it.",
+      "why": "Fun food-trend read on how a simple item becomes a craze.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/16/multimedia/16FD-COPENHAGEN-BREAD-01-zqmw/16FD-COPENHAGEN-BREAD-01-zqmw-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/kimberly-clark-offers-bonds-to-help-fund-tylenol-maker-takeover",
+      "title": "Kimberly-Clark Raises $4.9 Billion for Tylenol Maker Takeover",
+      "source": "Bloomberg",
+      "summary": "Kimberly-Clark raised $4.9B in an investment-grade bond sale to help fund its pending acquisition of Kenvue, the Tylenol maker.",
+      "why": "Financing of a mega consumer-health deal.",
+      "minutes": 3,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/19/style/victorias-secret-fantasy-bra-sexy.html",
+      "title": "At Victoria’s Secret’s 2026 Fashion Show, an Old Stereotype of Sexy",
+      "source": "New York Times",
+      "summary": "Victoria's Secret's 2026 Fashion Show featured Kylie Jenner and both Hadids, with angels and wings back on the runway.",
+      "why": "Brand relaunch test for a big consumer name.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/19/multimedia/19ST-VICTORIAS-SECRET-SHOW-qwzp/19ST-VICTORIAS-SECRET-SHOW-qwzp-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/walmart-sells-us-debt-eyes-canadian-market-as-spending-grows",
+      "title": "Walmart Set to Raise $6.5 Billion From US, Canadian Bond Sales",
+      "source": "Bloomberg",
+      "summary": "Walmart is poised to raise about $6.5B from US and Canadian dollar bonds as it diversifies funding amid a spending spree.",
+      "why": "Retail giant's capital-raising signals its investment pace.",
+      "minutes": 3,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/19/business/black-unemployment-job-market.html",
+      "title": "Black Unemployment Hints at a Job Market in Worse Shape Than It Seems",
+      "source": "New York Times",
+      "summary": "The Black unemployment rate rose a point to 7% in September, almost double the rate for white workers.",
+      "why": "Labor-market signal behind the headline numbers.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/19/multimedia/19biz-black-workers-bjqk/19biz-black-workers-bjqk-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/malaysia-september-exports-surge-to-five-year-high-on-ai-demand",
+      "title": "Malaysia Exports Surge 55% to a Record in September on AI Boom",
+      "source": "Bloomberg",
+      "summary": "Malaysia's September exports rose 55% to a record, the fastest pace in over five years, on AI-related demand.",
+      "why": "Hard-data evidence of the AI trade in Asia.",
+      "minutes": 3,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/19/technology/elon-musk-spacex-stock-anthropic-giveaway.html",
+      "title": "Elon Musk Says He Will Give a SpaceX Share to ‘Every Kid in America’",
+      "source": "New York Times",
+      "summary": "Musk says he will give a SpaceX share to every kid in America, following Anthropic's planned public benefit fund and other tech giving to children's accounts.",
+      "why": "Mega-cap tech wealth-gifting and SpaceX equity story.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/19/multimedia/19biz-musk-shares-vfqm/19biz-musk-shares-vfqm-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/16/opinion/affordability-republicans-democrats.html",
+      "title": "Why Is No One Doing Anything About Affordability?",
+      "source": "New York Times",
+      "summary": "Opinion on why neither party is acting on affordability and whether 1990s-style politics can return.",
+      "why": "Affordability is driving consumer sentiment and the midterms.",
+      "minutes": 6,
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/19/world/europe/lithuania-starlink-sabotage-ukraine-russia.html",
+      "title": "Fire at Starlink Center in Lithuania Was Sabotage, Officials Say",
+      "source": "New York Times",
+      "summary": "A fire at a Starlink center in Lithuania was sabotage, officials say, following similar incidents in Bulgaria and Poland.",
+      "why": "Threats to Starlink, a key defense network.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/19/multimedia/19int-lithuania-starlink-jpcg/19int-lithuania-starlink-jpcg-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-19T23:01:42Z"
+    },
     {
       "url": "https://www.nytimes.com/2026/10/19/world/africa/dirty-gold-industry-coverup-launder-madagascar.html",
       "title": "How a Trillion-Dollar Industry Launders Illegal Gold",
