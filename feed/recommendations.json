@@ -1,6 +1,392 @@
 {
-  "generatedAt": "2026-10-22T11:02:28Z",
+  "generatedAt": "2026-10-22T23:01:46Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/finance/stocks/metas-hunt-for-ai-capital-strikes-a-raw-nerve-on-wall-street-e2de1601",
+      "title": "Meta's Hunt for AI Capital Strikes a Raw Nerve on Wall Street",
+      "source": "Wall Street Journal",
+      "summary": "The Nasdaq fell 2.6% and Treasury yields posted their biggest drop since 2023 as Meta's search for AI funding unsettled investors.",
+      "why": "The market reaction to AI financing, in numbers.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-48221958",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/22/business/stocks-oil-prices.html",
+      "title": "Stocks See Steepest Decline in Months Amid A.I. Worries",
+      "source": "New York Times",
+      "summary": "The S&P 500 fell over 1.4 percent, its largest daily drop since July, while the Nasdaq slumped nearly 2.5 percent.",
+      "why": "The AI trade cracked today; read it for the market context on every AI-linked position.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/22/multimedia/22osg-promo-lqhb/22osg-promo-lqhb-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/anthropic-ipo-to-drive-blockbuster-gains-for-iconiq-spark-gic",
+      "title": "Anthropic IPO to Drive Blockbuster Gains for Iconiq, Spark, GIC",
+      "source": "Bloomberg",
+      "summary": "Iconiq first invested in Anthropic in 2025 at a $183 billion valuation; an IPO is set to deliver large gains to it, Spark and GIC.",
+      "why": "Venture and growth returns from the AI IPO wave.",
+      "minutes": 5,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/protein-general-mills-meat-sticks-epic/833705/",
+      "title": "General Mills brings Epic into meat sticks",
+      "source": "Food Dive",
+      "summary": "General Mills is extending its Epic protein brand into meat sticks.",
+      "why": "Big FMCG pushing a challenger brand into the protein snacking boom.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "source": "Anthropic",
+      "summary": "Anthropic announces it is donating Agent Skills to the Agentic AI Foundation.",
+      "why": "Primary lab news on agent standards.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/earnings/deckers-cuts-sales-outlook-amid-slower-hoka-ugg-growth-84f46d5c",
+      "title": "Deckers Cuts Sales Outlook as Shoppers Seek Out Discounted Shoes",
+      "source": "Wall Street Journal",
+      "summary": "Deckers now expects annual sales of $5.7 billion to $5.73 billion with slower growth for Hoka and Ugg.",
+      "why": "A consumer-brand reality check on a premium challenger darling.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-20806438",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/features/2026-10-22/jane-street-hrt-are-spending-billions-to-win-in-ai-era",
+      "title": "Jane Street, HRT Are Spending Billions to Win in AI Era",
+      "source": "Bloomberg",
+      "summary": "High-frequency trading firms are spending billions, including on building their own data centers, to gain an edge in the AI era.",
+      "why": "Where AI infrastructure money is going beyond the labs.",
+      "minutes": 8,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/22/technology/tech-lawsuit-settlements-meta-google.html",
+      "title": "How a Legal Backlash Against Big Tech Is Forcing Big Changes",
+      "source": "New York Times",
+      "summary": "A series of lawsuits is creating a de facto regulatory regime as courts order Meta and Google to change business practices and pay up.",
+      "why": "Legal risk is reshaping big tech economics and strategy.",
+      "minutes": 8,
+      "image": "https://static01.nyt.com/images/2026/10/22/multimedia/22BIZ-META-ETA-1-01-qlpv/22BIZ-META-ETA-1-01-qlpv-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/price-value-wars-over-fast-food-chains-shift-food-quality/833658/",
+      "title": "Why Q3 marked the end of fast food value wars",
+      "source": "Restaurant Dive",
+      "summary": "Analysts say the two-year QSR value war hurt all players and brands are now shifting toward food quality.",
+      "why": "A read on where chain traffic and margins go next.",
+      "minutes": 5,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "source": "OpenAI",
+      "summary": "OpenAI outlines a coordinated global response to critical vulnerabilities uncovered by AI agents.",
+      "why": "The lab's own account of coordinating fixes as AI agents find critical vulnerabilities.",
+      "minutes": 6,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/earnings/loreal-eyes-profit-rise-this-year-as-sales-keep-growing-d1cbee8f",
+      "title": "L’Oreal Eyes Profit Rise This Year as Sales Keep Growing",
+      "source": "Wall Street Journal",
+      "summary": "L'Oreal booked third-quarter sales of $12.98 billion, up 7.2% like-for-like, and expects profit to rise this year.",
+      "why": "Beauty is a strong consumer category and L'Oreal is its bellwether.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-59902627",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "source": "TechCrunch",
+      "summary": "1Password has launched a way for AI agents to log in to services on a user's behalf without the agent seeing the password.",
+      "why": "Credential security is becoming a core layer of the agent economy.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/22/climate/google-voltus-virtual-power-plant.html",
+      "title": "Google Eyes Large ‘Virtual Power Plant’ for Data Centers",
+      "source": "New York Times",
+      "summary": "Google is funding one of the largest virtual power plants, paying homes and businesses to adjust energy use when grids are strained.",
+      "why": "Power for data centers is the key AI bottleneck and an investable theme.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/21/climate/00cli-google-power/00cli-google-power-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/spacex-takes-conglomerate-building-to-sci-fi-extremes-0dd612ab",
+      "title": "SpaceX: A Futuristic Berkshire Hathaway, or Just a Mess?",
+      "source": "Wall Street Journal",
+      "summary": "Musk's mix of businesses will be a maze for investors to evaluate.",
+      "why": "A sharp take on valuing a sprawling conglomerate, an investor's puzzle.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-50279337",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-22/hedge-funds-bet-against-stocks-as-ai-selloff-deepens",
+      "title": "Hedge Funds Bet Against Stocks as AI Selloff Deepens",
+      "source": "Bloomberg",
+      "summary": "Hedge funds are betting against stocks as the AI selloff deepens.",
+      "why": "Positioning behind the market drop.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.nrn.com/quick-service/taco-bell-extends-pepsico-partnership-through-2036",
+      "title": "Taco Bell extends PepsiCo partnership through 2036",
+      "source": "Nation's Restaurant News",
+      "summary": "The extended deal focuses on beverages in the crafted, functional and energy categories.",
+      "why": "A decade-long beverage tie-up between a major chain and PepsiCo.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "source": "OpenAI",
+      "summary": "OpenAI publishes work using thousands of AI agents to find new leads in complex biological data.",
+      "why": "Primary research on agents doing science at scale.",
+      "minutes": 7,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/retail/kerings-sales-lose-steam-in-struggling-luxury-market-2154c2d6",
+      "title": "Kering’s Sales Lose Steam in Struggling Luxury Market",
+      "source": "Wall Street Journal",
+      "summary": "Kering, owner of Gucci and Bottega Veneta, reported a 1% revenue decrease as luxury demand stays weak.",
+      "why": "Luxury demand check for anyone investing in premium consumer brands.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-89673700",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "source": "TechCrunch",
+      "summary": "Uber is rolling ChatGPT Work out to all 30,000 of its employees.",
+      "why": "A marquee enterprise seat deal showing how OpenAI monetizes at scale.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/22/us/politics/calley-means-resigns-rfk-trump.html",
+      "title": "Key Trump Health Adviser Resigns Ahead of Midterm Elections",
+      "source": "New York Times",
+      "summary": "Calley Means, who helped unite Robert F. Kennedy Jr. and President Trump, resigned after frustration with stalled MAHA food reforms.",
+      "why": "MAHA food policy could affect packaged food and CPG companies.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/22/multimedia/22dc-means-mkpj/22dc-means-mkpj-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/carrier-plans-600-million-texas-plant-to-make-cooling-gear-for-ai-data-centers-01c1a1dc",
+      "title": "Carrier Plans $600 Million Texas Plant to Make Cooling Gear for AI Data Centers",
+      "source": "Wall Street Journal",
+      "summary": "Carrier is planning a $600 million Texas plant, its biggest-ever investment, amid a surge in data-center sales.",
+      "why": "Picks-and-shovels demand showing up in real capex.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-107143",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/food-beverage-industry-layoffs-closures-increase/833710/",
+      "title": "Food and beverage layoffs accelerate",
+      "source": "Food Dive",
+      "summary": "Job cuts and plant closures are increasing across the food and beverage sector.",
+      "why": "Signals pressure on incumbent packaged food, the backdrop for challenger-brand deals.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/sk-hynix-scraps-solidigm-us-ipo-after-shareholder-concerns",
+      "title": "SK Hynix Scraps Solidigm US IPO After Shareholder Concerns",
+      "source": "Bloomberg",
+      "summary": "SK Hynix dropped plans to list Solidigm in the US after strong shareholder opposition and regulatory scrutiny over minority investors.",
+      "why": "An IPO-market deal story tied to AI memory demand.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/davids-bridal-spin-off-pearl-AI-stand-alone-publicly-traded-company/833699/",
+      "title": "David's Bridal to spin off Pearl into stand-alone, publicly traded company",
+      "source": "Retail Dive",
+      "summary": "David's Bridal plans to separate its AI-focused Pearl business into a publicly traded company.",
+      "why": "A consumer-to-AI spin-off and listing.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://openai.com/index/forward-deployed-engineering-means/",
+      "title": "What forward deployed engineering means at OpenAI",
+      "source": "OpenAI",
+      "summary": "OpenAI describes how its forward deployed engineering work operates.",
+      "why": "Insight into how labs actually sell to enterprises.",
+      "minutes": 6,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/earnings/boston-beer-logs-lower-profit-revenue-amid-bleak-beer-market-d2aecada",
+      "title": "Boston Beer Logs Lower Profit, Revenue Amid Bleak Beer Market",
+      "source": "Wall Street Journal",
+      "summary": "Boston Beer posted third-quarter profit of $43.2 million, down from $46.2 million a year earlier, as beer demand keeps falling.",
+      "why": "Shows how weak the packaged-alcohol category is for consumer brands.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-738233",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "title": "Spotify's current AI bet is about being the music service that agents choose",
+      "source": "TechCrunch",
+      "summary": "Spotify is positioning itself to be the music service that AI agents choose on users' behalf.",
+      "why": "Consumer brands now have to win over agents as well as people.",
+      "minutes": 5,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/22/business/mortgage-rates-housing-costs.html",
+      "title": "Mortgage Rates Remain Above 7%, Pushing Home Prices Lower in Some Areas",
+      "source": "New York Times",
+      "summary": "The 30-year fixed mortgage rate dipped to 7.32 percent, and home prices are starting to fall in some areas.",
+      "why": "Housing affordability drives consumer spending and the rate outlook.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/22/multimedia/22Biz-Mortgage-Rates-fjpg/22Biz-Mortgage-Rates-fjpg-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/21/gm-artificial-intelligence-ai-development-speed-china",
+      "title": "GM taps AI to help match speed of Chinese rivals",
+      "source": "Axios",
+      "summary": "GM is using AI to speed up vehicle development to keep pace with Chinese rivals.",
+      "why": "AI's impact on a legacy industrial incumbent.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/hi-auto-bojangles-expand-extend-600-stores-voice-ai/833707/",
+      "title": "Bojangles will bring voice AI to 100 more drive-thrus",
+      "source": "Restaurant Dive",
+      "summary": "Bojangles is extending its voice-ordering AI to more drive-thru locations.",
+      "why": "AI adoption in multi-unit restaurant operations.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/blackstones-core-businesses-hit-by-rising-rates-9a6a39cb",
+      "title": "Blackstone’s Core Businesses Hit by Rising Rates",
+      "source": "Wall Street Journal",
+      "summary": "Proceeds from asset sales in Blackstone's private-equity unit fell 49% as rising rates weigh on its core businesses.",
+      "why": "Rate pressure on PE exits matters directly for deal-making and fund returns.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-87168667",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/22/business/media/ai-disinfo-chatbots-elections.html",
+      "title": "A.I. and Its Dangers Are Embedded In the Midterm Elections",
+      "source": "New York Times",
+      "summary": "The midterms are the first elections with A.I. integrated into every major social media platform, and efforts to limit harms are uneven.",
+      "why": "AI's societal and regulatory risk in a major election.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/10/22/multimedia/22biz-midterm-ai-disinfo-fjtz/22biz-midterm-ai-disinfo-fjtz-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/spacex-in-talks-to-access-80-000-cell-sites-for-wireless-network",
+      "title": "SpaceX in Talks to Access 80,000 Cell Sites for New Network",
+      "source": "Bloomberg",
+      "summary": "SpaceX aims to secure at least 80,000 US cell sites and is in talks with a major cellular infrastructure company for a new wireless network.",
+      "why": "SpaceX's push into telecom ahead of a possible Tesla merger.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.modernretail.co/ai-strategies/ai-boosts-discovery-but-reviews-still-seal-the-deal-new-research-shows/",
+      "title": "AI boosts discovery but reviews still seal the deal, new research shows",
+      "source": "Modern Retail",
+      "summary": "Surveys find shoppers use AI to find gifts but still check reviews, compare prices and read return policies.",
+      "why": "Reality check on AI shopping for consumer brands.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "title": "Microsoft's Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases 'medical superintelligence'",
+      "source": "TechCrunch",
+      "summary": "Microsoft AI chief Mustafa Suleyman says the company's AI beats doctors on hard diagnostic cases as he pursues what he calls medical superintelligence.",
+      "why": "A big lab claim about AI in a huge, investable vertical.",
+      "minutes": 5,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/commodities-futures/with-disruption-on-every-side-food-markets-are-somehow-eerily-quiet-c60ed033",
+      "title": "With Disruption on Every Side, Food Markets Are Somehow Eerily Quiet",
+      "source": "Wall Street Journal",
+      "summary": "Food commodity markets are oddly quiet despite disruption elsewhere, with notes on the Rio Grande, Asia's diesel-intensive economies and the era of overshoot.",
+      "why": "Food input costs are central to FMCG margins.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-39469664",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://news.crunchbase.com/venture/ai-edtech-healthcare-reach-capital-qa-kim/",
+      "title": "'Weird And Maybe Uninvestable': How Reach Capital Spots Its Venture Winners",
+      "source": "Crunchbase News",
+      "summary": "An interview on how Reach Capital identifies promising early-stage startups.",
+      "why": "A VC's sourcing playbook.",
+      "minutes": 6,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/22/business/france-riots-looting-resale.html",
+      "title": "Looted Goods From French Stores Appear on Resale Sites After Riots",
+      "source": "New York Times",
+      "summary": "French officials are pressing platforms like eBay and Vinted to remove items stolen from stores during the weekend's disturbances.",
+      "why": "Retail and e-commerce fallout from the unrest in France.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/21/multimedia/21biz-france-resale-01-hqlz/21biz-france-resale-01-hqlz-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/navient-cds-widen-by-most-in-eight-years-as-debtholders-left-out",
+      "title": "Navient CDS Widen by Most in Eight Years as Debtholders Left Out",
+      "source": "Bloomberg",
+      "summary": "Navient's credit default swaps widened the most in eight years after a restructuring that cuts bondholders off from its biggest growth area.",
+      "why": "A credit-markets lesson in bondholder risk in restructurings.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/ebay-cuts-one-thousand-jobs-layoffs-downsizing/833668/",
+      "title": "eBay cuts 1K jobs, downsizing for the second time this year",
+      "source": "Retail Dive",
+      "summary": "eBay is laying off about 1,000 workers in its second cut this year.",
+      "why": "Marketplace economics under pressure.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/22/world/europe/italy-protests-shortages-truckers.html",
+      "title": "Italy Experiences Food and Fuel Shortages After Truckers on Strike Block Roads",
+      "source": "New York Times",
+      "summary": "Truckers protesting high gas prices have blocked deliveries to parts of southern Italy, leaving empty shelves and dry pumps.",
+      "why": "Shows how fuel costs can break food supply chains.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/22/multimedia/22int-Italy-shortages-01-mvfz/22int-Italy-shortages-01-mvfz-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-22T23:01:46Z"
+    },
     {
       "url": "https://www.wsj.com/tech/ai/chinese-ai-startup-deekseek-raises-15-billion-ahead-of-potential-ipo-f7fe3a49",
       "title": "Chinese AI Startup DeepSeek Raises $15 Billion Ahead of Potential IPO",
@@ -1362,368 +1748,6 @@
       "why": "Leadership change at a fast-growing multi-unit chain.",
       "minutes": 3,
       "addedAt": "2026-10-20T23:01:48Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal",
-      "title": "Nscale, Anthropic in Talks for $45 Billion AI Computing Deal",
-      "source": "Bloomberg",
-      "summary": "Nscale, the AI cloud computing firm, is in talks to sell computing power to Anthropic in a deal that could be worth about $45 billion, according to people familiar with the talks.",
-      "why": "Shows how much capital the AI labs are committing to compute.",
-      "minutes": 4,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.wsj.com/finance/stocks/ai-selloff-returns-oil-tops-110-a-barrel-b8400c70",
-      "title": "AI Selloff Returns, Oil Tops $110 a Barrel",
-      "source": "Wall Street Journal",
-      "summary": "Chip makers and AI infrastructure groups slid in U.S. premarket trade while oil rose and investors again pulled back from risk.",
-      "why": "Today's market backdrop: AI trade wobbling with oil spiking.",
-      "minutes": 3,
-      "image": "https://images.wsj.net/im-65914536",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.axios.com/2026/10/20/goldman-ai-energy-infrastructure-bottleneck",
-      "title": "Exclusive: The AI race is hitting an energy wall",
-      "source": "Axios",
-      "summary": "Axios reports that power supply is becoming a binding constraint on AI expansion, in an exclusive tied to Goldman Sachs analysis.",
-      "why": "Energy as the bottleneck is where AI infrastructure returns get decided.",
-      "minutes": 4,
-      "image": "https://images.axios.com/Vt57Q9c6FWVI6L49Zqh72tRHhOg=/1366x768/smart/2024/05/24/170130-1716570090544.jpg",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.wsj.com/business/autos/general-motors-plans-20-billion-in-buybacks-to-shore-up-share-price-a857e6fe",
-      "title": "General Motors Plans $20 Billion in Buybacks to Shore Up Share Price",
-      "source": "Wall Street Journal",
-      "summary": "GM plans $20 billion in buybacks, saying executives believe the stock is fundamentally undervalued even as auto sales cool.",
-      "why": "Large capital-return move to support a share price.",
-      "minutes": 4,
-      "image": "https://images.wsj.net/im-21716352",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.grocerydive.com/news/albertsons-kroger-trial-merger-supermarket-grocery/833261/",
-      "title": "What to expect as Albertsons and Kroger square off in court",
-      "source": "Grocery Dive",
-      "summary": "Albertsons and Kroger went to trial in Delaware's Court of Chancery on Oct. 19, four years after announcing their $24.6 billion merger. Albertsons is seeking at least $8 billion, including a $600 million termination fee, while Kroger denies owing anything.",
-      "why": "A multi-billion-dollar fight over a failed grocery mega-merger and who bears the blame.",
-      "minutes": 5,
-      "image": "https://imgproxy.divecdn.com/JCD3zyyDdvpL6IMiKB2MbeY9tWlvQV0nZ00DewwDorg/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfODE2NC5qcGc=.webp",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/20/us/politics/ai-fortunes-could-bring-critical-funds-to-global-health-the-scramble-is-on.html",
-      "title": "A.I. Fortunes Could Bring Critical Funds to Global Health. The Scramble Is On.",
-      "source": "New York Times",
-      "summary": "Expected IPO windfalls from AI companies are drawing global health leaders into a race for billions in new philanthropic dollars.",
-      "why": "Second-order effect of AI wealth creation.",
-      "minutes": 8,
-      "image": "https://static01.nyt.com/images/2026/10/19/multimedia/19dc-philanthropy-health-TOP3-ltgh/19dc-philanthropy-health-TOP3-ltgh-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/polymarket-investors-push-ceo-coplan-for-change-as-kalshi-gains-ground",
-      "title": "Polymarket Investors Push CEO Coplan For Change as Kalshi Gains Ground",
-      "source": "Bloomberg",
-      "summary": "Founders Fund learned in 2025 that Polymarket CEO Shayne Coplan had used company money for private jets, apartment rent and personal expenses, and investors are now pushing for change as Kalshi gains ground.",
-      "why": "VC governance and a hot fintech race, with real money at stake.",
-      "minutes": 6,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.wsj.com/world/netflix-won-the-streaming-wars-now-it-faces-its-biggest-disruption-in-years-39c47881",
-      "title": "Netflix Won the Streaming Wars. Now It Faces Its Biggest Disruption in Years.",
-      "source": "Wall Street Journal",
-      "summary": "WSJ examines what it calls Netflix's biggest disruption in years after winning the streaming wars.",
-      "why": "Strategic threat to the dominant consumer subscription platform.",
-      "minutes": 6,
-      "image": "https://images.wsj.net/im-18020748",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.axios.com/2026/10/20/ai-govern-anthropic-openai",
-      "title": "AI takes on great experiment in self-rule",
-      "source": "Axios",
-      "summary": "Leading AI companies are building a national self-governing structure to oversee their technology and its societal impact.",
-      "why": "How AI labs may self-regulate while Washington stays hands-off.",
-      "minutes": 4,
-      "image": "https://images.axios.com/BIPtiPttm_Jh-4FnlZFk_ViW44Q=/0x0:1920x1080/1366x768/2026/10/19/1792429019246.jpeg",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.modernretail.co/operations/pepsico-bets-on-refrigerated-fresh-foods-like-gazpacho-and-guacamole-to-drive-growth/",
-      "title": "PepsiCo bets on refrigerated fresh foods like gazpacho and guacamole to drive growth",
-      "source": "Modern Retail",
-      "summary": "PepsiCo is bringing Spanish gazpacho brand Alvalle to select Whole Foods stores and rolling out Tostitos guacamole at Walmart and Kroger. It cites Numerator data that refrigerated-aisle visits grew 15% faster than center-aisle visits in 2025.",
-      "why": "Shows where a snack and beverage giant sees growth as center-store stalls, relevant to challenger fresh-food brands.",
-      "minutes": 5,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/20/business/trump-farmer-bailout.html",
-      "title": "Trump Announces $8 Billion Plan to Cover Farm Losses",
-      "source": "New York Times",
-      "summary": "The Agriculture Department will provide $8 billion in aid for farmers hurt by high diesel prices under the Harvest Fuel Relief program.",
-      "why": "Macro and policy impact on food supply chains.",
-      "minutes": 4,
-      "image": "https://static01.nyt.com/images/2026/10/20/multimedia/20biz-farmer-bailout-klvz/20biz-farmer-bailout-klvz-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/",
-      "title": "AI assistant startup Town nabs unicorn valuation 4 months after launch",
-      "source": "TechCrunch",
-      "summary": "AI assistant startup Town reached a unicorn valuation four months after launching.",
-      "why": "Another data point on AI startup valuation speed.",
-      "minutes": 3,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.wsj.com/finance/investing/yes-the-fed-can-kill-the-ai-boom-3c25da2e",
-      "title": "Yes, the Fed Can Kill the AI Boom",
-      "source": "Wall Street Journal",
-      "summary": "WSJ argues that Federal Reserve policy can end the AI boom.",
-      "why": "Links macro rates to AI valuations.",
-      "minutes": 5,
-      "image": "https://images.wsj.net/im-14529732",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/ai-debutant-s-flameout-stokes-fears-the-boom-is-ending",
-      "title": "AI Debutant’s Flameout Stokes Fears the Boom Is Ending",
-      "source": "Bloomberg",
-      "summary": "Elice's first-day slump has become the center of a debate about AI valuations and whether companies can deliver on them.",
-      "why": "Tests how fragile the AI boom looks to markets.",
-      "minutes": 4,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/20/world/europe/ai-datacenter-devon-uk-backlash.html",
-      "title": "The A.I. Data Center Backlash Has Reached a Quiet Corner of Rural England",
-      "source": "New York Times",
-      "summary": "Plans to build one of Europe's largest data centers in Devon face strong local opposition as environmental concerns grow.",
-      "why": "Data-center backlash is an AI infrastructure risk.",
-      "minutes": 6,
-      "image": "https://static01.nyt.com/images/2026/10/20/multimedia/20int-uk-data-01-fqvg/20int-uk-data-01-fqvg-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.wsj.com/health/pharma/roche-partners-with-chinas-hansoh-in-deal-that-could-top-15-billion-a6681938",
-      "title": "Roche Partners With China’s Hansoh in Deal That Could Top $15 Billion",
-      "source": "Wall Street Journal",
-      "summary": "Roche partners with China's Hansoh in a deal that could top $15 billion, taking ex-China rights after early-stage trials.",
-      "why": "Big cross-border licensing deal with headline value.",
-      "minutes": 4,
-      "image": "https://images.wsj.net/im-70175208",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.nrn.com/quick-service/taco-bell-adds-another-gamification-element-to-its-rewards-program",
-      "title": "Taco Bell adds another gamification element to its Rewards program",
-      "source": "Nation's Restaurant News",
-      "summary": "Taco Bell Rewards members can now bid for luxury prizes, and the Crunchadilla is also a $2 Luxe Value Menu option.",
-      "why": "A look at how a Yum chain uses loyalty and gamification to drive frequency.",
-      "minutes": 3,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.axios.com/2026/10/20/hark-ai-agent-startup-free-pizza-doordash",
-      "title": "Pizza giveaway exposes AI agent growing pains",
-      "source": "Axios",
-      "summary": "A free-pizza promotion involving the AI agent startup Hark and DoorDash shows the problems agents face in consumer transactions.",
-      "why": "Concrete consumer-commerce example of agents in the wild.",
-      "minutes": 3,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.wsj.com/finance/stocks/stock-pickers-burned-by-the-ai-boom-think-their-moment-has-finally-arrived-07878da7",
-      "title": "Stock Pickers Burned by the AI Boom Think Their Moment Has Finally Arrived",
-      "source": "Wall Street Journal",
-      "summary": "Shares of CoreWeave slid last week, a sign the AI trade may be entering a new stage, and active managers see an opening.",
-      "why": "Active-manager view on a rotation away from AI leaders.",
-      "minutes": 5,
-      "image": "https://images.wsj.net/im-80291762",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
-      "title": "Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet",
-      "source": "TechCrunch",
-      "summary": "Blackwall's valuation rose fourfold to $2.2 billion as websites deal with growing bot and AI traffic.",
-      "why": "VC round with a clear AI-traffic angle.",
-      "minutes": 3,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/nidec-report-faults-founder-for-systemic-accounting-failures",
-      "title": "Nidec Report Points Finger at Founder Nagamori for Accounting Scandal",
-      "source": "Bloomberg",
-      "summary": "A board committee report says founder Shigenobu Nagamori created a culture in which losses were improperly deferred and misreflected in earnings.",
-      "why": "A governance and accounting blowup at a major Japanese industrial.",
-      "minutes": 4,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/19/business/saudi-investment-fii-houthis.html",
-      "title": "Saudi Arabia Postpones Its FII Investment Event After Houthi Attacks",
-      "source": "New York Times",
-      "summary": "Saudi Arabia postponed its Future Investment Initiative, set to begin next week, after Houthi attacks.",
-      "why": "Affects a major global investor and deal-making event.",
-      "minutes": 4,
-      "image": "https://static01.nyt.com/images/2026/10/19/multimedia/19biz-saudi-investment-ktlm/19biz-saudi-investment-ktlm-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.wsj.com/business/telecom/amazon-pledges-over-17-billion-to-expand-german-operations-52c311ee",
-      "title": "Amazon Pledges Over $17 Billion to Expand German Operations",
-      "source": "Wall Street Journal",
-      "summary": "Amazon plans to invest in AI infrastructure, satellite internet, logistics and Prime Video content in Germany, the latest big overseas commitment from a US tech company.",
-      "why": "Shows where hyperscaler capex is heading abroad.",
-      "minutes": 3,
-      "image": "https://images.wsj.net/im-37562288",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.axios.com/2026/10/20/battle-of-bots-openai-meta-ai-agents-test",
-      "title": "I tested Dots and Muse. Here's where they shine.",
-      "source": "Axios",
-      "summary": "Axios compares hands-on tests of two AI agents, Dots and Muse, and where each performs well.",
-      "why": "Practical read on competing OpenAI and Meta consumer agents.",
-      "minutes": 4,
-      "image": "https://images.axios.com/XG-MkkmFvWYS8aVLT_TOwhoDBcc=/0x0:1920x1080/1366x768/2026/10/19/1792446503279.jpeg",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/ares-warns-of-australian-private-credit-stress-from-rising-rates",
-      "title": "Ares Watching Australian Private Credit Stress as Rates Rise",
-      "source": "Bloomberg",
-      "summary": "An Ares Management executive warned that elevated rates threaten more pressure on Australia's private credit sector, which is heavily weighted to struggling real estate.",
-      "why": "Private-credit stress signal from a major alternative asset manager.",
-      "minutes": 3,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/20/business/knicks-tickets.html",
-      "title": "Knicks Ticket Prices Are Soaring After Last Season’s Championship",
-      "source": "New York Times",
-      "summary": "Knicks ticket prices are soaring after last season's championship, with the first game costing more than a trip to Paris.",
-      "why": "Consumer pricing and demand story.",
-      "minutes": 4,
-      "image": "https://static01.nyt.com/images/2026/10/20/multimedia/20biz-knicks-tickets-1-pmlk/20biz-knicks-tickets-1-pmlk-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.wsj.com/business/earnings/hasbro-lifts-outlook-as-revenue-jumps-ed1dab70",
-      "title": "Hasbro Lifts Outlook as Revenue Jumps",
-      "source": "Wall Street Journal",
-      "summary": "Hasbro posted a third-quarter profit of $394.5 million, or $2.77 a share, versus $233.2 million a year earlier.",
-      "why": "Consumer brand earnings beat with a raised outlook.",
-      "minutes": 3,
-      "image": "https://images.wsj.net/im-79533530",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.modernretail.co/operations/nearly-30-of-holiday-budgets-expected-to-be-spent-by-the-end-of-october/",
-      "title": "Nearly 30% of holiday budgets expected to be spent by the end of October",
-      "source": "Modern Retail",
-      "summary": "Deloitte's holiday survey finds many shoppers are starting early and spending much of their budget before November.",
-      "why": "An early read on holiday demand that matters for retail and consumer-brand earnings.",
-      "minutes": 4,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.axios.com/2026/10/19/ai-agent-corporate-management",
-      "title": "Axios C-Suite: No one knows who should manage AI agents",
-      "source": "Axios",
-      "summary": "Companies are unsure who supervises AI agents that act like new hires, and who is accountable when they fail.",
-      "why": "How enterprises are organizing around agents.",
-      "minutes": 4,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/partners-group-cuts-management-fees-at-key-fund-before-overhaul",
-      "title": "Partners Group Cuts Management Fees at Key Fund Before Overhaul",
-      "source": "Bloomberg",
-      "summary": "Partners Group is cutting management fees at a key evergreen fund as it seeks investor approval to revamp the private equity vehicle.",
-      "why": "PE fee pressure in retail-oriented evergreen funds.",
-      "minutes": 3,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/20/opinion/mamdani-ai-rule-customer-service-doom-loop.html",
-      "title": "Mamdani’s Next Target: The Increasingly A.I.-Powered, Customer Service Doom Loop",
-      "source": "New York Times",
-      "summary": "New York City is moving to crack down on AI chatbot-powered customer service, illustrated by an effort to fix a hotel bill.",
-      "why": "Regulation of AI in consumer service in Ian's home city.",
-      "minutes": 5,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.axios.com/2026/10/19/treasury-yields-hedge-funds-volatility",
-      "title": "The Treasury market has been acting weird lately",
-      "source": "Axios",
-      "summary": "Axios examines recent odd behavior in Treasury yields and the role of hedge funds and volatility.",
-      "why": "Rates behavior is driving everything else in markets.",
-      "minutes": 3,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.wsj.com/finance/stocks/stocks-face-headwind-that-ended-other-bull-markets-10b9b7b0",
-      "title": "Stocks Face Headwind That Ended Other Bull Markets",
-      "source": "Wall Street Journal",
-      "summary": "WSJ looks at a market headwind that has ended earlier bull markets, with SpaceX reporting this week.",
-      "why": "Historical context for a nervous equity market.",
-      "minutes": 5,
-      "image": "https://images.wsj.net/im-25529582",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/ocado-rally-tipped-to-extend-as-jpmorgan-sets-street-high-target",
-      "title": "Ocado Rally Tipped to Extend as JPMorgan Sets Street-High Target",
-      "source": "Bloomberg",
-      "summary": "JPMorgan sets a Street-high target for Ocado, saying the recent rebound may be the start of a sustained re-rating.",
-      "why": "Online grocery and tech-enabled retail stock call.",
-      "minutes": 3,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/19/world/africa/gold-mines-investigation-takeaways.html",
-      "title": "To Find Criminals and Child Exploitation in Gold Mines, We Just Had to Look",
-      "source": "New York Times",
-      "summary": "An investigation into how layers of certifiers vouch that gold is free from rights abuses and criminality without leaving their desks.",
-      "why": "Standout investigative reporting on supply-chain due diligence.",
-      "minutes": 7,
-      "image": "https://static01.nyt.com/images/2026/10/16/multimedia/00int-dirty-gold-takeaways-1-tpvl/00int-dirty-gold-takeaways-1-tpvl-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-      "title": "Embedded AI evaluators won't be an easy solution, Hugging Face's policy chief says",
-      "source": "TechCrunch",
-      "summary": "Hugging Face's policy chief cautions that building evaluators into AI systems is not a simple fix.",
-      "why": "Context for the independent-evaluator debate at Anthropic and others.",
-      "minutes": 3,
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://www.axios.com/2026/10/19/pine-ridge-bill-gurley-entrepreneur-woihanble-wakhlyap",
-      "title": "Runnin' down a dream in Pine Ridge",
-      "source": "Axios",
-      "summary": "Devyn Valandra built Wakhalypi, a sage-infused coffee brand on South Dakota's Pine Ridge Reservation, and was picked for the first cohort of Bill Gurley's Runnin' Down a Dream foundation. He plans to use the funds to get licensed to roast his own beans.",
-      "why": "A small consumer brand backed by a top VC's philanthropy, from Dan Primack.",
-      "minutes": 4,
-      "image": "https://images.axios.com/shOlImFLLt1r672CvCVTU5aErvI=/0x0:1920x1080/1366x768/2026/10/16/1792173736891.jpeg",
-      "addedAt": "2026-10-20T11:03:24Z"
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
-      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
-      "source": "TechCrunch",
-      "summary": "New York's mayor argues federal authorities have stepped back on AI and urges residents to respond.",
-      "why": "AI policy in Ian's home city.",
-      "minutes": 3,
-      "addedAt": "2026-10-20T11:03:24Z"
     }
   ]
 }
