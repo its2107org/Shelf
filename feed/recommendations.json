@@ -1,6 +1,333 @@
 {
-  "generatedAt": "2026-10-21T23:03:48Z",
+  "generatedAt": "2026-10-22T11:02:28Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/tech/ai/chinese-ai-startup-deekseek-raises-15-billion-ahead-of-potential-ipo-f7fe3a49",
+      "title": "Chinese AI Startup DeepSeek Raises $15 Billion Ahead of Potential IPO",
+      "source": "Wall Street Journal",
+      "summary": "DeepSeek has raised $15 billion ahead of a potential IPO.",
+      "why": "Sets a valuation marker for the Chinese AI challenger.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-64795973",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/22/business/health-insurance-costs-workers-premiums-deductibles.html",
+      "title": "Employers Shift Rising Health Care Costs Onto Millions of Workers",
+      "source": "New York Times",
+      "summary": "Employers are shifting rising health care costs onto millions of workers.",
+      "why": "Affects consumer spending power and labor costs.",
+      "minutes": 6,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/21/ai-funding-neoclouds-debt",
+      "title": "The AI trade gets a reappraisal",
+      "source": "Axios",
+      "summary": "Investors are cutting back AI funding and asking for proof that these bets will pay off, with neocloud debt in focus.",
+      "why": "Core AI-economics reality check on where the money is going.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/retail/nestle-sales-rise-with-petcare-food-growth-in-americas-2aa8e69f",
+      "title": "Nestle Sales Boosted By Hot Pockets and Frozen Pizza in U.S.",
+      "source": "Wall Street Journal",
+      "summary": "Nestle's sales rose, helped by Hot Pockets and frozen pizza in the U.S. and by petcare and food growth in the Americas.",
+      "why": "Big-FMCG read-through on U.S. frozen food and petcare demand.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-79592786",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.modernretail.co/marketing/kohls-leans-into-clearer-pricing-gift-bundles-and-uber-eats-for-the-holidays/",
+      "title": "Kohl's leans into clearer pricing, gift bundles and Uber Eats for the holidays",
+      "source": "Modern Retail",
+      "summary": "Kohl's is pushing simpler discounts, gift bundles and delivery to reach budget-strained holiday shoppers.",
+      "why": "A read on how a struggling department store is fighting for value-minded consumers this season.",
+      "minutes": 5,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/business/earnings/barclays-pretax-profit-misses-estimates-on-fixed-income-weakness-072a1b72",
+      "title": "Barclays to Cut 5,000 Jobs in AI Cost-Saving Drive",
+      "summary": "Barclays said it was structurally reducing costs to help make room for investments.",
+      "why": "AI-driven white-collar job cuts at a major bank.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-87117614",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/21/technology/mark-zuckerberg-meta-california-wealth-tax.html",
+      "title": "How Mark Zuckerberg Pushed Meta to Shield Him From California's Proposed Wealth Tax",
+      "summary": "The billionaire told Meta's board he planned to list his Silicon Valley home for sale, and the company remained involved.",
+      "why": "Governance and wealth-tax fight at a mega-cap.",
+      "minutes": 7,
+      "image": "https://static01.nyt.com/images/2026/10/21/multimedia/biz-zuckerberg-california-tpwf/biz-zuckerberg-california-tpwf-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "title": "Blackstone's Jas Khaira says fears over AI-buildout debt are overblown",
+      "source": "TechCrunch",
+      "summary": "A Blackstone executive argues that concerns about debt financing for AI infrastructure build-outs are exaggerated.",
+      "why": "A top PE firm's view on AI infrastructure credit risk.",
+      "minutes": 5,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+      "title": "Scoop: Unvetted AI agents are accessing U.S. bank accounts",
+      "source": "Axios",
+      "summary": "Axios reports unvetted AI agents are accessing U.S. bank accounts.",
+      "why": "AI agents meeting finance, with risk and opportunity.",
+      "minutes": 3,
+      "image": "https://images.axios.com/YgcVI-u-pSHj2EzpPHKHMuoySek=/0x0:1920x1080/1366x768/2026/10/21/1792610587634.jpeg",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/teen-spending-grows-trade-athletic-apparel-fashion-piper-sandler/833565/",
+      "title": "Teen spending up 6% as they trade athletic apparel for fashion",
+      "source": "Retail Dive",
+      "summary": "Piper Sandler's survey finds teen spending rose about 6%, with a shift from athletic apparel toward fashion.",
+      "why": "Early signal on the next generation's spend that drives brand winners and losers.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/london-stock-exchange-group-agrees-to-buy-octus-from-permira-for-3-5-billion-69361aa5",
+      "title": "LSEG agrees to buy Octus from Permira for $3.5 billion",
+      "source": "Wall Street Journal",
+      "summary": "London Stock Exchange Group has agreed to buy credit-intelligence provider Octus from private-equity firm Permira for $3.5 billion.",
+      "why": "A sizable PE exit with a clear price tag.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-02531226",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/22/technology/ai-data-centers-paint.html",
+      "title": "How the A.I. Boom Is Driving Up Sales of Gray Paint",
+      "summary": "Tech companies are painting data centers with gray coatings on top of gray concrete and steel to resist fire.",
+      "why": "A picks-and-shovels angle on AI infrastructure demand.",
+      "minutes": 5,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/softbank-market-value-poised-to-halve-from-peak-as-ai-fears-grow",
+      "title": "SoftBank Market Value Halves From Peak as AI Fears Grow",
+      "source": "Bloomberg",
+      "summary": "SoftBank's market value is poised to halve from its peak as worries about AI grow.",
+      "why": "A gauge of how public markets are reassessing AI exposure.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/Pepsico-snacking-protein-bars-good-warrior-doritos/833574/",
+      "title": "PepsiCo's Good Warrior enters protein bar space",
+      "source": "Food Dive",
+      "summary": "PepsiCo is adding protein across several snack brands, with its Good Warrior line moving into bars.",
+      "why": "The protein land-grab by big CPG is the competitive backdrop for challenger snack and beverage brands.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "source": "TechCrunch",
+      "summary": "Recursive has released Flint, a laptop-sized coding model that the company says AI largely built.",
+      "why": "A concrete data point on AI building AI.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.wsj.com/cfo-journal/pe-firms-are-holding-investments-longerand-changing-leaders-more-2d0bb31a",
+      "title": "PE Firms Are Holding Investments Longer—and Changing Leaders More",
+      "source": "Wall Street Journal",
+      "summary": "PE firms are holding portfolio investments for longer and replacing leaders more often.",
+      "why": "Direct read on how PE hold periods and ownership playbooks are shifting.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-698778",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/22/business/economy/ai-economy-jobs-history.html",
+      "title": "For Clues About How A.I. Will Change Work, Look to the Past",
+      "summary": "Economists look to earlier episodes of labor disruption, from the Industrial Revolution to the Great Depression, for clues about AI and jobs.",
+      "why": "Historical framing for AI's economic impact.",
+      "minutes": 7,
+      "image": "https://static01.nyt.com/images/2026/09/27/business/27biz-sun-AI-History-illo/27biz-sun-AI-History-illo-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/kroger-investor-day-new-store-formats-fleet-expansion/833563/",
+      "title": "Kroger unveils 3 refreshed store formats",
+      "source": "Grocery Dive",
+      "summary": "Kroger's new formats add space for fresh food and e-commerce and cut general merchandise.",
+      "why": "Kroger's investor-day plan signals where the largest pure-play grocer will put capital after its merger saga.",
+      "minutes": 5,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/venture-capitalists-push-up-ai-startup-valuations-with-tranched-two-step-rounds",
+      "title": "Venture Capitalists Push Up AI Startup Valuations with Tranched, Two-Step Rounds",
+      "summary": "Venture capitalists are fighting to invest in AI startup Emulate, driving its valuation into the billions through tranched, two-step financing rounds.",
+      "why": "How VC deal structures are inflating AI valuations.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "source": "TechCrunch",
+      "summary": "Anthropic reports a shift toward a more senior staff mix, with more time spent in meetings.",
+      "why": "A lab's own data on how AI changes the shape of work.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/finance/investing/private-credit-retail-investors-festival-c550f07b",
+      "title": "It Looks Like a Music Festival. It's Really a Sales Pitch for Private Credit.",
+      "summary": "Fund managers are staging elaborate events to court wealth advisers in hopes of reaching untapped household money.",
+      "why": "Private-credit retail push.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-56461631",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.nrn.com/mergers-acquisitions/landry-s-to-acquire-most-of-fireman-hospitality-group-concepts-in-bankruptcy-auction",
+      "title": "Landry's to acquire most of Fireman Hospitality Group's concepts in bankruptcy auction",
+      "source": "Nation's Restaurant News",
+      "summary": "Landry's won most of Fireman Hospitality Group's restaurant brands in a bankruptcy sale.",
+      "why": "Multi-unit restaurant consolidation: a large operator picking up distressed concepts.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/21/us/san-francisco-cost-living-affordable-housing.html",
+      "title": "In San Francisco, a Family Earning $325,000 Qualifies for Government Aid",
+      "summary": "With the A.I. boom driving up prices, the city is subsidizing child care for households with high incomes.",
+      "why": "AI-boom wealth effects on cost of living.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/10/07/multimedia/00nat-sf-unaffordable-01-qzmv/00nat-sf-unaffordable-01-qzmv-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/nvidia-s-huang-urged-nscale-to-move-faster-after-early-setbacks",
+      "title": "Nvidia's Huang Urged Nscale to Move Faster After Early Setbacks",
+      "summary": "Nvidia CEO Jensen Huang said he told UK-based neocloud Nscale to work around early setbacks and move faster.",
+      "why": "Inside Nvidia's backing of the AI neocloud buildout.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/holiday-season-retail-spending-sales-decline-outlook/832624/",
+      "title": "Shoppers expect less for more this holiday season. That could mean a sales decline.",
+      "source": "Retail Dive",
+      "summary": "Forecasts vary, with some predicting holiday spending could fall as consumers feel financial pressure.",
+      "why": "Consumer-demand outlook for the key retail quarter.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/business/deals/akzo-nobel-in-talks-to-shed-european-refinishing-unit-for-axalta-merger-nod-9e194ad0",
+      "title": "Akzo Nobel in Talks to Shed European Refinishing Unit for Axalta Merger Nod",
+      "summary": "Akzo Nobel is seeking regulatory clearance for its proposed Axalta merger by shedding a European refinishing unit.",
+      "why": "Large industrial M&A.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-230465",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+      "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+      "source": "TechCrunch",
+      "summary": "Blacksmith has reached a valuation above $1 billion in a Series C round led by Sequoia.",
+      "why": "A fresh AI-infrastructure venture round with a valuation.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/21/hearst-magazines-steve-swartz",
+      "title": "Hearst bought A&E to avoid selling at a low price, CEO says",
+      "source": "Axios",
+      "summary": "Hearst CEO Steve Swartz says Hearst bought A&E to avoid selling at a low price.",
+      "why": "Media M&A logic from the buyer's chair.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/albertsons-special-dividend-sankaran-krroger-trial-supermarkets/833575/",
+      "title": "Albertsons didn't risk fiscal health with $4B pre-merger dividend, former CEO testifies",
+      "source": "Grocery Dive",
+      "summary": "Albertsons' former CEO testified in the Kroger merger trial that the roughly $4B special dividend did not endanger the company's finances.",
+      "why": "The $8B damages fight over a failed mega-merger is a live lesson in deal risk.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-22/ai-spending-isn-t-enough-for-investors",
+      "title": "AI Spending Isn't Enough for Investors",
+      "summary": "Markets want evidence that AI investments are generating revenue.",
+      "why": "Sharp read on the AI-capex-versus-revenue debate driving markets.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/finance/investing/sports-investing-is-for-millionaires-now-not-billionaires-aa16332b",
+      "title": "Sports Investing Is for Millionaires Now, not Billionaires",
+      "summary": "WSJ looks at how sports team ownership is opening to smaller investors.",
+      "why": "Sports-asset investing trend.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-19844159",
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "title": "AI promises productivity, but for managers, it's mostly a headache for now",
+      "source": "TechCrunch",
+      "summary": "A new survey suggests AI tools are creating more difficulties than benefits for managers so far.",
+      "why": "A reality check on enterprise AI productivity claims.",
+      "minutes": 4,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/amazon-eyes-three-hundred-thousand-holiday-season-hires/833567/",
+      "title": "Amazon eyes 300K holiday hires",
+      "source": "Retail Dive",
+      "summary": "Amazon plans to bring on about 300,000 seasonal workers for the holidays.",
+      "why": "A quick gauge of Amazon's holiday demand expectations.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/bayern-munich-sells-stake-to-family-office-at-4-5-billion-value",
+      "title": "Bayern Munich Sells Stake to Family Office at $4.5 Billion Value",
+      "source": "Bloomberg",
+      "summary": "Bayern Munich is selling a stake to a family office at a $4.5 billion valuation.",
+      "why": "Sports-asset valuations are a hot area for investors.",
+      "minutes": 3,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "title": "ChatGPT now lets you lock your chats",
+      "source": "TechCrunch",
+      "summary": "ChatGPT has added a feature that lets users lock individual conversations.",
+      "why": "Quick product update from the largest consumer AI app.",
+      "minutes": 2,
+      "addedAt": "2026-10-22T11:02:28Z"
+    },
     {
       "url": "https://www.nytimes.com/2026/10/21/technology/anthropic-ai-agent-claude-duet.html",
       "title": "Anthropic Joins the A.I. Agent Race With Claude Duet",
