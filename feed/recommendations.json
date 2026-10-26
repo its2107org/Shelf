@@ -1,6 +1,339 @@
 {
-  "generatedAt": "2026-10-26T11:06:57Z",
+  "generatedAt": "2026-10-26T23:02:18Z",
   "items": [
+    {
+      "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html",
+      "title": "Anthropic S-1 Reveals Rapid Growth Ahead of Blockbuster IPO",
+      "source": "New York Times",
+      "summary": "Anthropic said revenue reached $16.3 billion in the first half of the year and that it planned to spend $807 billion on AI infrastructure.",
+      "why": "The core numbers behind the largest potential public listing.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/08/20/multimedia/00biz-anthropic-finances-hfo-2-mjwl/00biz-anthropic-finances-hfo-2-mjwl-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/hospitality/doordash-is-in-advanced-talks-to-acquire-delivery-rival-instacart-2b3d3d18",
+      "title": "DoorDash Is in Advanced Talks to Acquire Delivery Rival Instacart",
+      "source": "Wall Street Journal",
+      "summary": "Advanced talks for DoorDash to buy Instacart in a deal valuing it near $17 billion, possibly completed as soon as this week.",
+      "why": "Big consumer-tech M&A in grocery delivery.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-933205",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "title": "Investigating unintended model actions in our evaluations and internal use",
+      "source": "Anthropic",
+      "summary": "Anthropic research post on investigating unintended actions by its models seen in evaluations and internal use.",
+      "why": "Primary lab safety findings, a favourite topic.",
+      "minutes": 10,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/ben-jerrys-founders-have-been-exploring-deal-with-kkr-executive-8a9572de",
+      "title": "Ben & Jerry’s Founders Have Been Exploring Deal to Separate Company From Magnum",
+      "source": "Wall Street Journal",
+      "summary": "Ben & Jerry's founders have been exploring a deal with a KKR executive to separate the ice cream company from Magnum.",
+      "why": "A consumer-brand carve-out with PE involvement, squarely in Ian's lane.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-89389022",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/26/anthropic-trump-ai-safety-ipo-risks",
+      "title": "Anthropic to investors: Trump hates us so much",
+      "source": "Axios",
+      "summary": "Anthropic warns investors it may keep facing government targeting because of its AI safety positions.",
+      "why": "Political risk is a real factor in valuing the IPO.",
+      "minutes": 4,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/universal-music-group-discussed-going-private-with-buyout-firms",
+      "title": "Universal Music Group Discussed Going Private With Buyout Firms",
+      "source": "Bloomberg",
+      "summary": "Universal Music Group has discussed going private with buyout firms, according to Bloomberg.",
+      "why": "Potential mega take-private of a premier content and IP asset.",
+      "minutes": 3,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech-0438f6d2",
+      "title": "Banks, Blackstone Form $63 Billion Financing Vehicle for Broadcom AI Tech",
+      "source": "Wall Street Journal",
+      "summary": "Banks and Blackstone have formed a $63 billion financing vehicle for Broadcom AI technology, tied to Anthropic's chip needs.",
+      "why": "Shows how private credit and PE are financing the AI buildout.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-27498452",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/Smucker-Uncrustables-innovation-snacking-fridge/832155/",
+      "title": "Uncrustables becomes fridge friendly as sales top $1B",
+      "source": "Food Dive",
+      "summary": "J.M. Smucker has found a way to sell Uncrustables sandwiches refrigerated rather than frozen, as the brand's sales pass $1 billion.",
+      "why": "A $1B+ challenger-style snack franchise widening its distribution.",
+      "minutes": 4,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-s1-dario-amodei.html",
+      "title": "Anthropic’s IPO S-1 Spells Out a Future of Promise and Peril",
+      "source": "New York Times",
+      "summary": "Anthropic's S-1 describes the benefits of Claude and its technology but also includes a heavy dose of risk language.",
+      "why": "How Anthropic frames promise and peril to investors.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/26/multimedia/2026-10-26-anthropic-ipo-letter-index/2026-10-26-anthropic-ipo-letter-index-mediumSquareAt3X-v6.png",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/26/bon-secours-surgery-partners",
+      "title": "Bon Secours is buying Surgery Partners for $5.7 billion",
+      "source": "Axios",
+      "summary": "A nonprofit health system agreed to acquire the outpatient surgery operator for $5.7 billion.",
+      "why": "A large take-private-style deal in a PE-backed roll-up sector.",
+      "minutes": 3,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "title": "Anthropic's IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "source": "TechCrunch",
+      "summary": "Analysis of how Anthropic's IPO filing describes retaining business customers.",
+      "why": "Customer retention is the core question on AI revenue durability.",
+      "minutes": 5,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2278152325.jpg",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/26/business/brazil-stock-markets-election-lula.html",
+      "title": "Brazilian Markets Convulse After Unexpected Election Result",
+      "source": "New York Times",
+      "summary": "Lula's re-election prompted a sharp reversal in financial markets that had expected his opponent to win.",
+      "why": "Emerging-market shock for investors.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26Biz-Brazil-Markets-pvmt/26Biz-Brazil-Markets-pvmt-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-s1-report-takeaways-6eebd721",
+      "title": "The Biggest Takeaways From Anthropic’s IPO Prospectus",
+      "source": "Wall Street Journal",
+      "summary": "Takeaways from Anthropic's S-1, from its cash cushion to risks of humans losing control of AI models.",
+      "why": "The key facts from the biggest AI IPO filing.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-26144769",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/zevia-20-million-investment-turnaround-plan/833924/",
+      "title": "Zevia nabs $20M investment to fund turnaround",
+      "source": "Food Dive",
+      "summary": "The better-for-you soda brand has secured $20 million in new funding to back its turnaround plan.",
+      "why": "Funding terms for a listed challenger beverage brand in turnaround.",
+      "minutes": 4,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/26/business/dealbook/musk-ai-credit-shakeout.html",
+      "title": "Musk Is Predicting ‘Guppy-level Death’ for Scores of A.I. Companies",
+      "source": "New York Times",
+      "summary": "Elon Musk is predicting a shakeout among AI companies as Meta and SpaceX raise billions in new financing for AI ambitions.",
+      "why": "A credit-cycle view on AI capex and who survives.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26db-musk-plqt/26db-musk-plqt-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/retail/frasers-group-to-make-hugo-boss-a-subsidiary-after-taking-majority-ownership-04591dd8",
+      "title": "Frasers Group to Make Hugo Boss a Subsidiary After Taking Majority Ownership",
+      "source": "Wall Street Journal",
+      "summary": "Frasers Group is set to make Hugo Boss a subsidiary after taking majority ownership.",
+      "why": "Notable consumer and fashion M&A control move.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-60431259",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/ai-funding-needs-drive-us-high-grade-bond-sales-to-annual-record",
+      "title": "AI Funding Drives US High-Grade Bond Sales to Annual Record",
+      "source": "Bloomberg",
+      "summary": "US investment-grade bond sales set an annual record as AI spending drives companies to borrow hundreds of billions of dollars.",
+      "why": "Credit-market evidence of the AI funding wave.",
+      "minutes": 3,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.nrn.com/quick-service/mcdonald-s-is-ending-its-fifa-world-cup-sponsorship",
+      "title": "McDonald's is ending its FIFA World Cup sponsorship",
+      "source": "Nation's Restaurant News",
+      "summary": "McDonald's will no longer sponsor the FIFA World Cup.",
+      "why": "Marketing-spend shift at the world's largest restaurant chain.",
+      "minutes": 3,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan-10b8947e",
+      "title": "Meta Plans up to $95 Billion in Financing to Power Its AI Growth",
+      "source": "Wall Street Journal",
+      "summary": "Meta said it would look to raise up to $95 billion to fund AI infrastructure and personal superintelligence investments.",
+      "why": "The scale of AI capex financing keeps escalating.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-33170952",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/26/technology/microsoft-buyouts-ai-spending.html",
+      "title": "Microsoft Offers Buyouts to 60,000 Employees as It Spends on A.I.",
+      "source": "New York Times",
+      "summary": "Microsoft is offering buyouts to 60,000 employees while it keeps spending heavily on AI.",
+      "why": "Shows how AI capex is reshaping big-company headcount.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26biz-microsoft-buyouts-gqlz/26biz-microsoft-buyouts-gqlz-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.glossy.co/beauty/bath-body-works-has-a-successful-holiday-season-on-its-wishlist-can-zooey-deschanel-help-it-deliver/",
+      "title": "Bath & Body Works has a successful holiday season on its wishlist. Can Zooey Deschanel help it deliver?",
+      "source": "Glossy",
+      "summary": "Looks at why holiday gifting matters for the fragrance and body-care brand amid mass-market competition and its ongoing turnaround.",
+      "why": "Multi-unit specialty retail turnaround heading into its key season.",
+      "minutes": 5,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/pimco-scoops-up-4-billion-of-massive-spacex-ai-debt-package",
+      "title": "Pimco Scoops Up $4 Billion of Massive SpaceX AI Debt Package",
+      "source": "Bloomberg",
+      "summary": "Pimco bought a $4 billion slice of a huge SpaceX financing deal that will help expand its AI ambitions.",
+      "why": "How big credit investors are underwriting AI buildout.",
+      "minutes": 3,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/the-bull-case-for-ai-armageddon-673521f4",
+      "title": "The Bull Case for AI Armageddon",
+      "source": "Wall Street Journal",
+      "summary": "WSJ column on how investors weighing the Anthropic offering might treat a 10% chance of extinction.",
+      "why": "A provocative investor take on AI risk pricing.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-84042496",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/levis-distribution-network-transition-delay/833896/",
+      "title": "Levi's distribution network transition saga continues to drag",
+      "source": "Retail Dive",
+      "summary": "Levi's does not expect its distribution overhaul to pay off until 2027, citing a Q3 facility fire.",
+      "why": "Operational drag at a major apparel brand, relevant to margin outlook.",
+      "minutes": 4,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/26/business/draftkings-new-york-louisiana-blumenthal.html",
+      "title": "DraftKings Faces Growing Pressure Over How It Targets Customers",
+      "source": "New York Times",
+      "summary": "Officials in Congress and several states are questioning online gambling companies such as DraftKings about their use of AI to target customers.",
+      "why": "Regulatory risk for a consumer-facing AI use case.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26biz-draftkings-pressure-02-mcgh/26biz-draftkings-pressure-02-mcgh-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/fed-meeting-focus-turns-to-warsh-messaging-with-december-in-mind",
+      "title": "Fed Meeting Focus Turns to Warsh Messaging With December in Mind",
+      "source": "Bloomberg",
+      "summary": "Kevin Warsh faces the challenge this week of reassuring investors the Fed is committed to quashing inflation if it holds rates steady.",
+      "why": "Fed meeting preview that moves markets.",
+      "minutes": 4,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.nrn.com/mergers-acquisitions/family-owned-estiatorio-milos-is-seeking-a-strategic-partner-to-fund-help-fund-growth",
+      "title": "Family-owned Estiatorio Milos is seeking a strategic partner to help fund growth",
+      "source": "Nation's Restaurant News",
+      "summary": "The family-owned upscale Greek seafood restaurant group is looking for a strategic partner to finance expansion.",
+      "why": "A multi-unit restaurant brand open to outside capital.",
+      "minutes": 4,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.wsj.com/politics/elections/the-four-places-where-the-midterms-will-decide-the-fate-of-data-centers-deb9f534",
+      "title": "Dozens of data-center projects have already been delayed or disrupted by local opposition this year—here are four states to watch for on Election Day",
+      "source": "Wall Street Journal",
+      "summary": "Dozens of data-center projects have been delayed by local opposition this year, and new moratoriums could threaten the AI buildout.",
+      "why": "Local politics as a constraint on AI infrastructure.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-17081548",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/26/claude-anthropic-s1-ipo-invest",
+      "title": "Claude says Anthropic's IPO is a buy. ChatGPT disagrees",
+      "source": "Axios",
+      "summary": "Axios had Claude and ChatGPT analyze Anthropic's S-1 and the two reached different conclusions.",
+      "why": "A fun, quick take on the S-1 from the models themselves.",
+      "minutes": 3,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.nrn.com/quick-service/casey-s-doubles-down-on-pizza-innovation",
+      "title": "Casey's doubles down on pizza innovation",
+      "source": "Nation's Restaurant News",
+      "summary": "Casey's has launched its first pan pizza as part of its push in the pizza category.",
+      "why": "Convenience-store foodservice as a growth engine.",
+      "minutes": 4,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/earnings/whirlpool-whr-3q-earnings-report-2026-stock-2fb041aa",
+      "title": "Whirlpool Heading for Full-Year Loss as Costs Mount and Sales Fall",
+      "source": "Wall Street Journal",
+      "summary": "Whirlpool is heading for a full-year loss as higher raw material and fuel costs compound falling sales.",
+      "why": "Read-through on consumer durables demand and costs.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-83682024",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/26/business/economy/california-quartz-countertop-ban-alternatives.html",
+      "title": "California’s Potential Quartz Ban Pushes Contractors and Retailers to Alternatives",
+      "source": "New York Times",
+      "summary": "Manufacturers and customers are shifting to materials made without the dust that has sickened workers in quartz-cutting shops, ahead of a potential California ban.",
+      "why": "Regulation reshaping a building-products and retail category.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/22/business/biz-counters/biz-counters-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/26/ai-economists-furman-policy",
+      "title": "Economic policy vets see risks in AI overreliance",
+      "source": "Axios",
+      "summary": "Harvard economist Jason Furman told Axios about risks he sees in overreliance on AI in economic policy.",
+      "why": "Economists' view on AI and policy.",
+      "minutes": 4,
+      "image": "https://images.axios.com/OPU9zdBxpm1Zk5Ng_59fJMwp3YM=/1366x768/smart/2023/02/05/164537-1675615537452.jpg",
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/nra-midterm-election-priorities-immigration-tip-credit/833923/",
+      "title": "What the midterm elections mean for restaurants",
+      "source": "Restaurant Dive",
+      "summary": "The National Restaurant Association says affordability is reshaping party politics, so restaurants cannot rely on one party.",
+      "why": "Policy risk on labor, tip credit and immigration for chain operators.",
+      "minutes": 4,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
+    {
+      "url": "https://www.glossy.co/fashion/3-months-after-the-world-cup-fashion-brands-are-tapping-soccer-stars-like-bellingham-and-yamal-for-partnerships/",
+      "title": "3 months after the World Cup, fashion brands are tapping soccer stars like Bellingham and Yamal for partnerships",
+      "source": "Glossy",
+      "summary": "Fashion brands are signing soccer players for marketing deals after the World Cup.",
+      "why": "Where consumer brands are placing marketing bets post-tournament.",
+      "minutes": 4,
+      "addedAt": "2026-10-26T23:02:18Z"
+    },
     {
       "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html",
       "title": "What’s Riding on Anthropic Going Public? Nearly Everything.",
