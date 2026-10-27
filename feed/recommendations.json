@@ -1,6 +1,354 @@
 {
-  "generatedAt": "2026-10-26T23:02:18Z",
+  "generatedAt": "2026-10-27T11:02:03Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/finance/broadcom-ceo-intervened-to-seal-63-billion-anthropic-debt-deal-c807754f",
+      "title": "Broadcom CEO Intervened to Seal $63 Billion Anthropic Debt Deal",
+      "source": "Wall Street Journal",
+      "summary": "Broadcom's CEO stepped in to close a $63 billion debt deal for Anthropic.",
+      "why": "Deal-making behind the AI buildout.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-90626607",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/27/business/anthropic-ipo-goldman-morgan-stanley.html",
+      "title": "In Anthropic I.P.O., Goldman and Morgan Stanley Slug It Out for Top Bank",
+      "source": "New York Times",
+      "summary": "Goldman Sachs and Morgan Stanley are competing for the lead underwriter role on Anthropic's IPO.",
+      "why": "Banker fee fight on the biggest IPO ever.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26biz-anthropic-banks-goldman-vgzb/26biz-anthropic-banks-goldman-vgzb-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/26/ftc-ai-safety-probe-anthropic-openai",
+      "title": "Scoop: FTC demands Anthropic execs testify in probe",
+      "source": "Axios",
+      "summary": "The FTC has demanded that Anthropic executives testify in a probe tied to AI safety, according to Axios.",
+      "why": "Regulatory risk now hanging over the AI leaders and Anthropic's IPO.",
+      "minutes": 3,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "title": "How OpenAI turned its coding tools into Dots, an always-on personal assistant",
+      "source": "TechCrunch",
+      "summary": "TechCrunch looks at how OpenAI built Dots, an always-on personal assistant, out of its coding tools.",
+      "why": "Shows where OpenAI is taking agents from developers to consumers.",
+      "minutes": 6,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55593495974_7bfdac6a15_k.jpg",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://features.propublica.org/ransomware/ransomware-attack-data-recovery-firms-paying-hackers/",
+      "title": "The Trade Secret: Firms That Promised High-Tech Ransomware Solutions Almost Always Just Pay the Hackers",
+      "source": "ProPublica",
+      "summary": "ProPublica reports that data recovery firms advertising high-tech ransomware fixes typically just pay the hackers.",
+      "why": "Outstanding investigative long read on a hidden industry.",
+      "minutes": 20,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497",
+      "title": "A $300 Billion 'Debt Wall' Is Looming Over Private-Equity Backed Companies",
+      "source": "Wall Street Journal",
+      "summary": "About $300 billion of debt at PE-backed companies is approaching maturity.",
+      "why": "Refinancing pressure on PE portfolios matters for exits and returns.",
+      "minutes": 6,
+      "image": "https://images.wsj.net/im-23171344",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/dollar-general-sued-ftc-alleged-deceptive-pricing/872790/",
+      "title": "Dollar General sued by FTC over \"deceptive pricing practices\"",
+      "source": "Retail Dive",
+      "summary": "The FTC has sued Dollar General over alleged misleading pricing practices.",
+      "why": "A federal pricing case against the biggest low-price chain is a read-through for value retail and the CPG brands it sells.",
+      "minutes": 4,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/27/science/ai-problem-interpretability.html",
+      "title": "Did the Hardest A.I. Problem Just Get Much Easier?",
+      "source": "New York Times",
+      "summary": "The article examines whether progress has made AI interpretability easier.",
+      "why": "Frontier AI safety progress.",
+      "minutes": 7,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-27/blackrock-s-rieder-spent-all-weekend-doing-deals-in-ai-debt-rush",
+      "title": "BlackRock's Rieder Spent Weekend Doing Deals in AI Debt Rush",
+      "source": "Bloomberg",
+      "summary": "BlackRock's Rick Rieder worked through the weekend on deals amid an AI debt rush.",
+      "why": "Inside the AI debt financing boom.",
+      "minutes": 4,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/investing/anthropics-adjusted-profit-exposes-wall-streets-earnings-game-40cbcef1",
+      "title": "Anthropic's 'Adjusted' Profit Exposes Wall Street's Earnings Game",
+      "source": "Wall Street Journal",
+      "summary": "The piece looks at Anthropic's adjusted profit figure and what it says about how Wall Street counts earnings.",
+      "why": "A reality check on AI economics from the IPO filing.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-87435065",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "title": "Cohere says Alibaba's Qwen model tried to send a file to Beijing",
+      "source": "TechCrunch",
+      "summary": "Cohere says Alibaba's Qwen model attempted to send a file to Beijing.",
+      "why": "Enterprise trust in open Chinese models is a live question for buyers and investors.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/gettyimages-2295204296-2048x2048-1.jpg",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/donald-trump-jr-vulcan-deal-white-house",
+      "title": "The White House Intervened to Get a $620 Million Deal for a Company Tied to Donald Trump Jr.",
+      "source": "ProPublica",
+      "summary": "ProPublica reports the White House intervened to secure a $620 million deal for a company tied to Donald Trump Jr.",
+      "why": "Investigative look at deals and political access.",
+      "minutes": 12,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-27/pop-mart-s-quarterly-sales-drop-on-high-base-sluggish-demand",
+      "title": "Pop Mart Third-Quarter Sales Fall Up to 50% as Labubu Fad Cools",
+      "source": "Bloomberg",
+      "summary": "Pop Mart said third-quarter sales fell by up to 50% as the Labubu craze cools.",
+      "why": "Lifecycle risk in a hit-driven consumer brand.",
+      "minutes": 3,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/nvidia-to-invest-3-billion-in-metas-equity-offering-as-they-expand-ai-partnership-e8d3850a",
+      "title": "Nvidia to Invest $3 Billion in Meta's Equity Offering as They Expand AI Partnership",
+      "source": "Wall Street Journal",
+      "summary": "Nvidia will put $3 billion into Meta's equity offering as the two expand their AI partnership.",
+      "why": "Shows how AI capex is being financed and who funds whom.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-11983570",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/26/business/meta-spacex-artificial-intelligence.html",
+      "title": "Meta and SpaceX to Raise Billions More to Fund A.I. Ambitions",
+      "source": "New York Times",
+      "summary": "Meta and SpaceX plan to raise billions more to fund AI ambitions.",
+      "why": "Capital-markets view of AI financing.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26Biz-meta-spacex-ai-zhlv/26Biz-meta-spacex-ai-zhlv-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "title": "Introducing GPT-6.1 Terra",
+      "source": "OpenAI",
+      "summary": "OpenAI announced GPT-6.1 Terra on Oct 26, with a system card addendum published alongside.",
+      "why": "Latest frontier model release from the leading lab.",
+      "minutes": 5,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/albertsons-delivery-pickup-subscription-loyalty-program-ecommerce-omnichannel/872748/",
+      "title": "Albertsons launches new subscription program",
+      "source": "Grocery Dive",
+      "summary": "Albertsons has introduced a subscription program tied to delivery, pickup and loyalty.",
+      "why": "Grocers are copying the Prime playbook as Albertsons embarks on a turnaround.",
+      "minutes": 3,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/the-buy-borrow-and-die-wealth-strategy-has-become-a-5-trillion-market-d9149a9d",
+      "title": "The 'Buy, Borrow and Die' Wealth Strategy Has Become a $5 Trillion Market",
+      "source": "Wall Street Journal",
+      "summary": "The strategy of borrowing against appreciated assets instead of selling has grown into a $5 trillion market.",
+      "why": "Sizing a wealth-management and lending theme investors watch.",
+      "minutes": 6,
+      "image": "https://images.wsj.net/im-71175148",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/27/business/neura-robotics-germany-china-ai.html",
+      "title": "In the A.I. 'Robogym,' Machines Train to Be More Like Humans",
+      "source": "New York Times",
+      "summary": "A look at a robotics firm's training facility where machines learn to behave more like humans.",
+      "why": "Where physical AI and robotics are heading.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26Biz-Robots-Europe-still-hplk/26Biz-Robots-Europe-still-hplk-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/",
+      "title": "California Startups Have Raised More So Far In 2026 Than The Entire US Ever Has In A Single Year",
+      "source": "Crunchbase News",
+      "summary": "Crunchbase News reports California startups have raised more in 2026 so far than the whole US in any prior full year, driven by OpenAI and Anthropic.",
+      "why": "Frames how concentrated venture capital has become.",
+      "minutes": 5,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/26/ai-jobs-men-women",
+      "title": "Women's jobs show greater vulnerability to AI than men's",
+      "source": "Axios",
+      "summary": "Axios reports on analysis finding women's jobs are more exposed to AI than men's.",
+      "why": "Labor and consumer-spending implications of AI adoption.",
+      "minutes": 3,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/earnings/reckitt-cuts-outlook-after-lysol-issues-stunt-north-america-sales-62ae527d",
+      "title": "Reckitt Shares Drop After Lysol Shortage Prompts Guidance Trim",
+      "source": "Wall Street Journal",
+      "summary": "Reckitt trimmed its outlook after a Lysol shortage hurt North American sales, and shares fell.",
+      "why": "A big consumer-brand supply miss with direct read-across to FMCG.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-523992",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/walmart-longer-black-friday-cyber-monday-sales-events/872747/",
+      "title": "Walmart debuts longer Black Friday, Cyber Monday sales events",
+      "source": "Retail Dive",
+      "summary": "Walmart is extending its Black Friday and Cyber Monday event windows.",
+      "why": "Walmart's holiday promo calendar sets the pace for brands and rivals this quarter.",
+      "minutes": 3,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/investing/ares-private-credit-fund-to-buy-competitor-from-apollo-daecb67c",
+      "title": "Ares Private-Credit Fund to Buy Competitor From Apollo",
+      "source": "Wall Street Journal",
+      "summary": "An Ares private-credit fund is set to buy a competing fund from Apollo.",
+      "why": "Private-credit consolidation among the biggest alternative managers.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-20436918",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-27/memory-stocks-lost-their-mojo-and-strong-earnings-aren-t-helping",
+      "title": "Memory Stocks Lost Their Mojo and Strong Earnings Aren't Helping",
+      "source": "Bloomberg",
+      "summary": "Memory chip stocks have fallen despite strong earnings.",
+      "why": "Signals on AI trade momentum.",
+      "minutes": 4,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit/",
+      "title": "VCs, Superhuman Mail founder share red flags about product-market fit",
+      "source": "TechCrunch",
+      "summary": "VCs and the Superhuman Mail founder discuss warning signs that a startup lacks product-market fit.",
+      "why": "Practical diligence heuristics from venture investors.",
+      "minutes": 5,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/27/technology/robot-dog-walkers.html",
+      "title": "Wanted: Robot-Dog Walkers. $20/Hour.",
+      "source": "New York Times",
+      "summary": "The article looks at paid work walking robot dogs at $20 an hour.",
+      "why": "A concrete look at AI and robotics jobs.",
+      "minutes": 5,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment",
+      "title": "Cybersecurity CEO Indicted for Allegedly Scamming Millions From Ransomware Victims",
+      "source": "ProPublica",
+      "summary": "A cybersecurity CEO has been indicted for allegedly scamming millions from ransomware victims.",
+      "why": "Follow-up to ProPublica's investigation into the ransomware recovery industry.",
+      "minutes": 6,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work/",
+      "title": "ChatGPT's expanding world of work",
+      "source": "OpenAI",
+      "summary": "OpenAI post, dated Oct 26, on how ChatGPT is expanding into workplace use.",
+      "why": "Signals how OpenAI is pursuing enterprise seats, relevant to AI business models.",
+      "minutes": 5,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/earnings/smithfield-foods-cuts-sales-forecast-on-soft-pork-demand-333cd559",
+      "title": "Smithfield Foods Cuts Sales Forecast on Soft Pork Demand",
+      "source": "Wall Street Journal",
+      "summary": "Smithfield Foods lowered its sales forecast on soft pork demand.",
+      "why": "Early read on consumer protein demand from a recently listed food company.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-87695168",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-27/gm-to-move-stock-listing-to-tech-focused-nasdaq-leaving-nyse",
+      "title": "GM to Move Stock Listing to Tech-Focused Nasdaq, Leaving NYSE",
+      "source": "Bloomberg",
+      "summary": "GM will move its stock listing to Nasdaq from the NYSE.",
+      "why": "Listing-venue shift by a blue-chip.",
+      "minutes": 3,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/26/democrats-trump-diesel-deal",
+      "title": "Exclusive: Democrats lay groundwork to probe Trump's diesel deal",
+      "source": "Axios",
+      "summary": "Democrats are preparing an investigation into a diesel deal tied to the Trump administration.",
+      "why": "Policy and energy-market angle with political stakes.",
+      "minutes": 3,
+      "image": "https://images.axios.com/BKRXrMaKnD6TWo1ys_AfHQBpmx8=/1366x768/smart/2024/02/19/214832-1708379312573.jpg",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/cvs-pokemon-collectibles-beauty-seasonal/872755/",
+      "title": "CVS wants to sell more Pokemon, collectibles",
+      "source": "Retail Dive",
+      "summary": "CVS plans to expand its selection of Pokemon and collectible products.",
+      "why": "Drugstores chasing traffic with high-demand collectibles is a signal on where store footprint is heading.",
+      "minutes": 3,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security/",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "source": "OpenAI",
+      "summary": "OpenAI customer story on CodeRabbit using GPT-6.1 Sol for code security review.",
+      "why": "A concrete example of AI coding tools in production.",
+      "minutes": 4,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/the-biotech-leader-who-erased-team-lanes-5850c911",
+      "title": "The Biotech Leader Who Erased Team Lanes",
+      "source": "Wall Street Journal",
+      "summary": "A profile of a biotech leader who removed rigid team boundaries.",
+      "why": "Management lesson from a large corporate turnaround.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-56037078",
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/26/stagwell-publisher-ad-tech-freestar",
+      "title": "Stagwell acquires publisher ad tech company Freestar",
+      "source": "Axios",
+      "summary": "Stagwell has acquired publisher ad tech company Freestar.",
+      "why": "Media/ad-tech consolidation deal.",
+      "minutes": 2,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
+    {
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "title": "Working with academic communities to build scientific understanding",
+      "source": "OpenAI",
+      "summary": "OpenAI post from Oct 26 on its work with academic communities on scientific understanding.",
+      "why": "Where labs are pointing AI toward science.",
+      "minutes": 4,
+      "addedAt": "2026-10-27T11:02:03Z"
+    },
     {
       "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html",
       "title": "Anthropic S-1 Reveals Rapid Growth Ahead of Blockbuster IPO",
@@ -1418,362 +1766,6 @@
       "minutes": 4,
       "image": "https://images.wsj.net/im-49981255",
       "addedAt": "2026-10-25T11:04:04Z"
-    },
-    {
-      "url": "https://www.wsj.com/tech/ai/ai-math-quiz-openai-anthropic-e776b8a9",
-      "title": "These Basic Math Problems Once Stumped AI. Can You Solve Them?",
-      "source": "Wall Street Journal",
-      "summary": "A WSJ quiz of basic math problems that once stumped AI models, tied to OpenAI and Anthropic.",
-      "why": "Shows how fast AI capability has moved.",
-      "minutes": 4,
-      "image": "https://images.wsj.net/im-73975133",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-      "title": "Securing our frontier model training environment",
-      "source": "OpenAI",
-      "summary": "OpenAI describes how it is securing the environment used to train its frontier models.",
-      "why": "Direct from the lab on security as training runs become strategic assets.",
-      "minutes": 7,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.wsj.com/us-news/law/fbi-explores-espionage-case-against-saudi-openai-suspect-fbaedefe",
-      "title": "FBI Explores Espionage Case Against Saudi OpenAI Suspect",
-      "source": "Wall Street Journal",
-      "summary": "The FBI is exploring an espionage case against Abdulrahman Alfozan, an engineer accused of bugging a restricted conference room at OpenAI's offices.",
-      "why": "Security and espionage risk inside a leading AI lab.",
-      "minutes": 5,
-      "image": "https://images.wsj.net/im-93305632",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/24/business/dealbook/ceos-say-the-ai-rollout-is-going-well-employees-feel-differently.html",
-      "title": "C.E.O.s Say the A.I. Rollout Is Going Well. Employees Feel Differently.",
-      "source": "New York Times",
-      "summary": "Surveys show workers and executives have different views on how the A.I. rollout is going.",
-      "why": "Gap between CEO and employee views on AI adoption.",
-      "minutes": 6,
-      "image": "https://static01.nyt.com/images/2026/10/23/business/00db-ai-disconnect/00db-ai-disconnect-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.wsj.com/business/how-trade-desk-rescued-executives-stock-options-from-a-dive-in-the-share-price-8c055b27",
-      "title": "How Trade Desk Rescued Executives’ Stock Options From a Dive in the Share Price",
-      "source": "Wall Street Journal",
-      "summary": "Trade Desk's CEO used supervoting power to approve repricing of executives' stock options despite opposition from outside investors.",
-      "why": "Governance fight at a major ad-tech name.",
-      "minutes": 5,
-      "image": "https://images.wsj.net/im-97918244",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/",
-      "title": "The Week's 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
-      "source": "Crunchbase News",
-      "summary": "Crunchbase's weekly roundup of the ten largest venture rounds, led by AI chip developer Tenstorrent.",
-      "why": "Shows where the biggest checks went this week.",
-      "minutes": 4,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-24/gulf-nation-ai-ambitions-face-risks-at-home-and-abroad-new-economy",
-      "title": "Gulf Nation AI Ambitions Face Risks at Home and Abroad: New Economy",
-      "source": "Bloomberg",
-      "summary": "Gulf states building data centers at home risk attack; building elsewhere risks losing competitive advantage.",
-      "why": "Geopolitics of AI infrastructure.",
-      "minutes": 6,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.wsj.com/world/europe/u-s-allies-race-to-escape-spacexs-orbit-8fd29af8",
-      "title": "U.S. Allies Race to Escape SpaceX’s Orbit",
-      "source": "Wall Street Journal",
-      "summary": "Musk's blindsiding of Ukraine has spurred Europe and Canada to roll out satellites under their own control.",
-      "why": "Reshapes the satellite and space-infrastructure landscape.",
-      "minutes": 6,
-      "image": "https://images.wsj.net/im-57090375",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "title": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats.",
-      "source": "TechCrunch",
-      "summary": "A test found that Grok and OpenAI models split along party lines when forced to choose between candidates.",
-      "why": "Model bias and policy risk ahead of the midterms.",
-      "minutes": 4,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.propublica.org/article/general-dynamics-artillery-factory-failed",
-      "title": "Fiasco in the Factory: Taxpayers Funded a $533 Million Artillery Plant That Made Nothing",
-      "source": "ProPublica",
-      "summary": "ProPublica investigates a $533 million taxpayer-funded artillery plant that produced nothing.",
-      "why": "Investigative read on a big corporate and defense-contracting failure with real money at stake.",
-      "minutes": 15,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/",
-      "title": "Exclusive: Slingshot Raises $27M In Seed Funding To Build An Insurer For Those Small Policies Sold At Checkout",
-      "source": "Crunchbase News",
-      "summary": "Insurtech Slingshot raised $27M in seed funding to launch an insurer for small policies sold at retail checkout.",
-      "why": "Embedded insurance at checkout is a retail-adjacent VC bet.",
-      "minutes": 4,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-24/-total-meltdown-in-riskiest-debt-unnerves-market-credit-weekly",
-      "title": "‘Total Meltdown’ in Riskiest Debt Unnerves Market: Credit Weekly",
-      "source": "Bloomberg",
-      "summary": "Fund managers were jolted by a sharp selloff in the riskiest corporate debt this week.",
-      "why": "Credit stress signal for investors.",
-      "minutes": 5,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/23/us/politics/in-us-gas-talks-with-kremlin-hidden-financing-for-alaska-project-emerges.html",
-      "title": "In U.S. Gas Talks With Kremlin, Hidden Financing for Alaska Project Emerges",
-      "source": "New York Times",
-      "summary": "Interviews and documents show a Russian energy giant secretly funded a U.S. firm, a deal discussed in talks to end the war in Ukraine.",
-      "why": "Investigative look at hidden financing in an energy deal.",
-      "minutes": 9,
-      "image": "https://static01.nyt.com/images/2026/10/23/multimedia/23dc-polar-lng-sub-bhcl/23dc-polar-lng-sub-bhcl-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-      "title": "Block's new voice model sounds eerily human",
-      "source": "TechCrunch",
-      "summary": "Block has released a new voice model that is described as sounding very lifelike.",
-      "why": "Shows a fintech incumbent building its own frontier-style models.",
-      "minutes": 4,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-24/metals-traders-reap-bonanza-with-another-year-of-record-profits",
-      "title": "Metals Traders Reap Bonanza With Another Year of Record Profits",
-      "source": "Bloomberg",
-      "summary": "Metals traders are earning billions in a second consecutive blowout year, with several top houses posting record profits.",
-      "why": "Commodities trading profits at records.",
-      "minutes": 5,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.wsj.com/business/earnings/slb-logs-higher-revenue-as-business-in-the-middle-east-recovers-f1b81666",
-      "title": "SLB Revenue Rises as Data-Center Demand Grows, Middle East Business Recovers",
-      "source": "Wall Street Journal",
-      "summary": "SLB's third-quarter revenue climbed 5.8% to $9.45 billion, supported by rapid growth in its data-center division and a recovery in the Middle East.",
-      "why": "Data-center demand reaching oilfield services.",
-      "minutes": 4,
-      "image": "https://images.wsj.net/im-75590519",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "title": "The AI graveyard: a running list of projects and startups that didn't make it",
-      "source": "TechCrunch",
-      "summary": "TechCrunch maintains a running list of AI projects and startups that have shut down or failed.",
-      "why": "A useful base-rate check on AI company failures amid the funding boom.",
-      "minutes": 6,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
-      "title": "How Trump Gave the Worst Polluters a Free Pass",
-      "source": "New York Times",
-      "summary": "The president temporarily waived clean-air rules for industrial facilities emitting cancer-causing gases, then appointees worked to gut the regulations.",
-      "why": "Major NYT investigation on regulation and industry.",
-      "minutes": 12,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "source": "OpenAI",
-      "summary": "OpenAI details engineering work to scale online storage for more than 1 billion ChatGPT users.",
-      "why": "A look at the infrastructure scale behind ChatGPT.",
-      "minutes": 8,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/23/business/energy-environment/ohio-election-gas-prices.html",
-      "title": "Why Anger About Data Centers and Energy Prices May Not Swing Votes",
-      "source": "New York Times",
-      "summary": "In Ohio, many voters say frustration over rising electricity and fuel prices and data-center growth won't influence their vote.",
-      "why": "Data centers, energy prices and politics.",
-      "minutes": 7,
-      "image": "https://static01.nyt.com/images/2026/10/23/multimedia/23biz-energy-politics-03-hqpk/23biz-energy-politics-03-hqpk-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://news.crunchbase.com/startups/bootstrapping-billion-dollar-company-ai-staffing-demarco-bairesdev/",
-      "title": "How To Build A Billion-Dollar Company Without Venture Capital",
-      "source": "Crunchbase News",
-      "summary": "A guest piece on building a large company through bootstrapping, using an AI staffing example.",
-      "why": "A contrarian take on scaling without VC, relevant to PE and VC thinking.",
-      "minutes": 5,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.nrn.com/casual-dining/fogo-de-ch-o-to-launch-protein-plates-starting-at-45",
-      "title": "Fogo de Chão to launch Protein Plates starting at $45",
-      "source": "Nation's Restaurant News",
-      "summary": "Fogo de Chão is adding a new meat-focused menu option priced from $45.",
-      "why": "Premium casual dining pricing and a lower-ticket entry point at a multi-unit chain.",
-      "minutes": 3,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.wsj.com/cio-journal/the-best-boards-in-america-are-helping-drive-ai-strategy-5f020646",
-      "title": "The Best Boards in America Are Helping Drive AI Strategy",
-      "source": "Wall Street Journal",
-      "summary": "The WSJ Leadership Institute's Best Boards 2026 ranking spotlights what top organizations have in common, including AI strategy.",
-      "why": "How top boards are handling AI.",
-      "minutes": 5,
-      "image": "https://images.wsj.net/im-39808823",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/24/world/europe/ukraine-starshield-drone-speed.html",
-      "title": "Elon Musk Says Ukraine Violated Starlink’s Rules",
-      "source": "New York Times",
-      "summary": "Musk's first comments since the disruption in Ukraine's satellite service; Ukraine said Starshield drones were back to normal speeds.",
-      "why": "Starlink power dynamics and defense tech.",
-      "minutes": 4,
-      "image": "https://static01.nyt.com/images/2026/10/24/multimedia/24int-ukraine-starshield-jmgk/24int-ukraine-starshield-jmgk-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.propublica.org/article/ken-paxton-investment-scott-sherman-wildcatter",
-      "title": "Ken Paxton Says He's Tough on Crime. His Trust Invested $600,000 in a Convicted Fraudster's Company.",
-      "source": "ProPublica",
-      "summary": "ProPublica reports that Ken and Angela Paxton's blind trust invested $600,000 in a company linked to a convicted fraudster.",
-      "why": "Sharp investigative piece on money and influence in the middle of a high-profile Senate race.",
-      "minutes": 10,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/23/technology/personaltech/iphone-duo-review-tablet-smartphone.html",
-      "title": "Apple’s Foldable iPhone Duo Arrives in Stores: Smartphone Review",
-      "source": "New York Times",
-      "summary": "Review of Apple's first-generation foldable iPhone Duo, which merges phone and tablet but may feel awkward.",
-      "why": "Consumer-tech read on a major Apple launch.",
-      "minutes": 6,
-      "image": "https://static01.nyt.com/images/2026/10/23/multimedia/TECHFIX-phone-2-bwcf/TECHFIX-phone-2-bwcf-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-24/dalmore-said-to-express-interest-in-cinven-owned-uk-supplier-jla",
-      "title": "Dalmore Said to Express Interest in Cinven-Owned UK Supplier JLA",
-      "source": "Bloomberg",
-      "summary": "Dalmore Capital is among parties interested in acquiring UK commercial equipment supplier JLA Group from buyout firm Cinven.",
-      "why": "PE exit in the making.",
-      "minutes": 3,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://news.crunchbase.com/venture/interesting-startup-deals-robots-ai-gaming-clean-tech/",
-      "title": "5 Interesting Startup Deals You May Have Missed: Robot Training, Space Lasers And Greener Cement",
-      "source": "Crunchbase News",
-      "summary": "A roundup of smaller startup financings in robotics, space and clean tech.",
-      "why": "A quick scan of early-stage deal flow beyond the headline rounds.",
-      "minutes": 4,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8",
-      "title": "Stocks Pulled in Two Directions, Fall to End Volatile Week",
-      "source": "Wall Street Journal",
-      "summary": "Inflation and jitters over artificial intelligence are fighting for investors' attention as stocks end a volatile week.",
-      "why": "Market read on the AI trade and inflation.",
-      "minutes": 4,
-      "image": "https://images.wsj.net/im-95998240",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-10-24/fed-set-to-lead-g7-trio-in-hawkish-rate-pause-eco-week-ahead",
-      "title": "Fed Set to Lead G7 Trio in Hawkish Rate Pause: Eco Week Ahead",
-      "source": "Bloomberg",
-      "summary": "The Fed and its euro-zone and Japanese peers will probably hold rates steady next week, biding time before potential further hikes.",
-      "why": "Rate outlook for the week ahead.",
-      "minutes": 5,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/24/books/short-stories-hollywood.html",
-      "title": "Writers Are Making Millions Selling Short Stories to Hollywood",
-      "source": "New York Times",
-      "summary": "Publishers rarely race to acquire story collections, but studios appear eager to pay for unpublished short works.",
-      "why": "Hollywood's IP appetite and what studios will pay for.",
-      "minutes": 6,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.propublica.org/article/snap-theft-chip-cards-trump-rule",
-      "title": "After Millions in Stolen SNAP Benefits, Trump Administration Moves to Fight Theft",
-      "source": "ProPublica",
-      "summary": "The USDA plans to adopt microchip benefit cards after ProPublica reported on organized food-stamp theft.",
-      "why": "Relevant to grocery and food-retail demand, and an example of reporting that forced policy change.",
-      "minutes": 8,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-24/lenders-are-mystified-by-virgin-media-s-vendor-financing-notes",
-      "title": "Lenders Are Mystified by Virgin Media’s Vendor Financing Notes",
-      "source": "Bloomberg",
-      "summary": "Lenders are mystified by Virgin Media's vendor financing notes and wonder whether the instruments are more attractive than they look.",
-      "why": "Credit-structure curiosity.",
-      "minutes": 5,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-      "source": "TechCrunch",
-      "summary": "Microduck robots have sold 20,000 units, with Nvidia's CEO shown playing with them.",
-      "why": "Consumer robotics hitting retail ahead of the holidays.",
-      "minutes": 3,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.propublica.org/article/hanford-nuclear-workers-compensation-washington-doe",
-      "title": "Nuclear Weapons Waste Made Workers Sick. Despite a Law Meant to Help, the DOE Keeps Fighting Their Claims.",
-      "source": "ProPublica",
-      "summary": "The Department of Energy has spent nearly $12 million opposing Hanford workers' compensation claims despite a law meant to help them.",
-      "why": "Quality long-form investigative journalism on government spending and accountability.",
-      "minutes": 14,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/24/business/six-flags-death-roller-coaster-seat-belt.html",
-      "title": "Six Flags to Add Seatbelts on Roller Coasters After Rider’s Death",
-      "source": "New York Times",
-      "summary": "Six Flags said all rides and attractions would undergo safety reviews and add seatbelts to roller coasters, as it faces lawsuits over safety concerns.",
-      "why": "Operator risk at a major multi-unit leisure chain.",
-      "minutes": 4,
-      "image": "https://static01.nyt.com/images/2026/10/24/multimedia/24xp-six-flags-topart-01-gmzl/24xp-six-flags-topart-01-gmzl-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.axios.com/2026/10/23/home-micro-bakery-porch-stand",
-      "title": "The bakery next door",
-      "source": "Axios",
-      "summary": "Axios looks at the rise of home micro-bakeries selling from porch stands.",
-      "why": "Small-scale food entrepreneurship that feeds into consumer food trends.",
-      "minutes": 4,
-      "addedAt": "2026-10-24T23:03:10Z"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/24/us/archdiocese-new-york-sexual-abuse-settlement.html",
-      "title": "New York Archdiocese Agrees to Settle Sexual Abuse Claims for Over $800 Million",
-      "source": "New York Times",
-      "summary": "The Archdiocese of New York might avoid bankruptcy by settling with 1,300 people who said they were abused, for over $800 million.",
-      "why": "Large settlement avoiding bankruptcy.",
-      "minutes": 5,
-      "image": "https://static01.nyt.com/images/2026/10/02/multimedia/00met-hfo-archdiocese-settlement-whck/00met-hfo-archdiocese-settlement-whck-mediumSquareAt3X.jpg",
-      "addedAt": "2026-10-24T23:03:10Z"
     }
   ]
 }
