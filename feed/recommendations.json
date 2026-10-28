@@ -1,6 +1,344 @@
 {
-  "generatedAt": "2026-10-28T11:07:39Z",
+  "generatedAt": "2026-10-28T23:01:15Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/tech/ai/alphabet-googl-q3-earnings-report-2026-stock-fa41392d",
+      "title": "Google Shares Fall 10% as Growth in Search Revenue Slows",
+      "source": "Wall Street Journal",
+      "summary": "Alphabet shares fell 10% as search revenue growth slowed, even with strength in cloud. The company posted negative free cash flow of $9.1 billion.",
+      "why": "Shows the market's tolerance for AI capex is thinning, even for Google.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-39168615",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/regulation/elizabeth-warren-demands-answers-from-anthropic-on-existential-risks-5362f009",
+      "title": "Elizabeth Warren Demands Answers From Anthropic on ‘Existential’ Risks",
+      "source": "Wall Street Journal",
+      "summary": "Sen. Elizabeth Warren is 'deeply troubled' by risks Anthropic raised in its IPO filing and wants answers before the listing.",
+      "why": "Political scrutiny arriving ahead of the biggest AI IPO.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-97926793",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-fire-as-warsh-telegraphs-more-hikes-without-saying-it",
+      "title": "Fed Holds Fire as Warsh Telegraphs More Hikes Without Saying It",
+      "source": "Bloomberg",
+      "summary": "The Fed held rates steady at Warsh's meeting while signaling more tightening may come; traders see about a 90% chance of a December hike.",
+      "why": "Rate-path read that drives valuations and LBO financing costs.",
+      "minutes": 4,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.nrn.com/fast-casual/wingstop-cuts-outlook-again-as-same-store-sales-slump-continues",
+      "title": "Wingstop cuts outlook again as same-store sales slump continues",
+      "source": "Nation's Restaurant News",
+      "summary": "Wingstop lowered its guidance again after same-store sales fell for a sixth straight quarter.",
+      "why": "A high-multiple franchise darling is cracking, a useful read on franchise-model valuation risk.",
+      "minutes": 3,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "source": "TechCrunch",
+      "summary": "Microsoft booked $10 billion from commercial arrangements with OpenAI in the quarter ended Sept. 30, nearly 11% of its $92.3 billion revenue. Its OpenAI stake slipped from about 25% to 24%.",
+      "why": "A hard number on how much of Microsoft's growth rides on OpenAI.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2153474575.jpg?resize=1200,800",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/28/business/dealbook/ai-spending-quarterly-results-amazon-microsoft.html",
+      "title": "Investors Brace for Big Tech’s A.I. Spending Bill",
+      "source": "New York Times",
+      "summary": "Tech stocks rebounded before pivotal earnings from AI hyperscalers like Google and Microsoft, and investors are watching the spending bill.",
+      "why": "DealBook framing of the AI capex debate.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/28/multimedia/28db-msft-tjqv/28db-msft-tjqv-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/nelson-peltzs-trian-offers-to-buy-wendys-for-1-4-billion-4c8332c1",
+      "title": "Nelson Peltz’s Trian Offers to Buy Wendy’s for $1.4 Billion",
+      "source": "Wall Street Journal",
+      "summary": "Nelson Peltz's Trian offered $1.4 billion to take Wendy's private. The chain's shares are down roughly 70% over five years.",
+      "why": "A classic take-private of a struggling multi-unit restaurant chain.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-55894629",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center",
+      "title": "Banks Shelve Bond Sale for Anthropic-Tied Texas Data Center",
+      "source": "Bloomberg",
+      "summary": "Banks postponed a bond sale tied to a Texas data center linked to Anthropic.",
+      "why": "A signal on credit-market appetite for AI infrastructure debt.",
+      "minutes": 3,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "source": "TechCrunch",
+      "summary": "Anthropic and OpenAI say their models produced algorithms that solve hard logic puzzles faster than thought possible, which would refute the Exponential Time Hypothesis. MIT's Ryan Williams is helping evaluate the claims.",
+      "why": "A reality check on a major AI-for-science capability claim.",
+      "minutes": 5,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/28/technology/apple-touch-screen-macbook-pro.html",
+      "title": "Apple Unveils Its First Touch-Screen MacBook Pro",
+      "source": "New York Times",
+      "summary": "Apple unveiled its first touch-screen MacBook Pro, reversing positions held by Steve Jobs and Tim Cook under its new chief executive.",
+      "why": "Apple's new CEO is rethinking core products.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/28/multimedia/APPLE-1-lcgk/APPLE-1-lcgk-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/aritzia-store-openings-product-expansions-double-revenue-growth-plan/873034/",
+      "title": "Aritzia banks on store openings, product expansions to double revenue in 5 years",
+      "source": "Retail Dive",
+      "summary": "Aritzia plans to double revenue within five years through new stores and wider product lines.",
+      "why": "A multi-unit specialty retailer's concrete growth plan with a hard revenue target.",
+      "minutes": 4,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/weil-gotshal-leaders-discussing-plan-to-wind-down-law-firm-09d60c10",
+      "title": "Weil Gotshal Says It Is Shutting Its Doors",
+      "source": "Wall Street Journal",
+      "summary": "Weil Gotshal said it is winding down after high-profile defections and failed merger talks left it with few options.",
+      "why": "The collapse of a storied Wall Street law firm, a rare event.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-84367193",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+      "title": "Who's really in charge at Anthropic after the IPO?",
+      "source": "TechCrunch",
+      "summary": "Anthropic's governance combines a public benefit structure, a Long-Term Benefit Trust that elects a board majority, and founder stock with 50.1% of votes. Founder control ends ten years after the IPO or when fewer than three founders remain.",
+      "why": "Governance terms shape what public Anthropic shareholders actually get.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2151610601.jpg?resize=1200,799",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/28/business/economy/trump-lisa-cook-warsh.html",
+      "title": "Trump’s Push to Fire Fed Governor Lisa Cook Looms Over Warsh",
+      "source": "New York Times",
+      "summary": "Fed governor Lisa Cook faces an unorthodox private hearing over mortgage fraud allegations she denies, looming over Warsh.",
+      "why": "Fed independence risk that matters for markets.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/10/28/multimedia/28fed-meeting-cook-kqhv/28fed-meeting-cook-kqhv-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal",
+      "title": "Marvell Is Said to Near Megadeal for Lumentum In AI Push",
+      "source": "Bloomberg",
+      "summary": "Marvell is in advanced talks to buy data center optics maker Lumentum, according to people familiar with the matter.",
+      "why": "Potential AI infrastructure megadeal.",
+      "minutes": 3,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.nrn.com/marketing-branding/popeyes-cmo-is-out-as-the-chain-looks-to-reenergize-sales",
+      "title": "Popeyes' CMO is out as the chain looks to reenergize sales",
+      "source": "Nation's Restaurant News",
+      "summary": "Popeyes is replacing its chief marketing officer as it seeks a sales boost.",
+      "why": "Leadership churn at an RBI brand signals how hard it is to restart growth at scale.",
+      "minutes": 2,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/microsoft-msft-q1-earnings-report-2027-stock-5809ce40",
+      "title": "Microsoft Quarterly Profit Soars as Cloud Growth Accelerates",
+      "source": "Wall Street Journal",
+      "summary": "Microsoft's profit rose as cloud growth accelerated, easing worries about returns on the AI build-out.",
+      "why": "Key datapoint on whether AI spending is paying off.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-10763494",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/28/cybersecurity-black-october-ai-hacks",
+      "title": "Inside \"Black October\": AI's cyber scare delivers a Y2K lesson",
+      "source": "Axios",
+      "summary": "The cybersecurity world braced for catastrophe after AI uncovered critical flaws in the web's foundations. Axios draws a Y2K lesson.",
+      "why": "AI's security implications, framed for business.",
+      "minutes": 4,
+      "image": "https://images.axios.com/_6K9uL6Znbll0c8ETSZtzLtnFCg=/0x0:1920x1080/1366x768/2026/10/01/1790886697146.jpeg",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/28/dining/cheesecake-factory-obama-trump-midterm-elections.html",
+      "title": "What Does the Cheesecake Factory’s Designer Think of Obama and Trump’s Jabs at His Décor?",
+      "source": "New York Times",
+      "summary": "The Cheesecake Factory's designer reacts to midterm jabs at the chain's baroque decor, which the restaurant has survived for decades.",
+      "why": "A fun look at a durable multi-unit chain turned political talking point.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/28/multimedia/28FD-cheesecake-factory1-jgmh/28FD-cheesecake-factory1-jgmh-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/running-brand-rescue-vans-vf-corp-altra/873014/",
+      "title": "Could this running brand rescue Vans owner VF Corp?",
+      "source": "Retail Dive",
+      "summary": "Examines whether running brand Altra could help turn around VF Corp.",
+      "why": "A portfolio-turnaround question for a struggling consumer conglomerate.",
+      "minutes": 4,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.wsj.com/cio-journal/oracle-creates-ai-workspace-on-chatgpt-30d37410",
+      "title": "Oracle Creates AI Workspace on ChatGPT",
+      "source": "Wall Street Journal",
+      "summary": "Oracle created an AI workspace on ChatGPT. The newsletter also covers SK Hynix's blowout quarter and Big Tech earnings.",
+      "why": "Shows enterprise software rushing to plug into OpenAI.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-30245706",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "source": "TechCrunch",
+      "summary": "AI-driven power demand strains the aging US grid but is opening room for load-management software and superconducting lines, per speakers at TechCrunch Disrupt.",
+      "why": "Power is the binding constraint on AI infrastructure returns.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55589499263_7ac8a28eb3_k.jpg?resize=1200,800",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/28/business/economy/fed-meetings-2027-interest-rates-warsh.html",
+      "title": "Fed Will Hold Fewer Rate-Setting Meetings Starting Next Year",
+      "source": "New York Times",
+      "summary": "Fed Chairman Kevin Warsh said the central bank will vote on rates seven times in 2027 and six in 2028, down from eight a year.",
+      "why": "Structural change to how the Fed operates.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/28/multimedia/28fed-meeting-fewer-meetings-gzbj/28fed-meeting-fewer-meetings-gzbj-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/global-bond-sales-shatter-record-fueled-by-ai-borrowing-binge",
+      "title": "Global Bond Sales Shatter Record, Fueled by AI Borrowing Binge",
+      "source": "Bloomberg",
+      "summary": "Global bond sales hit an all-time high, driven by breakneck borrowing from the tech companies leading the AI boom.",
+      "why": "Shows how AI is now reshaping credit markets.",
+      "minutes": 4,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.nrn.com/fast-casual/jersey-mike-s-investments-in-digital-marketing-are-paying-off",
+      "title": "Jersey Mike's investments in digital marketing are paying off",
+      "source": "Nation's Restaurant News",
+      "summary": "Third-quarter same-store sales rose 3%, driven mostly by more transactions.",
+      "why": "Traffic-led growth at a large franchised chain, a contrast to the broader QSR slowdown.",
+      "minutes": 3,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/retail/ebay-sales-rise-on-strength-in-collectibles-live-shopping-77cd8df4",
+      "title": "EBay Sales Rise on Strength in Collectibles, Live Shopping",
+      "source": "Wall Street Journal",
+      "summary": "eBay sales rose on strength in collectibles and live shopping, which CEO Jamie Iannone said is its biggest growth driver.",
+      "why": "Consumer marketplace finding growth in collectibles and live commerce.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-16724729",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/28/private-equity-democrats-election-elizabeth-warren",
+      "title": "Private equity's political problem",
+      "source": "Axios",
+      "summary": "If Democrats win full control of Congress, private equity could return to political crosshairs.",
+      "why": "Direct political risk for PE like Invus's peers.",
+      "minutes": 4,
+      "image": "https://images.axios.com/9mHzJHyHL8N49e0zdU1vD0k9Lbo=/0x0:1920x1080/1366x768/2025/09/25/1758836681131.jpeg",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "source": "TechCrunch",
+      "summary": "Parents have sued OpenAI, alleging GPT-4o coached their daughter off her seizure medication.",
+      "why": "Liability risk is a growing cost factor for consumer AI products.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=1200,800",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/28/business/media/life-magazine-karlie-kloss.html",
+      "title": "Life Magazine, Chronicler of 20th-Century America, Rises Again",
+      "source": "New York Times",
+      "summary": "Life magazine will return as a print quarterly next month in a challenging media business environment.",
+      "why": "A legacy brand revival bet from Karlie Kloss's team.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/28/business/28biz-life-magazine-handout/28biz-life-magazine-handout-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/wakefern-food-retail-sales-2026-supermarkets-grocery/872843/",
+      "title": "Wakefern's sales growth slows to a multi-year low",
+      "source": "Grocery Dive",
+      "summary": "The cooperative's sales growth has decelerated to its slowest pace in several years.",
+      "why": "A read on grocery demand and ShopRite-style operators under pressure.",
+      "minutes": 3,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/earnings/chipotle-logs-higher-revenue-as-same-restaurant-sales-climb-4f8b2ba5",
+      "title": "Chipotle Logs Higher Revenue as Same-Restaurant Sales Climb",
+      "source": "Wall Street Journal",
+      "summary": "Chipotle's third-quarter revenue rose 9.6% to $3.29 billion, driven by new restaurants and higher comparable sales.",
+      "why": "Read on how the best-in-class fast-casual unit growth story is holding up.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-07278746",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "title": "Bank of America kindly asks that you don't share your banking password with your AI assistant",
+      "source": "TechCrunch",
+      "summary": "Bank of America emailed customers warning them not to give login credentials to AI assistants and said customers would be liable for resulting activity.",
+      "why": "Early signal of how banks will treat agentic AI in consumer finance.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/sprouts-slashes-outlook-after-cyclospora-outbreak-hit-sales",
+      "title": "Sprouts Sinks After Outlook Cut on Cyclospora, Consumer Woes",
+      "source": "Bloomberg",
+      "summary": "Sprouts Farmers Market shares tumbled after it cut its outlook, hurt by a cyclospora lettuce outbreak and a gloomy consumer.",
+      "why": "Direct read on the specialty grocery consumer.",
+      "minutes": 3,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.modernretail.co/operations/intake-breathing-62-million-funding-round/",
+      "title": "Intake Breathing nabs $62M investment, joining the emerging nasal wellness trend",
+      "source": "Modern Retail",
+      "summary": "Nasal strip maker Intake Breathing raised $62M to expand into retail and promote breathing as part of daily wellness.",
+      "why": "A sizeable round for a niche wellness challenger brand moving into retail.",
+      "minutes": 4,
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/earnings/brinker-lifts-forecast-as-chilis-drives-profit-a93ffd09",
+      "title": "Chili’s Keeps Winning Over Diners as Brinker Lifts Outlook",
+      "source": "Wall Street Journal",
+      "summary": "Brinker raised its fiscal 2027 adjusted earnings outlook to $13.30-$13.90 a share as Chili's same-restaurant sales climbed 10%.",
+      "why": "Chili's turnaround is one of the strongest casual dining stories.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-98096",
+      "addedAt": "2026-10-28T23:01:15Z"
+    },
     {
       "url": "https://www.wsj.com/tech/ai/see-how-anthropic-arrived-at-its-mind-boggling-40-trillion-market-opportunity-948c56a0",
       "title": "See How Anthropic Arrived at Its Mind-Boggling $40 Trillion Market Opportunity",
