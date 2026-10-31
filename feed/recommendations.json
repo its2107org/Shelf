@@ -1,6 +1,381 @@
 {
-  "generatedAt": "2026-10-31T11:02:53Z",
+  "generatedAt": "2026-10-31T23:01:35Z",
   "items": [
+    {
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "title": "Anthropic expected to receive high 'junk' rating from credit agencies following IPO, FT report says",
+      "source": "TechCrunch",
+      "summary": "A Financial Times report says credit agencies are expected to rate Anthropic's post-IPO debt as high-yield, the top tier of junk.",
+      "why": "Capital structure of the biggest AI IPO, framed by credit markets.",
+      "minutes": 2,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=562",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/stocks/the-week-the-cracks-in-the-ai-trade-grew-deeper-9e25b20f",
+      "title": "The Week the Cracks in the AI Trade Grew Deeper",
+      "source": "Wall Street Journal",
+      "summary": "Intel suffered its worst-ever daily decline as investor anxieties about the AI trade hit new highs.",
+      "why": "Weekly wrap of the AI-stock slump.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-44066878",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
+      "title": "How Binance's $6.3 Billion Hack Went Down",
+      "source": "New York Times",
+      "summary": "Inside the frantic 24 hours at the world's biggest crypto exchange, from a war room and global conference call to the founder live-posting the largest crypto heist in history.",
+      "why": "Biggest crypto theft ever and its market fallout.",
+      "minutes": 8,
+      "image": "https://static01.nyt.com/images/2026/11/01/business/00biz-binance-ticktock/00biz-binance-ticktock-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/food-beverage-sales-ecommerce-physical-stores-grocery-supermarkets/873303/",
+      "title": "Grocery e-commerce and in-store sales head in opposite directions",
+      "source": "Grocery Dive",
+      "summary": "Online grocery sales and physical store sales are moving in different directions.",
+      "why": "Channel-mix data that bears on grocery and delivery economics, the week of the DoorDash-Instacart deal.",
+      "minutes": 4,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+      "title": "Salesforce's M&A spree continues with a reported $375M deal for defense tech startup Rune",
+      "source": "TechCrunch",
+      "summary": "Salesforce is reportedly acquiring defense tech startup Rune for $375 million, extending its run of acquisitions.",
+      "why": "A priced deal showing where strategic buyers are spending.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2221463618.jpg?w=563",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-798eb6a1",
+      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information",
+      "source": "Wall Street Journal",
+      "summary": "Investigators believed Alice Huang, a Chinese executive, was recruited to pass information to China based on her relationship with Nvidia CEO Jensen Huang.",
+      "why": "AI chip supply chain and China exposure at Nvidia.",
+      "minutes": 6,
+      "image": "https://images.wsj.net/im-99253309",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-30/ai-policy-fears-grip-stock-bond-traders-with-midterms-days-away",
+      "title": "AI Policy Risks Loom Over Stock, Bond Traders Ahead of Midterms",
+      "source": "Bloomberg",
+      "summary": "Wall Street expects Democrats to win at least one house of Congress Tuesday, setting up potentially volatile markets with AI policy in focus.",
+      "why": "Market positioning for midterms.",
+      "minutes": 5,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "title": "How I Built the Most AI-Pilled Company in the World",
+      "source": "Simon Willison's Weblog",
+      "summary": "Simon Willison's post highlighting a write-up on running a company built around AI tooling.",
+      "why": "Practitioner view of what AI-first operations look like.",
+      "minutes": 5,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/31/business/dealbook/legal-engineer-ai-law.html",
+      "title": "The New Hot Job in Law Doesn’t Require a J.D.",
+      "source": "New York Times",
+      "summary": "Big law firms, legal tech vendors and in-house teams at Microsoft and Nvidia are hiring legal engineers with A.I. skills.",
+      "why": "Shows AI reshaping professional services labor.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/31/multimedia/31DB-legal-engineers-puri-gzhc/31DB-legal-engineers-puri-gzhc-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/hershey-halloween-candy-sales-inflation/873196/",
+      "title": "Hershey warns consumer financial stress could weigh on Halloween sales",
+      "source": "Food Dive",
+      "summary": "Hershey expects financially strained shoppers to affect Halloween demand.",
+      "why": "A read on how stretched consumers are treating a big snacking season.",
+      "minutes": 4,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "title": "Intel's stock crashes, knocking $12B from government's stake",
+      "source": "TechCrunch",
+      "summary": "An Intel share-price drop cut about $12 billion from the US government's stake in the chipmaker.",
+      "why": "Chip-sector valuation shock with a public-sector investor on the hook.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Intel-Lip-Bu-Tan-1.jpg?w=562",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/retail/is-dollar-general-charging-too-much-f8e8717f",
+      "title": "Is Dollar General Charging Too Much?",
+      "source": "Wall Street Journal",
+      "summary": "Federal and state regulators are suing Dollar General over shelf-versus-register price discrepancies.",
+      "why": "Pricing integrity at a major discount chain is a direct consumer-retail risk.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-13648200",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://news.crunchbase.com/ma/grow-revenue-lose-enterprise-value-sagie/",
+      "title": "The Invisible Graph: How Companies Grow Revenue And Still Lose Value",
+      "source": "Crunchbase News",
+      "summary": "An analysis of why some companies lose enterprise value even while revenue rises.",
+      "why": "Valuation lens for growth-stage investing.",
+      "minutes": 5,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/31/business/media/trump-wsj-defamation-suit-10-billion.html",
+      "title": "Judge Tosses Trump’s $10 Billion Suit Against The Wall Street Journal",
+      "source": "New York Times",
+      "summary": "A judge dismissed Trump's $10 billion defamation suit over the WSJ's Epstein birthday-note article, his second attempt to show actual malice.",
+      "why": "Major media and legal ruling involving News Corp.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/08/12/multimedia/00hfo-wsj-defamation-1-zklh/00hfo-wsj-defamation-1-zklh-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "title": "Nvidia weighs playing the cosigner for Nscale's AI data center in West Virginia",
+      "source": "TechCrunch",
+      "summary": "Nvidia is considering co-guaranteeing financing for an Nscale AI data center in West Virginia.",
+      "why": "Shows how chip vendors are propping up AI infrastructure financing.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?w=563",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/softbank-backed-opay-halts-ipo-to-respond-to-regulatory-inquiry",
+      "title": "SoftBank-Backed OPay Halts IPO to Respond to Regulatory Inquiry",
+      "source": "Bloomberg",
+      "summary": "Nigeria-focused payments platform OPay halted its NYSE IPO, due to begin trading Friday, citing a regulatory inquiry.",
+      "why": "IPO market signal amid the selloff.",
+      "minutes": 2,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.nrn.com/fast-casual/raising-cane-s-plans-a-dozen-new-restaurants-in-november",
+      "title": "Raising Cane's plans a dozen new restaurants in November",
+      "source": "Nation's Restaurant News",
+      "summary": "Raising Cane's has a dozen openings planned for November.",
+      "why": "Unit-growth pace of a leading multi-unit chain.",
+      "minutes": 4,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.wsj.com/cio-journal/enterprise-ai-is-on-the-ballot-too-36cdf06d",
+      "title": "Enterprise AI Is on the Ballot Too",
+      "source": "Wall Street Journal",
+      "summary": "WSJ CIO Journal column on enterprise AI, plus Mistral's release of 'Le Chonk' and cloud delivery.",
+      "why": "Enterprise AI adoption and model releases.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-14949592",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
+      "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "source": "TechCrunch",
+      "summary": "AI-native law firm Crosby has bid on Weil Gotshal as the storied firm comes apart.",
+      "why": "AI-native challenger going after an incumbent professional-services franchise.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/06/Crosby-cofounders.jpg?w=500",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/31/business/european-central-bank-lagarde-succession.html",
+      "title": "Wanted: New Central Bank Chief. Expertise and Political Acumen Required.",
+      "source": "New York Times",
+      "summary": "The looming departure of ECB president Christine Lagarde has set off a high-stakes search for her successor.",
+      "why": "Matters for European rates and markets.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30Biz-ECB-Next-01-cqtz/30Biz-ECB-Next-01-cqtz-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/walmart-holiday-meal-2026-cheaper-2025/873073/",
+      "title": "Walmart dishes up holiday meal deal",
+      "source": "Grocery Dive",
+      "summary": "Walmart's 2026 holiday meal bundle feeds 10 for $35 and includes more items than last year.",
+      "why": "Value-pricing pressure on grocers and CPG brands.",
+      "minutes": 4,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/currencies/how-binance-is-scrambling-to-cover-losses-in-the-biggest-heist-in-crypto-history-babbfe90",
+      "title": "How Binance Is Racing to Cover Losses in the Biggest Heist in Crypto History",
+      "source": "Wall Street Journal",
+      "summary": "The Binance breach blew past everything the exchange had set aside to cover such an incident.",
+      "why": "Shows how a record crypto heist hits exchange balance sheets.",
+      "minutes": 6,
+      "image": "https://images.wsj.net/im-83173880",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "title": "The October inflection point for vibe game development",
+      "source": "Simon Willison's Weblog",
+      "summary": "Simon Willison discusses a recent jump in how well AI coding tools build games.",
+      "why": "Expert read on a fast-moving AI capability shift.",
+      "minutes": 4,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again",
+      "title": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+      "source": "Bloomberg",
+      "summary": "A heavy slate of data builds toward Friday's monthly employment report, which may keep the Fed on track for another rate hike.",
+      "why": "Previews the macro data setting the rate outlook.",
+      "minutes": 4,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/sweetgreen-expands-housemade-beverages-120-locations/833491/",
+      "title": "Sweetgreen expands craft drink lineup",
+      "source": "Restaurant Dive",
+      "summary": "Sweetgreen's four new housemade drinks increased beverage transaction share by nearly 25% at participating restaurants.",
+      "why": "Ticket-growth lever at a listed fast-casual chain.",
+      "minutes": 4,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/autos/ford-ceo-aims-for-a-20-sales-jump-by-2032-0bdaa0f9",
+      "title": "Ford CEO Aims for a 20% Sales Jump by 2032",
+      "source": "Wall Street Journal",
+      "summary": "Ford CEO Jim Farley is moving away from models he deems boring and aims for a 20% sales jump by 2032.",
+      "why": "Corporate strategy and targets at a major automaker.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-92191584",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/30/pile-ins-payouts-and-pacing-pressure-the-investors-behind-the-vcs-open-up/",
+      "title": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up",
+      "source": "TechCrunch",
+      "summary": "TechCrunch talks to limited partners about how venture investors are handling crowded rounds, payouts and deployment pace.",
+      "why": "LP view of the venture cycle in an AI-driven market.",
+      "minutes": 6,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Beezer-and-Amit.jpg?w=562",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/30/business/obamacare-health-insurance-rates.html",
+      "title": "Obamacare Policies Hit Again With Steep Premium Increases for 2027",
+      "source": "New York Times",
+      "summary": "Obamacare premiums will rise an average 13 percent next year, on top of an earlier steep increase.",
+      "why": "Health insurance cost trend for consumers.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/10/27/multimedia/00biz-obamacare--mlbk/00biz-obamacare--mlbk-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/uber-eats-key-food-delivery-regional-grocer/872995/",
+      "title": "Uber Eats partners with Key Food",
+      "source": "Grocery Dive",
+      "summary": "More than 300 Key Food co-op stores are now on Uber Eats.",
+      "why": "Delivery platforms keep adding grocers as consolidation heats up.",
+      "minutes": 4,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.wsj.com/economy/central-banking/fed-needs-to-implement-at-least-two-more-rate-increases-dallas-feds-logan-says-c5003190",
+      "title": "Fed Needs to Implement at Least Two More Rate Increases, Dallas Fed's Logan Says",
+      "source": "Wall Street Journal",
+      "summary": "Dallas Fed President Lorie Logan said at least two more 25-basis-point rate increases are needed given the current economic outlook.",
+      "why": "Rate-hike path drives valuations and deal financing.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-76759426",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/30/iran-war-bessent-treasury-report-sanctions",
+      "title": "U.S. blockade, sanctions crippling Iran's economy, Treasury report says",
+      "source": "Axios",
+      "summary": "The U.S. naval blockade, sweeping sanctions and obstruction of overland export routes have hurt Iran's economy, a Treasury report says.",
+      "why": "Macro and oil-market implications.",
+      "minutes": 4,
+      "image": "https://images.axios.com/gm6tT4ZDmNVMZxaHQxmx2LEgfik=/0x0:3239x1822/1366x768/2026/10/30/1793384599980.jpeg",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "title": "Google's first data center satellite is online and writing poetry",
+      "source": "TechCrunch",
+      "summary": "Google's first orbital data center satellite, built with Planet Labs, is running and generating text.",
+      "why": "Early proof point for AI compute in space.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/DSC_0298.jpg?w=563",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/danone-joins-nestle-coca-cola-revises-recycling-labels-after-eu-greenwashing-complaint/872777/",
+      "title": "Danone joins Nestle, Coca-Cola in revising recycling labels after EU greenwashing probe",
+      "source": "Food Dive",
+      "summary": "Danone agreed to clarify recycled-content claims on Evian bottles and avoid misleading marketing.",
+      "why": "Shows regulatory pressure on big-brand sustainability claims.",
+      "minutes": 4,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.wsj.com/politics/elections/prediction-markets-keep-whiffing-on-elections-will-they-miss-on-the-midterms-9809c8c9",
+      "title": "Prediction Markets Keep Whiffing on Elections. Will They Miss on the Midterms?",
+      "source": "Wall Street Journal",
+      "summary": "Polling remained at issue after prediction markets were upset by long shots in the Brazil, Serbia and Wisconsin elections.",
+      "why": "Tests how reliable prediction markets are ahead of the midterms.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-22108346",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/30/business/mosquito-laser-ai.html",
+      "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pests",
+      "source": "New York Times",
+      "summary": "A Chinese start-up claims its laser, using sensors developed for self-driving cars, can track and destroy mosquitoes while avoiding people and pets.",
+      "why": "AI-enabled hardware startup.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/10/19/arts/rv-ai-mosquitos-final-v3/rv-ai-mosquitos-final-v3-mediumSquareAt3X.jpg",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/albertsons-board-of-directors-size-grocery-supermarkets/833887/",
+      "title": "What Albertsons' rapidly increased board size could signal",
+      "source": "Grocery Dive",
+      "summary": "Albertsons' large board raises governance questions, according to experts.",
+      "why": "Governance and strategy signals at a major grocery chain in turnaround.",
+      "minutes": 4,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-midterm-candidates-tap-rare-bipartisan-issue-credit-card-rates",
+      "title": "US Midterm Candidates Tap Rare Bipartisan Issue: Credit Card Rates",
+      "source": "Bloomberg",
+      "summary": "Democrats and Republicans are both seizing on voter frustration with rising credit card debt in razor-thin midterm races.",
+      "why": "Consumer credit stress and possible rate caps matter for consumer brands.",
+      "minutes": 4,
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.wsj.com/world/middle-east/iran-war-us-bases-damage-88db3224",
+      "title": "How Iran Battered U.S. Bases and Caused Billions in Damage",
+      "source": "Wall Street Journal",
+      "summary": "Satellite imagery shows damage at more than two dozen installations, in the fullest accounting of the destruction yet.",
+      "why": "Investigative look at the war driving oil and markets.",
+      "minutes": 8,
+      "image": "https://images.wsj.net/im-15793009",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/30/opinion/billionaire-wealth-tax-california.html",
+      "title": "The Trouble With This Popular Progressive Idea",
+      "source": "New York Times",
+      "summary": "Opinion: economist Natasha Sarin argues there are better ways than California's wealth tax to make billionaires pay.",
+      "why": "Wealth tax debate relevant to investors.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/10/30/opinion/30opinions-sarin-image/30opinions-sarin-image-mediumSquareAt3X.png",
+      "addedAt": "2026-10-31T23:01:35Z"
+    },
     {
       "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
       "title": "OpenAI Raises Less Than Half of $30 Billion Target in Latest Round",
