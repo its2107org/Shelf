@@ -1,6 +1,346 @@
 {
-  "generatedAt": "2026-11-03T00:01:55Z",
+  "generatedAt": "2026-11-03T12:02:21Z",
   "items": [
+    {
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "title": "Anthropic warns that it's very close to RSI capability, aka self-building AI",
+      "source": "TechCrunch",
+      "summary": "Anthropic says its systems are approaching recursive self-improvement capability, meaning AI that can build its next generation.",
+      "why": "Biggest safety signal from a lab heading into its IPO.",
+      "minutes": 3,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-80-billion-in-all-stock-ai-deal-c9fd43a6",
+      "title": "Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal",
+      "source": "Wall Street Journal",
+      "summary": "Marvell agrees to buy Lumentum in an $80 billion all-stock deal combining two fast-growing AI enablers.",
+      "why": "Big AI-infrastructure M&A with a hard price tag.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-76415283",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/03/climate/jet-engines-ai-data-center-generators-boneyard.html",
+      "title": "Old, Polluting Jet Engines Are Being Scavenged to Power Data Centers",
+      "source": "New York Times",
+      "summary": "Old, polluting jet engines are being scavenged from boneyards to power AI data centers.",
+      "why": "Shows the scramble for power behind the AI buildout.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/10/14/multimedia/00CLI-BONEYARD-03-cjlf/00CLI-BONEYARD-03-cjlf-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/amd-needs-a-huge-outlook-to-avoid-intel-s-fate-as-ai-fears-rise",
+      "title": "AMD Needs a Huge Outlook to Avoid Intel’s Fate as AI Fears Rise",
+      "source": "Bloomberg",
+      "summary": "AMD is one of this year's best-performing chip stocks, but rising skepticism about AI spending means it needs strong results and an aggressive outlook.",
+      "why": "Earnings-eve check on AI chip sentiment.",
+      "minutes": 4,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/stocks/mcdonalds-is-beefing-up-but-it-wont-be-cheap-9ce73fff",
+      "title": "McDonald’s Is Beefing Up, but It Won’t Be Cheap",
+      "source": "Wall Street Journal",
+      "summary": "WSJ markets column on McDonald's beefing up, and why the stock won't be cheap.",
+      "why": "Valuation read on the biggest restaurant chain.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-42910556",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/03/elon-musk-spacex-boost-mobile-wireless-market",
+      "title": "Elon Musk's next target: A major shake-up of America's wireless market",
+      "source": "Axios",
+      "summary": "Elon Musk is looking to shake up America's wireless industry, potentially bringing the first major new competitor.",
+      "why": "Consumer telecom disruption by Musk's companies.",
+      "minutes": 4,
+      "image": "https://images.axios.com/ya56qimDFPde6keObIoAbyAM4jY=/0x0:1920x1080/1366x768/2026/11/02/1793660246880.jpeg",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "title": "Y Combinator's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "source": "TechCrunch",
+      "summary": "YC's chief says he spends up to $200,000 a year on AI agent tokens.",
+      "why": "A concrete data point on how heavy agent usage translates into spend.",
+      "minutes": 2,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/investing/ai-investors-seek-downside-protection-d1a8d5da",
+      "title": "AI Investors Seek Downside Protection",
+      "source": "Wall Street Journal",
+      "summary": "WSJ investing coverage on investors seeking hedges against a pullback in AI-linked stocks.",
+      "why": "Shows how money is positioning around AI-boom risk after the tech sell-off.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-76627623",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/03/magazine/memecoins-micropayments-ai.html",
+      "title": "Even the Worst Job on the Internet Isn’t Safe From A.I.",
+      "source": "New York Times",
+      "summary": "The Times Magazine looks at how AI could take over the memecoin business of profiting from online infamy.",
+      "why": "Long-form look at AI automating a corner of crypto.",
+      "minutes": 10,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/anheuser-busch-ceo-leaves-equinox-abinbev-beer/873508/",
+      "title": "Anheuser-Busch CEO to depart",
+      "source": "Food Dive",
+      "summary": "Brendan Whitworth is leaving his role leading AB InBev's North American business.",
+      "why": "Leadership change at the largest US beer maker as the category shifts.",
+      "minutes": 3,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/wall-street-ceos-big-global-money-managers-debate-ai-risks",
+      "title": "Wall Street CEOs, Big Money Managers Divided Over AI Risks",
+      "source": "Bloomberg",
+      "summary": "Some of the world's biggest asset managers are warning about risks to the AI boom while top Wall Street CEOs talk up the potential windfall.",
+      "why": "Split among the biggest allocators on AI is a key signal for valuations.",
+      "minutes": 5,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/politics/national-security/openai-hires-former-army-secretary-dan-driscoll-to-cybersecurity-role-0e5cc0a1",
+      "title": "OpenAI Hires Former Army Secretary Dan Driscoll to Cybersecurity Role",
+      "source": "Wall Street Journal",
+      "summary": "OpenAI hired former Army Secretary Dan Driscoll to advise on how AI could bolster U.S. security capabilities and cyber defenses.",
+      "why": "Lab moves on AI cybersecurity.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-48144837",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "title": "Elon Musk throttles Grok Bot limits due to 'unsustainably high' costs",
+      "source": "TechCrunch",
+      "summary": "Musk is cutting Grok Bot usage limits, citing costs he calls unsustainably high.",
+      "why": "Shows the unit economics strain of consumer AI.",
+      "minutes": 2,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/02/world/asia/china-us-exports-ai-solar.html",
+      "title": "China’s Message to Its Rivals: You Need What We Make",
+      "source": "New York Times",
+      "summary": "China is making it harder for other countries to shed dependence on its solar, drone and drugmaking technology, beyond rare earths.",
+      "why": "Supply-chain leverage that affects consumer and industrial costs.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/11/02/multimedia/02int-china-export-controls-01-pqvb/02int-china-export-controls-01-pqvb-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.modernretail.co/operations/pepsico-bets-on-refrigerated-fresh-foods-like-gazpacho-and-guacamole-to-drive-growth/",
+      "title": "PepsiCo bets on refrigerated fresh foods like gazpacho and guacamole to drive growth",
+      "source": "Modern Retail",
+      "summary": "PepsiCo is investing in chilled fresh foods as a growth driver.",
+      "why": "A big FMCG player moving into fresh, where challenger brands play.",
+      "minutes": 5,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/carl-icahns-cvr-energy-near-over-4-billion-deal-for-marathon-refineries-e8487579",
+      "title": "Carl Icahn's CVR Energy Near Over $4 Billion Deal for Marathon Refineries",
+      "source": "Wall Street Journal",
+      "summary": "CVR Energy is nearing a deal worth over $4 billion for Marathon refineries as global conflicts boost U.S. refiners' sales.",
+      "why": "Large M&A with a famous investor attached.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-669664",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "title": "42AI comes out of stealth with $62.5M and a world model that can 'predict human behavior'",
+      "source": "TechCrunch",
+      "summary": "42AI emerged from stealth with $62.5 million and a world model it says can predict human behavior.",
+      "why": "A world model aimed at behavior prediction could matter for consumer research.",
+      "minutes": 3,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/02/technology/apple-earnings.html",
+      "title": "Apple’s Profit Grows 12% Despite Component Price Worries",
+      "source": "New York Times",
+      "summary": "Apple's profit grew 12%; iPhone sales stayed strong, but the company warned memory chip costs are rising.",
+      "why": "Consumer-hardware margins and component costs.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/11/02/multimedia/APPLE-EARNINGS-1-fjml/APPLE-EARNINGS-1-fjml-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/sprouts-farmers-market-third-quarter-earnings-affordability-pricing-strategy/873111/",
+      "title": "Sprouts 'must evolve faster,' incoming CEO tells investors",
+      "source": "Grocery Dive",
+      "summary": "After a third straight quarter of negative comparable-store sales, Sprouts plans a new pricing program in January.",
+      "why": "A high-multiple natural grocer is wobbling and resetting on price.",
+      "minutes": 4,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/stocks/the-risks-state-and-local-elections-pose-for-wall-street-and-the-ai-trade-3bc5219d",
+      "title": "America’s Multi-Trillion-Dollar AI Buildout Is on the Ballot—and Wall Street Is Watching",
+      "source": "Wall Street Journal",
+      "summary": "Investors are following races in key states for pushback against the AI infrastructure build-out.",
+      "why": "Political risk to the multi-trillion-dollar AI buildout.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-24921120",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "source": "TechCrunch",
+      "summary": "Thrive Holdings, backed by OpenAI, has agreed to acquire ADT.",
+      "why": "An AI-backed roll-up buying a large consumer services business, PE-style.",
+      "minutes": 3,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/palantir-boosts-2026-revenue-outlook-on-strong-commercial-sales",
+      "title": "Palantir Outlook Signals Slowdown in AI-Fueled Sales Growth",
+      "source": "Bloomberg",
+      "summary": "Palantir issued a quarterly outlook that pointed to a potential slowdown in sales growth, despite a raised 2026 revenue forecast on strong commercial sales.",
+      "why": "A reality check on one of the flagship AI revenue stories.",
+      "minutes": 4,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/03/business/trucking-diesel-prices.html",
+      "title": "His Business Was Tough. Diesel Prices Made It Impossible.",
+      "source": "New York Times",
+      "summary": "For small trucking firms with thin margins, high diesel prices can mean the difference between survival and bankruptcy.",
+      "why": "Fuel-cost squeeze on the small-business freight economy.",
+      "minutes": 6,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/reebok-foot-locker-question-shoe-launch-allen-iverson/873438/",
+      "title": "Reebok chooses Foot Locker as exclusive partner for Question shoe relaunch",
+      "source": "Retail Dive",
+      "summary": "Reebok will sell its Question shoe relaunch exclusively through Foot Locker.",
+      "why": "Brand-retailer partnership play in the sneaker market.",
+      "minutes": 3,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/investing/hedge-fund-elliott-warns-of-fogo-fear-of-getting-obliterated-in-the-market-a2cc7027",
+      "title": "Hedge Fund Elliott Warns of FOGO: Fear of Getting Obliterated in the Market",
+      "source": "Wall Street Journal",
+      "summary": "The $80 billion hedge-fund firm posted flat third-quarter returns and under 2% gains this year through September.",
+      "why": "A top activist's candid take on a hard market.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-22044885",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "source": "TechCrunch",
+      "summary": "The New York Times and other publishers sued Brave over alleged scraping of their content.",
+      "why": "Another front in the AI-and-copyright fight.",
+      "minutes": 2,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/02/europe-supermarket-fridges-attacks-food",
+      "title": "Europe's fridges are getting hacked. Could America be next?",
+      "source": "Axios",
+      "summary": "Cyberattacks are hitting supermarket refrigerators across Europe, raising the question of whether the U.S. could be next.",
+      "why": "Food retail operational risk.",
+      "minutes": 4,
+      "image": "https://images.axios.com/YtsTZdVBAplNlZw_NNEJu63oq4A=/0x164:4000x2414/1366x768/2026/11/02/1793634644852.jpeg",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/02/business/economy/trump-tariffs-midterms-michigan.html",
+      "title": "Trump’s Tariffs Are On the Ballot in Michigan",
+      "source": "New York Times",
+      "summary": "Tariffs and trade fighting with Canada face a test in Michigan, where voters are skeptical of free trade and of the president's erratic approach.",
+      "why": "Tariff politics that shape consumer-goods costs.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/11/02/multimedia/02dc-trade-midterms-01-lmfk/02dc-trade-midterms-01-lmfk-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.nrn.com/quick-service/taco-bell-kfc-restaurants-shutter-across-puerto-rico",
+      "title": "Taco Bell, KFC restaurants shutter across Puerto Rico",
+      "source": "Nation's Restaurant News",
+      "summary": "About 80 KFC locations are temporarily closing while Yum Brands seeks a new operator.",
+      "why": "Shows franchisee operator risk inside a global multi-unit system.",
+      "minutes": 3,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/earnings/apollo-global-swings-to-a-loss-on-investment-related-losses-e2141fd4",
+      "title": "Apollo Global Swings to a Loss on Investment-Related Losses",
+      "source": "Wall Street Journal",
+      "summary": "Apollo reported a Q3 net loss to common stockholders of $1.06 billion, or $1.78 a share, versus net income of $1.71 billion a year earlier.",
+      "why": "Big swing at a leading PE and credit firm.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-03783620",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "title": "Apple may try to increase revenue by doing...something with third-party AI apps",
+      "source": "TechCrunch",
+      "summary": "Apple is signaling it may look for new revenue tied to third-party AI apps on its platform.",
+      "why": "Platform-fee risk for AI app businesses.",
+      "minutes": 2,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/eqt-buys-speedcast-s-ground-stations-unit-for-300-million",
+      "title": "EQT Buys Speedcast’s Ground Stations Unit for $300 Million",
+      "source": "Bloomberg",
+      "summary": "EQT acquired Speedcast's ground stations unit for $300 million, expanding its bet on satellite infrastructure.",
+      "why": "PE deal with a price, in space infrastructure.",
+      "minutes": 3,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/01/business/binance-hack-crypto-north-korea.html",
+      "title": "Binance Reports $3.64 Billion in Outflows as It Resumes Normal Transactions",
+      "source": "New York Times",
+      "summary": "Binance reported $3.64 billion in outflows as it resumed normal transactions after a $6.3 billion token theft linked to North Korea.",
+      "why": "Largest-ever crypto hack and its market fallout.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/11/01/multimedia/01biz-binance/01biz-binance-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.glossy.co/fashion/holiday-timing-is-a-moving-target-nordstrom-aims-to-cut-through-the-noise-with-an-unexpected-campaign/",
+      "title": "'Holiday timing is a moving target': Nordstrom aims to cut through the noise with an unexpected campaign",
+      "source": "Glossy",
+      "summary": "Nordstrom is using an unconventional holiday campaign to stand out in a crowded season.",
+      "why": "Read on how a major retailer is marketing into a shifting holiday calendar.",
+      "minutes": 4,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/trump-family-linked-mining-venture-aims-to-go-public-in-2-billion-deal-38d85946",
+      "title": "Trump Family-Linked Mining Venture Aims to Go Public in $2 Billion Deal",
+      "source": "Wall Street Journal",
+      "summary": "The firm that will become Kaz Resources has secured letters of interest for up to $1.6 billion in U.S. funding, drawing scrutiny from Sen. Elizabeth Warren.",
+      "why": "A politically charged $2 billion listing deal.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-35423509",
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/investors-split-on-earnings-season-job-cuts-tied-to-ai-and-costs",
+      "title": "Investors Split on Earnings Season Job Cuts Tied to AI and Costs",
+      "source": "Bloomberg",
+      "summary": "Companies have announced thousands of job cuts this earnings season as CEOs respond to AI and cost pressure, and investors are divided on how to read them.",
+      "why": "Links AI to corporate margins and labor, relevant to consumer and portfolio companies.",
+      "minutes": 4,
+      "addedAt": "2026-11-03T12:02:21Z"
+    },
     {
       "url": "https://www.nytimes.com/2026/11/02/business/anthropic-earnings-ai.html",
       "title": "Anthropic Reveals $17 Billion in Revenue as I.P.O. Approaches",
