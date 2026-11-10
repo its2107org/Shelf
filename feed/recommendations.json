@@ -1,6 +1,400 @@
 {
-  "generatedAt": "2026-11-10T00:40:59Z",
+  "generatedAt": "2026-11-10T12:00:52Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/business/earnings/softbank-group-posts-quarterly-loss-on-special-losses-linked-to-u-s-data-center-projects-23b37a41",
+      "title": "SoftBank Posts Multibillion-Dollar Loss Linked to U.S. Data-Center Equipment",
+      "source": "Wall Street Journal",
+      "summary": "SoftBank swung to its first quarterly loss in nearly two years, including $3.7 billion in losses tied to equipment for U.S. data-center projects.",
+      "why": "A concrete read on the financial strain behind AI infrastructure bets.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-75589209",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/10/world/australia/ai-regulator-openai-hack-medicare.html",
+      "title": "Australia Unveils New A.I. Regulator After OpenAI Breach",
+      "source": "New York Times",
+      "summary": "The government is also considering criminal-law changes to penalize companies whose models engage in harmful conduct.",
+      "why": "AI regulation shifting from talk to institutions.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/11/10/multimedia/10int-oz-ai-kcbj/10int-oz-ai-kcbj-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-waller-backs-december-rate-hike-says-open-to-larger-move",
+      "title": "Fed's Waller Backs December Rate Hike, Open to Larger Move",
+      "source": "Bloomberg",
+      "summary": "Fed Governor Christopher Waller said he supports a December rate hike and would back a half-point move if inflation keeps accelerating.",
+      "why": "Rate-hike signals from the Fed move every valuation and deal model.",
+      "minutes": 3,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "title": "Anthropic joins AI's natural gas frenzy, buys $3.4B worth of turbines",
+      "source": "TechCrunch",
+      "summary": "Anthropic is buying $3.4 billion of gas turbines as AI companies turn to natural gas for power.",
+      "why": "Shows how much capital AI compute now needs in power infrastructure.",
+      "minutes": 4,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.modernretail.co/operations/how-azunas-strong-supply-chain-fuels-its-9-figure-sales/",
+      "title": "How Azuna's strong supply chain fuels its 9-figure sales",
+      "source": "Modern Retail",
+      "summary": "Azuna, an air-freshener alternative brand, uses inventory buffers and vertical control to support nine-figure online revenue.",
+      "why": "A challenger home-care brand scaling past $100M on operations rather than ad spend.",
+      "minutes": 5,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://openai.com/index/control-room",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "source": "OpenAI",
+      "summary": "OpenAI describes a central system for tracking and stopping model workloads across its research infrastructure.",
+      "why": "A look at how a frontier lab controls its own compute and safety.",
+      "minutes": 6,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/bill-gates-republic-landfill-methane-pollution",
+      "title": "The Garbage Man: Bill Gates Has Earned Billions Investing in Climate-Polluting Landfills",
+      "source": "ProPublica",
+      "summary": "ProPublica examines how Bill Gates earned billions through investments in landfill operator Republic Services despite the methane pollution from landfills.",
+      "why": "Investigative long read on an investor's returns versus climate claims.",
+      "minutes": 15,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/10/ai-stocks-nvidia-broadcom",
+      "title": "AI stocks bounce back — with one notable exception",
+      "source": "Axios",
+      "summary": "The AI trade has regained momentum even as Nvidia struggles after the weekend's scandal.",
+      "why": "Quick market read on AI stocks.",
+      "minutes": 3,
+      "image": "https://datawrapper.dwcdn.net/fkfzQ/fallback.png",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/General-mills-snacking-chex-mix-pepsico-packaging-flavor/831513/",
+      "title": "General Mills wants a bigger bite of $32B salty snack space",
+      "source": "Food Dive",
+      "summary": "General Mills is boosting flavors and packaging for its snacks to grow its roughly 1% share of the category.",
+      "why": "How an incumbent tries to take share from Frito-Lay in a big profit pool.",
+      "minutes": 4,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.glossy.co/beauty/beauty-briefing-how-sephora-is-banking-on-expertise/",
+      "title": "Beauty Briefing: How Sephora is banking on expertise",
+      "source": "Glossy",
+      "summary": "Glossy's briefing covers Sephora's strategy of leaning on staff and product expertise.",
+      "why": "Relevant to prestige beauty retail, in the vein of Bluemercury.",
+      "minutes": 4,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/instacart-doordash-merger-walmart-amazon-grocery/874045/",
+      "title": "Instacart points to Walmart and Amazon as reasons its merger with DoorDash should be approved",
+      "source": "Grocery Dive",
+      "summary": "Instacart's chief commercial officer argues Walmart and Amazon are eroding grocers' market share, as the $17B DoorDash deal faces scrutiny.",
+      "why": "Antitrust framing of the biggest consumer-delivery deal of the year.",
+      "minutes": 4,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/amazon-adds-alexa-ai-shopping-functions/873602/",
+      "title": "Amazon adds over 100 Alexa for Shopping functions",
+      "source": "Retail Dive",
+      "summary": "New capabilities include managing subscriptions, handling billing questions and editing lists and registries.",
+      "why": "Amazon's AI shopping push and what it means for brands.",
+      "minutes": 3,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "title": "Prompting Claude Fable 5.2",
+      "source": "Simon Willison",
+      "summary": "Simon Willison quotes Anthropic's documentation on how to prompt the new Claude Fable 5.2.",
+      "why": "Practical guidance from an expert on getting the most from the new model.",
+      "minutes": 3,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/investing/coreweave-brings-ais-financing-concern-into-focus-20f3a19e",
+      "title": "CoreWeave Brings AI's Financing Concern Into Focus",
+      "source": "Wall Street Journal",
+      "summary": "CoreWeave's results put AI's financing questions in the spotlight, alongside the Nvidia spy-scandal fallout and corporate America bracing for investigations.",
+      "why": "AI infrastructure economics and how the money is funded.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-64701000",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/10/magazine/human-grade-dog-food.html",
+      "title": "Who Is 'Human Grade' Dog Food Really For?",
+      "source": "New York Times",
+      "summary": "NYT Magazine asks what buyers get when they spend heavily each year on human-grade dog food.",
+      "why": "Premium pet food is a hot consumer category.",
+      "minutes": 12,
+      "image": "https://static01.nyt.com/images/2026/11/15/magazine/15mag-ididit/15mag-ididit-mediumSquareAt3X-v2.jpg",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/french-grocer-casino-agrees-debt-deal-with-opposing-creditors",
+      "title": "French Grocer Casino Agrees Debt Deal With Opposing Creditors",
+      "source": "Bloomberg",
+      "summary": "Casino has reached a debt agreement with opposing creditors.",
+      "why": "A distressed European grocery restructuring.",
+      "minutes": 3,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/",
+      "title": "AI hardware startup Nominal triples valuation to $3B in 8 months",
+      "source": "TechCrunch",
+      "summary": "AI hardware startup Nominal has tripled its valuation to $3 billion in eight months.",
+      "why": "A concrete data point on AI-hardware venture valuations.",
+      "minutes": 3,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.modernretail.co/operations/exclusive-tiktok-shop-launches-a-paid-premium-tier-for-1m-of-its-top-us-shoppers/",
+      "title": "Exclusive: TikTok Shop launches a paid premium tier for 1M of its top US shoppers",
+      "source": "Modern Retail",
+      "summary": "TikTok Shop is adding a paid membership program for its top US shoppers ahead of the holiday season.",
+      "why": "Shows how a key DTC brand channel is trying to lock in loyalty and take on Prime.",
+      "minutes": 4,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "source": "OpenAI",
+      "summary": "ChatGPT Enterprise can now be purchased through the AWS Marketplace.",
+      "why": "Enterprise distribution channel shift in the OpenAI-Amazon-Microsoft race.",
+      "minutes": 2,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/donald-trump-jr-vulcan-deal-white-house",
+      "title": "The White House Intervened to Get a $620 Million Deal for a Company Tied to Donald Trump Jr.",
+      "source": "ProPublica",
+      "summary": "ProPublica reports that the White House intervened to secure a $620 million deal for a company tied to Donald Trump Jr.",
+      "why": "Investigative look at how political ties shape large government-linked deals.",
+      "minutes": 10,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/retail/on-holding-logs-higher-profit-sales-ed2bb7be",
+      "title": "On Holding Logs Higher Profit, Sales",
+      "source": "Wall Street Journal",
+      "summary": "On Holding reported higher third-quarter net income and sales while protecting full-price integrity in a promotional marketplace.",
+      "why": "A premium challenger consumer brand holding pricing power.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-32539152",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/10/dining/advent-calendars-food-drinks-snacks.html",
+      "title": "Advent Calendars Go Beyond Chocolate, From Pickles to Protein Powder",
+      "source": "New York Times",
+      "summary": "Snacks, drinks and health foods are fueling a $2.6 billion advent calendar industry.",
+      "why": "Consumer brands using seasonal gifting formats.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/11/10/multimedia/10FD-advent-calendar-thumb1-qpfj/10FD-advent-calendar-thumb1-qpfj-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/failed-australian-chain-david-jones-in-limbo-in-hunt-for-buyer",
+      "title": "Failed Australian Chain David Jones Hunts for Buyer, Capital",
+      "source": "Bloomberg",
+      "summary": "The failed Australian department store chain is looking for a buyer and new capital.",
+      "why": "Distressed multi-unit retail asset in search of an owner.",
+      "minutes": 3,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "title": "The race is on to sue Nvidia",
+      "source": "TechCrunch",
+      "summary": "Parties appear to be competing to file lawsuits against Nvidia amid the controversy around its CEO.",
+      "why": "Legal exposure for the AI chip leader matters for the whole AI trade.",
+      "minutes": 4,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.wsj.com/articles/how-target-planned-for-brian-cornells-successor-4da93380",
+      "title": "How Target Planned for Brian Cornell's Successor",
+      "source": "Wall Street Journal",
+      "summary": "WSJ looks at how Target prepared for the succession of CEO Brian Cornell.",
+      "why": "Leadership change at a bellwether big-box retailer.",
+      "minutes": 6,
+      "image": "https://images.wsj.net/im-28435639",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/09/business/energy-environment/exxon-mobil-venezuela-oil-deal.html",
+      "title": "Exxon Strikes Preliminary Deal to Return to Venezuela",
+      "source": "New York Times",
+      "summary": "The agreement brings Exxon a step closer to pumping oil in Venezuela nearly two decades after it left.",
+      "why": "A major energy deal with geopolitical stakes.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/11/09/multimedia/00biz-exxon-venezuela-vbpj/00biz-exxon-venezuela-vbpj-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-targets-64-4-billion-ipo-nearing-spacex-s-record",
+      "title": "Anthropic Targets $90 Billion in IPO and Placement With Big Tech",
+      "source": "Bloomberg",
+      "summary": "Anthropic and some shareholders seek to raise as much as $90.4 billion in an IPO and private placement.",
+      "why": "Sizing of the biggest AI lab IPO.",
+      "minutes": 4,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "source": "TechCrunch",
+      "summary": "Meta has released Muse Ember, a compact model built to run AI agents.",
+      "why": "Meta's push into cheap agent models.",
+      "minutes": 3,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/high-beef-prices-here-to-stay-004f9119",
+      "title": "Why High Beef Prices Are Here to Stay",
+      "source": "Wall Street Journal",
+      "summary": "A shrinking U.S. cattle herd is putting meatpackers out of business and fracturing the supply chain.",
+      "why": "Input-cost pressure for restaurants and food companies.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-93048931",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/09/business/china-trade-surplus-trillion.html",
+      "title": "China's Trade Surplus Passes $1 Trillion at Record Pace",
+      "source": "New York Times",
+      "summary": "China's factories are finding eager buyers worldwide, but the export boom raises concerns among trading partners.",
+      "why": "Macro backdrop for global trade and tariffs.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/11/10/multimedia/10biz-China-trade-wmht/10biz-China-trade-wmht-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-10/ai-agents-have-yet-to-disrupt-uber-doordash-or-online-travel",
+      "title": "AI Agents Have Yet to Disrupt Uber, DoorDash or Online Travel",
+      "source": "Bloomberg",
+      "summary": "Consumer adoption of AI agents is lagging for lack of trust and usefulness.",
+      "why": "Reality check on AI's impact on consumer platforms.",
+      "minutes": 4,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/09/fervo-now-has-12b-in-orders-for-its-geothermal-power-tech/",
+      "title": "Fervo now has $12B in orders for its geothermal power tech",
+      "source": "TechCrunch",
+      "summary": "Geothermal startup Fervo reports $12 billion in orders for its technology.",
+      "why": "Clean power for data centers is becoming a big business.",
+      "minutes": 3,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/wall-street-pay-set-to-climb-after-volatile-markets-and-ipos-fuel-bank-profits-94fd9137",
+      "title": "Wall Street Pay Set to Climb After Volatile Markets and IPOs Fuel Bank Profits",
+      "source": "Wall Street Journal",
+      "summary": "Traders and investment bankers are set to see some of the biggest bonus increases.",
+      "why": "Signal on deal and IPO activity across the industry.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-94570555",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/10/business/germany-auto-industry-cities.html",
+      "title": "'We Used to Be a Wealthy City': Auto Woes Slam German Towns",
+      "source": "New York Times",
+      "summary": "The downturn in the auto industry has erased services and benefits residents of Friedrichshafen once enjoyed.",
+      "why": "The human side of a major industrial slump.",
+      "minutes": 7,
+      "image": "https://static01.nyt.com/images/2026/11/09/multimedia/09biz-german-auto-town-01-jbpg/09biz-german-auto-town-01-jbpg-mediumSquareAt3X-v3.jpg",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/blackstone-to-buy-15-5-of-iifl-finance-in-532-million-india-bet",
+      "title": "Blackstone to Buy 15.5% of IIFL Finance in $532 Million India Bet",
+      "source": "Bloomberg",
+      "summary": "Blackstone will acquire a 15.57% stake in Indian lender IIFL Finance for about $532 million.",
+      "why": "PE deal flow in India.",
+      "minutes": 3,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+      "source": "TechCrunch",
+      "summary": "Automattic has launched a platform for deploying apps built with vibe-coding tools.",
+      "why": "Where AI-built apps will be hosted and monetized.",
+      "minutes": 3,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/the-mystery-behind-a-50-year-old-factory-part-flying-off-the-shelves-087c1660",
+      "title": "The Mystery Behind a 50-Year-Old Factory Part Flying Off the Shelves",
+      "source": "Wall Street Journal",
+      "summary": "A Michigan company was inundated with orders for its air vents and had no idea who was buying them.",
+      "why": "A fun supply-chain puzzle with data-center demand implications.",
+      "minutes": 6,
+      "image": "https://images.wsj.net/im-55622088",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/09/opinion/ai-anthropic-doom-conscious.html",
+      "title": "I Am a Silicon Valley Veteran. We Are Sabotaging Ourselves.",
+      "source": "New York Times",
+      "summary": "An opinion essay argues Silicon Valley ruins great innovations with ridiculous theories, using AI as the latest example.",
+      "why": "A contrarian take on AI discourse.",
+      "minutes": 6,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/moonshot-rents-nvidia-s-top-ai-chips-in-china-documents-show",
+      "title": "Moonshot Rents Nvidia's Top AI Chips in China, Documents Show",
+      "source": "Bloomberg",
+      "summary": "Documents filed with Beijing regulators show Moonshot AI accessed Nvidia's most advanced chips this summer.",
+      "why": "Chip export controls and China's AI labs.",
+      "minutes": 4,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/democrats-are-wasting-no-time-investigating-corporate-americas-biggest-names-a582799e",
+      "title": "Democrats Are Wasting No Time Investigating Corporate America's Biggest Names",
+      "source": "Wall Street Journal",
+      "summary": "After the blue wave, congressional leaders are setting deadlines and companies are lawyering up.",
+      "why": "Political risk landing on large companies.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-46100989",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.nytimes.com/live/2026/11/10/business/inflation-cpi-report-october/heres-why-last-years-government-shutdown-will-haunt-octobers-inflation-data",
+      "title": "Here's why last year's government shutdown will haunt October's inflation data.",
+      "source": "New York Times",
+      "summary": "NYT live coverage explains how last year's shutdown distorts October's CPI report.",
+      "why": "Inflation data drives rate expectations today.",
+      "minutes": 3,
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/jensen-huang-doesnt-believe-in-succession-planning-its-become-a-big-risk-for-nvidia-abd9ea9d",
+      "title": "Jensen Huang Doesn't Believe in Succession Planning. It's Become a Big Risk for Nvidia.",
+      "source": "Wall Street Journal",
+      "summary": "Nvidia's board has launched an investigation into reports that the CEO was targeted by a Chinese spy, raising key-man risk.",
+      "why": "Governance risk at the most important AI company.",
+      "minutes": 6,
+      "image": "https://images.wsj.net/im-18001315",
+      "addedAt": "2026-11-10T12:00:52Z"
+    },
     {
       "url": "https://www.wsj.com/finance/stocks/anthropic-prepares-to-push-ahead-with-ipo-despite-market-jitters-843dd16c",
       "title": "Anthropic Prepares to Push Ahead With IPO Despite Market Jitters",
