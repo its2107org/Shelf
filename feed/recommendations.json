@@ -1,6 +1,402 @@
 {
-  "generatedAt": "2026-11-11T00:01:56Z",
+  "generatedAt": "2026-11-11T12:04:28Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/tech/ai/tsmc-approves-up-to-1-billion-investment-plan-in-anthropic-openai-3e4b4997",
+      "title": "TSMC Approves Up to $1 Billion Investment Plan in Anthropic, OpenAI",
+      "source": "Wall Street Journal",
+      "summary": "TSMC approves up to $1 billion of investment in Anthropic and OpenAI.",
+      "why": "The chip supply chain is putting equity into the labs.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-35041621",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "source": "Anthropic",
+      "summary": "Anthropic has begun the investor roadshow for its proposed IPO, announced Nov 10.",
+      "why": "The biggest AI listing yet is now actually marketing to investors.",
+      "minutes": 3,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/mccormicks-65-billion-unilever-foods-merger-could-harm-competition-u-k-regulator-warns-ccd08701",
+      "title": "McCormick's $65 Billion Unilever Foods Tie-Up Could Harm Competition, U.K. Regulator Warns",
+      "source": "Wall Street Journal",
+      "summary": "The UK regulator warned the roughly $65 billion McCormick-Unilever foods tie-up could harm competition.",
+      "why": "Largest food deal on the board, directly relevant to consumer investing.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-44435513",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/11/magazine/ai-behavior-incorrigible.html",
+      "title": "Why Is It So Hard to Teach A.I. Agents to Behave? Researchers Have a Theory.",
+      "source": "New York Times",
+      "summary": "Researchers discuss why AI systems resist human direction or deceive operators.",
+      "why": "Long-form on alignment difficulty.",
+      "minutes": 12,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/11/anthropic-ipo-ai-nvidia-midterms",
+      "title": "The AI industry's week from hell",
+      "source": "Axios",
+      "summary": "Axios recaps a week of political upheaval, a Nasdaq drop, Nvidia turmoil and Anthropic's IPO for the AI industry.",
+      "why": "One-page summary of the AI trade's rough week.",
+      "minutes": 3,
+      "image": "https://images.axios.com/W81tUnRJN2b5W66KAeF8R7JCT1k=/0x0:1920x1080/1366x768/2026/11/10/1794345715748.jpeg",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.glossy.co/beauty/wellness/ulta-beauty-oura-ring-health-tracking/",
+      "title": "Exclusive: Ulta Beauty bets on health tracking with Oura in 1,000 stores",
+      "source": "Glossy",
+      "summary": "Ulta Beauty is bringing Oura health-tracking rings into about 1,000 stores.",
+      "why": "Retail distribution for wellness tech at a major beauty chain, relevant to Bluemercury-style retail.",
+      "minutes": 4,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/jensen-huang-nvidia-ceo-ai-bubble-93097556",
+      "title": "Nvidia Scandal Tests the Resilience of the Global AI Boom",
+      "source": "Wall Street Journal",
+      "summary": "WSJ examines how the scandal around Nvidia's CEO bears on the AI boom and the stocks tied to it.",
+      "why": "Key-person risk at the center of the AI trade.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-33883161",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/anthropic-aims-for-3-billion-to-3-5-billion-in-japan-offering",
+      "title": "Anthropic Aims for $3 Billion to $3.5 Billion in Japan Offering",
+      "source": "Bloomberg",
+      "summary": "Anthropic aims to raise $3 billion to $3.5 billion in a Japan offering.",
+      "why": "Size and structure of the IPO's Japan tranche.",
+      "minutes": 3,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "source": "TechCrunch",
+      "summary": "Anthropic launched Claude Meetings, which turns workplace discussions into plans and tasks.",
+      "why": "Shows Anthropic pushing deeper into enterprise knowledge work.",
+      "minutes": 4,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/11/business/nvidia-megaspeed-christian-lamarco.html",
+      "title": "This Trader Raised Alarm About Nvidia’s China Entanglements Months Ago",
+      "source": "New York Times",
+      "summary": "A trader raised alarm about Nvidia's China entanglements months ago.",
+      "why": "New angle on the Nvidia scandal, from the market side.",
+      "minutes": 6,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211",
+      "title": "CoreWeave Finds a Workaround to Capital Constraints—for Now",
+      "source": "Wall Street Journal",
+      "summary": "WSJ looks at how CoreWeave is getting around its capital constraints after its latest results.",
+      "why": "AI infrastructure financing economics, the core of the AI-bubble debate.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-90124141",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/nra-ifa-rfdc-midterm-election-political-fallout-restaurant-franchising/874213/",
+      "title": "What the Democratic midterm landslide means for franchising",
+      "source": "Restaurant Dive",
+      "summary": "Restaurant and franchise trade groups assess how the midterm results could affect joint employer rules, tariffs and other franchising issues.",
+      "why": "Policy shifts on joint employer and tariffs bear directly on multi-unit franchise economics.",
+      "minutes": 5,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://news.crunchbase.com/ai/anthropic-record-ipo-ant-public-market-debut-spcx/",
+      "title": "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
+      "source": "Crunchbase News",
+      "summary": "Crunchbase News reports Anthropic is seeking a record $88.5B tied to its public market debut.",
+      "why": "The numbers behind the largest tech IPO.",
+      "minutes": 4,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/anthropic-founders-stakes-are-worth-18-billion-apiece-at-ipo-price-2c746365",
+      "title": "Anthropic Founders’ Stakes Are Worth $18 Billion Apiece at IPO Price",
+      "source": "Wall Street Journal",
+      "summary": "Anthropic founders' stakes are worth $18 billion apiece at the IPO price.",
+      "why": "Concrete numbers on the largest AI IPO.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-68796897",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/10/lutnick-nvidia-jensen-huang-china-memo",
+      "title": "Scoop: Commerce Department received national security warning on Nvidia CEO affair",
+      "source": "Axios",
+      "summary": "Commerce Secretary Lutnick was sent a classified memo warning about Jensen Huang's relationship with a suspected Chinese spy, per sources.",
+      "why": "Scoop that raises export-control and governance stakes for Nvidia.",
+      "minutes": 3,
+      "image": "https://images.axios.com/QdGvTen2GCBvveTn-c0W9R2D7XY=/0x0:4000x2250/1366x768/2026/11/10/1794352029848.jpeg",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/bytedance-prepares-muse-like-agent-in-push-to-close-ai-gap",
+      "title": "ByteDance Prepares Muse-Like Agent in Push to Close AI Gap",
+      "source": "Bloomberg",
+      "summary": "ByteDance plans to release a Muse-like AI assistant in the coming weeks to build on its lead in AI video. The company hopes the milestone helps it close the gap with top US labs in as soon as three years.",
+      "why": "A look at how China's biggest consumer-AI player is positioning against US labs.",
+      "minutes": 4,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706",
+      "title": "Fed Forced to Confront Case for Bigger and Faster Rate Rises",
+      "source": "Wall Street Journal",
+      "summary": "Two Fed officials suggested the central bank may need to quicken the pace of interest-rate increases after hot inflation data.",
+      "why": "Rate path drives valuations and deal financing.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-48386633",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/10/inflation-cpi-interest-rates",
+      "title": "Harsh new inflation reality",
+      "source": "Axios",
+      "summary": "October marked the third straight month of hotter-than-expected inflation, which is stubborn and broadening out.",
+      "why": "Quick read on the macro backdrop for consumer and deal activity.",
+      "minutes": 3,
+      "image": "https://images.axios.com/DdUSD-EZMR0CUlx0RgdRIKWQ30Y=/1366x768/smart/2022/06/06/152819-1654529299894.jpg",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/kraft-heinz-adds-nordstrom-cfo-kroger-board-kellanova-investment/874100/",
+      "title": "Kraft Heinz adds Nordstrom CFO, ex-Kroger finance chief to board",
+      "source": "Food Dive",
+      "summary": "Kraft Heinz is expanding its board with two finance executives, Nordstrom's CFO and a former Kroger finance chief.",
+      "why": "Board changes at a big-food company in the middle of a breakup and portfolio reshuffle.",
+      "minutes": 3,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "title": "OpenAI, Anthropic face new oversight as New York's AI safety law takes effect",
+      "source": "TechCrunch",
+      "summary": "New York's AI safety law has taken effect, adding oversight of frontier labs including OpenAI and Anthropic.",
+      "why": "Ian's home state now regulates frontier labs.",
+      "minutes": 4,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/akzonobel-axaltas-25-billion-merger-could-harm-competition-u-k-regulator-warns-d3a59010",
+      "title": "AkzoNobel-Axalta $25 Billion Merger Could Harm Competition, U.K. Regulator Warns",
+      "source": "Wall Street Journal",
+      "summary": "The UK regulator said the $25 billion AkzoNobel-Axalta merger could harm competition.",
+      "why": "Large-cap M&A and how regulators are treating mega-mergers.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-61320975",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-backed-cohere-in-a-fight-to-secure-ai-computing-power",
+      "title": "Nvidia-Backed Cohere in ‘Fight’ to Secure AI Computing Power",
+      "source": "Bloomberg",
+      "summary": "Nvidia-backed Cohere is in a fight to secure AI computing power.",
+      "why": "Compute scarcity for the second-tier labs.",
+      "minutes": 4,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/11/business/energy-environment/winter-heating-oil-costs.html",
+      "title": "Heating Costs Will Rise 7% on Average This Winter",
+      "source": "New York Times",
+      "summary": "Heating costs will rise 7% on average this winter.",
+      "why": "Consumer wallet pressure going into the holidays.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/11/11/multimedia/11biz-heating-oil-pwlv/11biz-heating-oil-pwlv-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/energy-oil/masayoshi-sons-huge-bet-on-electrical-turbines-backfires-b51f160c",
+      "title": "Masayoshi Son’s Huge Bet on Electrical Turbines Backfires",
+      "source": "Wall Street Journal",
+      "summary": "Masayoshi Son's large bet on electrical turbines has backfired.",
+      "why": "Rare SoftBank bet gone wrong, tied to the AI power build-out.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-66362416",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.modernretail.co/operations/mattel-brings-barbie-hot-wheels-to-tiktok-shop/",
+      "title": "Mattel brings Barbie, Hot Wheels to TikTok Shop",
+      "source": "Modern Retail",
+      "summary": "Mattel is opening a branded storefront on TikTok Shop to expand its live-commerce presence.",
+      "why": "Legacy consumer brands are moving into social commerce as the holidays begin.",
+      "minutes": 4,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "source": "TechCrunch",
+      "summary": "OpenAI acquired Odessia, a travel startup created by Sonder's founder.",
+      "why": "Signals OpenAI's move into consumer travel and commerce.",
+      "minutes": 3,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/ai-has-driven-a-quarter-of-uk-growth-this-year-analysis-shows",
+      "title": "AI Has Driven a Quarter of UK Growth This Year, Analysis Shows",
+      "source": "Bloomberg",
+      "summary": "Analysis shows AI has driven a quarter of UK growth this year.",
+      "why": "Hard numbers on AI's macro impact.",
+      "minutes": 4,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/alaska-prudhoe-lng-polar-novatek",
+      "title": "A Natural Gas Project Off Alaska's Coast May Be a Russian Ploy for Intel on the Arctic",
+      "source": "ProPublica",
+      "summary": "Contractors gathered data for an Alaskan offshore gas project, and the firm's CEO resigned alleging it is a Russian intelligence effort.",
+      "why": "Standout investigative read on energy and national security.",
+      "minutes": 12,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/western-union-scraps-500-million-international-money-express-takeover-0cf7ae09",
+      "title": "Western Union Scraps $500 Million International Money Express Takeover",
+      "source": "Wall Street Journal",
+      "summary": "Western Union scraps its $500 million takeover of International Money Express.",
+      "why": "Deal collapse in the remittance space.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-502257",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/11/style/brigade-entertainment-360-acquisition-max-stein.html",
+      "title": "Entertainment 360 Acquires Brigade, a Management Firm Rich in Substackers",
+      "source": "New York Times",
+      "summary": "Entertainment 360 bought Brigade, a small talent firm, so Substack writers and podcast hosts are now managed by the same company as movie stars.",
+      "why": "Creator-economy consolidation and a sign of where talent dealmaking is heading.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/11/fashion/11ST-ACQUISITION-grid/11ST-ACQUISITION-grid-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://news.crunchbase.com/venture/october-2026-unicorn-board-gains-34-tops-1900-ai-defense/",
+      "title": "The Crunchbase Unicorn Board Tops 1,900 Companies In October, With 34 Companies Joining",
+      "source": "Crunchbase News",
+      "summary": "The unicorn board passed 1,900 companies in October with 34 new entrants, half under four years old.",
+      "why": "VC data on where new billion-dollar valuations come from.",
+      "minutes": 4,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/chinese-flash-memory-giant-ymtc-said-to-target-ipo-in-early-2027",
+      "title": "Chinese Flash Memory Giant YMTC Said to Target IPO in Early 2027",
+      "source": "Bloomberg",
+      "summary": "Yangtze Memory Technologies, China's biggest NAND flash maker, is targeting a Shanghai Stock Exchange IPO as soon as the first quarter of 2027, according to people familiar.",
+      "why": "A big AI-hardware supply-chain listing to watch as China builds out domestic chips.",
+      "minutes": 3,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.modernretail.co/operations/brands-briefing-dr-martens-revamps-stores-to-kickstart-growth-and-recontextualize-the-brand/",
+      "title": "Brands Briefing: Dr. Martens revamps stores to kickstart growth and 'recontextualize the brand'",
+      "source": "Modern Retail",
+      "summary": "Dr. Martens is redesigning its store fleet to attract younger shoppers.",
+      "why": "A turnaround case for a legacy brand using its own retail footprint.",
+      "minutes": 6,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/10/business/economy/household-debt-real-estate-home-equity.html",
+      "title": "Data Show Households Still Managing to Meet Their Monthly Debts",
+      "source": "New York Times",
+      "summary": "Data show households are still managing to meet their monthly debts.",
+      "why": "Consumer credit health check for investors.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/11/10/multimedia/10biz-household-debt-pvkl/10biz-household-debt-pvkl-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/ferrara-closing-chicago-plant-jobs-snacking/874294/",
+      "title": "Ferrara to shutter Chicago plant, lay off more than 150 workers",
+      "source": "Food Dive",
+      "summary": "Candy maker Ferrara plans to close a Chicago facility in 2027 while it reviews market conditions.",
+      "why": "Shows cost pressure in confectionery as big food rationalizes capacity.",
+      "minutes": 3,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/dubai-s-dip-rises-as-much-as-6-after-uae-s-first-post-war-ipo",
+      "title": "Dubai's DIP Climbs on Debut, Ending UAE's Listings Drought",
+      "source": "Bloomberg",
+      "summary": "DIP Holding shares jumped as much as 7% on debut after a $529 million IPO, the UAE's first listing of the year.",
+      "why": "Shows whether the IPO window is reopening in the Gulf after the war.",
+      "minutes": 3,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/09/conflicting-job-expectations-unemployment",
+      "title": "Low unemployment, but job worries persist",
+      "source": "Axios",
+      "summary": "Americans are more worried that unemployment will rise nationwide, even as they are more confident they could find another job if they lost theirs.",
+      "why": "Consumer-confidence signal that matters for spending and consumer brands.",
+      "minutes": 2,
+      "image": "https://images.axios.com/Q_Dg2EQ3LNGryCqPVsZA9sHAzes=/1366x768/smart/2024/06/04/180613-1717524373359.jpg",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/10/business/toyota-kei-pickup-truck.html",
+      "title": "Toyota Plans to Sell a Kei Pickup Truck in the U.S.",
+      "source": "New York Times",
+      "summary": "Toyota plans to sell a kei pickup truck in the US.",
+      "why": "Consumer-product signal from a major automaker.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/11/10/multimedia/10biz-toyota-kei-truck-01-gpvw/10biz-toyota-kei-truck-01-gpvw-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/tgi-fridays-franchising-deal-las-vegas-lvp-food-services-concepts/874168/",
+      "title": "TGI Fridays to re-enter Las Vegas market",
+      "source": "Restaurant Dive",
+      "summary": "A franchising deal with LVP Food Services Concepts brings TGI Fridays back to Las Vegas.",
+      "why": "A look at how a distressed casual-dining brand is rebuilding through franchisees.",
+      "minutes": 3,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/top-japan-electronics-chain-said-to-eye-630-million-store-sale",
+      "title": "Top Japan Electronics Chain Said to Eye $630 Million Store Sale",
+      "source": "Bloomberg",
+      "summary": "Yamada Holdings, Japan's biggest electronics retailer by sales, is considering selling a portfolio of stores for about 100 billion yen ($630 million). It is seeking to improve capital efficiency and shareholder returns.",
+      "why": "A multi-unit retail chain monetizing its real estate, a playbook relevant to chain investing.",
+      "minutes": 3,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "title": "Nvidia CEO Jensen Huang's affair with alleged Chinese spy: a timeline",
+      "source": "TechCrunch",
+      "summary": "A timeline of the Nvidia CEO's relationship with an alleged Chinese spy and the unfolding probe.",
+      "why": "The scandal is hitting the stock at the center of the AI trade.",
+      "minutes": 5,
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/10/technology/alice-huang-megaspeed-nvidia-jensen-huang.html",
+      "title": "Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+      "source": "New York Times",
+      "summary": "Profile of Alice Huang, the woman at the center of Nvidia's spy scandal.",
+      "why": "Background on the story shaking the AI leader.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/11/09/business/00biz-alice-huang-nanjing/00biz-alice-huang-nanjing-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-11T12:04:28Z"
+    },
     {
       "url": "https://www.nytimes.com/2026/11/10/technology/anthropic-ipo-valuation-share-price.html",
       "title": "Anthropic Targets Valuation of Up to $1.4 Trillion for Blockbuster I.P.O.",
