@@ -1,6 +1,346 @@
 {
-  "generatedAt": "2026-11-15T00:01:27Z",
+  "generatedAt": "2026-11-15T12:05:47Z",
   "items": [
+    {
+      "url": "https://www.nytimes.com/2026/11/15/opinion/anthropic-ipo-ai-investors.html",
+      "title": "The Flaw at the Heart of Anthropic's I.P.O.",
+      "source": "New York Times",
+      "summary": "Natasha Sarin read the company's 300-page IPO filing and lays out what worries her.",
+      "why": "A finance-minded critique of the filing from a skeptical reader.",
+      "minutes": 7,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d",
+      "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
+      "source": "Wall Street Journal",
+      "summary": "Data centers in Southeast Asia gave Chinese companies crucial computing power and cover for alleged chip smuggling.",
+      "why": "Investigative look at how export controls leaked.",
+      "minutes": 9,
+      "image": "https://images.wsj.net/im-74127198",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "title": "Early progress on accelerating drug development with Claude",
+      "source": "Anthropic",
+      "summary": "Anthropic describes deep research partnerships with six organizations developing new medicines.",
+      "why": "Primary-source look at AI moving into pharma R&D.",
+      "minutes": 6,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/cisa-cybersecurity-grocery-refrigeration-attacks/874514/",
+      "title": "US government aims to prevent cyberattacks on refrigeration systems",
+      "source": "Food Dive",
+      "summary": "After attacks on European supermarkets, US authorities urge businesses to secure internet-connected refrigeration systems.",
+      "why": "Cyber risk is now an operating risk for grocers.",
+      "minutes": 3,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/india-stock-market-rebounds-as-ai-trade-unwinds-foreign-funds-return",
+      "title": "India Stock Market Rebounds as AI Trade Unwinds, Foreign Funds Return",
+      "source": "Bloomberg",
+      "summary": "Indian equities are rebounding as the AI trade unwinds and foreign funds return.",
+      "why": "Shows where capital is rotating as the AI trade cools.",
+      "minutes": 3,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+      "title": "Lutnick Pushed to Weaken Chip Rules That Overlap With His Family Business",
+      "source": "New York Times",
+      "summary": "The commerce secretary has been writing rules affecting Southeast Asian data centers, some clients of his former firm.",
+      "why": "Chip export rules shape the AI supply chain",
+      "minutes": 7,
+      "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14dc-lutnick-commerce-01-bqtl/14dc-lutnick-commerce-01-bqtl-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/stocks/the-individual-investors-who-are-hot-on-anthropics-ipo-but-cool-on-ai-461f89b4",
+      "title": "The Individual Investors Who Are Hot on Anthropic's IPO But Cool on AI",
+      "source": "Wall Street Journal",
+      "summary": "Some individual investors want in on the trillion-dollar offering even while doubting AI's future.",
+      "why": "Retail demand is a key read on how the IPO could trade.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-49142809",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/14/grocery-wholesale-inflation-vegetables",
+      "title": "Wholesale food prices are on the rise",
+      "source": "Axios",
+      "summary": "Axios reports wholesale food prices, including vegetables, are climbing.",
+      "why": "Input-cost inflation matters for grocery and food brands.",
+      "minutes": 3,
+      "image": "https://images.axios.com/49puDGb_ih4k0tMenOjgECLeMBI=/0x0:1280x720/2025/11/12/1762972987784.gif",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/hhs-alicia-jackson-menopause-treatment-policy",
+      "title": "Top U.S. Health Official Backed a Medication Policy Shift That Benefited a Company She Has Stock In",
+      "source": "ProPublica",
+      "summary": "ProPublica found a senior health official publicly supported a policy change while holding stock in a related company.",
+      "why": "Investigative read at the line between policy and healthcare-market interests.",
+      "minutes": 10,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "title": "Where was Nvidia's security team?",
+      "source": "TechCrunch",
+      "summary": "TechCrunch asks what Nvidia's security team did, or didn't do, in the lead-up to the scandal.",
+      "why": "Governance angle on the world's most valuable chip company.",
+      "minutes": 4,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/retail/gucci-is-cutting-prices-louis-vuitton-is-reluctant-to-follow-the-trend-50e4b218",
+      "title": "Gucci Is Cutting Prices. Louis Vuitton Is Reluctant to Follow the Trend.",
+      "source": "Wall Street Journal",
+      "summary": "Luxury brands weigh price cuts, a sector taboo, as demand weakens.",
+      "why": "Consumer brand pricing power in luxury",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-72398495",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/15/business/a-human-reads-the-anthropic-ipo-filing.html",
+      "title": "A Human Reads the Anthropic I.P.O. Filing",
+      "source": "New York Times",
+      "summary": "The piece reads Anthropic's prospectus, noting its unusual willingness to discuss existential risk.",
+      "why": "A close reading of the S-1 for anyone sizing up the offering.",
+      "minutes": 8,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.restaurantdive.com/news/beverage-boom-restaurant-finance-continuing-trends/874571/",
+      "title": "The beverage boom is here to stay",
+      "source": "Restaurant Dive",
+      "summary": "Beverage sales are drawing a broader customer base, with strong growth at off-peak times and continued food pairing.",
+      "why": "Beverage-led traffic is a margin and daypart lever for multi-unit chains.",
+      "minutes": 4,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
+      "title": "Crypto's Slow-Motion Selloff Leaves Traders Weary and Hopeless",
+      "source": "Bloomberg",
+      "summary": "A prolonged, grinding crypto selloff is wearing down traders, per Bloomberg.",
+      "why": "Read on where sentiment in digital assets stands as risk appetite fades.",
+      "minutes": 4,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.wsj.com/world/nvidia-china-espionage-spy-hacking-ai-174c366b",
+      "title": "Behind the Nvidia Affair Sits a Vast Chinese Spying Machine",
+      "source": "Wall Street Journal",
+      "summary": "Beijing is running a huge intelligence operation to boost its tech industry, and US officials worry Huang was ensnared.",
+      "why": "The national-security backdrop to the Nvidia saga.",
+      "minutes": 8,
+      "image": "https://images.wsj.net/im-44698315",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "source": "Anthropic",
+      "summary": "A new agreement gives government partners a 40% discount on Claude Enterprise, Claude for Government and the API.",
+      "why": "Government pricing is a window into Anthropic's enterprise strategy.",
+      "minutes": 3,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/13/microsoft-outage-hits-courts-congress",
+      "title": "How the Microsoft outage impacted courts and governments",
+      "source": "Axios",
+      "summary": "Courts and governments worldwide felt the impact of Microsoft's roughly 36-hour outage.",
+      "why": "Concentration risk in cloud software, in practice.",
+      "minutes": 3,
+      "image": "https://images.axios.com/0j7JeFP26H-zFM9uoX6Ed8DS7C8=/1366x768/smart/2023/07/13/164219-1689266539043.jpg",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/14/us/l3harris-ground-stop.html",
+      "title": "Defense Contractor L3Harris Was Behind Upgrade That Led to Ground Stop",
+      "source": "New York Times",
+      "summary": "The little-known defense giant does work for the FAA and owns the equipment for its telecommunications network.",
+      "why": "Corporate story behind the national flight chaos",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14faa-groundstop-l3harris-topart-ktpl/14faa-groundstop-l3harris-topart-ktpl-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/investing/new-ai-millionaires-want-wealth-advisers-who-can-help-give-their-money-away-7d586775",
+      "title": "New AI Millionaires Want Wealth Advisers Who Can Help Give Their Money Away",
+      "source": "Wall Street Journal",
+      "summary": "A wave of new AI wealth is driving demand for philanthropy-focused advisers, fueled by mission-driven cultures and guilt about AI's harms.",
+      "why": "Where the AI IPO windfall is heading.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-09378547",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/firmus-plans-to-raise-3-billion-after-ipo-collapse-afr-says",
+      "title": "Firmus Plans to Raise $3 Billion After IPO Collapse, AFR Says",
+      "source": "Bloomberg",
+      "summary": "Firmus Grid plans a $3 billion private raise of equity and debt after its IPO collapsed, including prepayments from backer Nvidia.",
+      "why": "AI infrastructure financing after a failed IPO",
+      "minutes": 3,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/fda-revoke-food-dye-chemicals-methylene-chloride/874542/",
+      "title": "FDA revokes authorization of some chemicals used in food dye production",
+      "source": "Food Dive",
+      "summary": "The FDA is withdrawing approval for certain chemicals used to manufacture food dyes.",
+      "why": "Ingredient rules drive reformulation costs for food brands.",
+      "minutes": 3,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-scandal-silicon-valley.html",
+      "title": "The Jensen Huang Scandal Has Shocked Even Scandal-Prone Silicon Valley",
+      "source": "New York Times",
+      "summary": "As Huang departs abruptly, the tech community grapples with why successful men so often act so stupidly.",
+      "why": "Silicon Valley reaction to the Nvidia scandal",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/11/15/multimedia/14bizsun-huang-valley-03-lpmz/14bizsun-huang-valley-03-lpmz-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "title": "The AI graveyard: a running list of projects and startups that didn't make it",
+      "source": "TechCrunch",
+      "summary": "A continuously updated list catalogs AI projects and startups that failed.",
+      "why": "A useful reality check on AI startup failure rates.",
+      "minutes": 5,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/in-jensen-huangs-ouster-tech-billionaires-see-a-mistakeand-a-lesson-2bea613c",
+      "title": "In Jensen Huang’s Ouster, Tech Billionaires See a Mistake—and a Lesson",
+      "source": "Wall Street Journal",
+      "summary": "Musk, Palmer Luckey and other founders blasted Huang's removal after his affairs, some comparing it to Apple firing Steve Jobs.",
+      "why": "Reaction across tech leadership to the Nvidia ouster",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-57500889",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/13/oil-markets-iran-prices-trump-deal",
+      "title": "Oil supplies bounce back, but prices are still high",
+      "source": "Axios",
+      "summary": "Oil supplies are recovering but prices remain elevated amid the Iran situation.",
+      "why": "Energy prices drive inflation and consumer spending.",
+      "minutes": 3,
+      "image": "https://datawrapper.dwcdn.net/PRr7o/fallback.png",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-14/paper-makers-are-starting-to-crumple-as-rising-costs-bite",
+      "title": "Paper Makers Are Starting to Crumple as Rising Costs Bite",
+      "source": "Bloomberg",
+      "summary": "Conflicts in the Middle East and Ukraine have raised material costs for paper makers.",
+      "why": "Input-cost pressure on packaging-linked sectors",
+      "minutes": 4,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "source": "Anthropic",
+      "summary": "Anthropic is donating the Agent Skills open standard to the Agentic AI Foundation.",
+      "why": "Signals how agent standards are being set across the industry.",
+      "minutes": 3,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.wsj.com/lifestyle/amazon-delivery-drones-4807e976",
+      "title": "The Backyard Battle Over Amazon Delivery Drones ‘Stealing the Sky’",
+      "source": "Wall Street Journal",
+      "summary": "Aerial package drops draw gawkers, but some neighbors say Amazon drones are destroying the neighborhood.",
+      "why": "Last-mile delivery and consumer logistics",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-29421732",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/14/t-magazine/hotels-restaurants-foraging-food.html",
+      "title": "Why Foraging for Food Is the Latest Trend in Luxury Hotels and Fine-Dining Restaurants",
+      "source": "New York Times",
+      "summary": "Country hotels and fine-dining restaurants offer foraging excursions designed to bring out guests' hunter-gatherer instinct.",
+      "why": "Premium restaurant and hospitality trend",
+      "minutes": 6,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/target-board-member-centric-brands-ceo-fossil-turnaround/874550/",
+      "title": "The Weekly Closeout: Target names a new board member and Centric Brands sells itself to CEO",
+      "source": "Retail Dive",
+      "summary": "Target added an independent director, and Centric Brands changed hands to its CEO.",
+      "why": "Quick read on board and ownership moves across retail.",
+      "minutes": 4,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/state-street-pictet-call-time-on-europe-s-stock-market-rally",
+      "title": "State Street, Pictet Call Time on Europe's Stock Market Rally",
+      "source": "Bloomberg",
+      "summary": "State Street and Pictet are signalling that Europe's equity rally has run its course.",
+      "why": "Useful read on how big asset managers are positioning for 2027.",
+      "minutes": 3,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/offshore-wind-trump-connecticut-massachussetts",
+      "title": "How Trump's War on Offshore Wind Upended a \"Limitless\" Future for Thousands of New England Workers",
+      "source": "ProPublica",
+      "summary": "New England workers say job prospects in offshore wind are shrinking as federal policy turns against the industry.",
+      "why": "Long-form on how policy shifts strand capital and labor.",
+      "minutes": 12,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.wsj.com/politics/policy/nvidia-jensen-huang-trump-relationship-529a6cd7",
+      "title": "How Donald Trump and Jensen Huang Forged Their Powerful Alliance",
+      "source": "Wall Street Journal",
+      "summary": "In two years the Nvidia chief went from Washington outsider to Trump confidant.",
+      "why": "Explains Nvidia's political positioning",
+      "minutes": 7,
+      "image": "https://images.wsj.net/im-57198795",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/15/business/jensen-huang-taiwan.html",
+      "title": "Jensen Huang’s Downfall Brings Disbelief in Taiwan",
+      "source": "New York Times",
+      "summary": "Huang's resignation shocked people in his birthplace, where he is called 'the people's dad'.",
+      "why": "Nvidia fallout in a key chip market",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/15/multimedia/15biz-newworld-taiwan-01-wgpc/15biz-newworld-taiwan-01-wgpc-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/firms-drive-uk-growth-spurt-with-little-help-from-government",
+      "title": "Firms Drive UK Growth Spurt With Little Help From Government",
+      "source": "Bloomberg",
+      "summary": "UK growth is being driven by companies rather than government policy.",
+      "why": "A macro view on the UK economy.",
+      "minutes": 4,
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/15/business/ralph-lauren-patrice-louvet.html",
+      "title": "Behind the All-American Ralph Lauren Brand Is a French C.E.O.",
+      "source": "New York Times",
+      "summary": "Patrice Louvet on working with Ralph Lauren, winning over Gen Z and balancing magic and logic.",
+      "why": "CEO view on a heritage consumer brand",
+      "minutes": 8,
+      "image": "https://static01.nyt.com/images/2026/11/15/multimedia/00bizsun-corneroffice-ralph-01-vlhz/00bizsun-corneroffice-ralph-01-vlhz-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T12:05:47Z"
+    },
     {
       "url": "https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-board.html",
       "title": "Jensen Huang Carried a Secret for More Than a Year. It Led to His Downfall.",
