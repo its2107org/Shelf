@@ -1,6 +1,349 @@
 {
-  "generatedAt": "2026-11-14T12:02:45Z",
+  "generatedAt": "2026-11-15T00:01:27Z",
   "items": [
+    {
+      "url": "https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-board.html",
+      "title": "Jensen Huang Carried a Secret for More Than a Year. It Led to His Downfall.",
+      "source": "New York Times",
+      "summary": "Nvidia's chief executive said his relationship with a female customer was just business, but what he concealed led to his resignation from the company he created.",
+      "why": "The back story behind the event moving AI stocks.",
+      "minutes": 9,
+      "image": "https://static01.nyt.com/images/2026/11/13/multimedia/BIZ-JENSEN-CRASH-1-01-ljmc/BIZ-JENSEN-CRASH-1-01-ljmc-mediumSquareAt3X-v2.jpg",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "title": "Building strong safety evaluations",
+      "source": "Anthropic",
+      "summary": "Anthropic published a research post on how it designs and validates safety evaluations for its models, dated Nov 13.",
+      "why": "Primary lab safety writing, a repeat favourite, landing as Anthropic heads into its IPO.",
+      "minutes": 8,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-14/spacex-s-s-p-500-bid-gets-new-life-as-musk-pitches-tesla-merger",
+      "title": "SpaceX’s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger",
+      "source": "Bloomberg",
+      "summary": "Months after SpaceX was denied a swift entry into the S&P 500, Elon Musk's pitch of a Tesla merger has revived the possibility of index inclusion.",
+      "why": "A Tesla-SpaceX combination would be a mega-deal with index-flow implications.",
+      "minutes": 4,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/data-centers-ocean-f676429a",
+      "title": "Facing Backlash on Land, Data Centers Look to the Sea",
+      "source": "Wall Street Journal",
+      "summary": "Announcements of floating data-center projects are growing as startups try to prove the concept is viable amid backlash to data centers on land.",
+      "why": "A possible workaround to the data-center siting fight.",
+      "minutes": 6,
+      "image": "https://images.wsj.net/im-65060635",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/general-dynamics-artillery-factory-failed",
+      "title": "Fiasco in the Factory: Taxpayers Funded a $533 Million Artillery Plant That Made Nothing",
+      "source": "ProPublica",
+      "summary": "An investigation into a publicly funded General Dynamics artillery plant in Texas that never produced anything.",
+      "why": "Outstanding investigative read on a corporate and government spending failure.",
+      "minutes": 15,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/14/business/family-dollar-overcharging-settlement.html",
+      "title": "Family Dollar to Pay $63 Million Settlement for Overcharging Customers",
+      "source": "New York Times",
+      "summary": "Federal regulators and 17 states say Family Dollar overcharged shoppers at checkout since 2023; the discount retailer will pay a $63 million settlement.",
+      "why": "Pricing-accuracy risk at a scaled multi-unit discount chain.",
+      "minutes": 4,
+      "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14xp-settlement-topart-02-zvcf/14xp-settlement-topart-02-zvcf-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "source": "Google DeepMind",
+      "summary": "DeepMind introduced AlphaProof Code, a system for formally verifying complex software.",
+      "why": "Verified code generation could change how reliable AI-written software gets.",
+      "minutes": 6,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/earnings/nebius-lowers-outlook-addresses-worries-over-financing-ai-buildout-699ca1dc",
+      "title": "Nebius Lowers Outlook, Addresses Worries Over Financing AI Buildout",
+      "source": "Wall Street Journal",
+      "summary": "The AI cloud company lowered its full-year revenue outlook, citing a delay in some third-party capacity, and addressed worries over financing its buildout.",
+      "why": "A read on the financing risk in AI infrastructure.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-93747882",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/14/business/dealbook/questions-china-us-apec-summit.html",
+      "title": "5 Big Questions as C.E.O.s Meet in China",
+      "source": "New York Times",
+      "summary": "President Trump and U.S. tech executives are expected to gather for a major summit in Shenzhen.",
+      "why": "DealBook preview of the US-China business stakes.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14DB-China-CEOs-wjlv/14DB-China-CEOs-wjlv-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/14/ai-trust-nvidia-tech-stocks",
+      "title": "AI's four colliding crises",
+      "source": "Axios",
+      "summary": "Axios says AI faces a four-pronged crisis of trust as Democrats gain power and many Americans rebel over AI and data centers; guardrails will be a priority for the new Congress.",
+      "why": "Policy risk for the AI trade.",
+      "minutes": 4,
+      "image": "https://images.axios.com/yc7QVoa1jQLgMv0-P_2I8tkgsfA=/0x0:1920x1080/1366x768/2026/11/12/1794516297167.jpeg",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "title": "Jensen Huang agrees to testify before Congress",
+      "source": "TechCrunch",
+      "summary": "Huang has agreed to testify before Congress amid the fallout over his ties to an alleged Chinese spy.",
+      "why": "A testimony could shape chip export policy and Nvidia's path.",
+      "minutes": 3,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=564",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/airlines/travel-woes-persist-as-airlines-race-to-reset-after-groundstop-f34a7f9f",
+      "title": "Outage That Swamped Air Travel Blamed on ‘Routine’ Work to Replace Copper Wire",
+      "source": "Wall Street Journal",
+      "summary": "Authorities are focusing on contractor L3Harris over work that preceded the nationwide FAA ground stop.",
+      "why": "Explains the biggest business story of the weekend and its cost to airlines.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-17216514",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/conagra-brands-closing-missouri-plant-jobs-losses/874504/",
+      "title": "Conagra Brands to close Missouri ingredients plant",
+      "source": "Food Dive",
+      "summary": "Conagra will close a Missouri facility employing 442 workers and move most production to Arkansas.",
+      "why": "Shows how big packaged-food players are consolidating footprints, context for challenger brands.",
+      "minutes": 3,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/business/economy/fed-warsh-october.html",
+      "title": "Fed Will Not Hold Policy Vote at October 2027 Meeting",
+      "source": "New York Times",
+      "summary": "The Fed will skip a policy vote at its October 2027 meeting, the first step in Chairman Kevin Warsh's broader plan to change how the central bank operates.",
+      "why": "Changes in Fed process affect rate expectations and market communication.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-fed-meetings-pmbj/12dc-fed-meetings-pmbj-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-14/tech-giants-face-more-grid-cost-pressure-on-democratic-sweep",
+      "title": "Tech Giants Face More Grid Cost Pressure on Democratic Sweep",
+      "source": "Bloomberg",
+      "summary": "After the Democratic sweep, tech companies building AI data centers face growing pressure to bear more of the cost of the power grid.",
+      "why": "Policy risk to the AI capex build-out.",
+      "minutes": 4,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "source": "Google DeepMind",
+      "summary": "DeepMind released AlphaGenome 2, a model for understanding how cells read DNA and how that relates to disease.",
+      "why": "AI-for-science progress with drug-discovery implications.",
+      "minutes": 7,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/13/opinion/jensen-huang-nvidia.html",
+      "title": "Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+      "source": "New York Times",
+      "summary": "Opinion piece arguing Jensen Huang was a big reason Nvidia kept its ability to sell chips to China, and that his departure may change that.",
+      "why": "Chip-export policy bears directly on Nvidia's China revenue.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/11/13/opinion/13kantrowitz-image/13kantrowitz-image-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/ready-to-drink-cocktails-growth-iwsr/874513/",
+      "title": "What's powering the next wave of growth in canned cocktails",
+      "source": "Food Dive",
+      "summary": "The article looks at the factors driving growth in the ready-to-drink cocktail category.",
+      "why": "A hot beverage category for next-gen brand investors.",
+      "minutes": 4,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/business/economy/jensen-huang-economy-nvidia-ai.html",
+      "title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+      "source": "New York Times",
+      "summary": "Nvidia's ousted leader was a rhetorical and financial booster for the investments driving US economic growth.",
+      "why": "Shows how much of the economy rides on the AI capex story.",
+      "minutes": 6,
+      "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12biz-nvidia-live-economy-mktc/12biz-nvidia-live-economy-mktc-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+      "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+      "source": "Bloomberg",
+      "summary": "US corporate bonds have been rallying in recent weeks, drawing money managers seeking shelter from turbulence in stocks.",
+      "why": "Credit-market read after the Nvidia turmoil.",
+      "minutes": 5,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "source": "Google blog",
+      "summary": "Google introduced Gemini 4 Hydrogen, a new model in its Gemini 4 family.",
+      "why": "Google's frontier model move lands in the same week as Anthropic's new models.",
+      "minutes": 6,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.wsj.com/cmo-today/jensen-huangs-resignation-quiets-the-ai-booms-best-pr-asset-090544e4",
+      "title": "Jensen Huang’s Resignation Quiets the AI Boom’s Best PR Asset",
+      "source": "Wall Street Journal",
+      "summary": "Jensen Huang's resignation quiets what the column calls the AI boom's best PR asset; also covers airlines' differing approaches to letting autonomous agents book tickets.",
+      "why": "Marketing and narrative effects of the Nvidia shake-up, plus AI agents in travel.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-25860596",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/sally-beauty-expand-refreshed-store-model/874547/",
+      "title": "Sally Beauty to expand refreshed store model in 2027",
+      "source": "Retail Dive",
+      "summary": "Sally Beauty plans to broaden its updated store format next year.",
+      "why": "Store-format refresh at a multi-unit beauty chain.",
+      "minutes": 3,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/business/nvidia-megaspeed-alice-huang.html",
+      "title": "Singapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed",
+      "source": "New York Times",
+      "summary": "Singapore says it held Alice Huang's passport months after President Trump was briefed that she was a spy, and that the US has not helped its investigation into her and Megaspeed.",
+      "why": "A key thread in the Nvidia chip-export and China story.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12biz-Singapore-Alice-fmtb/12biz-Singapore-Alice-fmtb-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-collins-says-steady-gradual-rate-hikes-appropriate",
+      "title": "Fed’s Collins Says ‘Steady, Gradual’ Rate Hikes Appropriate",
+      "source": "Bloomberg",
+      "summary": "Boston Fed President Susan Collins said a gradual path of interest-rate increases is appropriate.",
+      "why": "Signals the likely pace of Fed hikes that drive deal financing and valuations.",
+      "minutes": 3,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.glossy.co/beauty/the-holiday-playbook-how-brands-are-banking-on-live-shopping-this-holiday-season/",
+      "title": "Brands are banking on live shopping this holiday season",
+      "source": "Glossy",
+      "summary": "Brands are leaning on live shopping for the holiday season.",
+      "why": "Consumer brand channel shifts matter for DTC investments.",
+      "minutes": 4,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/climate/democrats-oversight-committees-letters.html",
+      "title": "Democrats Put Targets on Notice as Trump Oversight Takes Shape",
+      "source": "New York Times",
+      "summary": "House committees have sent letters telling companies and officials not to destroy documents as Democratic oversight of the Trump administration takes shape.",
+      "why": "Incoming oversight could put corporate names in the spotlight.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12cli-letters-02b-bhpw/12cli-letters-02b-bhpw-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "source": "TechCrunch",
+      "summary": "Phota Labs launched an AI tool that turns ordinary photos into professional-looking images.",
+      "why": "A consumer AI product example showing where app-layer startups are heading.",
+      "minutes": 4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/04_Holiday_Lights_before_after.jpg?w=519",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/brookfield-consortium-progresses-to-next-round-of-uniper-sale",
+      "title": "Centrica, Equinor in Next Round of Germany’s Uniper Sale",
+      "source": "Bloomberg",
+      "summary": "Centrica and Equinor are among bidders advancing to the second round of the sale of Germany's Uniper, alongside a Brookfield-led consortium.",
+      "why": "Large infrastructure/PE-style deal progressing.",
+      "minutes": 3,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/investing/the-inflation-fight-may-be-about-to-turn-painful-1d053d79",
+      "title": "The Inflation Fight May Be About to Turn Painful",
+      "source": "Wall Street Journal",
+      "summary": "A column on why the inflation fight may turn painful, plus retirees' investments, the affordability agenda and the downsides of a boring job market.",
+      "why": "Investor-oriented take on inflation and rates.",
+      "minutes": 6,
+      "image": "https://images.wsj.net/im-83797022",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "source": "Google DeepMind",
+      "summary": "DeepMind announced Gemini Robotics 2.5, aimed at general dexterity in real-world tasks.",
+      "why": "Robotics is the next frontier for the AI capex story.",
+      "minutes": 6,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/albertsons-cfo-andrew-murray-grocery-supermarkets/874342/",
+      "title": "Albertsons names new CFO",
+      "source": "Grocery Dive",
+      "summary": "Andrew Murray, finance chief of Fonterra, will become Albertsons' CFO in January 2027.",
+      "why": "Leadership change at a major grocer.",
+      "minutes": 2,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/opinion/jensen-huang-nvidia.html",
+      "title": "I Wrote Jensen Huang’s Biography. Here’s What Led to His Downfall.",
+      "source": "New York Times",
+      "summary": "Huang's biographer explains what led to the former Nvidia chief's departure.",
+      "why": "Insider view of a defining AI-era CEO.",
+      "minutes": 8,
+      "image": "https://static01.nyt.com/images/2026/11/15/opinion/12Witt/12Witt-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/media/sofia-franklyn-daddy-issues-book-alex-cooper-dave-portnoy-a2ede141",
+      "title": "Everyone’s a Winner in the ‘Call Her Daddy’ Podcast Feud",
+      "source": "Wall Street Journal",
+      "summary": "Alex Cooper took her podcast solo and inked $185 million in distribution deals; her former co-host Sofia Franklyn is now selling her side of the story.",
+      "why": "Media-deal economics behind a creator business.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-71513643",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/the-man-who-tells-corporate-america-how-to-sell-stuff-to-baby-boomers-6c4b043e",
+      "title": "The Man Who Tells Corporate America How to Sell Stuff to Baby Boomers",
+      "source": "Wall Street Journal",
+      "summary": "Ken Dychtwald has predicted the rise of older boomers for decades, and the moment may now have arrived for companies targeting them.",
+      "why": "Demographic consumer thesis relevant to brand and chain investing.",
+      "minutes": 6,
+      "image": "https://images.wsj.net/im-17931548",
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
+    {
+      "url": "https://www.glossy.co/beauty/maybelline-love-island-usa-lifter-gel/",
+      "title": "Inside Maybelline's third summer in the 'Love Island' villa",
+      "source": "Glossy",
+      "summary": "Glossy looks at Maybelline's third season of product placement on Love Island USA.",
+      "why": "How a mass beauty brand buys cultural relevance.",
+      "minutes": 4,
+      "addedAt": "2026-11-15T00:01:27Z"
+    },
     {
       "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
       "title": "AI agent startup LangChain hits $3B valuation",
