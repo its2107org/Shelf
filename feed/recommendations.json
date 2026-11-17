@@ -1,6 +1,357 @@
 {
-  "generatedAt": "2026-11-16T12:04:15Z",
+  "generatedAt": "2026-11-17T00:00:48Z",
   "items": [
+    {
+      "url": "https://www.wsj.com/finance/stocks/the-month-that-rocked-the-ai-trade-and-rewired-wall-street-f33d3af3",
+      "title": "The End of the No-Brainer AI Trade",
+      "source": "Wall Street Journal",
+      "summary": "A punishing bout of volatility, stretching from the Nasdaq’s Oct. 6 peak to Jensen Huang’s Nvidia exit, exposed the risks of groupthink on Wall Street",
+      "why": "Shows how fragile the AI trade has become for investors.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-37610444",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/16/technology/california-openai-ai-safety.html",
+      "title": "California Sues OpenAI Over A.I. Safety Issues",
+      "source": "New York Times",
+      "summary": "The state attorney general filed a lawsuit accusing the company of failing to put appropriate safeguards on its artificial intelligence and putting the public at risk.",
+      "why": "Legal risk for a leading AI lab.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16biz-openai-lawsuit-hfo-fzkh/16biz-openai-lawsuit-hfo-fzkh-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/pizza-hut-sells-1-billion-of-bonds-tied-to-franchise-agreements",
+      "title": "Pizza Hut Sells $1 Billion of Bonds Tied to Franchise Agreements",
+      "source": "Bloomberg",
+      "summary": "Pizza Hut sold $1 billion of bonds to help fund its buyout by private equity fund LongRange Capital.",
+      "why": "Franchise-backed securitization financing a PE buyout of a multi-unit chain.",
+      "minutes": 3,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/16/business/dealbook/huang-comeback-nvidia.html",
+      "title": "Is Jensen Huang Plotting a Comeback?",
+      "source": "New York Times",
+      "summary": "Prominent Silicon Valley figures want Huang reinstalled as Nvidia's boss, while some in the Trump administration oppose his return.",
+      "why": "Boardroom and political fight over the world's key AI chipmaker.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16db-huang-qzfm/16db-huang-qzfm-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "title": "LVMH's Media Division announces strategic partnership with OpenAI",
+      "source": "OpenAI",
+      "summary": "LVMH's media division has announced a strategic partnership with OpenAI.",
+      "why": "Luxury and consumer media meets AI, a signal for how big consumer groups adopt it.",
+      "minutes": 4,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.nrn.com/mergers-acquisitions/wendy-s-poised-to-become-a-bigger-operator-of-its-restaurants",
+      "title": "Wendy's poised to become a bigger operator of its restaurants",
+      "source": "Nation's Restaurant News",
+      "summary": "Wendy's could end up operating more than 10% of its own restaurants.",
+      "why": "A franchisor shifting toward company ownership changes the chain's economics, relevant to multi-unit investing.",
+      "minutes": 4,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/blackstone-digital-infrastructure-trust-to-acquire-data-center-portfolio-from-amazon-for-5-billion-87e53519",
+      "title": "Blackstone Digital Infrastructure Trust to Acquire Data Center Portfolio from Amazon for $5 Billion",
+      "source": "Wall Street Journal",
+      "summary": "Blackstone Digital Infrastructure Trust agreed to acquire a majority stake in a data center portfolio from Amazon.com in a deal valued at about $5 billion.",
+      "why": "Big PE-style infrastructure deal on AI data centers.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-44313644",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/16/business/economy/warsh-ai-economy.html",
+      "title": "Fed Chairman Highlights Economic Uncertainty of A.I. Boom",
+      "source": "New York Times",
+      "summary": "Fed Chairman Kevin Warsh has assigned a task force to explore how AI-linked productivity gains could affect the labor market.",
+      "why": "The central bank is now war-gaming AI's macro impact.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16dc-fed-thwl/16dc-fed-thwl-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-earnings-are-sideshow-as-huang-s-ouster-looms-over-market",
+      "title": "Nvidia Earnings Are Sideshow as Huang's Ouster Looms Over Market",
+      "source": "Bloomberg",
+      "summary": "Nvidia reports earnings at an unusual moment, with CEO Jensen Huang's ouster hanging over the market.",
+      "why": "The AI trade's bellwether faces a leadership shock and a tech slump.",
+      "minutes": 4,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.axios.com/2026/11/16/chain-reaction-nvidia-ai-politics-business",
+      "title": "The chain-reaction era: Constant shock and awe",
+      "source": "Axios",
+      "summary": "Axios traces how an election result, an AI-and-chips shock and other events are colliding in rapid succession.",
+      "why": "A quick read connecting politics, AI and markets.",
+      "minutes": 4,
+      "image": "https://images.axios.com/kJY-Uctkt0UmVlfJdAMP0V34Rck=/1366x768/smart/2022/08/02/212142-1659475302010.jpg",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/kalshi-buys-securities-firm-to-expand-into-stock-trading-8c1ade89",
+      "title": "Kalshi Buys Securities Firm to Expand Into Stock Trading",
+      "source": "Wall Street Journal",
+      "summary": "The prediction-markets platform, still fighting legal battles with U.S. states over its yes-or-no contracts, wants to expand into other assets.",
+      "why": "Prediction markets moving into mainstream brokerage.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-27298537",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html",
+      "title": "Bessent Takes Hawkish Turn in White House Debate on China",
+      "source": "New York Times",
+      "summary": "The Treasury secretary who sought to de-escalate tariff wars is taking a tougher approach to exports of sensitive U.S. technology.",
+      "why": "Shapes export controls and US-China tech policy.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16dc-bessent-01-tfpz/16dc-bessent-01-tfpz-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/eli-lilly-agrees-to-buy-calytrix-bio-for-up-to-1-5-billion",
+      "title": "Lilly Buying Spree Surpasses $32 Billion With Calytrix Deal",
+      "source": "Bloomberg",
+      "summary": "Eli Lilly & Co. agreed to buy closely held Calytrix Bio Inc. in a deal that could be worth up to $1.5 billion, the latest in the drugmaker’s $32 billion wave of acquisitions in 2026 as it builds o",
+      "why": "Pharma M&A pace and deal pricing.",
+      "minutes": 4,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.grocerydive.com/news/kroger-accelerates-direct-sourcing-efforts/873636/",
+      "title": "Kroger accelerates direct sourcing efforts for better cost control, visibility",
+      "source": "Grocery Dive",
+      "summary": "Kroger plans to raise its first-party procurement above 10% and move toward owning its import and distribution.",
+      "why": "Direct sourcing by the big grocers shapes margins and leverage over FMCG suppliers.",
+      "minutes": 4,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "title": "Broadening access to AI for scientists",
+      "source": "OpenAI",
+      "summary": "OpenAI is expanding ChatGPT access for academic researchers.",
+      "why": "Shows how the labs are competing for the AI-for-science market.",
+      "minutes": 4,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/autos/tesla-to-invest-over-3-billion-to-expand-german-factory-in-cybercab-bet-6355017a",
+      "title": "Tesla Will Invest $3.31 Billion to Expand German Factory for Cybercab Production",
+      "source": "Wall Street Journal",
+      "summary": "Tesla will add a new facility at its Berlin-Brandenburg factory as the electric-vehicle maker seeks to boost production of its autonomous Cybercab.",
+      "why": "Tesla's capital commitment to its autonomous Cybercab.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-33902272",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/16/arts/design/auctions-new-york-fall-christies-sothebys-van-gogh.html",
+      "title": "Doubts Loom Over a van Gogh as Auctions Aim for a $2.8 Billion Week",
+      "source": "New York Times",
+      "summary": "Major paintings by Cézanne, Picasso and Klimt are positioned to entice collectors as Sotheby’s seeks resolution for the auction’s most coveted painting. Five bellwether works to watch.",
+      "why": "Bellwether for high-end collector and wealth markets.",
+      "minutes": 5,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/hsbc-sold-300-million-troubled-data-center-loan-at-discount",
+      "title": "HSBC Sold $300 Million Troubled Data Center Loan at Discount",
+      "source": "Bloomberg",
+      "summary": "HSBC Holdings Plc offloaded a roughly $300 million piece of a loan to build a troubled New Mexico data center project at a steep discount, underscoring deepening anxiety surrounding the AI boom.",
+      "why": "Sign of credit stress around AI data center financing.",
+      "minutes": 4,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/deals/quebecor-proposes-combination-with-telus-a6b8a209",
+      "title": "Quebecor Makes $21.96 Billion Bid for Telus in Canadian Telecom Deal",
+      "source": "Wall Street Journal",
+      "summary": "The potential tie-up would create a pan-Canadian company, capitalizing on Telus’s foothold in the west and Quebecor’s growing presence in eastern Canada.",
+      "why": "Large Canadian telecom consolidation bid.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-552816",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/trump-tariff-refunds-corporate-bonuses",
+      "title": "Corporations Are Using Trump's Tariff Refunds on Bonuses Rather Than Reimbursing Consumers",
+      "source": "ProPublica",
+      "summary": "Retailers and manufacturers, including Stanley Black & Decker and TJ Maxx's parent, are directing tariff refund money to bonuses instead of passing it to shoppers.",
+      "why": "Direct hit on consumer/retail companies' margin and pricing behavior.",
+      "minutes": 8,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+      "title": "Connect Google Wallet to Gemini for personal finance insights",
+      "source": "Google Blog",
+      "summary": "Google lets users connect Google Wallet to the Gemini app for personal finance insights.",
+      "why": "AI meets consumer payments and spending data, relevant to agentic commerce.",
+      "minutes": 3,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/tradeweb-is-rolling-out-ai-assistant-for-us-treasury-traders",
+      "title": "Tradeweb Is Rolling Out AI Assistant for US Treasury Traders",
+      "source": "Bloomberg",
+      "summary": "Tradeweb Markets Inc. is launching an AI-powered assistant for government bond traders, as electronic-trading venues race to make artificial intelligence a central feature of their platforms.",
+      "why": "AI moving into core fixed-income trading infrastructure.",
+      "minutes": 4,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.wsj.com/logistics-report/warehouse-giant-gxo-pivots-to-data-centers-and-defense-to-boost-margins-986e2da1",
+      "title": "Warehouse Giant GXO Pivots to Data Centers and Defense to Boost Margins",
+      "source": "Wall Street Journal",
+      "summary": "The logistics firm moves beyond e-commerce and looks to humanoid robots and technology to rein in labor costs.",
+      "why": "Logistics operator repositioning around data centers and robots.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-53790815",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/16/us/international-student-college-enrollment-declines.html",
+      "title": "International Students Are Turning Away From U.S. Universities",
+      "source": "New York Times",
+      "summary": "For a second year, Trump administration policies appear to be scaring away international students, disrupting the finances of the American colleges that depend on them.",
+      "why": "Demand hit for US universities and spending impact.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16nat-international-students-hp-promo/16nat-international-students-hp-promo-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.retaildive.com/news/grocery-inflation-october-2026-meat-produce-coffee/874599/",
+      "title": "Consumers face higher grocery prices",
+      "source": "Retail Dive",
+      "summary": "Rising fuel costs pushed grocery inflation higher in October.",
+      "why": "Pricing pressure on shoppers affects FMCG volumes and private-label share.",
+      "minutes": 3,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/stocks/berkshire-boosts-stake-in-lennar-doubling-down-on-its-u-s-housing-bet-b1237ca5",
+      "title": "Berkshire Boosts Stake in Lennar, Doubling Down on Its U.S. Housing Bet",
+      "source": "Wall Street Journal",
+      "summary": "Berkshire trimmed stakes in Capital One and Nucor in the September quarter while adding to Lennar.",
+      "why": "Reveals where Berkshire is placing bets post-Buffett.",
+      "minutes": 3,
+      "image": "https://images.wsj.net/im-26113827",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-16/new-dependencies-in-the-us-and-china-s-trade-relationship",
+      "title": "New dependencies in the US and China’s trade relationship",
+      "source": "Bloomberg",
+      "summary": "The US’s dependence on Chinese supplies goes far beyond the rare-earth struggles of the past 18 months",
+      "why": "US-China supply dependence beyond rare earths.",
+      "minutes": 4,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/16/world/asia/asean-trade-security-technology.html",
+      "title": "10 Numbers That Might Change How You See Asia",
+      "source": "New York Times",
+      "summary": "From semiconductor dominance to new power grids, defense deals and K-pop, the region — beyond China — is becoming increasingly interconnected and self-reliant.",
+      "why": "Data-driven look at Asia's growing economic weight.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16int-Asia-Index-kqmp/16int-Asia-Index-kqmp-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.wsj.com/business/earnings/tyson-foods-guides-for-sales-decline-as-beef-business-remains-under-pressure-9cb8ba01",
+      "title": "Tyson Foods Guides for Improving Beef Trends This Year",
+      "source": "Wall Street Journal",
+      "summary": "The meatpacker expects its beef segment to post an operating loss of $300 million to operating income of $100 million, both on an adjusted basis, as it benefits from efforts to cut costs with plant cl",
+      "why": "Read on protein and food-company margins.",
+      "minutes": 5,
+      "image": "https://images.wsj.net/im-98905184",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "source": "OpenAI",
+      "summary": "OpenAI posts a physics result on defining the Standard Model on a lattice.",
+      "why": "A capability reality check on AI-assisted physics research.",
+      "minutes": 8,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/16/arts/design/phillips-sothebys-christies-art-auction-competition.html",
+      "title": "As Phillips Scales Back, the ‘Big Two’ Auction Houses Seem to Stand Alone",
+      "source": "New York Times",
+      "summary": "Phillips was always an underdog in the auction world, but it had ambition to compete with Christie’s and Sotheby’s. Then the economics changed.",
+      "why": "Consolidation in the auction business.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16cul-phillips-auction-zghc/16cul-phillips-auction-zghc-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/goldman-forecasts-gold-to-take-two-years-to-recapture-all-time-highs",
+      "title": "Goldman Forecasts Gold to Take Two Years to Recapture All-Time Highs",
+      "source": "Bloomberg",
+      "summary": "It took gold just one month to climb more than 30% to a record, but its likely to take another two years before the precious metal takes out a new peak, according to Goldman Sachs.",
+      "why": "Gold outlook from Goldman for macro-minded investors.",
+      "minutes": 4,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.wsj.com/finance/stocks/u-s-stocks-extend-slide-on-nvidia-china-fears-ea169587",
+      "title": "U.S. Stocks Extend Slide on Nvidia, China Fears",
+      "source": "Wall Street Journal",
+      "summary": "The S&P 500 logged a third straight decline, its biggest loss since Nvidia's chief resigned last week.",
+      "why": "Sets up the market backdrop for Nvidia earnings and Anthropic's expected IPO.",
+      "minutes": 4,
+      "image": "https://images.wsj.net/im-91355651",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/16/world/canada/carney-china-xi-trump-putin-trade.html",
+      "title": "Canada’s Leader, Once a Curiosity at Asia Summits, Is Now a Star",
+      "source": "New York Times",
+      "summary": "Prime Minister Mark Carney is courting Europe, but the bigger payoff might be in China, where he will share summit stages with Xi Jinping, Vladimir Putin and President Trump.",
+      "why": "Trade realignment around China and Canada.",
+      "minutes": 5,
+      "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16int-canada-carney-china-hpfq/16int-canada-carney-china-hpfq-mediumSquareAt3X.jpg",
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.nrn.com/quick-service/insomnia-cookies-launches-brand-revamp",
+      "title": "Insomnia Cookies launches brand revamp",
+      "source": "Nation's Restaurant News",
+      "summary": "Insomnia Cookies has unveiled a refreshed brand identity.",
+      "why": "A multi-unit late-night dessert chain repositioning itself.",
+      "minutes": 3,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://news.crunchbase.com/ai/startup-founders-reduce-platform-risk-filippenko-intch/",
+      "title": "How Founders Can Reduce Platform Risk Before It Threatens Growth",
+      "source": "Crunchbase News",
+      "summary": "Crunchbase News looks at how founders can reduce platform dependency risk.",
+      "why": "Relevant to AI startups built on top of the labs.",
+      "minutes": 5,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
+    {
+      "url": "https://www.propublica.org/article/chicago-debt-burden-public-health-safety",
+      "title": "Chicago Is $55 Billion in Debt, With No End in Sight. It's a Threat to City Services.",
+      "source": "ProPublica",
+      "summary": "Debt and pension obligations consume most of Chicago's budget, leaving little room for residents' health and safety needs.",
+      "why": "Municipal credit stress in a major US city.",
+      "minutes": 10,
+      "addedAt": "2026-11-17T00:00:48Z"
+    },
     {
       "url": "https://www.wsj.com/finance/investing/the-investors-set-to-win-big-in-anthropics-ipo-a2fc795c",
       "title": "The Investors Set to Win Big in Anthropic’s IPO",
